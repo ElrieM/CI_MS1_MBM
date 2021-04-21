@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lato', sans-serif;
+    color: #312d39;
 }
 
 /* ------ Colours ------ */
@@ -33,6 +34,10 @@ body {
     mix-blend-mode: color-dodge;
 }
 
+.container > h2 {
+    text-align: center;
+}
+
 /* End of Colours */
 
 /* ------ Padding / Margins / Text ----- */
@@ -51,6 +56,20 @@ header {
     font-family: 'Dancing Script', cursive;
     margin: 0;
 }
+
+.section-heading {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.container > h2 {
+    padding-top: .5em;
+}
+.intro-headings {
+    padding-top: .3em;
+    text-align: center;
+}
+
 
 /* End of Padding / Margins / Text */
 
@@ -85,6 +104,10 @@ header {
     header {
         margin: 0;
         padding: 0;
+    }
+
+    .flex-container {
+        flex-direction: column;
     }
 
     /* End of Mobile */
