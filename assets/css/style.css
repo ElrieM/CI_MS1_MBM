@@ -1,11 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap');
 
 body {
-    background-image: url(../images/home-cover.jpg);
+    background-image: url(../images/home-cover-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lato', sans-serif;
 }
+
+/* ------ Media queries ------*/
+
+@media only screen and (max-width: 992px) {
+
+    /* ---- Tablet ---- */
+    body {
+        background-image: url(../images/home-cover-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #b69d7f;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-text {
+        background-color: #b69d7f;
+    }
+
+    /* End of Tablet */
+}
+
+
+/* ---- Mobile ---- */
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/home-cover-3.jpg);
+        background-repeat: no-repeat;
+        background-size: 110%;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* End of Mobile */
+}
+
+
+
+
+/* End of Media queries ------ */
 
 /* ------ Colours ------ */
 
@@ -28,4 +74,5 @@ header {
     font-family: 'Dancing Script', cursive;
     margin: 0;
 }
+
 /* End of Padding / Margins / Text */

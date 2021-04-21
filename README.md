@@ -81,6 +81,11 @@ The website provides users with information about the process for joining classe
 ### Media
 
 * Cover page
-  [Photo by Eternal Happiness from Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
 
+  * Desktop - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/")
+
+  * Tablet - Photo by Elly Fairytale from [Pexels] ("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
+
+  * Mobile - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/collections/yoga-studio-project-fib30t5/")
+  
 ### Acknowledgements
