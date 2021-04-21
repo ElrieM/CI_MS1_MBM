@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap');
+
+body {
+    background-image: url(../images/home-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------ Colours ------ */
+
+
+/* End of Colours */
+
+/* ------ Padding / Margins / Text ----- */
+
+header {
+    text-align: center;
+}
+
+.header-text {
+    padding-top: 1.5em;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#quote {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+/* End of Padding / Margins / Text */
