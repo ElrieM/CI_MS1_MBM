@@ -50,7 +50,7 @@ The website provides users with information about the process for joining classe
 * CSS
   *
 * Bootstrap
-  *
+  * Horizontal alignment navs & tabs used for navbar
 
 ## Testing
 

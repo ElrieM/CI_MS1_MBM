@@ -21,6 +21,18 @@ body {
     mix-blend-mode: soft-light;
 }
 
+.nav-link {
+    color: #e6e6e9;
+}
+
+.nav-link:active {
+    text-decoration: underline;
+}
+.nav-link:hover {
+    background-color: #1a242b;
+    mix-blend-mode: color-dodge;
+}
+
 /* End of Colours */
 
 /* ------ Padding / Margins / Text ----- */
