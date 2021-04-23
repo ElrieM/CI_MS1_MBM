@@ -72,21 +72,26 @@ header {
     text-align: center;
 }
 
+.event-item {
+    display: inline-block;
+    height: 290px;
+}
+
 
 .footer-nav {
     background-color: yellow;
-    list-style-type: none;
-    text-align: center;
     padding: 0;
     margin: 0;
     position: sticky;
-    position: -webkit-sticky; /* Safari */
-    bottom: 0;
-    height: 5%;
+    bottom: 5px;
+    list-style-type: none;
+    text-align: center;
+    height: 60px;
 }
 
 .footer-nav li {
     display: inline;
+    padding: 10px;
 }
 
 /* End of Padding / Margins / Text */
