@@ -73,6 +73,22 @@ header {
 }
 
 
+.footer-nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    bottom: 0;
+    height: 5%;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
 /* End of Padding / Margins / Text */
 
 /* ------ Media queries ------*/
