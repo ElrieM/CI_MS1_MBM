@@ -89,14 +89,13 @@ body {
 .nav-link:active {
     text-decoration: underline;
 }
+
 .nav-link:hover {
     background-color: #1a242b;
     mix-blend-mode: color-dodge;
 }
 
-.container > h2 {
-    text-align: center;
-}
+
 
 /* End of Colours */
 
@@ -122,9 +121,21 @@ header {
     text-align: center;
 }
 
-.container > h2 {
+.container>h2 {
     padding-top: .5em;
+    text-align: center;
 }
+
+.row {
+    margin: 0;
+    max-width: 92%;
+}
+
+#heading-intro,
+#heading-events {
+    text-shadow: 2px 2px #cdcccf;
+}
+
 .intro-headings {
     padding-top: .3em;
     text-align: center;
@@ -142,7 +153,7 @@ header {
     margin: 1em;
 }
 
-.event-item > h6 {
+.event-item>h6 {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 15px;
@@ -150,18 +161,29 @@ header {
 
 .event-details {
     text-align: center;
-    font-size: smaller;    
+    font-size: smaller;
     margin: 0;
     padding: .5em 0;
     letter-spacing: 1px;
- }
+}
 
- .event-desc {
-     font-size: small;
- }
+.event-desc {
+    font-size: small;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7f757671;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
 
 
-.footer-nav {
+/* .footer-nav {
     background-color: yellow;
     padding: 0;
     margin: 0;
@@ -170,7 +192,7 @@ header {
     list-style-type: none;
     text-align: center;
     height: 60px;
-}
+} */
 
 .footer-nav li {
     display: inline;
