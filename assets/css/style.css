@@ -72,10 +72,28 @@ header {
     text-align: center;
 }
 
+.events-block {
+    max-height: 290px;
+    text-align: center;
+    opacity: .8;
+}
+
 .event-item {
     display: inline-block;
-    height: 290px;
+    background: white;
+    margin: 1em;
 }
+
+.event-details {
+    text-align: center;
+    font-size: smaller;    
+    margin: 0;
+    padding: 0;
+ }
+
+ .event-desc {
+     font-size: small;
+ }
 
 
 .footer-nav {
