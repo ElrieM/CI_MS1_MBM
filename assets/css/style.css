@@ -145,6 +145,7 @@ header {
 .event-item > h6 {
     text-align: center;
     letter-spacing: 2px;
+    padding-top: 15px;
 }
 
 .event-details {
