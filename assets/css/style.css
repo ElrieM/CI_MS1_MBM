@@ -26,6 +26,45 @@ body {
     border-radius: 50%;
 }
 
+#instructor-2 {
+    background-image: url("../images/instructors/instructor-2.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+#instructor-3 {
+    background-image: url("../images/instructors/instructor-3.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+#instructor-4 {
+    background-image: url("../images/instructors/instructor-4.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
 /* End of Images */
 
 
