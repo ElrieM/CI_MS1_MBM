@@ -10,6 +10,25 @@ body {
     color: #312d39;
 }
 
+
+/* ------ Images ------ */
+
+#instructor-1 {
+    background-image: url("../images/instructors/instructor-1.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+/* End of Images */
+
+
 /* ------ Colours ------ */
 
 .heading {
@@ -74,7 +93,7 @@ header {
 
 .events-block {
     max-height: 290px;
-    text-align: center;
+    text-align: justify;
     opacity: .8;
 }
 
@@ -84,11 +103,17 @@ header {
     margin: 1em;
 }
 
+.event-item > h6 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 .event-details {
     text-align: center;
     font-size: smaller;    
     margin: 0;
-    padding: 0;
+    padding: .5em 0;
+    letter-spacing: 1px;
  }
 
  .event-desc {
