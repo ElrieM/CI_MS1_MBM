@@ -13,6 +13,24 @@ body {
 
 /* ------ Images ------ */
 
+#logo-left,
+#logo-right {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+}
+
+#logo-left {
+    float: left;
+}
+
+#logo-right {
+    float: right;
+}
+
 #instructor-1 {
     background-image: url("../images/instructors/instructor-1.jfif");
     background-repeat: no-repeat;
@@ -114,6 +132,12 @@ header {
 #quote {
     font-family: 'Dancing Script', cursive;
     margin: 0;
+}
+
+#logo-left,
+#logo-right {
+    padding: 20px 0;
+    margin: 0 1em;
 }
 
 .section-heading {
