@@ -15,18 +15,17 @@
 </head>
 
 <body>
-    <div id="bg-image"></div>
-    <div class="heading">
+    <div id="header">
         <header>
             <!-- Header section -->
             <div id="logo-left"></div>
             <div id="logo-right"></div>
-            <div class="header-text">
+            <div id="header-text">
                 <h1>Mind Body Motion</h1>
                 <h2>Wellness Center</h2>
             </div>
             <h3 id="quote">
-                When mind, body and spirit are in harmony, happiness is the natural result
+                "When mind, body and spirit are in harmony, happiness is the natural result"
                 <br><i>Deepak Chopra</i>
             </h3>
             <!-- End of Header -->
@@ -46,7 +45,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Schedule and Rates</a>
-                </li>                
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
                 </li>
@@ -58,7 +57,7 @@
         <!-- End of Navigation bar -->
     </div>
 
-    <section class="intro-section">
+    <section id="intro-section">
         <!-- Introduction and welcome section-->
         <div class="container">
             <h2 id="heading-intro">Welcome to Mind Body Motion Wellness Center</h2>
@@ -102,7 +101,7 @@
         <!-- Introduction and welcome section-->
     </section>
 
-    <section class="events-section">
+    <section id="events-section">
         <!-- Upcoming events section-->
 
         <div class="container">
@@ -110,7 +109,7 @@
             <div class="row events-block">
 
                 <!--- Event 1 -->
-                <div class="col-sm event-item">
+                <div class="col-md-3 col-sm-4 event-item">
                     <h6>Silent Yin Special</h6>
                     <div id="instructor-1"></div>
                     <div class="event-details">
@@ -123,7 +122,7 @@
                 <!--- End of Event 1 -->
 
                 <!--- Event 2 -->
-                <div class="col-sm event-item">
+                <div class="col-md-3 col-sm-4 event-item">
                     <h6>Yoga Nidra Immersion</h6>
                     <div id="instructor-2"></div>
                     <div class="event-details">
@@ -136,7 +135,7 @@
                 <!--- End of Event 2 -->
 
                 <!--- Event 3 -->
-                <div class="col-sm event-item">
+                <div class="col-md-3 col-sm-4 event-item">
                     <h6>Opening Your Heart</h6>
                     <div id="instructor-3"></div>
                     <div class="event-details">
@@ -149,7 +148,7 @@
                 <!--- End of Event 3 -->
 
                 <!--- Event 4 -->
-                <div class="col-sm event-item">
+                <div class="col-md-3 col-sm-4 event-item">
                     <h6>Clear Your Head</h6>
                     <div id="instructor-4"></div>
                     <div class="event-details">
@@ -164,17 +163,59 @@
         </div>
         <!-- End of Upcoming events section-->
     </section>
-    <footer>
+
+    <div id="footer">
         <!-- Footer section-->
-        <div class="footer">
-            <ul class="footer-nav">
-                <li>Copyright 2021 by Mind Body Motion Wellness Center</li>
-                <li>Terms and Conditions</li>
-                <li>Privacy</li>
+        <div class="container">
+            <!-- Contact details - short -->
+            <div class="row">
+                <div id="contact" class="col-sm-4">
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="contact-details">
+                            Mind Body Motion Wellness Centre<br>
+                            <span id="address-line">Treebeekstraat 55<br>
+                                Brunssum<br>
+                                Limburg<br>
+                                6446 XP<br></span>
+                        </span>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="contact-item">+31-77-2065000</span><br>
+                        <i class="far fa-envelope"></i>
+                        <span class="contact-item">info@mbmwellness.com</span>
+                    </p>
+                </div>
+                <div id="site-map" class="col-sm-4">
+                    <p><a class="footer-link" href="#"><em>Sign Up</em></a></p>
+                    <p>
+                        <a class="footer-link" href="#">About</a><br>
+                        <a class="footer-link" href="#">Classes</a><br>
+                        <a class="footer-link" href="#">Schedule</a><br>
+                        <a class="footer-link" href="#">Events</a><br>
+                        <a class="footer-link" href="#">Terms and Conditions</a><br>
+                        <a class="footer-link" href="#">Privacy</a><br>
+                    </p>
+                </div>
+                <div id="connect" class="col-sm-4">
+                    <p>Connect with Us</p>
+                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <br><br>
+                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <br><br>
+                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <br><br>
+                </div>
+            </div>
             </ul>
         </div>
         <!-- Footer section-->
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>

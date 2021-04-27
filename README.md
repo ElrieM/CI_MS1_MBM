@@ -67,6 +67,8 @@ The website provides users with information about the process for joining classe
   * "Benefits of Yoga and Meditation" section was adapted from [here](https://www.nytimes.com/guides/well/beginner-yoga).
   * Events were adapted from [here](https://delightyoga.com/studio/workshops/)
   * Phone number, email address and WhatsApp contact numbers are fictional.
+  * Instructor names were randomly generated [here](https://www.name-generator.org.uk/)
+  * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
 
 * About page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.

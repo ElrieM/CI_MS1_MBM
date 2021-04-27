@@ -88,16 +88,18 @@ body {
 
 /* ------ Colours ------ */
 
-.heading {
-    background-color: #7f757671;
+#header,
+#footer {
+    background-color: #7f757698;
 }
 
-.header-text {
-    mix-blend-mode: color-dodge;
+#header-text,
+#footer {
+    color: #e6e6e9;
 }
 
 #quote {
-    mix-blend-mode: soft-light;
+    mix-blend-mode: color-burn;
 }
 
 .nav-link {
@@ -113,7 +115,11 @@ body {
     mix-blend-mode: color-dodge;
 }
 
-
+.contact-item,
+.footer-link,
+.connect-item {
+    color: #e6e6e9;
+}
 
 /* End of Colours */
 
@@ -124,14 +130,20 @@ header {
 }
 
 .header-text {
-    padding-top: 1.5em;
     padding-bottom: 0;
     margin: 0;
+}
+
+header h1 {
+    padding-top: .5em;
 }
 
 #quote {
     font-family: 'Dancing Script', cursive;
     margin: 0;
+    font-size: xx-large;
+    text-shadow: 2px 2px #e6e6e9;
+    padding: .5rem 0;
 }
 
 #logo-left,
@@ -174,7 +186,6 @@ header {
 .event-item {
     display: inline-block;
     background: white;
-    margin: 1em;
 }
 
 .event-item>h6 {
@@ -187,7 +198,6 @@ header {
     text-align: center;
     font-size: smaller;
     margin: 0;
-    padding: .5em 0;
     letter-spacing: 1px;
 }
 
@@ -195,33 +205,29 @@ header {
     font-size: small;
 }
 
-.footer {
-    position: fixed;
+.col-md-3 {
+    width: 24%;
+    margin: 3px
+}
+
+
+#footer {
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #7f757671;
-    color: white;
-    text-align: center;
-    height: 60px;
 }
 
-
-/* .footer-nav {
-    background-color: yellow;
-    padding: 0;
-    margin: 0;
-    position: sticky;
-    bottom: 5px;
-    list-style-type: none;
-    text-align: center;
-    height: 60px;
-} */
-
-.footer-nav li {
-    display: inline;
-    padding: 10px;
+.footer-link {
+    text-decoration: none;
 }
+
+#contact,
+#site-map, 
+#connect {
+    text-align: center;
+}
+
 
 /* End of Padding / Margins / Text */
 
