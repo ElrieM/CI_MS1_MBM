@@ -14,6 +14,7 @@ body {
 /* ------ Images ------ */
 
 #logo-left,
+#logo-center,
 #logo-right {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
@@ -29,6 +30,11 @@ body {
 
 #logo-right {
     float: right;
+}
+
+#logo-center {
+    visibility: hidden;
+    display: contents;
 }
 
 #instructor-1 {
@@ -156,11 +162,6 @@ header h1 {
     margin: 0 1em;
 }
 
-.section-heading {
-    padding-top: 1em;
-    text-align: center;
-}
-
 .container>h2 {
     padding-top: .5em;
     text-align: center;
@@ -178,6 +179,10 @@ header h1 {
 .intro-headings {
     padding-top: .3em;
     text-align: center;
+}
+
+.intro-text {
+    text-align: justify;
 }
 
 .events-block {
@@ -251,7 +256,7 @@ header h1 {
         margin: 0;
         padding: 0;
     }
-    
+
     #quote {
         font-size: x-large;
     }
@@ -260,6 +265,11 @@ header h1 {
     #logo-right {
         height: 100px;
         width: 100px
+    }
+
+    #logo-center {
+        visibility: hidden;
+        display: contents;
     }
 
     .event-item {
@@ -295,14 +305,27 @@ header h1 {
         padding: 0;
     }
 
-    
-    .flex-container {
-        flex-direction: column;
+    #logo-left,
+    #logo-right {
+        visibility: hidden;
+        display: contents;
     }
 
-    .col-sm-1 {
-        width: 99%;
+    #logo-center {
+        visibility: visible;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin: 0;
+        padding: 0;
+        object-position: center;
     }
+
+    .nav-bar {
+        visibility: hidden;
+        display: none;
+    }
+
     /* End of Mobile */
 }
 
