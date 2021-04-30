@@ -115,6 +115,10 @@ body {
     mix-blend-mode: color-dodge;
 }
 
+.intro-text {
+    text-shadow: 1px 1px lightslategrey;
+}
+
 .contact-item,
 .footer-link,
 .connect-item {
@@ -247,6 +251,10 @@ header h1 {
         margin: 0;
         padding: 0;
     }
+    
+    #quote {
+        font-size: x-large;
+    }
 
     #logo-left,
     #logo-right {
@@ -287,6 +295,7 @@ header h1 {
         padding: 0;
     }
 
+    
     .flex-container {
         flex-direction: column;
     }
