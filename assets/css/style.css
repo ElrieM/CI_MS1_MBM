@@ -326,6 +326,29 @@ header h1 {
         display: none;
     }
 
+    .col-sm-4 {
+        max-width: fit-content;
+        margin: 5px 0;
+    }
+
+    .events-block {
+        max-height:fit-content;
+        text-align: justify;
+        opacity: .8;
+        margin-bottom: 2em;
+    }
+
+    #event-4 {
+        visibility: visible;
+    }
+
+    #instructor-1,
+    #instructor-2,
+    #instructor-3,
+    #instructor-4 {
+    margin-bottom:auto;
+    }
+
     /* End of Mobile */
 }
 
