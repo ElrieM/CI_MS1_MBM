@@ -70,11 +70,11 @@ The website provides users with information about the process for joining classe
   * Instructor names were randomly generated [here](https://www.name-generator.org.uk/)
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
 
-* About page:
+* Classes page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
   * Facilities and house rules adapted from [here](https://www.thewellnesscenter.org/newstudents)
 
-* Instructors page:
+* Instructors section of About page:
   * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
   * Instructor descriptions were adapted from profiles on [this page](https://delightyoga.com/about/staff/teachers).
 
