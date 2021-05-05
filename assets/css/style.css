@@ -122,7 +122,12 @@ body {
 }
 
 .intro-text {
-    text-shadow: 1px 1px lightslategrey;
+    text-shadow: 1px 1px #778899;
+}
+
+.meet-team {
+    color: #111;
+    background-color: #80808057;
 }
 
 .contact-item,
@@ -232,8 +237,8 @@ header h1 {
 }
 
 .instructor-image {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
     margin: 0 1em;
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +246,13 @@ header h1 {
     background-attachment: scroll;
 }
 
+.meet-team {
+    text-align: center;
+}
 
+.meet-team h4 {
+    margin-top: .5em;
+}
 
 #footer {
     position: relative;
@@ -306,6 +317,7 @@ header h1 {
         max-width: 33.3333%;
         margin: 3.5px;
     }
+
     /* End of Tablet */
 }
 
@@ -353,7 +365,7 @@ header h1 {
     }
 
     .events-block {
-        max-height:fit-content;
+        max-height: fit-content;
         text-align: justify;
         opacity: .8;
         margin-bottom: 2em;
@@ -361,14 +373,14 @@ header h1 {
 
     #event-4 {
         visibility: visible;
-        display:inline-block;
+        display: inline-block;
     }
 
     #instructor-1,
     #instructor-2,
     #instructor-3,
     #instructor-4 {
-    margin-bottom:auto;
+        margin-bottom: auto;
     }
 
     /* End of Mobile */
