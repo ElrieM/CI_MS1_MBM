@@ -77,6 +77,8 @@ The website provides users with information about the process for joining classe
 * Instructors section of About page:
   * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
   * Instructor descriptions were adapted from profiles on [this page](https://delightyoga.com/about/staff/teachers).
+  * Instructor names (5 to 12) were randomly generated [here](https://www.name-generator.org.uk/)
+  * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * "Quotes" copied from [here](https://www.therandomvibez.com/short-quote/)
 
 * Classes and Timetable page:
