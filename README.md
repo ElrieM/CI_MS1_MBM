@@ -77,6 +77,7 @@ The website provides users with information about the process for joining classe
 * Instructors section of About page:
   * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
   * Instructor descriptions were adapted from profiles on [this page](https://delightyoga.com/about/staff/teachers).
+  * "Quotes" copied from [here](https://www.therandomvibez.com/short-quote/)
 
 * Classes and Timetable page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.

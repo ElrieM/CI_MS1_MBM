@@ -231,6 +231,18 @@ header h1 {
     font-size: small;
 }
 
+.instructor-image {
+    height: 120px;
+    width: 120px;
+    margin: 0 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+
+
 #footer {
     position: relative;
     left: 0;
