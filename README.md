@@ -49,10 +49,11 @@ The website provides users with information about the process for joining classe
   *
 * CSS
   *
-* Bootstrap
+* Bootstrap 5
   * Horizontal alignment navs & tabs used for navbar
   * Used stacked to horizontal grid for introduction section on home page.
   * Used container-fluid to remove empty spaces around block while keeping like together.
+  * For the image gallery on About page, used Carousel with captions
 
 ## Testing
 
