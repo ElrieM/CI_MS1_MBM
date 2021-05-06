@@ -52,6 +52,7 @@ The website provides users with information about the process for joining classe
 * Bootstrap
   * Horizontal alignment navs & tabs used for navbar
   * Used stacked to horizontal grid for introduction section on home page.
+  * Used container-fluid to remove empty spaces around block while keeping like together.
 
 ## Testing
 
