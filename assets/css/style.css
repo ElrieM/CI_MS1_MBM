@@ -188,6 +188,9 @@ header h1 {
 
 .intro-text {
     text-align: justify;
+    margin: 1rem 0;
+    max-height: 380px;
+    overflow:scroll;
 }
 
 .intro-block {
