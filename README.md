@@ -30,6 +30,12 @@ The website provides users with information about the process for joining classe
   * [Classes and Timetable page](assets/wireframes/classes.png)
   * [Contact Us page](assets/wireframes/contact.png)
 
+* Revised wireframe mockups
+  * [About page](assets/wireframes/about_v2.png) replaces [Meet the Instructors page](assets/wireframes/instructors.png)
+  * [Classes page](assets/wireframes/classes_v2.png) replaces [Classes and Timetable page](assets/wireframes/classes.png)
+  * [Schedules and Rates page](assets/wireframes/schedule_and_rates.png) replaces [Classes and Timetable page]
+  * [News page](assets/wireframes/news.png) - new addition
+
 ## Features
 
 ### Existing Features
