@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap');
 
 body {
-    background-image: url(../images/home-cover-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
     color: #312d39;
 }
 
 
 /* ------ Images ------ */
+
+#hero-image {
+    background-image: url(../images/home-cover-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 250px;
+    max-width: 100%;
+}
 
 #logo-left,
 #logo-center,
@@ -174,7 +179,6 @@ header h1 {
 .section-heading {
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
-    margin: 1rem .5rem 0 0;
 }
 
 .intro-headings {
@@ -270,6 +274,10 @@ header h1 {
     text-decoration: none;
 }
 
+.connect-item {
+    padding: 0 10px;
+}
+
 #contact,
 #site-map,
 #connect {
@@ -284,15 +292,7 @@ header h1 {
 @media only screen and (max-width: 992px) {
 
     /* ---- Tablet ---- */
-    body {
-        background-image: url(../images/home-cover-2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: fixed;
-        background-attachment: fixed;
-    }
-
-    header {
+     header {
         margin: 0;
         padding: 0;
     }
@@ -329,14 +329,6 @@ header h1 {
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
-    body {
-        background-image: url(../images/home-cover-3.jpg);
-        background-repeat: no-repeat;
-        background-size: 120%;
-        background-position: fixed;
-        background-attachment: fixed;
-    }
-
     header {
         margin: 0;
         padding: 0;
