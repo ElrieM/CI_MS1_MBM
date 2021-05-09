@@ -90,6 +90,14 @@ body {
     background-image: url("../images/instructors/instructor-12.jfif");
 }
 
+.gallery-image {
+    width: 450px;
+    object-fit: scale-down;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+}
+
 /* End of Images */
 
 
@@ -322,6 +330,13 @@ header h1 {
         margin: 3.5px;
     }
 
+    .gallery-image {
+        width: 150px;
+        object-fit: scale-down;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 5px;
+    }
     /* End of Tablet */
 }
 
@@ -379,6 +394,13 @@ header h1 {
     #instructor-3,
     #instructor-4 {
         margin-bottom: auto;
+    }
+
+    .gallery-image {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        margin: 5px;
     }
 
     /* End of Mobile */
