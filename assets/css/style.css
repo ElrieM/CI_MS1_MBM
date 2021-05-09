@@ -144,6 +144,22 @@ body {
     background-color: #80808057;
 }
 
+.special-class {
+    background-color: lightblue;
+}
+
+.beginner-class {
+    background-color: lightgreen;
+}
+
+.slow-class {
+    background-color: lightgoldenrodyellow;
+}
+
+.fast-class {
+    background-color: lightsalmon;
+}
+
 /* End of Colours */
 
 /* ------ Padding / Margins / Text ----- */
@@ -275,9 +291,12 @@ table {
     width: 100%;
     text-align: center;
     border: 1px solid black;
+    font-size: small;
+    margin: 10px 0;
 }
 
-tr, 
+tr,
+th, 
 td {
     border: 1px solid black;
 }
@@ -415,6 +434,9 @@ td {
         margin: 5px;
     }
 
+    table {
+        font-size: xx-small;
+    }
     /* End of Mobile */
 }
 
