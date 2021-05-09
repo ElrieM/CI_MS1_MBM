@@ -322,6 +322,12 @@ td {
     text-align: center;
 }
 
+.legend {
+    font-size: smaller;
+    height: 10%;
+    width: 30%;
+    text-align: center;
+}
 
 /* End of Padding / Margins / Text */
 
@@ -368,6 +374,11 @@ td {
         max-height: 100%;
         margin: 5px;
     }
+
+    .legend{
+        width: 60%;
+    }
+
     /* End of Tablet */
 }
 
@@ -437,6 +448,16 @@ td {
     table {
         font-size: xx-small;
     }
+
+    #table-legend {
+        font-size: x-small;
+    }
+
+    .legend {
+        font-size: xx-small;
+        width: 100%;
+    }
+
     /* End of Mobile */
 }
 
