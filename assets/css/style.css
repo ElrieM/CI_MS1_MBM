@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap');
 
 body {
-    background-image: url(../images/home-cover-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
     color: #312d39;
 }
 
 
 /* ------ Images ------ */
+
+#hero-image {
+    background-image: url(../images/home-cover-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 250px;
+    max-width: 100%;
+}
 
 #logo-left,
 #logo-center,
@@ -85,6 +90,14 @@ body {
     background-image: url("../images/instructors/instructor-12.jfif");
 }
 
+.gallery-image {
+    width: 450px;
+    object-fit: scale-down;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+}
+
 /* End of Images */
 
 
@@ -123,12 +136,28 @@ body {
     mix-blend-mode: color-dodge;
 }
 
-.intro-headings {
+.intro-heading {
     mix-blend-mode: darken;
 }
 
 .meet-team {
     background-color: #80808057;
+}
+
+.special-class {
+    background-color: lightblue;
+}
+
+.beginner-class {
+    background-color: lightgreen;
+}
+
+.slow-class {
+    background-color: lightgoldenrodyellow;
+}
+
+.fast-class {
+    background-color: lightsalmon;
 }
 
 /* End of Colours */
@@ -167,29 +196,29 @@ header h1 {
     text-align: center;
 }
 
-.row {
-    margin: 0;
-}
-
 .section-heading {
+    margin-top: 10px;
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
-    margin: 1rem .5rem 0 0;
 }
 
-.intro-headings {
+.intro-heading {
     padding-top: .3em;
     text-align: center;
 }
 
 .intro-text {
     text-align: justify;
+    margin: 1rem 0;
+    max-height: 380px;
+    overflow:scroll;
 }
 
 .intro-block {
     background-color: #f2e5dd;
     opacity: 0.7;
 }
+
 
 .event-image {
     height: 70px;
@@ -207,7 +236,8 @@ header h1 {
     margin: 1em;
 }
 
-.events-block {
+.events-block,
+.class-desc {
     max-height: 290px;
     text-align: justify;
     opacity: .8;
@@ -219,12 +249,13 @@ header h1 {
     background: #d4e0d6;
 }
 
-.col-sm {
+/* .col-sm {
     width: 24%;
     margin: 1em;
-}
+} */
 
-.event-item>h6 {
+.event-heading,
+.class-heading {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 15px;
@@ -255,8 +286,19 @@ header h1 {
     text-align: center;
 }
 
-.meet-team h4 {
-    margin-top: .5em;
+table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    font-size: small;
+    margin: 10px 0;
+}
+
+tr,
+th, 
+td {
+    border: 1px solid black;
 }
 
 #footer {
@@ -270,12 +312,22 @@ header h1 {
     text-decoration: none;
 }
 
+.connect-item {
+    padding: 0 10px;
+}
+
 #contact,
 #site-map,
 #connect {
     text-align: center;
 }
 
+.legend {
+    font-size: smaller;
+    height: 10%;
+    width: 30%;
+    text-align: center;
+}
 
 /* End of Padding / Margins / Text */
 
@@ -284,15 +336,7 @@ header h1 {
 @media only screen and (max-width: 992px) {
 
     /* ---- Tablet ---- */
-    body {
-        background-image: url(../images/home-cover-2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: fixed;
-        background-attachment: fixed;
-    }
-
-    header {
+     header {
         margin: 0;
         padding: 0;
     }
@@ -323,20 +367,24 @@ header h1 {
         margin: 3.5px;
     }
 
+    .gallery-image {
+        width: 150px;
+        object-fit: scale-down;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 5px;
+    }
+
+    .legend{
+        width: 60%;
+    }
+
     /* End of Tablet */
 }
 
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
-    body {
-        background-image: url(../images/home-cover-3.jpg);
-        background-repeat: no-repeat;
-        background-size: 120%;
-        background-position: fixed;
-        background-attachment: fixed;
-    }
-
     header {
         margin: 0;
         padding: 0;
@@ -358,11 +406,13 @@ header h1 {
         object-position: center;
     }
 
+/*
     .nav-bar {
         visibility: hidden;
         display: none;
     }
 
+*/
     .col-sm {
         width: 98%;
         max-width: 100%;
@@ -386,6 +436,26 @@ header h1 {
     #instructor-3,
     #instructor-4 {
         margin-bottom: auto;
+    }
+
+    .gallery-image {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        margin: 5px;
+    }
+
+    table {
+        font-size: xx-small;
+    }
+
+    #table-legend {
+        font-size: x-small;
+    }
+
+    .legend {
+        font-size: xx-small;
+        width: 100%;
     }
 
     /* End of Mobile */

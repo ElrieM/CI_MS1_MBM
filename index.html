@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <div id="header">
-        <header>
-            <!-- Header section -->
+    <!-- Header section -->
+    <header>
+        <div id="header">
             <div id="logo-left"></div>
             <div id="logo-right"></div>
             <div id="header-text">
@@ -28,12 +28,11 @@
                 "When mind, body and spirit are in harmony, happiness is the natural result"
                 <br><i>Deepak Chopra</i>
             </h3>
-
             <div id="logo-center"></div>
+        </div>
+    </header>
 
-            <!-- Hero image -->
-            <div id="header-image"></div>
-
+    <nav>
         <!-- Navigation bar -->
         <div class="container-fluid nav-bar">
             <ul class="nav justify-content-center">
@@ -47,7 +46,7 @@
                     <a class="nav-link" href="classes.html">Classes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Schedule and Rates</a>
+                    <a class="nav-link" href="schedule.html">Schedule and Rates</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
@@ -58,17 +57,20 @@
             </ul>
         </div>
         <!-- End of Navigation bar -->
-    </div>
-</header>
+    </nav>
+
+    <section id="hero-container">
+        <!-- Hero image and page welcome -->
+        <h3 class="section-heading">Welcome to Mind Body Motion Wellness Center</h3>
+        <div id="hero-image"></div>
+    </section>
 
     <section id="intro-section">
         <!-- Introduction and welcome section-->
         <div class="container-fluid">
-            <h2 class="section-heading">Welcome to Mind Body Motion Wellness Center</h2>
-
             <div class="row intro-text">
                 <div class="col-sm intro-block">
-                    <h4 class="intro-headings">Introduction</h4>
+                    <h4 class="intro-heading">Introduction</h4>
                     <p>At MBM we believe that regular yoga practice can provide physical and mental health benefits.</p>
                     <p>Yoga is an ancient form of exercise that focuses on strength, flexibility and breathing. A set of
                         specific exercises, called poses, combined with specific breathing techniques and meditation
@@ -78,7 +80,7 @@
                 </div>
 
                 <div class="col-sm intro-block">
-                    <h4 class="intro-headings">What to Expect</h4>
+                    <h4 class="intro-heading">What to Expect</h4>
                     <p>The beauty of yoga is that you do not have to be a yogi or yogini to reap the benefits. If a pose
                         causes pain or proves too difficult, there are variations and modifications that can be made to
                         help students. Props like blocks, blankets and straps — even chairs — can be used to help you
@@ -88,7 +90,7 @@
                 </div>
 
                 <div class="col-sm intro-block">
-                    <h4 class="intro-headings">Benefits</h4>
+                    <h4 class="intro-heading">Benefits</h4>
                     <p>Yoga can improve your posture, and combined with meditation it can help you gain focus, relax and
                         sleep better.</p>
                     <p>Studies have also shown that yoga can help:</p>
@@ -111,10 +113,10 @@
         <div class="container-fluid">
             <h2 class="section-heading">Upcoming Events</h2>
             <div class="row events-block">
-
+            
                 <!--- Event 1 -->
                 <div class="col-sm event-item">
-                    <h6>Silent Yin Special</h6>
+                    <h6 class="event-heading">Silent Yin Special</h6>
                     <div class="event-image" id="instructor-1"></div>
                     <div class="event-details">
                         <p><i>Alicia Wallace</i><br>8 May 2021<br>Investment: €30</p>
@@ -127,7 +129,7 @@
 
                 <!--- Event 2 -->
                 <div class="col-sm event-item">
-                    <h6>Yoga Nidra Immersion</h6>
+                    <h6 class="event-heading">Yoga Nidra Immersion</h6>
                     <div class="event-image" id="instructor-2"></div>
                     <div class="event-details">
                         <p><i>Melissa Roets</i><br>12 Jun 2021<br>Investment: €85</p>
@@ -140,7 +142,7 @@
 
                 <!--- Event 3 -->
                 <div class="col-sm event-item">
-                    <h6>Opening Your Heart</h6>
+                    <h6 class="event-heading">Opening Your Heart</h6>
                     <div class="event-image" id="instructor-3"></div>
                     <div class="event-details">
                         <p><i>Ruth Willis</i><br>10 Jul 2021<br>Investment: €35</p>
@@ -153,7 +155,7 @@
 
                 <!--- Event 4 -->
                 <div class="col-sm event-item" id="event-4">
-                    <h6>Clear Your Head</h6>
+                    <h6 class="event-heading">Clear Your Head</h6>
                     <div class="event-image" id="instructor-4"></div>
                     <div class="event-details">
                         <p><i>Amanda Clarke</i><br>14 Aug 2021<br>Investment: €35</p>
@@ -196,7 +198,7 @@
                     <p>
                         <a class="footer-link" href="about.html">About</a><br>
                         <a class="footer-link" href="classes.html">Classes</a><br>
-                        <a class="footer-link" href="#">Schedule</a><br>
+                        <a class="footer-link" href="schedule.html">Schedule</a><br>
                         <a class="footer-link" href="#">Events</a><br>
                         <a class="footer-link" href="#">Terms and Conditions</a><br>
                         <a class="footer-link" href="#">Privacy</a><br>
@@ -206,13 +208,10 @@
                     <p>Connect with Us</p>
                     <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
                             class="fab fa-facebook"></i></a>
-                    <br><br>
                     <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
                             class="fab fa-instagram"></i></a>
-                    <br><br>
                     <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
                             class="fab fa-twitter"></i></a>
-                    <br><br>
                 </div>
             </div>
             </ul>
