@@ -270,6 +270,18 @@ header h1 {
     text-align: center;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr, 
+td {
+    border: 1px solid black;
+}
+
 #footer {
     position: relative;
     left: 0;
