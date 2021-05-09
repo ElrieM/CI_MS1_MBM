@@ -136,7 +136,7 @@ body {
     mix-blend-mode: color-dodge;
 }
 
-.intro-headings {
+.intro-heading {
     mix-blend-mode: darken;
 }
 
@@ -180,16 +180,13 @@ header h1 {
     text-align: center;
 }
 
-.row {
-    margin: 0;
-}
-
 .section-heading {
+    margin-top: 10px;
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
 }
 
-.intro-headings {
+.intro-heading {
     padding-top: .3em;
     text-align: center;
 }
@@ -205,6 +202,7 @@ header h1 {
     background-color: #f2e5dd;
     opacity: 0.7;
 }
+
 
 .event-image {
     height: 70px;
@@ -222,7 +220,8 @@ header h1 {
     margin: 1em;
 }
 
-.events-block {
+.events-block,
+.class-desc {
     max-height: 290px;
     text-align: justify;
     opacity: .8;
@@ -239,7 +238,8 @@ header h1 {
     margin: 1em;
 } */
 
-.event-item>h6 {
+.event-heading,
+.class-heading {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 15px;
