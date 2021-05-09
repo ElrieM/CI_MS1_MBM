@@ -226,10 +226,10 @@ header h1 {
     background: #d4e0d6;
 }
 
-.col-sm {
+/* .col-sm {
     width: 24%;
     margin: 1em;
-}
+} */
 
 .event-item>h6 {
     text-align: center;
@@ -349,11 +349,13 @@ header h1 {
         object-position: center;
     }
 
+/*
     .nav-bar {
         visibility: hidden;
         display: none;
     }
 
+*/
     .col-sm {
         width: 98%;
         max-width: 100%;

@@ -78,16 +78,17 @@ The website provides users with information about the process for joining classe
   * Instructor names were randomly generated [here](https://www.name-generator.org.uk/)
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
 
-* Classes page:
-  * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
-  * Facilities and house rules adapted from [here](https://www.thewellnesscenter.org/newstudents)
-
-* Instructors section of About page:
+* About page:
   * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
   * Instructor descriptions were adapted from profiles on [this page](https://delightyoga.com/about/staff/teachers).
   * Instructor names (5 to 12) were randomly generated [here](https://www.name-generator.org.uk/)
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * "Quotes" copied from [here](https://www.therandomvibez.com/short-quote/)
+  
+  * Facilities and house rules adapted from [here](https://www.thewellnesscenter.org/newstudents)
+
+* Classes page:
+  * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
 
 * Classes and Timetable page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
