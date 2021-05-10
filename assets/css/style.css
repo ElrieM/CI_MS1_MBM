@@ -326,8 +326,41 @@ td {
     font-size: xx-large;
 }
 
+
+#contact-section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#map {
+    position: center;
+}
+
+.contact-block {
+    text-align: center;
+}
+
+.contact-form {
+    width: 70%;
+    height: fit-content;
+    padding: 2%;
+    display: inline-block;
+}
+
+.contact-form>label {
+    padding: 5px 0 0 0;
+}
+
+#query {
+    height: 20%;
+}
+
+.form-input {
+    display: inline-block;
+    width: 100%;
+}
+
 #footer {
-    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -500,6 +533,11 @@ td {
         margin-right: 2%;
         width: 96%;
         table-layout: auto;
+    }
+
+    #footer {
+        position: relative;
+        margin: 0;
     }
 
     /* End of Mobile */
