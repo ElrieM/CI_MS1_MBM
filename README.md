@@ -100,6 +100,9 @@ The website provides users with information about the process for joining classe
 * Classes and Timetable page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
 
+* Contact page:
+  * Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
+  
 ### Media
 
 * Cover page
