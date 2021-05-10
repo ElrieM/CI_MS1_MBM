@@ -8,6 +8,16 @@ body {
 
 /* ------ Images ------ */
 
+#background-cover {
+    background-image: url(../images/home-cover-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
 #hero-image {
     background-image: url(../images/home-cover-1.jpg);
     background-repeat: no-repeat;
@@ -215,13 +225,12 @@ header h1 {
 .intro-text {
     text-align: justify;
     margin: 1rem 0;
-    max-height: 380px;
-    overflow: scroll;
 }
 
 .intro-block {
     background-color: #f2e5dd;
     opacity: 0.7;
+    margin: 0 .5rem;
 }
 
 
@@ -252,6 +261,7 @@ header h1 {
 .event-item {
     display: inline-block;
     background: #d4e0d6;
+    margin: 0 5px;
 }
 
 /* .col-sm {
@@ -364,6 +374,7 @@ td {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-top: 10px;
     margin-top: 2em;
 }
 
@@ -474,18 +485,20 @@ td {
         object-position: center;
     }
 
-    /*
-    .nav-bar {
-        visibility: hidden;
-        display: none;
-    }
-
-*/
     .col-sm {
         width: 98%;
         max-width: 100%;
-        margin: 5px 0;
+        margin: 5px 1%;
     }
+
+    /*
+    .intro-text {
+        text-align: justify;
+        margin: 1rem 0;
+        max-height: 380px;
+        overflow:scroll;
+    }
+    */
 
     .events-block {
         max-height: fit-content;
