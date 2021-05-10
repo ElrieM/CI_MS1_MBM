@@ -301,6 +301,18 @@ td {
     border: 1px solid black;
 }
 
+#rates-table {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    table-layout: auto;
+}
+
+.table-left {
+text-align: left;
+text-indent: 10px;
+}
+
 #footer {
     position: relative;
     left: 0;
