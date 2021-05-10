@@ -202,16 +202,21 @@ header h1 {
     text-align: center;
 }
 
-.intro-heading {
+.intro-heading,
+.class-heading {
     padding-top: .3em;
     text-align: center;
+}
+
+.contact-heading {
+    padding-top: .5em;
 }
 
 .intro-text {
     text-align: justify;
     margin: 1rem 0;
     max-height: 380px;
-    overflow:scroll;
+    overflow: scroll;
 }
 
 .intro-block {
@@ -296,7 +301,7 @@ table {
 }
 
 tr,
-th, 
+th,
 td {
     border: 1px solid black;
 }
@@ -309,8 +314,16 @@ td {
 }
 
 .table-left {
-text-align: left;
-text-indent: 10px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+#address-line {
+    margin-left: 16px;
+}
+
+.icon {
+    font-size: xx-large;
 }
 
 #footer {
@@ -349,7 +362,7 @@ text-indent: 10px;
 @media only screen and (max-width: 992px) {
 
     /* ---- Tablet ---- */
-     header {
+    header {
         margin: 0;
         padding: 0;
     }
@@ -388,7 +401,7 @@ text-indent: 10px;
         margin: 5px;
     }
 
-    .legend{
+    .legend {
         margin-left: 20%;
         margin-right: 20%;
         width: 60%;
@@ -428,7 +441,7 @@ text-indent: 10px;
         object-position: center;
     }
 
-/*
+    /*
     .nav-bar {
         visibility: hidden;
         display: none;
