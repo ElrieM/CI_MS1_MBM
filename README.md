@@ -1,5 +1,7 @@
 # Mind Body Motion Wellness Centre
 
+https://elriem.github.io/CI_MS1_MBM/
+
 This static front-end site was created to present information for a fictional wellness centre, offering yoga, meditation and tai chi classes.
 
 The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
@@ -102,7 +104,7 @@ The website provides users with information about the process for joining classe
 
 * Contact page:
   * Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
-  
+
 ### Media
 
 * Cover page
