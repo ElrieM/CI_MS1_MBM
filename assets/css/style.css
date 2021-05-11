@@ -174,6 +174,7 @@ body {
 
 /* ------ Padding / Margins / Text ----- */
 
+/* Padding - All pages */
 header {
     text-align: center;
 }
@@ -201,16 +202,36 @@ header h1 {
     margin: 0 1em;
 }
 
-.container>h2 {
-    padding-top: .5em;
-    text-align: center;
-}
-
 .section-heading {
     margin-top: 10px;
+    margin-bottom: .5rem;
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
 }
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 2em;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.connect-item {
+    padding: 0 10px;
+}
+
+#contact,
+#site-map,
+#connect {
+    text-align: center;
+}
+
+/* Padding - Index page */
 
 .intro-heading,
 .class-heading {
@@ -220,6 +241,10 @@ header h1 {
 
 .contact-heading {
     padding-top: .5em;
+}
+
+#intro-section {
+    margin: 5%;
 }
 
 .intro-text {
@@ -232,7 +257,6 @@ header h1 {
     opacity: 0.7;
     margin: 0 .5rem;
 }
-
 
 .event-image {
     height: 70px;
@@ -264,11 +288,6 @@ header h1 {
     margin: 0 5px;
 }
 
-/* .col-sm {
-    width: 24%;
-    margin: 1em;
-} */
-
 .event-heading,
 .class-heading {
     text-align: center;
@@ -287,20 +306,21 @@ header h1 {
     font-size: small;
 }
 
-.instructor-image {
-    height: 140px;
-    width: 140px;
-    margin: 0 1em;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: scroll;
-}
+/* Padding - About page */
 
 .meet-team {
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+    width: 23%;
 }
 
+.tmember-name {
+    font-size: medium;
+}
+
+/* Padding - Schedule page */
 table {
     table-layout: fixed;
     width: 100%;
@@ -327,6 +347,15 @@ td {
     text-align: left;
     text-indent: 10px;
 }
+
+.legend {
+    font-size: smaller;
+    height: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+/* Padding - Contact page */
 
 #address-line {
     margin-left: 16px;
@@ -370,34 +399,6 @@ td {
     width: 100%;
 }
 
-#footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-top: 10px;
-    margin-top: 2em;
-}
-
-.footer-link {
-    text-decoration: none;
-}
-
-.connect-item {
-    padding: 0 10px;
-}
-
-#contact,
-#site-map,
-#connect {
-    text-align: center;
-}
-
-.legend {
-    font-size: smaller;
-    height: 10%;
-    width: 30%;
-    text-align: center;
-}
 
 /* End of Padding / Margins / Text */
 
@@ -429,12 +430,6 @@ td {
     #event-4 {
         visibility: collapse;
         display: none;
-    }
-
-    .col-sm {
-        width: 32.8%;
-        max-width: 33.3333%;
-        margin: 3.5px;
     }
 
     .gallery-image {
@@ -485,11 +480,6 @@ td {
         object-position: center;
     }
 
-    .col-sm {
-        width: 98%;
-        max-width: 100%;
-        margin: 5px 1%;
-    }
 
     /*
     .intro-text {
@@ -517,6 +507,12 @@ td {
     #instructor-3,
     #instructor-4 {
         margin-bottom: auto;
+    }
+
+    .meet-team {
+        margin: 1%;
+        max-width: 100%;
+        width: 48%;
     }
 
     .gallery-image {
