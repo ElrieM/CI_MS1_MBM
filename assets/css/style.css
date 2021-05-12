@@ -13,9 +13,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment:fixed;
-    height: 100%;
-    width: 100%;
+    background-attachment: fixed;
+    max-height: 100%;
+    max-width: 100%;
     margin: 0;
 }
 
@@ -125,8 +125,10 @@ body {
 .nav-link,
 .contact-item,
 .footer-link,
+.footer-icon,
 .connect-item {
     color: #334545;
+    text-decoration: none;
 }
 
 #quote {
@@ -172,7 +174,19 @@ body {
 }
 
 .footer-link:hover {
-    background-color: #d4e0d6;
+    border: 1px solid #acbba6;
+    color: #334545;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.connect-item:hover {
+    color: #acbba6;
+    text-decoration: underline;
+}
+
+.footer-icon:hover {
+    color: #acbba6;
 }
 
 /* End of Colours */
@@ -223,9 +237,19 @@ header h1 {
     text-align: center;
 }
 
-.handheld-footer {
-    visibility: collapse;
+.desktop-footer {
+    visibility: visible;
     display: contents;
+}
+
+.handheld-footer {
+    visibility: hidden;
+    display: none;
+}
+
+#contact {
+    text-align: center;
+    padding-left: 3%;
 }
 
 .footer-icon {
@@ -236,7 +260,6 @@ header h1 {
 .footer-link {
     text-decoration: none;
 }
-
 
 .connect-item {
     padding: 0 3%;
@@ -465,7 +488,7 @@ td {
         table-layout: auto;
     }
 
-    .desktop-footer { 
+    .desktop-footer {
         visibility: hidden;
         display: none;
     }
@@ -473,6 +496,11 @@ td {
     .handheld-footer {
         visibility: visible;
         display: contents;
+    }
+
+    #contact {
+        text-align: center;
+        padding-left: unset;
     }
 
     #connect {
@@ -570,7 +598,7 @@ td {
         table-layout: auto;
     }
 
-    .desktop-footer { 
+    .desktop-footer {
         visibility: hidden;
         display: none;
     }
@@ -594,6 +622,7 @@ td {
         padding: 0;
         margin: 0;
     }
+
     /* End of Mobile */
 }
 
