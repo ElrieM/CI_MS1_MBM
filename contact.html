@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 contact-section"" id="map">
+                <div class="col-sm-6 contact-section"" id=" map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.5468837644753!2d5.935925215956615!3d50.932098460423035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0bea52f98dfd9%3A0x409b4891317b3e8c!2sTreebeekstraat%2055%2C%206446%20XP%20Brunssum!5e0!3m2!1sen!2snl!4v1620663404627!5m2!1sen!2snl"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -99,15 +99,18 @@
                     <form class="contact-form">
                         <label for="fname">First Name</label>
                         <br>
-                        <input type="text" class="form-input"" id="fname" name="first_name" placeholder="First Name" required>
+                        <input type="text" class="form-input"" id=" fname" name="first_name" placeholder="First Name"
+                            required>
                         <br>
                         <label for="lname">Last Name</label>
                         <br>
-                        <input type="text" class="form-input" id="fname" name="last_name" placeholder="Last Name" required>
+                        <input type="text" class="form-input" id="fname" name="last_name" placeholder="Last Name"
+                            required>
                         <br>
                         <label for="lname">Email Address</label>
                         <br>
-                        <input type="email" class="form-input" id="email" name="email_address" placeholder="Email address" required>
+                        <input type="email" class="form-input" id="email" name="email_address"
+                            placeholder="Email address" required>
                         <br>
                         <label for="query">How Can We Help?</label>
                         <br>
@@ -119,53 +122,82 @@
     </section>
 
 
-    <div id="footer">
+    <footer>
         <!-- Footer section-->
-        <div class="container-fluid">
-            <!-- Contact details - short -->
-            <div class="row">
-                <div id="contact" class="col-sm">
-                    <p>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="contact-details">
-                            Mind Body Motion Wellness Centre<br>
-                            <span id="address-line">Treebeekstraat 55<br>
-                                Brunssum<br>
-                                Limburg<br>
-                                6446 XP<br></span>
-                        </span>
-                    </p>
-                    <p>
-                        <i class="fas fa-phone-alt"></i>
-                        <span class="contact-item">+31-77-2065000</span><br>
-                        <i class="far fa-envelope"></i>
-                        <span class="contact-item">info@mbmwellness.com</span>
-                    </p>
+        <div id="footer">
+            <!-- Mobile / Tablet footer -->
+            <div class="container-fluid handheld-footer">
+                <div id="contact" class="row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
+                    <!-- Links to most relevant pages -->
+                    <a href="contact.html" class="col footer-link">Contact</a>
+                    <a href="schedule.html" class="col footer-link">Schedule</a>
+                    <a href="classes.html" class="col footer-link">Classes</a>
+                    <!-- Terms and Privacy pages hosted for free on generated website -->
+                    <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                        class="col-6 footer-link" target="_blank">Privacy</a>
+                    <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                        class="col-6 footer-link" target="_blank">Terms</a>
                 </div>
-                <div id="site-map" class="col-sm">
-                    <p><a class="footer-link" href="#"><em>Sign Up</em></a></p>
-                    <p>
-                        <a class="footer-link" href="about.html">About</a><br>
-                        <a class="footer-link" href="classes.html">Classes</a><br>
-                        <a class="footer-link" href="schedule.html">Schedule</a><br>
-                        <a class="footer-link" href="#">Terms and Conditions</a><br>
-                        <a class="footer-link" href="#">Privacy</a><br>
-                    </p>
-                </div>
-                <div id="connect" class="col-sm">
-                    <p>Connect with Us</p>
-                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                <div id="connect">
+                    <!-- Social media section, kept separate to keep items together -->
+                    <span id="connect-heading">Let's Connect</span>
+                    <br>
+                    <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
                             class="fab fa-facebook"></i></a>
-                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                    <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
                             class="fab fa-instagram"></i></a>
-                    <a class="connect-item" href="https://www.facebook.com/" target="_blank"><i
+                    <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
                             class="fab fa-twitter"></i></a>
                 </div>
             </div>
-            </ul>
+            <div class="container-fluid desktop-footer">
+                <!-- Desktop footer -->
+                <div id="contact" class="row row-cols-12 justify-content-center-center">
+                    <!-- Links to most relevant pages -->
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="contact.html">Contact</a></p>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="schedule.html">Schedule</a></p>
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="classes.html">Classes</a></p>
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <!-- Terms and Privacy pages hosted for free on generated website -->
+                        <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                                class="col-6 connect-item" target="_blank" alt="Link to Privacy Terms">Privacy</a>
+                        </p>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                                class="col-6 connect-item" target="_blank" alt="Link to Terms and Conditions">Terms</a>
+                        </p>
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div id="connect" class="col">
+                        <!-- Social media section, kept separate to keep items together -->
+                        <p>Let's Connect</p>
+                        <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank"
+                                alt="Link to Facebook">
+                                <i class="fab fa-facebook"></i></a>
+                            <a class="footer-icon" href="https://www.instagram.com/" target="_blank"
+                                alt="Link to Instagram">
+                                <i class="fab fa-instagram"></i></a>
+                            <a class="footer-icon" href="https://www.twitter.com/" target="_blank"
+                                alt="Link to Twitter">
+                                <i class="fab fa-twitter"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Footer section-->
-        </footer>
+        <!-- End of Footer section-->
+    </footer>
     </div>
 </body>
 
