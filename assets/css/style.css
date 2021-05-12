@@ -13,8 +13,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:fixed;
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -170,6 +171,10 @@ body {
     background-color: lightsalmon;
 }
 
+.footer-link:hover {
+    background-color: #d4e0d6;
+}
+
 /* End of Colours */
 
 /* ------ Padding / Margins / Text ----- */
@@ -214,21 +219,27 @@ header h1 {
     bottom: 0;
     width: 100%;
     padding-top: 10px;
-    margin-top: 2em;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.handheld-footer {
+    visibility: collapse;
+    display: contents;
+}
+
+.footer-icon {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .footer-link {
     text-decoration: none;
 }
 
-.connect-item {
-    padding: 0 10px;
-}
 
-#contact,
-#site-map,
-#connect {
-    text-align: center;
+.connect-item {
+    padding: 0 3%;
 }
 
 /* Padding - Index page */
@@ -289,7 +300,8 @@ header h1 {
 }
 
 .event-heading,
-.class-heading {
+.class-heading,
+#connect-heading {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 15px;
@@ -453,6 +465,16 @@ td {
         table-layout: auto;
     }
 
+    .desktop-footer { 
+        visibility: hidden;
+        display: none;
+    }
+
+    .handheld-footer {
+        visibility: visible;
+        display: contents;
+    }
+
     /* End of Tablet */
 }
 
@@ -544,11 +566,31 @@ td {
         table-layout: auto;
     }
 
+    .desktop-footer { 
+        visibility: hidden;
+        display: none;
+    }
+
+    .handheld-footer {
+        visibility: visible;
+        display: contents;
+    }
+
     #footer {
         position: relative;
+        bottom: 0;
         margin: 0;
     }
 
+    #connect,
+    #legal {
+        margin-top: 1em;
+    }
+
+    .footer-link {
+        padding: 0;
+        margin: 0;
+    }
     /* End of Mobile */
 }
 

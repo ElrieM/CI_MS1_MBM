@@ -1,6 +1,6 @@
 # Mind Body Motion Wellness Centre
 
-https://elriem.github.io/CI_MS1_MBM/
+View live site [here](https://elriem.github.io/CI_MS1_MBM/)
 
 This static front-end site was created to present information for a fictional wellness centre, offering yoga, meditation and tai chi classes.
 
@@ -104,6 +104,12 @@ The website provides users with information about the process for joining classe
 
 * Contact page:
   * Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
+
+* Footer
+  * Terms and Conditions:
+    * Generated (free) from [here](https://www.termsandconditionsgenerator.com/), used Link with Free Hosting - [sample](https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW). Country = Netherlands, State = Limburg, used my email address but would likely use a MBM-hosted mailbox.
+  * Privacy Policy:
+    * Generated (free) from [here](https://www.privacypolicygenerator.info/), used link with Free Hosting - [sample](https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i). Selected cookies for tracking usage (not included in this version of website), Google AdSense to reach a greater audience, no third party advertising (able to change later)
 
 ### Media
 
