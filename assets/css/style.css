@@ -475,6 +475,10 @@ td {
         display: contents;
     }
 
+    #connect {
+        margin-top: .5em;
+    }
+
     /* End of Tablet */
 }
 
@@ -582,8 +586,7 @@ td {
         margin: 0;
     }
 
-    #connect,
-    #legal {
+    #connect {
         margin-top: 1em;
     }
 
