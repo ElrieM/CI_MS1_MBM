@@ -221,6 +221,11 @@ header h1 {
     margin: 0 1em;
 }
 
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .section-heading {
     margin-top: 10px;
     margin-bottom: .5rem;
@@ -442,6 +447,11 @@ td {
 @media only screen and (max-width: 992px) {
 
     /* ---- Tablet ---- */
+
+    #background-cover {
+        background-image: url(../images/home-cover-2.jpg);
+    }    
+
     header {
         margin: 0;
         padding: 0;
@@ -513,6 +523,11 @@ td {
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
+    
+    #background-cover {
+        background-image: url(../images/home-cover-3.jpg);
+    }
+
     header {
         margin: 0;
         padding: 0;
