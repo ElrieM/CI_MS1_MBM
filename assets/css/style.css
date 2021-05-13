@@ -443,9 +443,14 @@ td {
 
     /* ---- Tablet ---- */
 
+    /* Tablet - Home page background */
+
     #background-cover {
         background-image: url(../images/home-cover-2.jpg);
+        background-size: 125%;
     }
+
+    /* Tablet - Header */
 
     header {
         margin: 0;
@@ -458,19 +463,33 @@ td {
 
     #logo-left,
     #logo-right {
-        height: 100px;
-        width: 100px
-    }
-
-    #logo-center {
         visibility: hidden;
         display: contents;
     }
+
+    #logo-center {
+        visibility: visible;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin: 0;
+        padding: 0;
+        object-position: center;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+
+    /* Tablet - Home page */
 
     #event-4 {
         visibility: collapse;
         display: none;
     }
+
+    /* Tablet - About page */
 
     .meet-team {
         text-align: center;
@@ -487,6 +506,8 @@ td {
         margin: 5px;
     }
 
+    /* Tablet - Schedule page */
+
     .legend {
         margin-left: 20%;
         margin-right: 20%;
@@ -499,6 +520,8 @@ td {
         width: 90%;
         table-layout: auto;
     }
+
+    /* Tablet - Footer */
 
     .desktop-footer {
         visibility: hidden;
@@ -526,6 +549,7 @@ td {
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
 
+    /* Media - Header */
     #background-cover {
         background-image: url(../images/home-cover-3.jpg);
     }
@@ -533,6 +557,10 @@ td {
     header {
         margin: 0;
         padding: 0;
+    }
+
+    #quote {
+        font-size: smaller;
     }
 
     #logo-left,
@@ -551,15 +579,13 @@ td {
         object-position: center;
     }
 
+    /* Media - Home page */
 
-    /*
-    .intro-text {
-        text-align: justify;
-        margin: 1rem 0;
-        max-height: 380px;
-        overflow:scroll;
+    .intro-block,
+    .event-item {
+        margin: 1% 0;
+        padding-top: 2%;
     }
-    */
 
     .events-block {
         max-height: fit-content;
@@ -580,6 +606,8 @@ td {
         margin-bottom: auto;
     }
 
+    /* Mobile - About page */
+
     .meet-team {
         margin: 1%;
         padding: 1%;
@@ -593,6 +621,12 @@ td {
         width: 100%;
         margin: 5px;
     }
+
+    .intro-text {
+        font-size: small;
+    }
+
+    /* Mobile - Schedule page */
 
     table {
         font-size: xx-small;
@@ -615,6 +649,8 @@ td {
         width: 96%;
         table-layout: auto;
     }
+
+    /* Mobile - Footer */
 
     .desktop-footer {
         visibility: hidden;
