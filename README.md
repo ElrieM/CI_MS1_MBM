@@ -115,7 +115,7 @@ The website provides users with information about the process for joining classe
 
 * Logo
   * Lotus flower vector from [here](https://flyclipart.com/flower-lotus-lotus-flower-icon-with-png-and-vector-format-flower-icon-png-771399)
-  
+
 * Cover page
 
   * Desktop - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/")
