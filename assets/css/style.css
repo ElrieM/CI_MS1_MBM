@@ -193,7 +193,8 @@ body {
 
 /* ------ Padding / Margins / Text ----- */
 
-/* Padding - All pages */
+/* Padding - Header */
+
 header {
     text-align: center;
 }
@@ -225,6 +226,11 @@ header h1 {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+#signup-form {
+    align-self: flex-end;
+}
+
 
 .section-heading {
     margin-top: 10px;
