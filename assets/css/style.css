@@ -350,10 +350,9 @@ header h1 {
 
 .meet-team {
     text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    max-width: 100%;
-    width: 23%;
+    padding: 10px;
+    margin: .3em;
+    width: 16%;
 }
 
 .tmember-name {
@@ -450,7 +449,7 @@ td {
 
     #background-cover {
         background-image: url(../images/home-cover-2.jpg);
-    }    
+    }
 
     header {
         margin: 0;
@@ -475,6 +474,13 @@ td {
     #event-4 {
         visibility: collapse;
         display: none;
+    }
+
+    .meet-team {
+        text-align: center;
+        padding: 1%;
+        margin: 0.5%;
+        width: 24%;
     }
 
     .gallery-image {
@@ -523,7 +529,7 @@ td {
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
-    
+
     #background-cover {
         background-image: url(../images/home-cover-3.jpg);
     }
@@ -580,6 +586,7 @@ td {
 
     .meet-team {
         margin: 1%;
+        padding: 1%;
         max-width: 100%;
         width: 48%;
     }
