@@ -69,46 +69,6 @@ body {
     background-image: url("../images/instructors/instructor-4.jfif");
 }
 
-#instructor-5 {
-    background-image: url("../images/instructors/instructor-5.jfif");
-}
-
-#instructor-6 {
-    background-image: url("../images/instructors/instructor-6.jfif");
-}
-
-#instructor-7 {
-    background-image: url("../images/instructors/instructor-7.jfif");
-}
-
-#instructor-8 {
-    background-image: url("../images/instructors/instructor-8.jfif");
-}
-
-#instructor-9 {
-    background-image: url("../images/instructors/instructor-9.jfif");
-}
-
-#instructor-10 {
-    background-image: url("../images/instructors/instructor-10.jfif");
-}
-
-#instructor-11 {
-    background-image: url("../images/instructors/instructor-11.jfif");
-}
-
-#instructor-12 {
-    background-image: url("../images/instructors/instructor-12.jfif");
-}
-
-.gallery-image {
-    width: 450px;
-    object-fit: scale-down;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 5px;
-}
-
 /* End of Images */
 
 
@@ -375,6 +335,10 @@ header h1 {
     font-size: medium;
 }
 
+#gallery {
+    height: 30%;
+}
+
 /* Padding - Schedule page */
 table {
     table-layout: fixed;
@@ -532,14 +496,6 @@ td {
         width: 24%;
     }
 
-    .gallery-image {
-        width: 150px;
-        object-fit: scale-down;
-        max-width: 100%;
-        max-height: 100%;
-        margin: 5px;
-    }
-
     /* Tablet - Schedule page */
 
     .legend {
@@ -647,13 +603,6 @@ td {
         padding: 1%;
         max-width: 100%;
         width: 48%;
-    }
-
-    .gallery-image {
-        max-width: 100%;
-        max-height: 100%;
-        width: 100%;
-        margin: 5px;
     }
 
     .intro-text {

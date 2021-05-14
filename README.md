@@ -56,7 +56,7 @@ The website provides users with information about the process for joining classe
   * Horizontal alignment navs & tabs used for navbar
   * Used stacked to horizontal grid for introduction section on home page.
   * Used container-fluid to remove empty spaces around block while keeping like together.
-  * For the image gallery on About page, used Carousel with captions
+  * For the image gallery on About page, used Carousel.
   * Sign up for newsletter form created with modals.
 
 ## Testing
