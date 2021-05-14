@@ -100,7 +100,7 @@ The website provides users with information about the process for joining classe
 * Classes page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
 
-* Classes and Timetable page:
+* Schedule page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
 
 * Contact page:
@@ -111,6 +111,8 @@ The website provides users with information about the process for joining classe
     * Generated (free) from [here](https://www.termsandconditionsgenerator.com/), used Link with Free Hosting - [sample](https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW). Country = Netherlands, State = Limburg, used my email address but would likely use a MBM-hosted mailbox.
   * Privacy Policy:
     * Generated (free) from [here](https://www.privacypolicygenerator.info/), used link with Free Hosting - [sample](https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i). Selected cookies for tracking usage (not included in this version of website), Google AdSense to reach a greater audience, no third party advertising (able to change later)
+
+  * Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
 
 ### Media
 

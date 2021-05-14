@@ -119,7 +119,6 @@ body {
     background-color: #e1dbcf;
 }
 
-
 #header-text,
 #footer,
 .nav-link,
@@ -130,6 +129,8 @@ body {
     color: #334545;
     text-decoration: none;
 }
+
+/* Colours - Header */
 
 #quote {
     color: #314357;
@@ -149,13 +150,25 @@ body {
     mix-blend-mode: color-dodge;
 }
 
+/* Colours - Sign up Modal */
+
+.modal-content {
+    color:#334545;
+}
+
+/* Colours - Home */
+
 .intro-heading {
     mix-blend-mode: darken;
 }
 
+/* Colours - About */
+
 .meet-team {
     background-color: #80808057;
 }
+
+/* Colours - Schedule */
 
 .special-class {
     background-color: lightblue;
@@ -172,6 +185,8 @@ body {
 .fast-class {
     background-color: lightsalmon;
 }
+
+/* Colours - Footer */
 
 .footer-link:hover {
     border: 1px solid #acbba6;
@@ -230,7 +245,6 @@ header h1 {
 #signup-form {
     align-self: flex-end;
 }
-
 
 .section-heading {
     margin-top: 10px;
@@ -438,6 +452,20 @@ td {
 .form-input {
     display: inline-block;
     width: 100%;
+}
+
+/* Padding - Sign up Modal */
+
+.modal-content {
+    background-image: url("../images/modal-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.form-check-label {
+    font-style: italic;    
 }
 
 

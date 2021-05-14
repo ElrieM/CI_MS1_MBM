@@ -61,234 +61,283 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="contact.html">Contact</a>
-                                    </li>                                
+                                    </li>
                                 </ul>
                                 <div class="d-flex" id="signup-form">
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-outline-secondary me-2"
-                                        data-bs-toggle="modal" data-bs-target="#signup-block">
+                                    <button type="button" class="btn btn-outline-secondary me-2" data-bs-toggle="modal"
+                                        data-bs-target="#signup-block">
                                         Sign Up
                                     </button>
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="signup-block" tabindex="-1"
-                                        aria-labelledby="signup-blockLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="signup-blockLabel">Modal title</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    ...
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save
-                                                        changes</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- End of Navigation bar -->
+                    </nav>
+                    <!-- Modal -->
+                    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                                        advice.</p>
+                                    <!-- Signup form, posts to CI formdump -->
+                                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                                        <!-- First name -->
+                                        <div class="col-md-6">
+                                            <label for="validname1" class="form-label">First name</label>
+                                            <input type="text" name="firstname" class="form-control" id="validname1"
+                                                required>
+                                        </div>
+                                        <!-- Last name -->
+                                        <div class="col-md-6">
+                                            <label for="validname2" class="form-label">Last name</label>
+                                            <input type="text"  name="lastname" class="form-control" id="validname2"
+                                                required>
+                                        </div>
+                                        <!-- Email address -->
+                                        <div class="col-md-12">
+                                            <label for="validemail" class="form-label">Email address</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="inputgroupemail">@</span>
+                                                <input type="email"  name="email" class="form-control" id="validemail"
+                                                    aria-describedby="inputgroupemail" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalcheck" required>
+                                                <label class="form-check-label" for="invalcheck">
+                                                    Agree to terms of use
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-outline-dark">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- End of Navigation bar -->
-            </nav>
+                <section id="intro-section">
+                    <h3 class="section-heading">Welcome to Mind Body Motion Wellness Center</h3>
+                    <!-- Introduction and welcome section-->
+                    <div class="container-fluid">
+                        <div class="row intro-text">
+                            <div class="col-sm intro-block">
+                                <h4 class="intro-heading">Introduction</h4>
+                                <p>At MBM we believe that regular yoga practice can provide physical and mental health
+                                    benefits.
+                                </p>
+                                <p>Yoga is an ancient form of exercise that focuses on strength, flexibility and
+                                    breathing. A
+                                    set of
+                                    specific exercises, called poses, combined with specific breathing techniques and
+                                    meditation
+                                    principles are the building blocks of a yoga class.</p>
+                                <p>Whether you are young or old, overweight or fit, yoga has the power to calm the mind
+                                    and
+                                    strengthen the body.</p>
+                            </div>
+                            <div class="col-sm intro-block">
+                                <h4 class="intro-heading">What to Expect</h4>
+                                <p>The beauty of yoga is that you do not have to be a yogi or yogini to reap the
+                                    benefits. If a
+                                    pose
+                                    causes pain or proves too difficult, there are variations and modifications that can
+                                    be made
+                                    to
+                                    help students. Props like blocks, blankets and straps — even chairs — can be used to
+                                    help
+                                    you
+                                    get the most benefit from the poses.</p>
+                                <p>The most important thing to remember when starting a yoga practice (or any new health
+                                    habit)
+                                    is
+                                    that the key to success is doing it routinely.</p>
+                            </div>
+
+                            <div class="col-sm intro-block">
+                                <h4 class="intro-heading">Benefits</h4>
+                                <p>Yoga can improve your posture, and combined with meditation it can help you gain
+                                    focus, relax
+                                    and
+                                    sleep better.</p>
+                                <p>Studies have also shown that yoga can help:</p>
+                                <ul>
+                                    <li>reduce back pain,</li>
+                                    <li>strengthen bones,</li>
+                                    <li>improve balance,</li>
+                                    <li>reduce stress,</li>
+                                    <li>relieve symptoms of depression.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Introduction and welcome section-->
+                </section>
+                <section id="events-section">
+                    <!-- Upcoming events section-->
+                    <h2 class="section-heading">Upcoming Events</h2>
+                    <div class="container-fluid">
+                        <div class="row events-block">
+
+                            <!--- Event 1 -->
+                            <div class="col-sm event-item">
+                                <h6 class="event-heading">Silent Yin Special</h6>
+                                <div class="event-image" id="instructor-1"></div>
+                                <div class="event-details">
+                                    <p><i>Alicia Wallace</i><br>8 May 2021<br>Investment: €30</p>
+                                </div>
+                                <p class="event-desc">This Yin class is specially designed for those who are already
+                                    familiar
+                                    with a
+                                    yin
+                                    practice and would like to experience a journey where silence is holding space.</p>
+                            </div>
+                            <!--- End of Event 1 -->
+                            <!--- Event 2 -->
+                            <div class="col-sm event-item">
+                                <h6 class="event-heading">Yoga Nidra Immersion</h6>
+                                <div class="event-image" id="instructor-2"></div>
+                                <div class="event-details">
+                                    <p><i>Melissa Roets</i><br>12 Jun 2021<br>Investment: €85</p>
+                                </div>
+                                <p class="event-desc">Yoga Nidra is a deeply relaxing and rejuvenating practice and
+                                    guided
+                                    meditation with many health benefits. This workshop teaches you that you have a home
+                                    within
+                                    yourself, and how to return to it.</p>
+                            </div>
+                            <!--- End of Event 2 -->
+                            <!--- Event 3 -->
+                            <div class="col-sm event-item">
+                                <h6 class="event-heading">Opening Your Heart</h6>
+                                <div class="event-image" id="instructor-3"></div>
+                                <div class="event-details">
+                                    <p><i>Ruth Willis</i><br>10 Jul 2021<br>Investment: €35</p>
+                                </div>
+                                <p class="event-desc">This workshop is designed to create space, awareness, and
+                                    alignment of the
+                                    spine.You will be guided through some fundamental alignment principles and
+                                    techniques to
+                                    increase mobility and keep you strong and safe in backbends.</p>
+                            </div>
+                            <!--- End of Event 3 -->
+                            <!--- Event 4 -->
+                            <div class="col-sm event-item" id="event-4">
+                                <h6 class="event-heading">Clear Your Head</h6>
+                                <div class="event-image" id="instructor-4"></div>
+                                <div class="event-details">
+                                    <p><i>Amanda Clarke</i><br>14 Aug 2021<br>Investment: €35</p>
+                                </div>
+                                <p class="event-desc">Discover the power of touch by learning how to massage the face,
+                                    neck, and
+                                    shoulders with active organic herbal oils, and how this can help you detoxify and
+                                    replace
+                                    the
+                                    nutrient level of your complexion.</p>
+                            </div>
+                            <!--- End of Event 4 -->
+                        </div>
+                    </div>
+                    <!-- End of Upcoming events section-->
+                </section>
+                <footer>
+                    <!-- Footer section-->
+                    <div id="footer">
+                        <!-- Mobile / Tablet footer -->
+                        <div class="container-fluid handheld-footer">
+                            <div id="contact" class="row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
+                                <!-- Links to most relevant pages -->
+                                <a href="contact.html" class="col footer-link">Contact</a>
+                                <a href="schedule.html" class="col footer-link">Schedule</a>
+                                <a href="classes.html" class="col footer-link">Classes</a>
+                                <!-- Terms and Privacy pages hosted for free on generated website -->
+                                <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                                    class="col-6 footer-link" target="_blank">Privacy</a>
+                                <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                                    class="col-6 footer-link" target="_blank">Terms</a>
+                            </div>
+                            <div id="connect">
+                                <!-- Social media section, kept separate to keep items together -->
+                                <span id="connect-heading">Let's Connect</span>
+                                <br>
+                                <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
+                                        class="fab fa-facebook"></i></a>
+                                <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
+                                        class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="container-fluid desktop-footer">
+                            <!-- Desktop footer -->
+                            <div id="contact" class="row row-cols-12 justify-content-center-center">
+                                <!-- Links to most relevant pages -->
+                                <div class="col footer-link">
+                                    <p><a class="connect-item" href="contact.html">Contact</a></p>
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                                <div class="col footer-link">
+                                    <p><a class="connect-item" href="schedule.html">Schedule</a></p>
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="col footer-link">
+                                    <p><a class="connect-item" href="classes.html">Classes</a></p>
+                                    <i class="fas fa-spa"></i>
+                                </div>
+                                <div class="col footer-link">
+                                    <!-- Terms and Privacy pages hosted for free on generated website -->
+                                    <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                                            class="col-6 connect-item" target="_blank"
+                                            alt="Link to Privacy Terms">Privacy</a>
+                                    </p>
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="col footer-link">
+                                    <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                                            class="col-6 connect-item" target="_blank"
+                                            alt="Link to Terms and Conditions">Terms</a>
+                                    </p>
+                                    <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <div id="connect" class="col">
+                                    <!-- Social media section, kept separate to keep items together -->
+                                    <p>Let's Connect</p>
+                                    <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank"
+                                            alt="Link to Facebook">
+                                            <i class="fab fa-facebook"></i></a>
+                                        <a class="footer-icon" href="https://www.instagram.com/" target="_blank"
+                                            alt="Link to Instagram">
+                                            <i class="fab fa-instagram"></i></a>
+                                        <a class="footer-icon" href="https://www.twitter.com/" target="_blank"
+                                            alt="Link to Twitter">
+                                            <i class="fab fa-twitter"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Footer section-->
+                </footer>
         </div>
-        <section id="intro-section">
-            <h3 class="section-heading">Welcome to Mind Body Motion Wellness Center</h3>
-            <!-- Introduction and welcome section-->
-            <div class="container-fluid">
-                <div class="row intro-text">
-                    <div class="col-sm intro-block">
-                        <h4 class="intro-heading">Introduction</h4>
-                        <p>At MBM we believe that regular yoga practice can provide physical and mental health benefits.
-                        </p>
-                        <p>Yoga is an ancient form of exercise that focuses on strength, flexibility and breathing. A
-                            set of
-                            specific exercises, called poses, combined with specific breathing techniques and meditation
-                            principles are the building blocks of a yoga class.</p>
-                        <p>Whether you are young or old, overweight or fit, yoga has the power to calm the mind and
-                            strengthen the body.</p>
-                    </div>
-                    <div class="col-sm intro-block">
-                        <h4 class="intro-heading">What to Expect</h4>
-                        <p>The beauty of yoga is that you do not have to be a yogi or yogini to reap the benefits. If a
-                            pose
-                            causes pain or proves too difficult, there are variations and modifications that can be made
-                            to
-                            help students. Props like blocks, blankets and straps — even chairs — can be used to help
-                            you
-                            get the most benefit from the poses.</p>
-                        <p>The most important thing to remember when starting a yoga practice (or any new health habit)
-                            is
-                            that the key to success is doing it routinely.</p>
-                    </div>
-
-                    <div class="col-sm intro-block">
-                        <h4 class="intro-heading">Benefits</h4>
-                        <p>Yoga can improve your posture, and combined with meditation it can help you gain focus, relax
-                            and
-                            sleep better.</p>
-                        <p>Studies have also shown that yoga can help:</p>
-                        <ul>
-                            <li>reduce back pain,</li>
-                            <li>strengthen bones,</li>
-                            <li>improve balance,</li>
-                            <li>reduce stress,</li>
-                            <li>relieve symptoms of depression.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Introduction and welcome section-->
-        </section>
-        <section id="events-section">
-            <!-- Upcoming events section-->
-            <h2 class="section-heading">Upcoming Events</h2>
-            <div class="container-fluid">
-                <div class="row events-block">
-
-                    <!--- Event 1 -->
-                    <div class="col-sm event-item">
-                        <h6 class="event-heading">Silent Yin Special</h6>
-                        <div class="event-image" id="instructor-1"></div>
-                        <div class="event-details">
-                            <p><i>Alicia Wallace</i><br>8 May 2021<br>Investment: €30</p>
-                        </div>
-                        <p class="event-desc">This Yin class is specially designed for those who are already familiar
-                            with a
-                            yin
-                            practice and would like to experience a journey where silence is holding space.</p>
-                    </div>
-                    <!--- End of Event 1 -->
-                    <!--- Event 2 -->
-                    <div class="col-sm event-item">
-                        <h6 class="event-heading">Yoga Nidra Immersion</h6>
-                        <div class="event-image" id="instructor-2"></div>
-                        <div class="event-details">
-                            <p><i>Melissa Roets</i><br>12 Jun 2021<br>Investment: €85</p>
-                        </div>
-                        <p class="event-desc">Yoga Nidra is a deeply relaxing and rejuvenating practice and guided
-                            meditation with many health benefits. This workshop teaches you that you have a home within
-                            yourself, and how to return to it.</p>
-                    </div>
-                    <!--- End of Event 2 -->
-                    <!--- Event 3 -->
-                    <div class="col-sm event-item">
-                        <h6 class="event-heading">Opening Your Heart</h6>
-                        <div class="event-image" id="instructor-3"></div>
-                        <div class="event-details">
-                            <p><i>Ruth Willis</i><br>10 Jul 2021<br>Investment: €35</p>
-                        </div>
-                        <p class="event-desc">This workshop is designed to create space, awareness, and alignment of the
-                            spine.You will be guided through some fundamental alignment principles and techniques to
-                            increase mobility and keep you strong and safe in backbends.</p>
-                    </div>
-                    <!--- End of Event 3 -->
-                    <!--- Event 4 -->
-                    <div class="col-sm event-item" id="event-4">
-                        <h6 class="event-heading">Clear Your Head</h6>
-                        <div class="event-image" id="instructor-4"></div>
-                        <div class="event-details">
-                            <p><i>Amanda Clarke</i><br>14 Aug 2021<br>Investment: €35</p>
-                        </div>
-                        <p class="event-desc">Discover the power of touch by learning how to massage the face, neck, and
-                            shoulders with active organic herbal oils, and how this can help you detoxify and replace
-                            the
-                            nutrient level of your complexion.</p>
-                    </div>
-                    <!--- End of Event 4 -->
-                </div>
-            </div>
-            <!-- End of Upcoming events section-->
-        </section>
-        <footer>
-            <!-- Footer section-->
-            <div id="footer">
-                <!-- Mobile / Tablet footer -->
-                <div class="container-fluid handheld-footer">
-                    <div id="contact" class="row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
-                        <!-- Links to most relevant pages -->
-                        <a href="contact.html" class="col footer-link">Contact</a>
-                        <a href="schedule.html" class="col footer-link">Schedule</a>
-                        <a href="classes.html" class="col footer-link">Classes</a>
-                        <!-- Terms and Privacy pages hosted for free on generated website -->
-                        <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                            class="col-6 footer-link" target="_blank">Privacy</a>
-                        <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                            class="col-6 footer-link" target="_blank">Terms</a>
-                    </div>
-                    <div id="connect">
-                        <!-- Social media section, kept separate to keep items together -->
-                        <span id="connect-heading">Let's Connect</span>
-                        <br>
-                        <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
-                        <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="container-fluid desktop-footer">
-                    <!-- Desktop footer -->
-                    <div id="contact" class="row row-cols-12 justify-content-center-center">
-                        <!-- Links to most relevant pages -->
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="contact.html">Contact</a></p>
-                            <i class="fas fa-comment"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="schedule.html">Schedule</a></p>
-                            <i class="fas fa-calendar-alt"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="classes.html">Classes</a></p>
-                            <i class="fas fa-spa"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <!-- Terms and Privacy pages hosted for free on generated website -->
-                            <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                                    class="col-6 connect-item" target="_blank" alt="Link to Privacy Terms">Privacy</a>
-                            </p>
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                                    class="col-6 connect-item" target="_blank"
-                                    alt="Link to Terms and Conditions">Terms</a>
-                            </p>
-                            <i class="fas fa-balance-scale"></i>
-                        </div>
-                        <div id="connect" class="col">
-                            <!-- Social media section, kept separate to keep items together -->
-                            <p>Let's Connect</p>
-                            <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank"
-                                    alt="Link to Facebook">
-                                    <i class="fab fa-facebook"></i></a>
-                                <a class="footer-icon" href="https://www.instagram.com/" target="_blank"
-                                    alt="Link to Instagram">
-                                    <i class="fab fa-instagram"></i></a>
-                                <a class="footer-icon" href="https://www.twitter.com/" target="_blank"
-                                    alt="Link to Twitter">
-                                    <i class="fab fa-twitter"></i></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Footer section-->
-        </footer>
-    </div>
-    <!-- Bootstrap JavaScript script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-    </script>
+        <!-- Bootstrap JavaScript script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
