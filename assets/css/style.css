@@ -339,7 +339,24 @@ header h1 {
     height: 30%;
 }
 
+/* Padding - Classes page */
+
+.other-class-item {
+    height: 400px;
+}
+
+.class-thumbnail {
+    max-height: 275px;
+    max-width: 275px;
+}
+
+#notify {
+    font-size: smaller;
+    text-align: center;
+}
+
 /* Padding - Schedule page */
+
 table {
     table-layout: fixed;
     width: 100%;
@@ -496,6 +513,18 @@ td {
         width: 24%;
     }
 
+    /* Tablet - Classes page */
+
+    .other-class-item {
+        height: 375px;
+        overflow: auto;
+    }
+    
+    .class-thumbnail {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
     /* Tablet - Schedule page */
 
     .legend {
@@ -608,6 +637,13 @@ td {
     .intro-text {
         font-size: small;
     }
+
+    /* Mobile - Classes page */
+
+    .other-class-item {
+        height: unset;
+    }
+    
 
     /* Mobile - Schedule page */
 

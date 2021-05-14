@@ -49,15 +49,15 @@ The website provides users with information about the process for joining classe
 ### Technologies Used
 
 * HTML 5
-  *
+  * Used container-fluid to remove empty spaces around block while keeping like together.
 * CSS
   *
 * Bootstrap 5
   * Horizontal alignment navs & tabs used for navbar
   * Used stacked to horizontal grid for introduction section on home page.
-  * Used container-fluid to remove empty spaces around block while keeping like together.
   * For the image gallery on About page, used Carousel.
   * Sign up for newsletter form created with modals.
+  * Classes layout uses List Group, with headings as disabled items, and combined with Scrollspy.
 
 ## Testing
 
@@ -99,6 +99,16 @@ The website provides users with information about the process for joining classe
 
 * Classes page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
+  * Images for class descriptions:
+    * Ashtanga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822305/)
+    * Yoga Basics Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822689/)
+    * Hatha Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-in-sports-bras-and-leggings-doing-yoga-3822356/)
+    * Vinyasa Flow Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822691/)
+    * Restorative Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822164/)
+    * Tai Chi picture, used image of similar yoga position. Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822171/)
+    * Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
+    * Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
+    * Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
 
 * Schedule page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
