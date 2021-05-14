@@ -22,6 +22,7 @@ body {
 #background-cover-2 {
     background-image: url(../images/background-cover-2.jpg);
     background-repeat: repeat;
+    background-size: cover;
 }
 
 #hero-image {
@@ -80,6 +81,7 @@ body {
 /* ------ Colours ------ */
 
 #header,
+#navbar-links,
 #footer {
     background-color: #e1dbcf;
 }
@@ -135,6 +137,11 @@ body {
 
 /* Colours - Schedule */
 
+#schedule-container,
+#rates-table {
+    background-color:#e1dbcf9a;
+}
+
 .special-class {
     background-color: lightblue;
 }
@@ -185,7 +192,7 @@ header {
 }
 
 header h1 {
-    padding-top: .5em;
+    padding-top: 1em;
 }
 
 #quote {
@@ -377,6 +384,7 @@ header h1 {
 }
 
 /* Padding - Schedule page */
+
 
 table {
     table-layout: fixed;
