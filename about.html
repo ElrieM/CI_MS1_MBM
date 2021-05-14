@@ -15,45 +15,124 @@
 </head>
 
 <body>
-    <div id="header">
-        <header>
-            <!-- Header section -->
-            <div id="logo-left"></div>
-            <div id="logo-right"></div>
-            <div id="header-text">
-                <h1>Mind Body Motion</h1>
-                <h2>Wellness Center</h2>
-            </div>
-            <h3 id="quote">
-                "When mind, body and spirit are in harmony, happiness is the natural result"
-                <br><i>Deepak Chopra</i>
-            </h3>
-            <div id="logo-center"></div>
-            <!-- End of Header -->
-        </header>
-
-        <!-- Navigation bar -->
-        <div class="container-fluid nav-bar">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="classes.html">Classes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="schedule.html">Schedule and Rates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <div id="background-cover-2">
+        <!-- Header section -->
+        <div id="header">
+            <header>
+                <div>
+                    <div id="logo-left"></div>
+                    <div id="logo-right"></div>
+                </div>
+                <div id="header-text">
+                    <h1>Mind Body Motion</h1>
+                    <h2>Wellness Center</h2>
+                </div>
+                <h3 id="quote">
+                    "When mind, body and spirit are in harmony, happiness is the natural result"
+                    <br><i>Deepak Chopra</i>
+                </h3>
+                <div id="logo-center"></div>
+            </header>
+            <nav>
+                <!-- Navigation bar -->
+                <div class="nav-bar">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <!-- Mobile menu -->
+                            <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse fixed-top" id="navbar-links">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="classes.html">Classes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="schedule.html">Schedule and
+                                            Rates</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="d-flex" id="signup-form">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-secondary me-2" data-bs-toggle="modal"
+                                        data-bs-target="#signup-block">
+                                        Sign Up
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Navigation bar -->
+                    </nav>
+                    <!-- Modal -->
+                    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                                        advice.</p>
+                                    <!-- Signup form, posts to CI formdump -->
+                                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                                        <!-- First name -->
+                                        <div class="col-md-6">
+                                            <label for="validname1" class="form-label">First name</label>
+                                            <input type="text" name="firstname" class="form-control" id="validname1"
+                                                required>
+                                        </div>
+                                        <!-- Last name -->
+                                        <div class="col-md-6">
+                                            <label for="validname2" class="form-label">Last name</label>
+                                            <input type="text" name="lastname" class="form-control" id="validname2"
+                                                required>
+                                        </div>
+                                        <!-- Email address -->
+                                        <div class="col-md-12">
+                                            <label for="validemail" class="form-label">Email address</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="inputgroupemail">@</span>
+                                                <input type="email" name="email" class="form-control" id="validemail"
+                                                    aria-describedby="inputgroupemail" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="invalcheck"
+                                                    required>
+                                                <label class="form-check-label" for="invalcheck">
+                                                    Agree to terms of use
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-outline-dark">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <!-- End of Navigation bar -->
-    </div>
+        <!-- End of Header section -->
 
     <section id="instructor-section">
         <!-- Instructors section-->
