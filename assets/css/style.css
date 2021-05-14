@@ -19,6 +19,11 @@ body {
     margin: 0;
 }
 
+#background-cover-2 {
+    background-image: url(../images/background-cover-2.jpg);
+    background-repeat: repeat;
+}
+
 #hero-image {
     background-image: url(../images/home-cover-1.jpg);
     background-repeat: no-repeat;
@@ -207,7 +212,7 @@ header h1 {
 }
 
 .section-heading {
-    margin-top: 10px;
+    margin-top: 1em;
     margin-bottom: .5rem;
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
@@ -341,13 +346,29 @@ header h1 {
 
 /* Padding - Classes page */
 
+.classes-block {
+    width: 100%;
+}
+
+.yoga-class-item {
+    height: 480px;
+    margin-top: .5em;
+}
+
+.list-group-item+.list-group-item {
+    border-top-width: 1px;
+}
+
 .other-class-item {
-    height: 400px;
+    height: 480px;
+    margin-bottom: 1rem;
 }
 
 .class-thumbnail {
     max-height: 275px;
     max-width: 275px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #notify {
