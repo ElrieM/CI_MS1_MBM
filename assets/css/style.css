@@ -20,7 +20,7 @@ body {
 }
 
 #background-cover-2 {
-    background-image: url(../images/background-cover-2.jpg);
+    background-image: linear-gradient(#f5f0ed, #d4c6bd);
     background-repeat: repeat;
     background-size: cover;
 }
