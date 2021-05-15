@@ -445,8 +445,12 @@ td {
     vertical-align: top;
 }
 
+/* ---- Contact details */
+
 #map {
-    position: center;
+    padding-top: 1em;
+    width: 100%;
+    height: 100%; 
 }
 
 /* Padding - Sign up Modal */
@@ -682,6 +686,9 @@ td {
         width: 96%;
         table-layout: auto;
     }
+
+    /* Mobile - Contact page */
+
 
     /* Mobile - Footer */
 
