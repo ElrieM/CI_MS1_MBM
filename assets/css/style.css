@@ -21,8 +21,6 @@ body {
 
 #background-cover-2 {
     background-image: linear-gradient(#f5f0ed, #d4c6bd);
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 #hero-image {
@@ -120,7 +118,7 @@ body {
 /* Colours - Sign up Modal */
 
 .modal-content {
-    color:#334545;
+    color: #334545;
 }
 
 /* Colours - Home */
@@ -139,7 +137,7 @@ body {
 
 #schedule-container,
 #rates-table {
-    background-color:#e1dbcf9a;
+    background-color: #e1dbcf9a;
 }
 
 .special-class {
@@ -421,47 +419,34 @@ td {
 }
 
 /* Padding - Contact page */
-
-#address-line {
-    margin-left: 16px;
-}
+/* ---- Contact Form */
 
 .icon {
     font-size: xx-large;
 }
 
-
 #contact-section {
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 
+#contact-subject {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+#contact-message {
+    height: 10em;
+    vertical-align: top;
+}
+
 #map {
     position: center;
-}
-
-.contact-block {
-    text-align: center;
-}
-
-.contact-form {
-    width: 70%;
-    height: fit-content;
-    padding: 2%;
-    display: inline-block;
-}
-
-.contact-form>label {
-    padding: 5px 0 0 0;
-}
-
-#query {
-    height: 20%;
-}
-
-.form-input {
-    display: inline-block;
-    width: 100%;
 }
 
 /* Padding - Sign up Modal */
@@ -475,7 +460,7 @@ td {
 }
 
 .form-check-label {
-    font-style: italic;    
+    font-style: italic;
 }
 
 
@@ -548,7 +533,7 @@ td {
         height: 375px;
         overflow: auto;
     }
-    
+
     .class-thumbnail {
         max-height: 200px;
         max-width: 200px;
@@ -672,7 +657,7 @@ td {
     .other-class-item {
         height: unset;
     }
-    
+
 
     /* Mobile - Schedule page */
 
