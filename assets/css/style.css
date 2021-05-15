@@ -103,7 +103,7 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    mix-blend-mode: color-dodge;
+    mix-blend-mode: color-burn;
 }
 
 /* Colours - Sign up Modal */
@@ -221,8 +221,9 @@ header h1 {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 5em;
     padding-top: 10px;
-    margin-top: 2rem;
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -391,6 +392,14 @@ tr,
 th,
 td {
     border: 1px solid black;
+}
+
+.special-class:hover,
+.beginner-class:hover,
+.slow-class:hover,
+.fast-class:hover {
+    font-size:larger;
+    padding: 1em;
 }
 
 #rates-table {
