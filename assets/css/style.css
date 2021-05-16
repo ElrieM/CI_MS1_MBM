@@ -12,7 +12,6 @@ body {
     color: #312d39;
 }
 
-
 /* ------ Images ------ */
 
 #background-cover {
@@ -71,7 +70,8 @@ body {
 
 #header,
 #navbar-links,
-#footer {
+#footer,
+#footer-2 {
     background-color: #e1dbcf;
 }
 
@@ -256,7 +256,19 @@ header h1 {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 5em;
+    height: fit-content;
+    padding-top: 10px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Alternative footer for longer pages, fixed Footer issue */
+#footer-2 {
+position: relative;
+left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
     padding-top: 10px;
     margin-top: 1em;
     text-align: center;
