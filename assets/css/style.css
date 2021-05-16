@@ -75,6 +75,11 @@ body {
     background-color: #e1dbcf;
 }
 
+#header {
+    border-bottom: #accba6;
+    border-bottom-style: double;
+}
+
 #header-text,
 #footer,
 .nav-link,
@@ -122,6 +127,17 @@ body {
 
 .meet-team {
     background-color: #80808057;
+    color: #334545;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d4e0d6;
+    color: #334545;
+}
+
+.accordion-body {
+    color: #334545;
+
 }
 
 /* Colours - Schedule */
@@ -145,6 +161,15 @@ body {
 
 .fast-class {
     background-color: lightsalmon;
+}
+
+/* Colours - Contact page */
+
+.form-section,
+#contact-container {
+    color: #334545;
+    background-color: #d4e0d6;
+    border: #acbba6 double 2px;
 }
 
 /* Colours - Footer */
@@ -208,7 +233,7 @@ header h1 {
 }
 
 .section-heading {
-    margin-top: 1em;
+    margin-top: .5em;
     margin-bottom: .5rem;
     text-shadow: 2px 2px #cdcccf;
     text-align: center;
@@ -242,6 +267,11 @@ header h1 {
     padding-left: 3%;
 }
 
+#contact-section .section-heading,
+#enqform-section .section-heading {
+    margin-top: 0;
+}
+
 .footer-icon {
     padding-left: 1em;
     padding-right: 1em;
@@ -265,6 +295,14 @@ header h1 {
 
 .contact-heading {
     padding-top: .5em;
+}
+
+.contact-text {
+    padding: 1em 0;
+}
+
+.contact-text strong {
+    padding-top: 2%;
 }
 
 .intro-text {
@@ -316,6 +354,10 @@ header h1 {
     padding-top: 15px;
 }
 
+.class-item .class-heading {
+    font-family: 'Dancing Script', cursive;
+}
+
 .event-details {
     text-align: center;
     font-size: smaller;
@@ -326,6 +368,7 @@ header h1 {
 .event-desc {
     font-size: small;
 }
+
 
 /* Padding - About page */
 
@@ -383,23 +426,29 @@ table {
     table-layout: fixed;
     width: 100%;
     text-align: center;
-    border: 1px solid black;
+    border: 5px double #314357;
     font-size: small;
     margin: 10px 0;
+    color: #334545;
 }
 
 tr,
 th,
 td {
-    border: 1px solid black;
+    border: .2em solid #314357;
+    padding: .5em;
+}
+
+
+#rates-table {
+    border: 1px solid;
 }
 
 .special-class:hover,
 .beginner-class:hover,
 .slow-class:hover,
 .fast-class:hover {
-    font-size:larger;
-    padding: 1em;
+    text-decoration: underline;
 }
 
 #rates-table {
@@ -422,10 +471,33 @@ td {
 }
 
 /* Padding - Contact page */
-/* ---- Contact Form */
+
+#enqform-section {
+    margin-left: 5%;
+}
+
+#contact-container {
+    border: .1em solid #acbba6;
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+.container-text {
+    padding: 4em;
+}
 
 .icon {
     font-size: xx-large;
+}
+
+#map {
+    padding-bottom: .75em;
+}
+
+/* ---- Contact Form */
+
+.form-section {
+    padding: 1em 1em 2em 1em;
 }
 
 #contact-section {
@@ -453,7 +525,7 @@ td {
 #map {
     padding-top: 1em;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 /* Padding - Sign up Modal */
@@ -692,6 +764,14 @@ td {
 
     /* Mobile - Contact page */
 
+    #enqform-section {
+        padding: 0;
+        margin-left: 4%;
+    }
+
+    #contact-section {
+        padding: 0;
+    }
 
     /* Mobile - Footer */
 
@@ -709,6 +789,7 @@ td {
         position: relative;
         bottom: 0;
         margin: 0;
+        height: fit-content;
     }
 
     #connect {
