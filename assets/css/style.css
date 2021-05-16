@@ -137,14 +137,18 @@ body {
 
 .accordion-body {
     color: #334545;
-
 }
+
 
 /* Colours - Schedule */
 
 #schedule-container,
 #rates-table {
     background-color: #e1dbcf9a;
+}
+
+#download-pdf {
+    color:#334545;
 }
 
 .special-class {
@@ -161,6 +165,12 @@ body {
 
 .fast-class {
     background-color: lightsalmon;
+}
+
+#table-legend, 
+#book-button,
+.legend {
+ color:#334545;
 }
 
 /* Colours - Contact page */
@@ -421,6 +431,15 @@ header h1 {
 
 /* Padding - Schedule page */
 
+#booking-link,
+#download-link {
+    font-size: smaller;
+}
+
+#download-pdf {
+    font-size: xx-large;
+    margin-left: 25%;
+}
 
 table {
     table-layout: fixed;
@@ -463,8 +482,9 @@ td {
     text-indent: 10px;
 }
 
-#table-legend {
-    border:#334545 solid 1px;
+#table-legend,
+#booking-link,
+#download-link {
     padding: 1em;
 }
 
@@ -637,6 +657,10 @@ td {
         margin-right: 5%;
         width: 90%;
     }
+
+    #download-pdf {
+        margin-left: 10%;
+        }    
     
     #rates-table {
         margin-left: 5%;
@@ -655,6 +679,10 @@ td {
     .handheld-footer {
         visibility: visible;
         display: contents;
+    }
+
+    #footer {
+        position: relative;
     }
 
     #contact {
@@ -767,7 +795,9 @@ td {
         letter-spacing: -1px;
     }
 
-    #table-legend {
+    #table-legend,
+    #booking-link,
+    #download-link {
         font-size: xx-small;
     }
 
@@ -784,6 +814,15 @@ td {
         margin-right: 10%;
         font-size: xx-small;
         width: 80%;
+    }
+
+    #table-legend,
+    #booking-link,
+    #download-link {
+    padding: 0;
+    }
+    #download-pdf {
+    margin-left: 15%;
     }
 
     #rates-table {
