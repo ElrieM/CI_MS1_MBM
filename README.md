@@ -93,9 +93,8 @@ The website provides users with information about the process for joining classe
     * Yoga_assistance (slide 4) - Photo by Cliff Booth from [Pexels](https://www.pexels.com/photo/women-doing-yoga-4057067/)
     * Yoga_class (slide 3) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/women-doing-a-yoga-on-yoga-mat-3775587/)
     * Yoga_class_2 (slide 1) - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822692/)
-    * Lounge (slide 9) - Photo by KoolShooters from [Pexels](https://www.pexels.com/photo/healthy-light-relaxation-relaxing-6246210/)
-    * Class_supplies (slide 8) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/gray-textile-on-brown-wooden-shelf-4327012/)
-    * Locker_room (slide 10) - Photo by Polina Tankilevitch from [Pexels](https://www.pexels.com/photo/changing-room-3875514/)
+    * Lounge (slide 8) - Photo by KoolShooters from [Pexels](https://www.pexels.com/photo/healthy-light-relaxation-relaxing-6246210/)
+    * Locker_room (slide 9) - Photo by Polina Tankilevitch from [Pexels](https://www.pexels.com/photo/changing-room-3875514/)
 
 * Classes page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.

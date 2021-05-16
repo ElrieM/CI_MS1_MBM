@@ -393,8 +393,23 @@ header h1 {
     font-size: medium;
 }
 
+#carousel-mobile {
+    visibility: hidden;
+    display: none;
+}
+
+#carousel-large {
+    visibility: visible;
+    display:contents;
+}
+
 #gallery {
+    padding-top: 1em;
     height: 30%;
+}
+
+.gallery-image {
+    width: 100%;
 }
 
 /* Padding - Classes page */
@@ -428,6 +443,7 @@ header h1 {
     font-size: smaller;
     text-align: center;
 }
+
 
 /* Padding - Schedule page */
 
@@ -634,6 +650,20 @@ td {
         width: 24%;
     }
 
+    #carousel-mobile {
+        visibility: hidden;
+        display: none;
+    }
+    
+    #carousel-large {
+        visibility: visible;
+        display:contents;
+    }
+    
+    .gallery-image {
+        width: 100%;
+    }
+
     /* Tablet - Classes page */
 
     .other-class-item {
@@ -760,6 +790,16 @@ td {
 
     /* Mobile - About page */
 
+    #carousel-large {
+        visibility: hidden;
+        display: none;
+    }
+
+    #carousel-mobile {
+        visibility: visible;
+        display:contents;
+    }
+
     .meet-team {
         margin: 1%;
         padding: 1%;
@@ -769,6 +809,10 @@ td {
 
     .intro-text {
         font-size: small;
+    }
+
+    .gallery-image {
+        width: 100%;
     }
 
     /* Mobile - Classes page */
