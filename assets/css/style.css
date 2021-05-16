@@ -522,7 +522,6 @@ td {
 
 #contact-container {
     border: .1em solid #acbba6;
-    padding: .5em;
     margin-bottom: 2em;
 }
 
@@ -541,7 +540,7 @@ td {
 /* ---- Contact Form */
 
 .form-section {
-    padding: 1em 1em 2em 1em;
+    padding: 1em;
 }
 
 #contact-section {
@@ -659,7 +658,7 @@ td {
         visibility: visible;
         display:contents;
     }
-    
+
     .gallery-image {
         width: 100%;
     }
