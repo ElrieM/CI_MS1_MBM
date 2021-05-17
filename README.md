@@ -1,42 +1,72 @@
-# Mind Body Motion Wellness Centre
+# Mind Body Motion Wellness Centre Website
 
-View live site [here](https://elriem.github.io/CI_MS1_MBM/)
+[View live project here](https://elriem.github.io/CI_MS1_MBM/)
 
-This static front-end site was created to present information for a fictional wellness centre, offering yoga, meditation and tai chi classes.
+This is a business website for the Mind Body Motion Wellness Centre, a fictional fitness centre offering yoga, meditation and tai chi classes. It is designed to be responsive on a range of devices, making it easy to navigate for prospective students and existing students.
 
 The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
 
-## UX
+![mockup](docs/readme/responsivescreens.png)
+
+## User Experience (UX)
 
 ### User Stories
 
-* As the business owner, I want to:
-  * attract new students to the studio;
-  * make information easily accessable to cut down on administritative tasks;
-  * provide students with the centre's processes and procedures;
-  * inform students (existing and prospective) of upcoming events.
-* As a prospective student, I want to know:
-  * which classes are offered;
-  * dates and times of classes;
-  * prices and packages available;
-  * location of the wellness centre and contact details for further information.
-* As an existing student, I want to:
-  * find out about registering for upcoming events;
-  * see updated prices / buy additional class bundles;
-  * find out more about other classes that I have not tried yet.
+#### First Time Visitor Goals
 
-* Wireframe mockups
-  * [Home page](assets/wireframes/home.png)
-  * [About Us page](assets/wireframes/about.png)
-  * [Meet the Instructors page](assets/wireframes/instructors.png)
-  * [Classes page](assets/wireframes/classes.png)
-  * [Schedule and Rates page](assets/wireframes/schedule_and_rates.png)
-  * [Contact Us page](assets/wireframes/contact.png)
+  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the fitness centre.
+  2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect.
+  3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
+  4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
+  5. As a First Time Visitor, I want to locate social media links to see the fitness centre's social presence and find out more about other students' experiences.
+  
+#### Returning Visitor Goals
+  
+  1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
+  2. As a Returning Visitor, I want to find information regarding registering for upcoming events.
+  3. As a Returning Visitor, I want to find information about prices and buy additional class bundles.
+
+#### Frequent User Goals
+  
+  1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
+  2. changes to the timetable and new classes becoming available.
+  3. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
+
+### Design
+
+#### Colour Scheme
+
+* The main colours, generated from colormind.io, are:
+  * Light Shades (background / inverted text colour) - Spring Wood #e1dbcf
+  * Light Accent (accent colour) - Hillary #ac9d81
+  * Main brand colour - Granny Smith #8d9a9c
+  * Dark accent (alternative accent colour) - Toast #9d736b
+  * Dark shades (dark on light text colour, background) - Outer Space #334545
+
+#### Typography
+
+* Predominantly 2 fonts were used throughout the website:
+  * The Lato font is the main font used throughout the whole website, with Sans Serif as the fallback font in case the font does not import correctly into the site. It is summarised as "Male and female, serious but friendly. With the feeling of the Summer". This fits well with the fitness centre, which should have a calm and inviting feeling, but also reflects the seriousness of wellbeing and health.
+  * The Dancing Script font was selected for the quotes and class descriptions. It is described as "a lively casual script where the letters bounce and change size slightly" and ideal for a friendly, informal and spontaneous look. I selected it to bring an elegant playfulness to the design, as a compliment to the seriousness of the Lato font.
+
+#### Imagery
+
+* To make the website stand out, I opted for a full page background on the landing page. For responsiveness, I opted to use different background pictures for tablets and mobiles that scaled better to the device. The bright colours of the outfits, the muted backgrounds and the general beauty of the pictures engages with site visitors, immediately telling the visitor what the organisation is about.
+
+### Wireframes
+
+* Home page wireframe - [view](docs/wireframes/home.png)
+* About page - [view](docs/wireframes/about.png)
+* Classes page - [view](docs/wireframes/classes.png)
+* Schedule and Rates page - [view](docs/wireframes/schedule.png)
+* Contact Us page - [view](docs/wireframes/contact.png)
 
 ## Features
 
 ### Existing Features
 
+* Responsive on all device sizes
+* Interactive elements
 * Form to register for events and / or classes
 * Download timetable from website
 
@@ -46,18 +76,38 @@ The website provides users with information about the process for joining classe
 * Interactive class booking - allows users to book, or cancel, directly from the website
 * Information about additional therapies (massage, sauna, reiki, etc.) to be added.
 
-### Technologies Used
+## Technologies Used
+
+### Language Used
 
 * HTML 5
-  * Used container-fluid to remove empty spaces around block while keeping like together.
 * CSS
-  *
-* Bootstrap 5
-  * Horizontal alignment navs & tabs used for navbar
-  * Used stacked to horizontal grid for introduction section on home page.
-  * For the image gallery on About page, used Carousel.
-  * Sign up for newsletter form created with modals.
-  * Classes layout uses List Group, with headings as disabled items, and combined with Scrollspy.
+
+### Frameworks, Libraries & Programs Used
+
+* Bootstrap 5:
+  * Bootstrap was used to assist with the responsiveness and styling of the website:
+    * Horizontal alignment navs & tabs used for navbar
+    * Used stacked to horizontal grid for introduction section on home page.
+    * For the image gallery on About page, used Carousel.
+    * Sign up for newsletter form created with modals.
+    * Classes layout uses List Group, with headings as disabled items.
+  * Google Fonts:
+    * Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
+  * Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  * jQuery:
+    * jQuery in conjunction with Bootstrap make the navbar, modal and carousel responsive.
+  * Git:
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  * GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+  * Microsoft Paint and Microsoft Photos:
+    * Used to crop and resize images where required.
+  * Microsoft Excel:
+    * Used to prepared PDF schedule available for download from Schedule page.
+  * Balsamiq:
+    * Balsamiq was used to create the [wireframes](docs/wireframes) during the design process.
 
 ## Testing
 
