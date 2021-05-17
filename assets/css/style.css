@@ -427,28 +427,30 @@ left: 0;
 /* Padding - Classes page */
 
 .classes-block {
-    width: 100%;
-}
-
-.yoga-class-item {
-    height: 480px;
-    margin-top: .5em;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .list-group-item+.list-group-item {
     border-top-width: 1px;
 }
 
+.yoga-class-item {
+    height: 45%;
+    margin-bottom: .5em;
+}
+
 .other-class-item {
-    height: 480px;
-    margin-bottom: 1rem;
+    height: 95%;
+    margin-bottom: .5em;
 }
 
 .class-thumbnail {
-    max-height: 275px;
-    max-width: 275px;
-    margin-left: 20%;
-    margin-right: 20%;
+    max-height: 100%;
+    max-width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #notify {
@@ -677,14 +679,24 @@ td {
 
     /* Tablet - Classes page */
 
+    .classes-block {
+      width: unset;
+    }
+
+    .yoga-class-item,
     .other-class-item {
-        height: 375px;
+        height: 605px;
         overflow: auto;
     }
 
     .class-thumbnail {
-        max-height: 200px;
-        max-width: 200px;
+        width: 100%;
+        max-height: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     /* Tablet - Schedule page */
@@ -828,11 +840,18 @@ td {
 
     /* Mobile - Classes page */
 
+    .yoga-class-item,
     .other-class-item {
         height: unset;
     }
 
-
+    .class-thumbnail {
+      max-width: unset;
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+    }
+    
     /* Mobile - Schedule page */
 
     button.navbar-toggler.fixed-top {
