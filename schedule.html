@@ -15,557 +15,555 @@
 </head>
 
 <body>
-    <div id="background-cover-2">
-        <!-- Header section -->
-        <div id="header">
-            <header>
-                <div>
-                    <div id="logo-left"></div>
-                    <div id="logo-right"></div>
-                </div>
-                <div id="header-text">
-                    <h1>Mind Body Motion</h1>
-                    <h2>Wellness Centre</h2>
-                </div>
-                <h3 id="quote">
-                    "When mind, body and spirit are in harmony, happiness is the natural result"
-                    <br><i>Deepak Chopra</i>
-                </h3>
-                <div id="logo-center"></div>
-            </header>
-            <nav>
-                <!-- Navigation bar -->
-                <div class="nav-bar">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid">
-                            <!-- Mobile menu -->
-                            <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse fixed-top" id="navbar-links">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="classes.html">Classes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="schedule.html">Schedule and
-                                            Rates</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                                <div class="d-flex" id="signup-form">
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-outline-secondary me-2" data-bs-toggle="modal"
-                                        data-bs-target="#signup-block">
-                                        Sign Up
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Navigation bar -->
-                    </nav>
-                    <!-- Modal -->
-                    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
-                                        advice.</p>
-                                    <!-- Signup form, posts to CI formdump -->
-                                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
-                                        <!-- First name -->
-                                        <div class="col-md-6">
-                                            <label for="validname1" class="form-label">First name</label>
-                                            <input type="text" name="firstname" class="form-control" id="validname1"
-                                                required>
-                                        </div>
-                                        <!-- Last name -->
-                                        <div class="col-md-6">
-                                            <label for="validname2" class="form-label">Last name</label>
-                                            <input type="text" name="lastname" class="form-control" id="validname2"
-                                                required>
-                                        </div>
-                                        <!-- Email address -->
-                                        <div class="col-md-12">
-                                            <label for="validemail" class="form-label">Email address</label>
-                                            <input type="email" name="email" class="form-control" id="validemail"
-                                                aria-describedby="inputgroupemail" required>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="invalcheck"
-                                                    required>
-                                                <label class="form-check-label" for="invalcheck">
-                                                    Agree to terms of use
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-outline-dark">Subscribe</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- End of Header section -->
-        <section id="schedule-section">
-            <h2 class="section-heading">Class Schedule</h2>
-            <div class="container-fluid row justify-content-center">
-                <div class="col-sm-10 col-md-12 col-lg-10">
-                    <table id="schedule-container">
-                        <!-- Table Headings -->
-                        <tr>
-                            <th>Timeslot</th>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
-                            <th>Sunday</th>
-                        </tr>
-                        <!-- First slot of the week / Studio 2 -->
-                        <tr>
-                            <td>07:00 - 08:00</td>
-                            <td class="special-class">
-                                Tai Chi
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Matthew</em>
-                            </td>
-                            <td></td>
-                            <td class="special-class">
-                                Meditation
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Henry</em>
-                            </td>
-                            <td class="slow-class">
-                                Yin Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Nia</em>
-                            </td>
-                            <td></td>
-                            <td class="special-class">
-                                Meditation
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Henry</em>
-                            </td>
-                            <td></td>
-                        </tr>
-                        <!-- Second slot of the week / Studio 1-->
-                        <tr>
-                            <td>07:30 - 08:30</td>
-                            <td class="beginner-class">
-                                Vinyasa Flow
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Emelia</em>
-                            </td>
-                            <td class="special-class">
-                                Prenatal Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Alicia</em>
-                            </td>
-                            <td class="fast-class">
-                                Hatha Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Emelia</em>
-                            </td>
-                            <td></td>
-                            <td class="fast-class">
-                                Hatha Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Nia</em>
-                            </td>
-                            <td class="special-class">
-                                Pilates
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Eva</em>
-                            </td>
-                            <td class="beginner-class">
-                                Vinyasa Flow
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Ruth</em>
-                            </td>
-                        </tr>
-                        <!-- Third slot of the week / Studio 2 -->
-                        <tr>
-                            <td>08:00 - 09:00</td>
-                            <td></td>
-                            <td class="special-class">
-                                Meditation
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Lena</em>
-                            </td>
-                            <td class="slow-class">
-                                Restorative Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Reva</em>
-                            </td>
-                            <td></td>
-                            <td class="slow-class">
-                                Restorative Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Ruth</em></td>
-                            <td></td>
-                            <td class="slow-class">
-                                Yin Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Melissa</em>
-                            </td>
-                        </tr>
-                        <!-- Fourth slot of the week / Studio 1-->
-                        <tr>
-                            <td>12:00 - 13:00</td>
-                            <td class="fast-class">
-                                Ashtanga Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Melissa</em>
-                            </td>
-                            <td class="fast-class">
-                                Hatha Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Reva</em>
-                            </td>
-                            <td class="special-class">
-                                Pilates
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Eva</em>
-                            </td>
-                            <td class="fast-class">
-                                Ashtanga Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Louis</em>
-                            </td>
-                            <td class="special-class">
-                                Prenatal Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Eva</em>
-                            </td>
-                            <td class="beginner-class">
-                                Yoga Basics
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Nia</em>
-                            </td>
-                            <td class="fast-class">
-                                Hatha Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Emelia</em>
-                            </td>
-                        </tr>
-                        <!-- Fifth slot of the week / Studio 2 -->
-                        <tr>
-                            <td>12:30 - 13:30</td>
-                            <td></td>
-                            <td class="slow-class">
-                                Yin Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Henry</em>
-                            </td>
-                            <td></td>
-                            <td class="special-class">
-                                Meditation
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Emelia</em>
-                            </td>
-                            <td></td>
-                            <td class="slow-class">
-                                Restorative Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Ruth</em></td>
-                            <td class="special-class">
-                                Tai Chi
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Matthew</em>
-                            </td>
-                        </tr>
-                        <!-- Sixth slot of the week / Studio 1-->
-                        <tr>
-                            <td>18:00 - 19:00</td>
-                            <td class="beginner-class">
-                                Yoga Basics
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Eva</em>
-                            </td>
-                            <td class="fast-class">
-                                Ashtanga Yoga
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Louis</em>
-                            </td>
-                            <td class="beginner-class">
-                                Vinyasa Flow
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Reva</em>
-                            </td>
-                            <td class="beginner-class">
-                                Yoga Basics
-                                <br>
-                                Studio 1
-                                <br>
-                                <em>Nia</em>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <!-- Seventh slot of the week / Studio 2 -->
-                        <tr>
-                            <td>18:30 - 19:30</td>
-                            <td class="slow-class">
-                                Yin Yoga
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Alicia</em>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td class="special-class">
-                                Tai Chi
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Matthew</em>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td class="special-class">
-                                Meditation
-                                <br>
-                                Studio 2
-                                <br>
-                                <em>Lena</em>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-sm-2 col-md-10 col-lg-2 justify-content-center">
-                    <div id="table-legend">
-                        <h6><em>Colour Legend</em></h6>
-                        <a href="classes.html">
-                            <div class="special-class legend">Special classes - See Other Classes for details</div>
-                        </a>
-                        <a href="classes.html">
-                            <div class="beginner-class legend">Beginner classes - See Starting Out for details</div>
-                        </a>
-                        <a href="classes.html">
-                            <div class="slow-class legend">Slow-paced classes - See In the Flow for details</div>
-                        </a>
-                        <a href="classes.html">
-                            <div class="fast-class legend">Fast-paced classes - See Keeping Up with the Poses for
-                                details
-                            </div>
-                        </a>
-                    </div>
-                    <div id="booking-link">
-                        <p>
-                            <span><em>To book a class, submit the time and date on our </span>
-                            <a href="contact.html" type="button" id="book-button">Contact Form</em></a>
-                        </p>
-                    </div>
-                    <div id="download-link">
-                        <p>
-                            <em>Download PDF schedule:</em><br>
-                            <a id="download-pdf" href="assets/other/class_timetable.pdf" download><i class="fas fa-file-pdf"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="rates-section">
+    <!-- Header section -->
+    <div id="header">
+        <header>
             <div>
+                <div id="logo-left"></div>
+                <div id="logo-right"></div>
+            </div>
+            <div id="header-text">
+                <h1>Mind Body Motion</h1>
+                <h2>Wellness Centre</h2>
+            </div>
+            <h3 id="quote">
+                "When mind, body and spirit are in harmony, happiness is the natural result"
+                <br><i>Deepak Chopra</i>
+            </h3>
+            <div id="logo-center"></div>
+        </header>
+        <nav>
+            <!-- Navigation bar -->
+            <div class="nav-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <!-- Mobile menu -->
+                        <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- Navigation links -->
+                        <div class="collapse navbar-collapse fixed-top" id="navbar-links">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="classes.html">Classes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="schedule.html">Schedule and
+                                        Rates</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex" id="signup-form">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                                    data-bs-target="#signup-block">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Navigation bar -->
+                </nav>
                 <div class="container">
-                    <h2 class="section-heading">Class Tariffs and Packages</h2>
-                    <table id="rates-table">
-                        <tr>
-                            <td class="table-left">Trial class</td>
-                            <td>€10.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">Single class</td>
-                            <td>€15.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">5-lesson card (valid for 2 months)</td>
-                            <td>€55.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">10-lesson card (valid for 4 months)</td>
-                            <td>€110.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">20-lesson card (valid for 6 months)</td>
-                            <td>€200.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">Unlimited classes for a week</td>
-                            <td>€100.00</td>
-                        </tr>
-                        <tr>
-                            <td class="table-left">Unlimited classes for a month</td>
-                            <td>€350.00</td>
-                        </tr>
-                    </table>
+                    <!-- Sign up prompt -->
                 </div>
-            </div>
-        </section>
-
-
-        <footer>
-            <!-- Footer section-->
-            <div id="footer-2">
-                <!-- Mobile / Tablet footer -->
-                <div class="container-fluid handheld-footer">
-                    <div id="contact" class="row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
-                        <!-- Links to most relevant pages -->
-                        <a href="contact.html" class="col footer-link">Contact</a>
-                        <a href="schedule.html" class="col footer-link">Schedule</a>
-                        <a href="classes.html" class="col footer-link">Classes</a>
-                        <!-- Terms and Privacy pages hosted for free on generated website -->
-                        <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                            class="col-6 footer-link" target="_blank">Privacy</a>
-                        <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                            class="col-6 footer-link" target="_blank">Terms</a>
-                    </div>
-                    <div id="connect">
-                        <!-- Social media section, kept separate to keep items together -->
-                        <span id="connect-heading">Let's Connect</span>
-                        <br>
-                        <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
-                        <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="container-fluid desktop-footer">
-                    <!-- Desktop footer -->
-                    <div id="contact" class="row row-cols-12 justify-content-center-center">
-                        <!-- Links to most relevant pages -->
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="contact.html">Contact</a></p>
-                            <i class="fas fa-comment"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="schedule.html">Schedule</a></p>
-                            <i class="fas fa-calendar-alt"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a class="connect-item" href="classes.html">Classes</a></p>
-                            <i class="fas fa-spa"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <!-- Terms and Privacy pages hosted for free on generated website -->
-                            <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                                    class="col-6 connect-item" target="_blank" alt="Link to Privacy Terms">Privacy</a>
-                            </p>
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <div class="col footer-link">
-                            <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                                    class="col-6 connect-item" target="_blank"
-                                    alt="Link to Terms and Conditions">Terms</a>
-                            </p>
-                            <i class="fas fa-balance-scale"></i>
-                        </div>
-                        <div id="connect" class="col">
-                            <!-- Social media section, kept separate to keep items together -->
-                            <p>Let's Connect</p>
-                            <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank"
-                                    alt="Link to Facebook">
-                                    <i class="fab fa-facebook"></i></a>
-                                <a class="footer-icon" href="https://www.instagram.com/" target="_blank"
-                                    alt="Link to Instagram">
-                                    <i class="fab fa-instagram"></i></a>
-                                <a class="footer-icon" href="https://www.twitter.com/" target="_blank"
-                                    alt="Link to Twitter">
-                                    <i class="fab fa-twitter"></i></a>
-                            </p>
+                <!-- Modal -->
+                <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                                    advice.</p>
+                                <!-- Signup form, posts to CI formdump -->
+                                <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                                    <!-- First name -->
+                                    <div class="col-md-6">
+                                        <label for="validname1" class="form-label">First name</label>
+                                        <input type="text" name="firstname" class="form-control" id="validname1"
+                                            required>
+                                    </div>
+                                    <!-- Last name -->
+                                    <div class="col-md-6">
+                                        <label for="validname2" class="form-label">Last name</label>
+                                        <input type="text" name="lastname" class="form-control" id="validname2"
+                                            required>
+                                    </div>
+                                    <!-- Email address -->
+                                    <div class="col-md-12">
+                                        <label for="validemail" class="form-label">Email address</label>
+                                        <input type="email" name="email" class="form-control" id="validemail" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalcheck"
+                                                required>
+                                            <label class="form-check-label" for="invalcheck">
+                                                Agree to terms of use
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-outline-dark">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End of Footer section-->
-        </footer>
+        </nav>
     </div>
+    <!-- End of Header section -->
+    <section id="schedule-section">
+        <h2 class="section-heading">Class Schedule</h2>
+        <div class="container-fluid row justify-content-center">
+            <div class="col-sm-10 col-md-12 col-lg-10">
+                <table id="schedule-container">
+                    <!-- Table Headings -->
+                    <tr>
+                        <th>Timeslot</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                    <!-- First slot of the week / Studio 2 -->
+                    <tr>
+                        <td>07:00 - 08:00</td>
+                        <td class="special-class">
+                            Tai Chi
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Matthew</em>
+                        </td>
+                        <td></td>
+                        <td class="special-class">
+                            Meditation
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Henry</em>
+                        </td>
+                        <td class="slow-class">
+                            Yin Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Nia</em>
+                        </td>
+                        <td></td>
+                        <td class="special-class">
+                            Meditation
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Henry</em>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- Second slot of the week / Studio 1-->
+                    <tr>
+                        <td>07:30 - 08:30</td>
+                        <td class="beginner-class">
+                            Vinyasa Flow
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Emelia</em>
+                        </td>
+                        <td class="special-class">
+                            Prenatal Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Alicia</em>
+                        </td>
+                        <td class="fast-class">
+                            Hatha Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Emelia</em>
+                        </td>
+                        <td></td>
+                        <td class="fast-class">
+                            Hatha Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Nia</em>
+                        </td>
+                        <td class="special-class">
+                            Pilates
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Eva</em>
+                        </td>
+                        <td class="beginner-class">
+                            Vinyasa Flow
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Ruth</em>
+                        </td>
+                    </tr>
+                    <!-- Third slot of the week / Studio 2 -->
+                    <tr>
+                        <td>08:00 - 09:00</td>
+                        <td></td>
+                        <td class="special-class">
+                            Meditation
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Lena</em>
+                        </td>
+                        <td class="slow-class">
+                            Restorative Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Reva</em>
+                        </td>
+                        <td></td>
+                        <td class="slow-class">
+                            Restorative Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Ruth</em></td>
+                        <td></td>
+                        <td class="slow-class">
+                            Yin Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Melissa</em>
+                        </td>
+                    </tr>
+                    <!-- Fourth slot of the week / Studio 1-->
+                    <tr>
+                        <td>12:00 - 13:00</td>
+                        <td class="fast-class">
+                            Ashtanga Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Melissa</em>
+                        </td>
+                        <td class="fast-class">
+                            Hatha Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Reva</em>
+                        </td>
+                        <td class="special-class">
+                            Pilates
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Eva</em>
+                        </td>
+                        <td class="fast-class">
+                            Ashtanga Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Louis</em>
+                        </td>
+                        <td class="special-class">
+                            Prenatal Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Eva</em>
+                        </td>
+                        <td class="beginner-class">
+                            Yoga Basics
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Nia</em>
+                        </td>
+                        <td class="fast-class">
+                            Hatha Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Emelia</em>
+                        </td>
+                    </tr>
+                    <!-- Fifth slot of the week / Studio 2 -->
+                    <tr>
+                        <td>12:30 - 13:30</td>
+                        <td></td>
+                        <td class="slow-class">
+                            Yin Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Henry</em>
+                        </td>
+                        <td></td>
+                        <td class="special-class">
+                            Meditation
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Emelia</em>
+                        </td>
+                        <td></td>
+                        <td class="slow-class">
+                            Restorative Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Ruth</em></td>
+                        <td class="special-class">
+                            Tai Chi
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Matthew</em>
+                        </td>
+                    </tr>
+                    <!-- Sixth slot of the week / Studio 1-->
+                    <tr>
+                        <td>18:00 - 19:00</td>
+                        <td class="beginner-class">
+                            Yoga Basics
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Eva</em>
+                        </td>
+                        <td class="fast-class">
+                            Ashtanga Yoga
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Louis</em>
+                        </td>
+                        <td class="beginner-class">
+                            Vinyasa Flow
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Reva</em>
+                        </td>
+                        <td class="beginner-class">
+                            Yoga Basics
+                            <br>
+                            Studio 1
+                            <br>
+                            <em>Nia</em>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <!-- Seventh slot of the week / Studio 2 -->
+                    <tr>
+                        <td>18:30 - 19:30</td>
+                        <td class="slow-class">
+                            Yin Yoga
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Alicia</em>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td class="special-class">
+                            Tai Chi
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Matthew</em>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td class="special-class">
+                            Meditation
+                            <br>
+                            Studio 2
+                            <br>
+                            <em>Lena</em>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-2 col-md-10 col-lg-2 justify-content-center">
+                <div id="table-legend">
+                    <h6><em>Colour Legend</em></h6>
+                    <a href="classes.html">
+                        <div class="special-class legend">Special classes - See Other Classes for details</div>
+                    </a>
+                    <a href="classes.html">
+                        <div class="beginner-class legend">Beginner classes - See Starting Out for details</div>
+                    </a>
+                    <a href="classes.html">
+                        <div class="slow-class legend">Slow-paced classes - See In the Flow for details</div>
+                    </a>
+                    <a href="classes.html">
+                        <div class="fast-class legend">Fast-paced classes - See Keeping Up with the Poses for
+                            details
+                        </div>
+                    </a>
+                </div>
+                <div id="booking-link">
+                    <p>
+                        <span><em>To book a class, submit the time and date on our </span>
+                        <a href="contact.html" type="button" id="book-button">Contact Form</em></a>
+                    </p>
+                </div>
+                <div id="download-link">
+                    <p>
+                        <em>Download PDF schedule:</em><br>
+                        <a id="download-pdf" href="assets/other/class_timetable.pdf" download><i
+                                class="fas fa-file-pdf"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rates-section">
+        <div>
+            <div class="container">
+                <h2 class="section-heading">Class Tariffs and Packages</h2>
+                <table id="rates-table">
+                    <tr>
+                        <td class="table-left">Trial class</td>
+                        <td>€10.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">Single class</td>
+                        <td>€15.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">5-lesson card (valid for 2 months)</td>
+                        <td>€55.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">10-lesson card (valid for 4 months)</td>
+                        <td>€110.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">20-lesson card (valid for 6 months)</td>
+                        <td>€200.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">Unlimited classes for a week</td>
+                        <td>€100.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-left">Unlimited classes for a month</td>
+                        <td>€350.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <!-- Footer section-->
+        <div id="footer">
+            <!-- Mobile / Tablet footer -->
+            <div class="container-fluid handheld-footer">
+                <div class="contact row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
+                    <!-- Links to most relevant pages -->
+                    <a href="contact.html" class="col footer-link">Contact</a>
+                    <a href="schedule.html" class="col footer-link">Schedule</a>
+                    <a href="classes.html" class="col footer-link">Classes</a>
+                    <!-- Terms and Privacy pages hosted for free on generated website -->
+                    <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                        class="col-6 footer-link" target="_blank">Privacy</a>
+                    <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                        class="col-6 footer-link" target="_blank">Terms</a>
+                </div>
+                <div class="connect">
+                    <!-- Social media section, kept separate to keep items together -->
+                    <span id="connect-heading">Let's Connect</span>
+                    <br>
+                    <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="container-fluid desktop-footer">
+                <!-- Desktop footer -->
+                <div class="contact row row-cols-12 justify-content-center-center">
+                    <!-- Links to most relevant pages -->
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="contact.html">Contact</a></p>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="schedule.html">Schedule</a></p>
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a class="connect-item" href="classes.html">Classes</a></p>
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <!-- Terms and Privacy pages hosted for free on generated website -->
+                        <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                                class="col-6 connect-item" target="_blank">Privacy</a>
+                        </p>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="col footer-link">
+                        <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                                class="col-6 connect-item" target="_blank">Terms</a>
+                        </p>
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="connect col">
+                        <!-- Social media section, kept separate to keep items together -->
+                        <p>Let's Connect</p>
+                        <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook"></i></a>
+                            <a class="footer-icon" href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i></a>
+                            <a class="footer-icon" href="https://www.twitter.com/" target="_blank">
+                                <i class="fab fa-twitter"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Footer section-->
+    </footer>
     <!-- Bootstrap JavaScript script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">

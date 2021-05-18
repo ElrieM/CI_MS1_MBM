@@ -1,1066 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Mind Body Motion Wellness Centre</title>
-  </head>
 
-  <body>
-    <div id="background-cover-2">
-      <!-- Header section -->
-      <div id="header">
-        <header>
-          <div>
-            <div id="logo-left"></div>
-            <div id="logo-right"></div>
-          </div>
-          <div id="header-text">
-            <h1>Mind Body Motion</h1>
-            <h2>Wellness Centre</h2>
-          </div>
-          <h3 id="quote">
-            "When mind, body and spirit are in harmony, happiness is the natural
-            result"
-            <br /><i>Deepak Chopra</i>
-          </h3>
-          <div id="logo-center"></div>
-        </header>
-        <nav>
-          <!-- Navigation bar -->
-          <div class="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid">
-                <!-- Mobile menu -->
-                <button
-                  class="navbar-toggler fixed-top"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbar-links"
-                  aria-controls="navbar-links"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse fixed-top"
-                  id="navbar-links"
-                >
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        aria-current="page"
-                        href="index.html"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="schedule.html"
-                        >Schedule and Rates</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                  <div class="d-flex" id="signup-form">
-                    <!-- Button trigger modal -->
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary me-2"
-                      data-bs-toggle="modal"
-                      data-bs-target="#signup-block"
-                    >
-                      Sign Up
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Navigation bar -->
-            </nav>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="signup-block"
-              tabindex="-1"
-              aria-labelledby="signup-blockLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="signup-blockLabel">
-                      Subscribe to Our Newsletter
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                      Sign up for our monthly newsletter to be alerted of new
-                      events and wellbeing advice.
-                    </p>
-                    <!-- Signup form, posts to CI formdump -->
-                    <form
-                      class="row g-3"
-                      method="POST"
-                      action="https://formdump.codeinstitute.net/"
-                    >
-                      <!-- First name -->
-                      <div class="col-md-6">
-                        <label for="validname1" class="form-label"
-                          >First name</label
-                        >
-                        <input
-                          type="text"
-                          name="firstname"
-                          class="form-control"
-                          id="validname1"
-                          required
-                        />
-                      </div>
-                      <!-- Last name -->
-                      <div class="col-md-6">
-                        <label for="validname2" class="form-label"
-                          >Last name</label
-                        >
-                        <input
-                          type="text"
-                          name="lastname"
-                          class="form-control"
-                          id="validname2"
-                          required
-                        />
-                      </div>
-                      <!-- Email address -->
-                      <div class="col-md-12">
-                        <label for="validemail" class="form-label"
-                          >Email address</label
-                        >
-                        <input
-                          type="email"
-                          name="email"
-                          class="form-control"
-                          id="validemail"
-                          aria-describedby="inputgroupemail"
-                          required
-                        />
-                      </div>
-                      <div class="col-12">
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value=""
-                            id="invalcheck"
-                            required
-                          />
-                          <label class="form-check-label" for="invalcheck">
-                            Agree to terms of use
-                          </label>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="submit" class="btn btn-outline-dark">
-                          Subscribe
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Mind Body Motion Wellness Centre</title>
+</head>
+
+<body>
+  <!-- Header section -->
+  <div id="header">
+    <header>
+      <div>
+        <div id="logo-left"></div>
+        <div id="logo-right"></div>
       </div>
-      <!-- End of Header section -->
-      <section id="instructor-section">
-        <!-- Instructors section-->
-        <h2 class="section-heading">Meet the Team</h2>
-        <div class="container-fluid">
-          <div class="row row-cols-6 row-cols-md-3 g-1 align-content-center">
-            <!-- Teacher 1 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="card-title tmember-name">Alicia Wallace</h4>
-                <img
-                  src="assets/images/instructors/instructor-1.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Live the moment</p>
-                  <p><i>Yin / Prenatal Yoga</i></p>
-                </div>
+      <div id="header-text">
+        <h1>Mind Body Motion</h1>
+        <h2>Wellness Centre</h2>
+      </div>
+      <h3 id="quote">
+        "When mind, body and spirit are in harmony, happiness is the natural result"
+        <br><i>Deepak Chopra</i>
+      </h3>
+      <div id="logo-center"></div>
+    </header>
+    <nav>
+      <!-- Navigation bar -->
+      <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <!-- Mobile menu -->
+            <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse fixed-top" id="navbar-links">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html active">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="classes.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="schedule.html">Schedule and
+                    Rates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="d-flex" id="signup-form">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                  data-bs-target="#signup-block">
+                  Sign Up
+                </button>
               </div>
             </div>
-
-            <!-- Teacher 2 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Melissa Roets</h4>
-                <img
-                  src="assets/images/instructors/instructor-2.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Follow your heart</p>
-                  <p><i>Ashtanga, Yin</i></p>
-                </div>
+          </div>
+          <!-- End of Navigation bar -->
+        </nav>
+        <div class="container">
+          <!-- Sign up prompt -->
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-
-            <!-- Teacher 3 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Ruth Willis</h4>
-                <img
-                  src="assets/images/instructors/instructor-3.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Love more. Worry less</p>
-                  <p><i>Vinyasa Flow, Prenatal, Restorative</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 4 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Amanda Clarke</h4>
-                <img
-                  src="assets/images/instructors/instructor-4.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>This too shall pass</p>
-                  <p><i>Ayurveda</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 5 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Emelia Stewart</h4>
-                <img
-                  src="assets/images/instructors/instructor-5.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Choose to shine</p>
-                  <p><i>Vinyasa Flow, Meditation, Restorative</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 6 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Nia Vargas</h4>
-                <img
-                  src="assets/images/instructors/instructor-6.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Love conquers all</p>
-                  <p><i>Hatha, Yin, Yoga Basics</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 7 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Louis Barnett</h4>
-                <img
-                  src="assets/images/instructors/instructor-7.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Enjoy the little things</p>
-                  <p><i>Ashtanga</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 8 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Henry Townsend</h4>
-                <img
-                  src="assets/images/instructors/instructor-8.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Better things are coming</p>
-                  <p><i>Yin, Meditation</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 9 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Reva Thomson</h4>
-                <img
-                  src="assets/images/instructors/instructor-9.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Feel the fear and do it anyway</p>
-                  <p><i>Ashtanga, Hatha, Restorative</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 10 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Eva Russell</h4>
-                <img
-                  src="assets/images/instructors/instructor-10.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Take the risk or lose the chance</p>
-                  <p><i>Yoga Basics, Pilates</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 11 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Matthew Marc</h4>
-                <img
-                  src="assets/images/instructors/instructor-11.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Grow through what you go through</p>
-                  <p><i>Vinyasa Flow, Tai Chi</i></p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Teacher 12 -->
-            <div class="col meet-team">
-              <div class="card h-100">
-                <h4 class="tmember-name">Lena Davis</h4>
-                <img
-                  src="assets/images/instructors/instructor-12.jpg"
-                  class="card-img-top"
-                />
-                <div class="card-body">
-                  <p>Stars can’t shine without darkness</p>
-                  <p><i>Yin, Meditation, Restorative</i></p>
-                </div>
+              <div class="modal-body">
+                <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                  advice.</p>
+                <!-- Signup form, posts to CI formdump -->
+                <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                  <!-- First name -->
+                  <div class="col-md-6">
+                    <label for="validname1" class="form-label">First name</label>
+                    <input type="text" name="firstname" class="form-control" id="validname1" required>
+                  </div>
+                  <!-- Last name -->
+                  <div class="col-md-6">
+                    <label for="validname2" class="form-label">Last name</label>
+                    <input type="text" name="lastname" class="form-control" id="validname2" required>
+                  </div>
+                  <!-- Email address -->
+                  <div class="col-md-12">
+                    <label for="validemail" class="form-label">Email address</label>
+                    <input type="email" name="email" class="form-control" id="validemail" required>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
+                      <label class="form-check-label" for="invalcheck">
+                        Agree to terms of use
+                      </label>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-outline-dark">Subscribe</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
-        <!-- End of Instructors section-->
-      </section>
-      <section id="facilities-section">
-        <div>
-          <!-- Facilities and FAQ section-->
-          <h2 class="section-heading">Facilities and FAQ</h2>
-          <div class="container-fluid">
-            <div class="accordion" id="faq-accordion">
-              <!-- Accordion part 1, automatically visible -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faq-h-facilities">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Facilities
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="faq-h-facilities"
-                  data-bs-parent="#faq-accordion"
-                >
-                  <div class="accordion-body">
-                    <ul>
-                      <li>
-                        Two modern studio rooms with capacity for 15 students
-                        each.
-                      </li>
-                      <li>
-                        Locker room with showers, storage and changing areas.
-                      </li>
-                      <li>
-                        Yoga mats and blankets are available, but we recommend
-                        bringing your own.
-                      </li>
-                      <li>
-                        Props such as chairs, foams, bolsters, blocks, wooden
-                        bricks and belts.
-                      </li>
-                    </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End of Header section -->
+  <section id="instructor-section">
+    <!-- Instructors section-->
+    <h2 class="section-heading">Meet the Team</h2>
+    <div class="container-fluid">
+      <div class="row row-cols-6 row-cols-md-3 g-1 align-content-center">
+        <!-- Teacher 1 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="card-title tmember-name">Alicia Wallace</h4>
+            <img src="assets/images/instructors/instructor-1.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Live the moment</p>
+              <p><i>Yin / Prenatal Yoga</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 2 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Melissa Roets</h4>
+            <img src="assets/images/instructors/instructor-2.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Follow your heart</p>
+              <p><i>Ashtanga, Yin</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 3 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Ruth Willis</h4>
+            <img src="assets/images/instructors/instructor-3.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Love more. Worry less</p>
+              <p><i>Vinyasa Flow, Prenatal, Restorative</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 4 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Amanda Clarke</h4>
+            <img src="assets/images/instructors/instructor-4.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>This too shall pass</p>
+              <p><i>Ayurveda</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 5 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Emelia Stewart</h4>
+            <img src="assets/images/instructors/instructor-5.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Choose to shine</p>
+              <p><i>Vinyasa Flow, Meditation, Restorative</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 6 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Nia Vargas</h4>
+            <img src="assets/images/instructors/instructor-6.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Love conquers all</p>
+              <p><i>Hatha, Yin, Yoga Basics</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 7 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Louis Barnett</h4>
+            <img src="assets/images/instructors/instructor-7.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Enjoy the little things</p>
+              <p><i>Ashtanga</i></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Teacher 8 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Henry Townsend</h4>
+            <img src="assets/images/instructors/instructor-8.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Better things are coming</p>
+              <p><i>Yin, Meditation</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 9 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Reva Thomson</h4>
+            <img src="assets/images/instructors/instructor-9.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Feel the fear and do it anyway</p>
+              <p><i>Ashtanga, Hatha, Restorative</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 10 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Eva Russell</h4>
+            <img src="assets/images/instructors/instructor-10.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Take the risk or lose the chance</p>
+              <p><i>Yoga Basics, Pilates</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 11 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Matthew Marc</h4>
+            <img src="assets/images/instructors/instructor-11.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Grow through what you go through</p>
+              <p><i>Vinyasa Flow, Tai Chi</i></p>
+            </div>
+          </div>
+        </div>
+        <!-- Teacher 12 -->
+        <div class="col meet-team">
+          <div class="card h-100">
+            <h4 class="tmember-name">Lena Davis</h4>
+            <img src="assets/images/instructors/instructor-12.jpg" class="card-img-top"
+              alt="Female instructor thumbnail photo">
+            <div class="card-body">
+              <p>Stars can’t shine without darkness</p>
+              <p><i>Yin, Meditation, Restorative</i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Instructors section-->
+  </section>
+  <section id="facilities-section">
+    <div>
+      <!-- Facilities and FAQ section-->
+      <h2 class="section-heading">Facilities and FAQ</h2>
+      <div class="container-fluid">
+        <div class="accordion" id="faq-accordion">
+          <!-- Accordion part 1, automatically visible -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faq-h-facilities">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Facilities
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq-h-facilities"
+              data-bs-parent="#faq-accordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    Two modern studio rooms with capacity for 15 students
+                    each.
+                  </li>
+                  <li>
+                    Locker room with showers, storage and changing areas.
+                  </li>
+                  <li>
+                    Yoga mats and blankets are available, but we recommend
+                    bringing your own.
+                  </li>
+                  <li>
+                    Props such as chairs, foams, bolsters, blocks, wooden
+                    bricks and belts.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faq-h-before">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Before the Lesson
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq-h-before"
+              data-bs-parent="#faq-accordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    It is best practice to perform yoga on a relatively
+                    empty stomach. It is recommended that you not eat
+                    approximately 1.5-2 hours prior to the start of your
+                    scheduled yoga class.
+                  </li>
+                  <li>
+                    Wear comfortable clothing that allows fluid movement but
+                    is not too loose. Do not wear any strong perfumes or
+                    deodorants.
+                  </li>
+                  <li>
+                    If you have an injury or condition that could affect
+                    your practice, please inform the instructor before class
+                    starts so they are best able to offer you suitable
+                    modifications for each pose.
+                  </li>
+                  <li>
+                    Please notify the instructor if you are pregnant to
+                    ensure that the instructor offers suitable modifications
+                    to your yoga poses so that injuries do not occur.
+                  </li>
+                  <li>
+                    Arrive at least 5 minutes before the lesson starts.
+                  </li>
+                  <li>
+                    If you are new, please arrive approximately 10 minutes
+                    before your first scheduled class in order to allow time
+                    to complete the required paperwork.
+                  </li>
+                  <li>
+                    Please switch your cell phone off or on silent to avoid
+                    disturbing other students.
+                  </li>
+                  <li>
+                    Please remove your shoes before entering class and leave
+                    them on the shoe rack outside the yoga studio door.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faq-h-during">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                During the Lesson
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq-h-during"
+              data-bs-parent="#faq-accordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    The studio is designed to be a quiet and peaceful space,
+                    please try to limit whispering and talking during the
+                    lesson.
+                  </li>
+                  <li>
+                    Please do not step on your fellow yogi’s mat. It is
+                    considered an infringement of their personal space.
+                    Should this occur, quickly and quietly move your body
+                    away from your neighbour’s mat.
+                  </li>
+                  <li>
+                    If you must leave before class ends, please be
+                    considerate of the others who are still focused on their
+                    yoga experience. Please leave prior and do not leave
+                    during the group’s Savasana or final meditation.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faq-h-after">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                After the Lesson
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faq-h-after"
+              data-bs-parent="#faq-accordion">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    Please return equipment to respective storage areas.
+                  </li>
+                  <li>
+                    Remember to collect your belongings from the locker.
+                  </li>
+                  <li>
+                    Have a tea and catchup with your fellow classmates in
+                    the lounge area.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          <em>* Please remember space is limited. If you need to cancel a
+            lesson, try to do so at least 24 hours before the start of the
+            lesson to allow other students the opportunity to attend.
+          </em>
+        </p>
+      </div>
+    </div>
+    <!-- End of Facilities and FAQ section-->
+  </section>
+  <section id="gallery-section">
+    <!-- Gallery section-->
+    <div class="container-flex">
+      <h2 class="section-heading">Sneak a Peak Inside</h2>
+      <!-- Image gallery carousel -->
+      <div id="carousel-large">
+        <div class="container-fluid" id="gallery">
+          <!-- Carousel for tablet and desktop -->
+          <!-- Carousel indicators -->
+          <div id="gallery-carousel-large" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <!-- Carousel wrapper -->
+            <div class="carousel-inner">
+              <!-- Carousel slide 1 -->
+              <!-- Carousel image 1 -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_1.jpg" alt="women practicing yoga"
+                      class="d-block gallery-image" />
+                  </div>
+                  <!-- Carousel image 2 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_2.jpg" alt="women in pilates class with fitness ball"
+                      class="d-block gallery-image" />
+                  </div>
+                  <!-- Carousel image 3 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_3.jpg" alt="woman in plank pose"
+                      class="d-block gallery-image" />
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faq-h-before">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Before the Lesson
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="faq-h-before"
-                  data-bs-parent="#faq-accordion"
-                >
-                  <div class="accordion-body">
-                    <ul>
-                      <li>
-                        It is best practice to perform yoga on a relatively
-                        empty stomach. It is recommended that you not eat
-                        approximately 1.5-2 hours prior to the start of your
-                        scheduled yoga class.
-                      </li>
-                      <li>
-                        Wear comfortable clothing that allows fluid movement but
-                        is not too loose. Do not wear any strong perfumes or
-                        deodorants.
-                      </li>
-                      <li>
-                        If you have an injury or condition that could affect
-                        your practice, please inform the instructor before class
-                        starts so they are best able to offer you suitable
-                        modifications for each pose.
-                      </li>
-                      <li>
-                        Please notify the instructor if you are pregnant to
-                        ensure that the instructor offers suitable modifications
-                        to your yoga poses so that injuries do not occur.
-                      </li>
-                      <li>
-                        Arrive at least 5 minutes before the lesson starts.
-                      </li>
-                      <li>
-                        If you are new, please arrive approximately 10 minutes
-                        before your first scheduled class in order to allow time
-                        to complete the required paperwork.
-                      </li>
-                      <li>
-                        Please switch your cell phone off or on silent to avoid
-                        disturbing other students.
-                      </li>
-                      <li>
-                        Please remove your shoes before entering class and leave
-                        them on the shoe rack outside the yoga studio door.
-                      </li>
-                    </ul>
+              <!-- Carousel slide 2 -->
+              <!-- Carousel image 4 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_4.jpg" alt="instructor assisting yoga student"
+                      class="d-block gallery-image" />
+                  </div>
+                  <!-- Carousel image 5 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_5.jpg" alt="man and woman in forward facing stretch position"
+                      class="gallery-image d-block" />
+                  </div>
+                  <!-- Carousel image 6 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_6.jpg" alt="woman in front of yoga and pilates equipment"
+                      class="d-block gallery-image" />
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faq-h-during">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    During the Lesson
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="faq-h-during"
-                  data-bs-parent="#faq-accordion"
-                >
-                  <div class="accordion-body">
-                    <ul>
-                      <li>
-                        The studio is designed to be a quiet and peaceful space,
-                        please try to limit whispering and talking during the
-                        lesson.
-                      </li>
-                      <li>
-                        Please do not step on your fellow yogi’s mat. It is
-                        considered an infringement of their personal space.
-                        Should this occur, quickly and quietly move your body
-                        away from your neighbour’s mat.
-                      </li>
-                      <li>
-                        If you must leave before class ends, please be
-                        considerate of the others who are still focused on their
-                        yoga experience. Please leave prior and do not leave
-                        during the group’s Savasana or final meditation.
-                      </li>
-                    </ul>
+              <!-- Slide 3 -->
+              <!-- Carousel image 7 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_7.jpg" alt="pre-natal yoga class"
+                      class="d-block gallery-image" />
                   </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faq-h-after">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                  >
-                    After the Lesson
-                  </button>
-                </h2>
-                <div
-                  id="collapseFour"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="faq-h-after"
-                  data-bs-parent="#faq-accordion"
-                >
-                  <div class="accordion-body">
-                    <ul>
-                      <li>
-                        Please return equipment to respective storage areas.
-                      </li>
-                      <li>
-                        Remember to collect your belongings from the locker.
-                      </li>
-                      <li>
-                        Have a tea and catchup with your fellow classmates in
-                        the lounge area.
-                      </li>
-                    </ul>
+                  <!-- Carousel image 8 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_8.jpg" alt="yoga and pilates equipment"
+                      class="d-block gallery-image" />
+                  </div>
+                  <!-- Carousel image 9 -->
+                  <div class="col-md-4">
+                    <img src="assets/images/gallery/slide_9.jpg" alt="lounge for socialising"
+                      class="d-block gallery-image" />
                   </div>
                 </div>
               </div>
             </div>
-            <p>
-              <em
-                >* Please remember space is limited. If you need to cancel a
-                lesson, try to do so at least 24 hours before the start of the
-                lesson to allow other students the opportunity to attend.
-              </em>
+            <!-- Carousel controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel-large"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel-large"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel for mobile -->
+      <div id="carousel-mobile">
+        <!-- Carousel indicators -->
+        <div id="gallery-carousel-mobile" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          </div>
+          <!-- Carousel wrapper -->
+          <div class="carousel-inner">
+            <!-- Carousel image 1 -->
+            <div class="carousel-item active">
+              <img src="assets/images/gallery/slide_1.jpg" alt="women practicing yoga" class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 2 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_2.jpg" alt="women in pilates class with fitness ball"
+                class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 3 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_3.jpg" alt="woman in plank pose" class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 4 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_4.jpg" alt="instructor assisting yoga student"
+                class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 5 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_5.jpg" alt="man and woman in forward facing stretch position"
+                class="gallery-image d-block" />
+            </div>
+            <!-- Carousel image 6 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_6.jpg" alt="woman in front of yoga and pilates equipment"
+                class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 7 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_7.jpg" alt="pre-natal yoga class" class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 8 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_8.jpg" alt="yoga and pilates equipment"
+                class="d-block gallery-image" />
+            </div>
+            <!-- Carousel image 9 -->
+            <div class="carousel-item">
+              <img src="assets/images/gallery/slide_9.jpg" alt="lounge for socialising" class="d-block gallery-image" />
+            </div>
+          </div>
+          <!-- Carousel controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel-mobile"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel-mobile"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Gallery section-->
+  </section>
+  <footer>
+    <!-- Footer section-->
+    <div id="footer">
+      <!-- Mobile / Tablet footer -->
+      <div class="container-fluid handheld-footer">
+        <div class="contact row row-cols-3 row-cols-md-5 g-1 justify-content-center-center">
+          <!-- Links to most relevant pages -->
+          <a href="contact.html" class="col footer-link">Contact</a>
+          <a href="schedule.html" class="col footer-link">Schedule</a>
+          <a href="classes.html" class="col footer-link">Classes</a>
+          <!-- Terms and Privacy pages hosted for free on generated website -->
+          <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+            class="col-6 footer-link" target="_blank">Privacy</a>
+          <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+            class="col-6 footer-link" target="_blank">Terms</a>
+        </div>
+        <div class="connect">
+          <!-- Social media section, kept separate to keep items together -->
+          <span id="connect-heading">Let's Connect</span>
+          <br>
+          <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="container-fluid desktop-footer">
+        <!-- Desktop footer -->
+        <div class="contact row row-cols-12 justify-content-center-center">
+          <!-- Links to most relevant pages -->
+          <div class="col footer-link">
+            <p><a class="connect-item" href="contact.html">Contact</a></p>
+            <i class="fas fa-comment"></i>
+          </div>
+          <div class="col footer-link">
+            <p><a class="connect-item" href="schedule.html">Schedule</a></p>
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="col footer-link">
+            <p><a class="connect-item" href="classes.html">Classes</a></p>
+            <i class="fas fa-spa"></i>
+          </div>
+          <div class="col footer-link">
+            <!-- Terms and Privacy pages hosted for free on generated website -->
+            <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                class="col-6 connect-item" target="_blank">Privacy</a>
+            </p>
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="col footer-link">
+            <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                class="col-6 connect-item" target="_blank">Terms</a>
+            </p>
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <div class="connect col">
+            <!-- Social media section, kept separate to keep items together -->
+            <p>Let's Connect</p>
+            <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i></a>
+              <a class="footer-icon" href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+              <a class="footer-icon" href="https://www.twitter.com/" target="_blank">
+                <i class="fab fa-twitter"></i></a>
             </p>
           </div>
         </div>
-        <!-- End of Facilities and FAQ section-->
-      </section>
-      <section id="gallery-section">
-        <!-- Gallery section-->
-        <div class="container-flex">
-          <h2 class="section-heading">Sneak a Peak Inside</h2>
-          <!-- Image gallery carousel -->
-          <div id="carousel-large">
-            <div class="container-fluid" id="gallery">
-              <!-- Carousel for tablet and desktop -->
-              <!-- Carousel indicators -->
-              <div
-                id="gallery-carousel-large"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#gallery-carousel"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#gallery-carousel"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#gallery-carousel"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <!-- Carousel wrapper -->
-                <div class="carousel-inner">
-                  <!-- Carousel slide 1 -->
-                  <!-- Carousel image 1 -->
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_1.jpg"
-                          alt="women practicing yoga"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                      <!-- Carousel image 2 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_2.jpg"
-                          alt="women in pilates class with fitness ball"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                      <!-- Carousel image 3 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_3.jpg"
-                          alt="woman in plank pose"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Carousel slide 2 -->
-                  <!-- Carousel image 4 -->
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_4.jpg"
-                          alt="instructor assisting yoga student"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                      <!-- Carousel image 5 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_5.jpg"
-                          alt="man and woman in forward facing stretch position"
-                          class="gallery-image d-block"
-                        />
-                      </div>
-                      <!-- Carousel image 6 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_6.jpg"
-                          alt="woman in front of yoga and pilates equipment"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Slide 3 -->
-                  <!-- Carousel image 7 -->
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_7.jpg"
-                          alt="pre-natal yoga class"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                      <!-- Carousel image 8 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_8.jpg"
-                          alt="yoga and pilates equipment"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                      <!-- Carousel image 9 -->
-                      <div class="col-md-4">
-                        <img
-                          src="assets/images/gallery/slide_9.jpg"
-                          alt="lounge for socialising"
-                          class="d-block gallery-image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Carousel controls -->
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#gallery-carousel-large"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#gallery-carousel-large"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- Carousel for mobile -->
-          <div id="carousel-mobile">
-            <!-- Carousel indicators -->
-            <div
-              id="gallery-carousel-mobile"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="3"
-                  aria-label="Slide 4"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="4"
-                  aria-label="Slide 5"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="5"
-                  aria-label="Slide 6"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="6"
-                  aria-label="Slide 7"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="7"
-                  aria-label="Slide 8"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#gallery-carousel"
-                  data-bs-slide-to="8"
-                  aria-label="Slide 9"
-                ></button>
-              </div>
-              <!-- Carousel wrapper -->
-              <div class="carousel-inner">
-                <!-- Carousel image 1 -->
-                <div class="carousel-item active">
-                  <img
-                    src="assets/images/gallery/slide_1.jpg"
-                    alt="women practicing yoga"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 2 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_2.jpg"
-                    alt="women in pilates class with fitness ball"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 3 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_3.jpg"
-                    alt="woman in plank pose"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 4 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_4.jpg"
-                    alt="instructor assisting yoga student"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 5 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_5.jpg"
-                    alt="man and woman in forward facing stretch position"
-                    class="gallery-image d-block"
-                  />
-                </div>
-                <!-- Carousel image 6 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_6.jpg"
-                    alt="woman in front of yoga and pilates equipment"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 7 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_7.jpg"
-                    alt="pre-natal yoga class"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 8 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_8.jpg"
-                    alt="yoga and pilates equipment"
-                    class="d-block gallery-image"
-                  />
-                </div>
-                <!-- Carousel image 9 -->
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/gallery/slide_9.jpg"
-                    alt="lounge for socialising"
-                    class="d-block gallery-image"
-                  />
-                </div>
-              </div>
-              <!-- Carousel controls -->
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#gallery-carousel-mobile"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#gallery-carousel-mobile"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- End of Gallery section-->
-      </section>
-
-      <footer>
-        <!-- Footer section-->
-        <div id="footer-2">
-          <!-- Mobile / Tablet footer -->
-          <div class="container-fluid handheld-footer">
-            <div
-              id="contact"
-              class="
-                row row-cols-3 row-cols-md-5
-                g-1
-                justify-content-center-center
-              "
-            >
-              <!-- Links to most relevant pages -->
-              <a href="contact.html" class="col footer-link">Contact</a>
-              <a href="schedule.html" class="col footer-link">Schedule</a>
-              <a href="classes.html" class="col footer-link">Classes</a>
-              <!-- Terms and Privacy pages hosted for free on generated website -->
-              <a
-                href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                class="col-6 footer-link"
-                target="_blank"
-                >Privacy</a
-              >
-              <a
-                href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                class="col-6 footer-link"
-                target="_blank"
-                >Terms</a
-              >
-            </div>
-            <div id="connect">
-              <!-- Social media section, kept separate to keep items together -->
-              <span id="connect-heading">Let's Connect</span>
-              <br />
-              <a
-                class="footer-icon"
-                href="https://www.facebook.com/"
-                target="_blank"
-                ><i class="fab fa-facebook"></i
-              ></a>
-              <a
-                class="footer-icon"
-                href="https://www.instagram.com/"
-                target="_blank"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a
-                class="footer-icon"
-                href="https://www.twitter.com/"
-                target="_blank"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </div>
-          </div>
-          <div class="container-fluid desktop-footer">
-            <!-- Desktop footer -->
-            <div
-              id="contact"
-              class="row row-cols-12 justify-content-center-center"
-            >
-              <!-- Links to most relevant pages -->
-              <div class="col footer-link">
-                <p><a class="connect-item" href="contact.html">Contact</a></p>
-                <i class="fas fa-comment"></i>
-              </div>
-              <div class="col footer-link">
-                <p><a class="connect-item" href="schedule.html">Schedule</a></p>
-                <i class="fas fa-calendar-alt"></i>
-              </div>
-              <div class="col footer-link">
-                <p><a class="connect-item" href="classes.html">Classes</a></p>
-                <i class="fas fa-spa"></i>
-              </div>
-              <div class="col footer-link">
-                <!-- Terms and Privacy pages hosted for free on generated website -->
-                <p>
-                  <a
-                    href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                    class="col-6 connect-item"
-                    target="_blank"
-                    alt="Link to Privacy Terms"
-                    >Privacy</a
-                  >
-                </p>
-                <i class="fas fa-lock"></i>
-              </div>
-              <div class="col footer-link">
-                <p>
-                  <a
-                    href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                    class="col-6 connect-item"
-                    target="_blank"
-                    alt="Link to Terms and Conditions"
-                    >Terms</a
-                  >
-                </p>
-                <i class="fas fa-balance-scale"></i>
-              </div>
-              <div id="connect" class="col">
-                <!-- Social media section, kept separate to keep items together -->
-                <p>Let's Connect</p>
-                <p>
-                  <a
-                    class="footer-icon"
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    alt="Link to Facebook"
-                  >
-                    <i class="fab fa-facebook"></i
-                  ></a>
-                  <a
-                    class="footer-icon"
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    alt="Link to Instagram"
-                  >
-                    <i class="fab fa-instagram"></i
-                  ></a>
-                  <a
-                    class="footer-icon"
-                    href="https://www.twitter.com/"
-                    target="_blank"
-                    alt="Link to Twitter"
-                  >
-                    <i class="fab fa-twitter"></i
-                  ></a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End of Footer section-->
-      </footer>
-      <!-- Bootstrap JavaScript script -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"
-      ></script>
+      </div>
     </div>
-  </body>
+    <!-- End of Footer section-->
+  </footer>
+  <!-- Bootstrap JavaScript script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
