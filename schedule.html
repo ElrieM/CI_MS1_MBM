@@ -32,106 +32,100 @@
             </h3>
             <div id="logo-center"></div>
         </header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
             <!-- Navigation bar -->
-            <div class="nav-bar">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <!-- Mobile menu -->
-                        <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <div class="container-fluid">
+                <!-- Mobile menu -->
+                <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse fixed-top" id="navbar-links">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="schedule.html">Schedule and
+                                Rates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- Sign up -->
+                        <!-- Button trigger modal -->
+                        <button type="button" id="signup-prompt" class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#signup-block">
+                            Sign Up Here
                         </button>
-                        <!-- Navigation links -->
-                        <div class="collapse navbar-collapse fixed-top" id="navbar-links">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="classes.html">Classes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="schedule.html">Schedule and
-                                        Rates</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                            <div class="d-flex" id="signup-form">
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
-                                    data-bs-target="#signup-block">
-                                    Sign Up
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Navigation bar -->
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signup-blocklabel">
+                            Subscribe to Our Newsletter
+                        </h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                            advice.
+                        </p>
+                        <!-- Signup form, posts to CI formdump -->
+                        <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                            <!-- First name -->
+                            <div class="col-md-6">
+                                <label for="validname1" class="form-label">First name</label>
+                                <input type="text" name="firstname" class="form-control" id="validname1" required>
+                            </div>
+                            <!-- Last name -->
+                            <div class="col-md-6">
+                                <label for="validname2" class="form-label">Last name</label>
+                                <input type="text" name="lastname" class="form-control" id="validname2" required>
+                            </div>
+                            <!-- Email address -->
+                            <div class="col-md-12">
+                                <label for="validemail" class="form-label">Email address</label>
+                                <input type="email" name="email" class="form-control" id="validemail" required>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
+                                    <label class="form-check-label" for="invalcheck">
+                                        Agree to terms of use
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="submit" class="btn btn-outline-dark">
+                                    Subscribe
                                 </button>
                             </div>
-                        </div>
-                    </div>
-                    <!-- End of Navigation bar -->
-                </nav>
-                <div class="container">
-                    <!-- Sign up prompt -->
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blockLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="signup-blockLabel">Subscribe to Our Newsletter</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Sign up for our monthly newsletter to be alerted of new events and wellbeing
-                                    advice.</p>
-                                <!-- Signup form, posts to CI formdump -->
-                                <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
-                                    <!-- First name -->
-                                    <div class="col-md-6">
-                                        <label for="validname1" class="form-label">First name</label>
-                                        <input type="text" name="firstname" class="form-control" id="validname1"
-                                            required>
-                                    </div>
-                                    <!-- Last name -->
-                                    <div class="col-md-6">
-                                        <label for="validname2" class="form-label">Last name</label>
-                                        <input type="text" name="lastname" class="form-control" id="validname2"
-                                            required>
-                                    </div>
-                                    <!-- Email address -->
-                                    <div class="col-md-12">
-                                        <label for="validemail" class="form-label">Email address</label>
-                                        <input type="email" name="email" class="form-control" id="validemail" required>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="invalcheck"
-                                                required>
-                                            <label class="form-check-label" for="invalcheck">
-                                                Agree to terms of use
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-outline-dark">Subscribe</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <!-- End of Header section -->
     </div>
-    <!-- End of Header section -->
+    <!-- Schedule section -->
     <section id="schedule-section">
         <h2 class="section-heading">Class Schedule</h2>
         <div class="container-fluid row justify-content-center">
@@ -451,7 +445,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Rates table section -->
     <section id="rates-section">
         <div>
             <div class="container">
@@ -489,10 +483,8 @@
             </div>
         </div>
     </section>
-
-
+    <!-- Footer section-->
     <footer>
-        <!-- Footer section-->
         <div id="footer">
             <!-- Mobile / Tablet footer -->
             <div class="container-fluid handheld-footer">
@@ -509,54 +501,81 @@
                 </div>
                 <div class="connect">
                     <!-- Social media section, kept separate to keep items together -->
-                    <span id="connect-heading">Let's Connect</span>
+                    <span id="connect-heading">
+                        Let's Connect
+                    </span>
                     <br>
-                    <a class="footer-icon" href="https://www.facebook.com/" target="_blank"><i
-                            class="fab fa-facebook"></i></a>
-                    <a class="footer-icon" href="https://www.instagram.com/" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                    <a class="footer-icon" href="https://www.twitter.com/" target="_blank"><i
-                            class="fab fa-twitter"></i></a>
+                    <a class="footer-icon" href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="footer-icon" href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="footer-icon" href="https://www.twitter.com/" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </div>
             </div>
+            <!-- Desktop footer -->
             <div class="container-fluid desktop-footer">
-                <!-- Desktop footer -->
                 <div class="contact row row-cols-12 justify-content-center-center">
                     <!-- Links to most relevant pages -->
                     <div class="col footer-link">
-                        <p><a class="connect-item" href="contact.html">Contact</a></p>
+                        <p>
+                            <a class="connect-item" href="contact.html">
+                                Contact
+                            </a>
+                        </p>
                         <i class="fas fa-comment"></i>
                     </div>
                     <div class="col footer-link">
-                        <p><a class="connect-item" href="schedule.html">Schedule</a></p>
+                        <p>
+                            <a class="connect-item" href="schedule.html">
+                                Schedule
+                            </a>
+                        </p>
                         <i class="fas fa-calendar-alt"></i>
                     </div>
                     <div class="col footer-link">
-                        <p><a class="connect-item" href="classes.html">Classes</a></p>
+                        <p>
+                            <a class="connect-item" href="classes.html">
+                                Classes
+                            </a>
+                        </p>
                         <i class="fas fa-spa"></i>
                     </div>
                     <div class="col footer-link">
                         <!-- Terms and Privacy pages hosted for free on generated website -->
-                        <p><a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
-                                class="col-6 connect-item" target="_blank">Privacy</a>
+                        <p>
+                            <a href="https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i"
+                                class="col-6 connect-item" target="_blank">
+                                Privacy
+                            </a>
                         </p>
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="col footer-link">
-                        <p><a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
-                                class="col-6 connect-item" target="_blank">Terms</a>
+                        <p>
+                            <a href="https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW"
+                                class="col-6 connect-item" target="_blank">
+                                Terms
+                            </a>
                         </p>
                         <i class="fas fa-balance-scale"></i>
                     </div>
                     <div class="connect col">
                         <!-- Social media section, kept separate to keep items together -->
                         <p>Let's Connect</p>
-                        <p><a class="footer-icon" href="https://www.facebook.com/" target="_blank">
-                                <i class="fab fa-facebook"></i></a>
+                        <p>
+                            <a class="footer-icon" href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
                             <a class="footer-icon" href="https://www.instagram.com/" target="_blank">
-                                <i class="fab fa-instagram"></i></a>
+                                <i class="fab fa-instagram"></i>
+                            </a>
                             <a class="footer-icon" href="https://www.twitter.com/" target="_blank">
-                                <i class="fab fa-twitter"></i></a>
+                                <i class="fab fa-twitter"></i>
+                            </a>
                         </p>
                     </div>
                 </div>

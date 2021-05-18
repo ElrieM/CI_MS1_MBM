@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #312d39;
+    color: #334545;
 }
 
 /* ------ Images ------ */
@@ -20,7 +20,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100%;
 }
 
 #logo-left,
@@ -70,13 +69,12 @@ body {
 
 #header,
 #navbar-links,
-#footer,
-#footer-2 {
+#footer {
     background-color: #e1dbcf;
 }
 
 #header {
-    border-bottom: #accba6;
+    border-bottom: #334545;
     border-bottom-style: double;
 }
 
@@ -126,12 +124,12 @@ body {
 /* Colours - About */
 
 .meet-team {
-    background-color: #80808057;
+    background-color: #d4e0d6;
     color: #334545;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #d4e0d6;
+    background-color: #e1dbcf;
     color: #334545;
 }
 
@@ -142,9 +140,12 @@ body {
 
 /* Colours - Schedule */
 
-#schedule-container,
+#schedule-container {
+    background-color: #e1dbcf;
+}
+
 #rates-table {
-    background-color: #e1dbcf9a;
+    background-color: #d4e0d6;
 }
 
 #download-pdf {
@@ -180,6 +181,10 @@ body {
     color: #334545;
     background-color: #d4e0d6;
     border: #acbba6 double 2px;
+}
+
+#enqform-section {
+    color: #334545;
 }
 
 /* Colours - Footer */
@@ -238,10 +243,6 @@ header h1 {
     padding-bottom: 0;
 }
 
-#signup-form {
-    align-self: flex-end;
-}
-
 .section-heading {
     margin-top: .5em;
     margin-bottom: .5rem;
@@ -249,24 +250,19 @@ header h1 {
     text-align: center;
 }
 
+#signup-prompt {
+    visibility: visible;
+    display:inline;
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: #accba6;
+}
+
 /* Padding - Footer */
 
 #footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: fit-content;
-    padding-top: 10px;
-    margin-top: 1em;
-    text-align: center;
-}
-
-/* Alternative footer for longer pages, fixed Footer issue */
-#footer-2 {
-position: relative;
-left: 0;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     height: fit-content;
     padding-top: 10px;
@@ -733,20 +729,20 @@ td {
         visibility: visible;
         display: contents;
     }
-/*
+
     #footer {
-        position: fixed;
+        position: relative;
         bottom: 0;
         left: 0;
         height: fit-content
     }
-*/
+
     .contact {
         text-align: center;
         padding-left: unset;
     }
 
-    #connect {
+    .connect {
         margin-top: .5em;
     }
 
@@ -939,7 +935,7 @@ td {
         height: fit-content;
     }
 
-    #connect {
+    .connect {
         margin-top: 1em;
     }
 
