@@ -257,6 +257,7 @@ header h1 {
     top: 0;
     right: 0;
     background-color: #accba6;
+    color: #f2e5dd
 }
 
 /* Padding - Footer */
@@ -531,7 +532,6 @@ td {
 }
 
 #contact-container {
-    border: .1em solid #acbba6;
     margin-bottom: 2em;
 }
 
@@ -718,6 +718,20 @@ td {
         table-layout: auto;
     }
 
+    /* Tablet - Contact page */
+
+    .contact-text {
+        padding: .5em;
+    }
+
+    #contact-container {
+        padding-bottom: 1.9em;
+    }
+
+    #submit-button {
+        padding-bottom: 1em;
+    }
+    
     /* Tablet - Footer */
 
     .desktop-footer {

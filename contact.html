@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mind Body Motion Wellness Centre</title>
 </head>
-
 <body>
     <!-- Header section -->
     <div id="header">
@@ -60,12 +58,11 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                         </li>
-                        <!-- Sign up -->
-                        <!-- Button trigger modal -->
-                        <button type="button" id="signup-prompt" class="btn btn-secondary" data-bs-toggle="modal"
+                        <!-- Sign up trigger modal -->
+                        <li type="button" id="signup-prompt" class="btn btn-link" data-bs-toggle="modal"
                             data-bs-target="#signup-block">
                             Sign Up Here
-                        </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -104,8 +101,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
-                                    <label class="form-check-label" for="invalcheck">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalcheckemail" required>
+                                    <label class="form-check-label" for="invalcheckemail">
                                         Agree to terms of use
                                     </label>
                                 </div>
@@ -148,8 +145,7 @@
                         <!-- Email address -->
                         <div class="col-md-12">
                             <label for="contact-validemail" class="form-label">Email address</label>
-                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail"
-                                aria-describedby="inputgroupemail" required>
+                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail" required>
                         </div>
                         <!-- Subject dropdown options -->
                         <div class="col-md-12">
@@ -158,21 +154,21 @@
                                 <option>-- Select an option --</option>
                                 <option value="class">Book a class</option>
                                 <option value="event">Register for an event</option>
-                                <option vlaue="membership">Membership queries</option>
+                                <option value="membership">Membership queries</option>
                                 <option value="other">Other queries</option>
                             </select>
                         </div>
                         <!-- Message -->
                         <div class="col-md-12">
-                            <label for="validmessage" class="form-label">Message</label>
+                            <label for="contact-message" class="form-label">Message</label>
                             <input type="text" name="contact-message" class="form-control" id="contact-message"
                                 required>
                         </div>
                         <!-- Terms check -->
                         <div class="col-12">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
-                                <label class="form-check-label" for="invalcheck">
+                                <input class="form-check-input" type="checkbox" value="" id="invalcheckterms" required>
+                                <label class="form-check-label" for="invalcheckterms">
                                     Agree to terms of use
                                 </label>
                             </div>
@@ -192,16 +188,16 @@
                     <div class="contact-text">
                         <strong>Mind Body Motion Wellness Centre</strong>
                         <br>
-                        <span>
+                        <span class="address-line">
                             <i class="fas fa-map-marker-alt"></i>
                             Treebeekstraat 55
                             <br>
                         </span>
-                        <span id="address-line">
+                        <span class="address-line">
                             Brunssum
                             <br>
                         </span>
-                        <span id="address-line">
+                        <span class="address-line">
                             6446 XP Limburg
                             <br>
                         </span>
