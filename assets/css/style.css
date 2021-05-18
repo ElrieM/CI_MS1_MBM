@@ -284,7 +284,7 @@ left: 0;
     display: none;
 }
 
-#contact {
+.contact {
     text-align: center;
     padding-left: 3%;
 }
@@ -738,7 +738,7 @@ td {
         position: relative;
     }
 
-    #contact {
+    .contact {
         text-align: center;
         padding-left: unset;
     }
