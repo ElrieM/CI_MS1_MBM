@@ -733,11 +733,14 @@ td {
         visibility: visible;
         display: contents;
     }
-
+/*
     #footer {
-        position: relative;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: fit-content
     }
-
+*/
     .contact {
         text-align: center;
         padding-left: unset;
