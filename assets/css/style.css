@@ -256,7 +256,7 @@ header h1 {
     position: relative;
     top: 0;
     right: 0;
-    background-color: #accba6;
+    background-color: #334545;
     color: #f2e5dd
 }
 
@@ -325,7 +325,6 @@ header h1 {
 }
 
 .intro-text {
-    text-align: justify;
     margin: 1rem 0;
 }
 
@@ -354,7 +353,6 @@ header h1 {
 .events-block,
 .class-desc {
     max-height: 290px;
-    text-align: justify;
     opacity: .8;
     margin-bottom: 2em;
 }
@@ -371,6 +369,10 @@ header h1 {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 15px;
+}
+
+.event-heading {
+    font-size: medium;
 }
 
 .class-item .class-heading {
@@ -807,7 +809,6 @@ td {
 
     .events-block {
         max-height: fit-content;
-        text-align: justify;
         opacity: .8;
         margin-bottom: 2em;
     }
