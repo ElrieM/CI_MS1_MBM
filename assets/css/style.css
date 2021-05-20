@@ -148,6 +148,10 @@ body {
     background-color: #d4e0d6;
 }
 
+a {
+    color:#334545;
+}
+
 #download-pdf {
     color:#334545;
 }
@@ -463,6 +467,10 @@ header h1 {
 
 /* Padding - Schedule page */
 
+#legend-header {
+    font-size: x-large;
+}
+
 #booking-link,
 #download-link {
     font-size: smaller;
@@ -683,7 +691,7 @@ td {
     .class-heading {
         font-size: large;
     }
-    
+
     .classes-block {
       width: unset;
     }
