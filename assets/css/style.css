@@ -253,11 +253,13 @@ header h1 {
 #signup-prompt {
     visibility: visible;
     display:inline;
+    font-weight: bolder;
     position: relative;
+    text-decoration: wavy;
     top: 0;
     right: 0;
     background-color: #334545;
-    color: #f2e5dd
+    color: #f2e5dd;
 }
 
 /* Padding - Footer */
