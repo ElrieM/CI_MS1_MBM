@@ -312,6 +312,7 @@ header h1 {
 .class-heading {
     padding-top: .3em;
     text-align: center;
+    font-size: x-large;
 }
 
 .contact-heading {
@@ -679,6 +680,10 @@ td {
 
     /* Tablet - Classes page */
 
+    .class-heading {
+        font-size: large;
+    }
+    
     .classes-block {
       width: unset;
     }
