@@ -145,7 +145,7 @@ The following tools were used to validate every page of porject to ensure there 
 
      3. Social media links open on a new page, so that the user does not navigate off the site. This hopefully will remind the user, when they return to the site, to either sign up for a class or get in contact if they require more information.
   
-#### Returning Visitor Goals
+* Returning Visitor Goals
   
   1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
      1. A Contact link is included in the upper navigation bar as well as in the footer bar.
@@ -164,7 +164,7 @@ The following tools were used to validate every page of porject to ensure there 
 
      3. In the Contact page's Enquiry form, users have the option to select Membership queries for additional questions about rates or renewing class bundles.
 
-#### Frequent User Goals
+* Frequent User Goals
   
   1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
      1. A Sign Up Here link is included on the upper navigation bar, in inverted colours to draw the user's attention.
@@ -255,5 +255,3 @@ The following tools were used to validate every page of porject to ensure there 
   * Tablet - Photo by Elly Fairytale from [Pexels] ("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
 
   * Mobile - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822369/")
-
-### Acknowledgements
