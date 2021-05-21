@@ -29,7 +29,7 @@ The website provides users with information about the process for joining classe
 #### Frequent User Goals
   
   1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
-  2. changes to the timetable and new classes becoming available.
+  2. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available.
   3. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
 
 ### Design
@@ -113,10 +113,73 @@ The website provides users with information about the process for joining classe
 
 The following tools were used to validate every page of porject to ensure there were no syntax errors in the project:
 
-* HTML - W3C Markup Validator. Report can be found [here](docs/readme/html_validation_18.5.2021.pdf)
-* CSS - W3C CSS Validator. All errors / warnings relate to Bootstrap. Report can be found [here](docs/readme/css_validation_18.5.2021.pdf)
-* Accessibility -
-* Performance -
+* HTML - W3C Markup Validator. Report can be found [here](docs/readme/html-validation.pdf)
+* CSS - W3C CSS Validator. All errors / warnings relate to Bootstrap. Report can be found [here](docs/readme/css-validation.pdf)
+* Accessibility - WAVE Web Accessibility Evaluation Tool. Report can be found [here](docs/readme/wave-validation.pdf)
+* Performance - Chrome Lighthouse. Report can be found [here](docs/readme/lighthouse-validation.pdf)
+
+### Testing User Stories from User Experience (UX) Section
+
+* First Time Visitor Goals
+
+  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the fitness centre.
+     1. Upon landing on the site, users see women practicing yoga in the background, with a short introduction, overview of what to expect and benefits of yoga and meditation.
+
+     2. In the navigation bar, users have the option to find out more about the wellness centre in the About tab, learn more about classes in the Classes tab or view the Schedule and Rates if they are ready to start attending.
+  2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect.
+     1. The website is designed to flow, easily returning to the main page or any other page that the user visited / wants to visit.
+
+     2. A link to the Classes tab is included in the top navigation bar as well as in the footer to make it easiest for users to access.
+
+     3. The Classes page is presented in different "phases" of yoga, from beginner to looking for something a bit more relaxing to a more intense workout. It also includes a class picture and a short description.
+
+     4. To make them more easily distinguishable from the "normal" yoga classes, the prenatal yoga, pilates and taichi classes are presented separately under Other Classes.
+  3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
+     1. On the About page, users can view pictures of the instructors along with a short inspirational quote to give the user a sense of the instructor, and a list of classes that the instructor leads.
+  4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
+     1. In the navigation bar, users can follow the link to the Schedule and Rates page to view the rates per class as well as bundle options.
+  5. As a First Time Visitor, I want to locate social media links to see the fitness centre's social presence and find out more about other students' experiences.
+     1. In the footer, links to the wellness centre's social media pages are available.
+
+     2. Social media icons are included to draw users' attention.
+
+     3. Social media links open on a new page, so that the user does not navigate off the site. This hopefully will remind the user, when they return to the site, to either sign up for a class or get in contact if they require more information.
+  
+#### Returning Visitor Goals
+  
+  1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
+     1. A Contact link is included in the upper navigation bar as well as in the footer bar.
+
+     2. The contact page includes an enquiry form, which has dropdown options for the subject, to ensure that their query is directed to the best person to assist.
+  2. As a Returning Visitor, I want to find information regarding registering for upcoming events.
+     1. An Upcoming Events section is included in the lower part of the landing page, showing upcoming events.
+
+     2. Users are able to submit a booking request for events in the contact form.
+
+     3. Users also have the option to sign up for the newsletter, which will allow them to be notified of upcoming events automatically.
+  3. As a Returning Visitor, I want to find information about prices and buy additional class bundles.
+     1. As with new users, users can follow the link in the navigation bar to the Schedule and Rates page to view the rates per class as well as bundle options.
+
+     2. For users registered for the newsletter, announcements of price changes and bundle rates will automatically be communicated.
+
+     3. In the Contact page's Enquiry form, users have the option to select Membership queries for additional questions about rates or renewing class bundles.
+
+#### Frequent User Goals
+  
+  1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
+     1. A Sign Up Here link is included on the upper navigation bar, in inverted colours to draw the user's attention.
+
+     2. The Sign Up Here link opens a modal, where users can include their contact details.
+
+     3. There is also a requirement for the user to agree to privacy terms, which mention GDPR and its information use conditions.
+  2. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available.
+     1. In the upper navigation bar and the footer, users can navigate to the Schedule.
+
+     2. Users also have the option to download the timetable in PDF to view offline.
+  3. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
+     1. The Contact page's Enquiry form allows for the options to Book a Class, Register for an event, or Membership queries.
+
+     2. Users can also user the email address, telephone number or WhatsApp to reach out for assistance.
 
 ## Deployment
 
