@@ -250,7 +250,6 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
 
 * About page:
-  * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
   * Instructor names (5 to 12) were randomly generated [here](https://www.name-generator.org.uk/)
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * "Quotes" copied from [here](https://www.therandomvibez.com/short-quote/)
@@ -277,15 +276,17 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 * Logo
   * Lotus flower vector from [here](https://flyclipart.com/flower-lotus-lotus-flower-icon-with-png-and-vector-format-flower-icon-png-771399)
 
-* Cover page
+* Cover page(s):
 
   * Desktop - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/")
 
-  * Tablet - Photo by Elly Fairytale from [Pexels] ("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
+  * Tablet - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
 
   * Mobile - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822369/")
 
-  * Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
+* Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
+
+* Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
 
 * Gallery images:
   * Pilates_ball (slide 2) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/young-ethnic-woman-with-fit-ball-sitting-on-floor-while-training-in-modern-gym-3768593/)
