@@ -181,9 +181,62 @@ The following tools were used to validate every page of porject to ensure there 
 
      2. Users can also user the email address, telephone number or WhatsApp to reach out for assistance.
 
+### Further Testing
+
+* The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
+* The website was viewed on a variety of devices, such as a Desktop, Laptop, iPhone Xs and iPhone 11s.
+* Significant testing was performed to ensure all pages linked correctly.
+* Friends and family were asked to review the site and documentation to point out bugs and /or user experience issues.
+
+### Known Bugs
+
+* The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
+
+* On Home page, on Desktop, there is a pink strip covering the background image that doesn't belong there.
+
+* Class schedule becomes very small, with text spilling into other blocks. Attempt to make table scroll across not successful.
+
 ## Deployment
 
+### GitHub Pages
+
+The project was deployed to GitHub Pages as follows:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
+2. Locate the "Settings" button in the menu above the Repository.
+   * Alternatively, click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) from the "Creating your site" section for a description of the process.
+3. Scroll down the Settings page until you locate the "GitHub Pages" section.
+4. In the "Source" section, select the dropdown "Branch:" dropdown and select "Main".
+5. The page refreshes automatically.
+6. Scroll to "Your site is published at..." for the puslished site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+A fork is a copy of the repository, allowing you to experiment with changes without affecting the original project.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
+2. In the banner above the Repository, click on the "Fork" button.
+3. If you have succeeded, you now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+A clone allows you to create a local copy of a repository on your computer and sync between your computer and the GitHub repository.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
+2. Click on Code, click on the copy button  next to HTTPS to copy the URL.
+3. Open Git Bash.
+4. Change the current working directory to the location where the cloned directory should be stored.
+5. Type "git clone', then paste the URL copied in step 2.
+6. Press Enter to create a local clone.
+
+Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for a guide to clone a repository.
+
 ## Credits
+
+### Code
+
+* Bootstrap 5: Bootstrap Library used to make the site responsive using the Bootstrap Grid System
+* W3schools.com used for making changes to formatting and customising Bootstrap content used.
 
 ### Content
 
@@ -198,36 +251,14 @@ The following tools were used to validate every page of porject to ensure there 
 
 * About page:
   * Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
-  * Instructor descriptions were adapted from profiles on [this page](https://delightyoga.com/about/staff/teachers).
   * Instructor names (5 to 12) were randomly generated [here](https://www.name-generator.org.uk/)
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * "Quotes" copied from [here](https://www.therandomvibez.com/short-quote/)
   
   * Facilities and house rules adapted from [here](https://www.thewellnesscenter.org/newstudents)
 
-  * Gallery images:
-    * Pilates_ball (slide 2) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/young-ethnic-woman-with-fit-ball-sitting-on-floor-while-training-in-modern-gym-3768593/)
-    * Prenatal_yoga (slide7) - Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3984363/)
-    * Yoga_pose (slide 5) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/2-topless-women-in-black-leggings-and-black-sunglasses-4327139/)
-    * Yoga_supplies (slide 6) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-leggings-standing-beside-brown-wooden-chair-4327007/)
-    * Yoga_assistance (slide 4) - Photo by Cliff Booth from [Pexels](https://www.pexels.com/photo/women-doing-yoga-4057067/)
-    * Yoga_class (slide 3) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/women-doing-a-yoga-on-yoga-mat-3775587/)
-    * Yoga_class_2 (slide 1) - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822692/)
-    * Lounge (slide 8) - Photo by KoolShooters from [Pexels](https://www.pexels.com/photo/healthy-light-relaxation-relaxing-6246210/)
-    * Locker_room (slide 9) - Photo by Polina Tankilevitch from [Pexels](https://www.pexels.com/photo/changing-room-3875514/)
-
 * Classes page:
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
-  * Images for class descriptions:
-    * Ashtanga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822305/)
-    * Yoga Basics Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822689/)
-    * Hatha Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-in-sports-bras-and-leggings-doing-yoga-3822356/)
-    * Vinyasa Flow Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822691/)
-    * Restorative Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822164/)
-    * Tai Chi picture, used image of similar yoga position. Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822171/)
-    * Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
-    * Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
-    * Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
 
 * Schedule page:
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
@@ -241,8 +272,6 @@ The following tools were used to validate every page of porject to ensure there 
   * Privacy Policy:
     * Generated (free) from [here](https://www.privacypolicygenerator.info/), used link with Free Hosting - [sample](https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i). Selected cookies for tracking usage (not included in this version of website), Google AdSense to reach a greater audience, no third party advertising (able to change later)
 
-  * Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
-
 ### Media
 
 * Logo
@@ -255,3 +284,33 @@ The following tools were used to validate every page of porject to ensure there 
   * Tablet - Photo by Elly Fairytale from [Pexels] ("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
 
   * Mobile - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822369/")
+
+  * Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
+
+* Gallery images:
+  * Pilates_ball (slide 2) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/young-ethnic-woman-with-fit-ball-sitting-on-floor-while-training-in-modern-gym-3768593/)
+  * Prenatal_yoga (slide7) - Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3984363/)
+  * Yoga_pose (slide 5) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/2-topless-women-in-black-leggings-and-black-sunglasses-4327139/)
+  * Yoga_supplies (slide 6) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-leggings-standing-beside-brown-wooden-chair-4327007/)
+  * Yoga_assistance (slide 4) - Photo by Cliff Booth from [Pexels](https://www.pexels.com/photo/women-doing-yoga-4057067/)
+  * Yoga_class (slide 3) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/women-doing-a-yoga-on-yoga-mat-3775587/)
+  * Yoga_class_2 (slide 1) - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822692/)
+  * Lounge (slide 8) - Photo by KoolShooters from [Pexels](https://www.pexels.com/photo/healthy-light-relaxation-relaxing-6246210/)
+  * Locker_room (slide 9) - Photo by Polina Tankilevitch from [Pexels](https://www.pexels.com/photo/changing-room-3875514/)
+
+* Images for class descriptions:
+  * Ashtanga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822305/)
+  * Yoga Basics Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822689/)
+  * Hatha Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-in-sports-bras-and-leggings-doing-yoga-3822356/)
+  * Vinyasa Flow Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822691/)
+  * Restorative Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822164/)
+  * Tai Chi picture, used image of similar yoga position. Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822171/)
+  * Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
+  * Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
+  * Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
+
+### Acknowledgements
+
+* My mentor, Mo, for helpful feedback and some supportive words when I was overwhelmed.
+* My partner for enduring countless "poepie, wat van die" (loosely translates to "honey, what do you think of this") and patience.
+* My brothers for words of encouragement and their support.
