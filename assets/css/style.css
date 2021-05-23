@@ -75,7 +75,8 @@ body {
 } /* Shows currently active page underlined */
 
 .nav-link {
-  margin-left: 8em;
+  font-size: x-large;
+  margin-left: 4em;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
@@ -247,6 +248,7 @@ header h1 {
   padding-bottom: 0;
 }
 
+
 .section-heading {
   margin-top: 0.5em;
   margin-bottom: 0.5rem;
@@ -255,7 +257,6 @@ header h1 {
 }
 
 #signup-prompt {
-  visibility: visible;
   display: inline;
   font-weight: bolder;
   position: relative;
@@ -628,13 +629,14 @@ td {
     padding: 0;
   }
 
-  #quote {
-    font-size: x-large;
-  }
-
     .nav-link {
     font-size: medium;
   }
+
+  #logo {
+    height: 100px;
+    width: 100px;
+  } /* Adjust size of logo for tablet */
 
   /* Tablet - Home page */
 
@@ -764,19 +766,26 @@ td {
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
-  /* Media - Header */
+  
+  /* Mobile - Header */
+
   #background-cover {
     background-image: url(../images/home-cover-3.jpg);
-  }
+  } /* Background image for landing page */
 
   header {
     margin: 0;
     padding: 0;
   }
 
-  #quote {
-    font-size: large;
+  .nav-link {
+    font-size: medium;
   }
+
+  #logo {
+    height: 75px;
+    width: 75px;
+  } /* Adjust size of logo for mobile */
 
   /* Media - Home page */
 
