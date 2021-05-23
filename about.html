@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,115 +13,111 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>Mind Body Motion Wellness Centre</title>
 </head>
+
 <body>
-  <!-- Header section -->
+  <!-- Header section, contains logo, navbar and sign-up button -->
   <div id="header">
     <header>
-      <div>
-        <div id="logo-left"></div>
-        <div id="logo-right"></div>
-      </div>
-      <div id="header-text">
-        <h1>Mind Body Motion</h1>
-        <h2>Wellness Centre</h2>
-      </div>
-      <h3 id="quote">
-        "When mind, body and spirit are in harmony, happiness is the natural result"
-        <br><i>Deepak Chopra</i>
-      </h3>
-      <div id="logo-center"></div>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- Navigation bar -->
-      <div class="container-fluid">
-        <!-- Mobile menu -->
-        <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navigation links -->
-        <div class="collapse navbar-collapse fixed-top" id="navbar-links">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="classes.html">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="schedule.html">Schedule and
-                Rates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <!-- Sign up trigger modal -->
-            <li id="signup-prompt" class="btn btn-link" data-bs-toggle="modal"
-              data-bs-target="#signup-block">
-              Sign Up Here
-            </li>
-          </ul>
+      <!-- Navigation bar: copied from Bootstrap 5 (https://getbootstrap.com/docs/4.0/components/navbar/) and modified  -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <!-- Logo on left, clicks back to Home page -->
+          <a class="navbar-brand" href="index.html">
+            <div id="logo"></div>
+          </a>
+          <!-- Mobile hamburger menu, appears on tablet and mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
+            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navigation links, collapse on tablet and mobile -->
+          <div class="collapse navbar-collapse" id="navbar-links">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Home page link, inactive -->
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <!-- About page link, currently active -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <!-- Classes page link, inactive -->
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+              <!-- Schedule page link, inactive -->
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule and
+                  Rates</a>
+              </li>
+              <!-- Contact page link, inactive -->
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- Button to sign up for Newsletter, copied from Bootstrap 5 Modal (https://getbootstrap.com/docs/4.0/components/modal/) and modified -->
+            <button class="navbar-toggler d-none d-lg-block" id="signup-prompt" type="button" class="btn btn-link"
+              data-bs-toggle="modal" data-bs-target="#signup-block">
+              Sign Up
+            </button>
+          </div>
         </div>
-      </div>
-      <!-- End of Navigation bar -->
-    </nav>
-    <!-- Modal -->
-    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title" id="signup-blocklabel">
-              Subscribe to Our Newsletter
-            </h2>
-          </div>
-          <div class="modal-body">
-            <p>
-              Sign up for our monthly newsletter to be alerted of new events and wellbeing
-              advice.
-            </p>
-            <!-- Signup form, posts to CI formdump -->
-            <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-              <!-- First name -->
-              <div class="col-md-6">
-                <label for="validname1" class="form-label">First name</label>
-                <input type="text" name="firstname" class="form-control" id="validname1" required>
+        <!-- End of Navigation bar -->
+      </nav>
+    </header>
+  </div>
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="signup-blocklabel">
+            Subscribe to Our Newsletter
+          </h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            Sign up for our monthly newsletter to be alerted of new events and wellbeing
+            advice.
+          </p>
+          <!-- Signup form, posts to CI formdump -->
+          <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+            <!-- First name -->
+            <div class="col-md-6">
+              <label for="validname1" class="form-label">First name</label>
+              <input type="text" name="firstname" class="form-control" id="validname1" required>
+            </div>
+            <!-- Last name -->
+            <div class="col-md-6">
+              <label for="validname2" class="form-label">Last name</label>
+              <input type="text" name="lastname" class="form-control" id="validname2" required>
+            </div>
+            <!-- Email address -->
+            <div class="col-md-12">
+              <label for="validemail" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" id="validemail" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
+                <label class="form-check-label" for="invalcheck">
+                  Agree to terms of use
+                </label>
               </div>
-              <!-- Last name -->
-              <div class="col-md-6">
-                <label for="validname2" class="form-label">Last name</label>
-                <input type="text" name="lastname" class="form-control" id="validname2" required>
-              </div>
-              <!-- Email address -->
-              <div class="col-md-12">
-                <label for="validemail" class="form-label">Email address</label>
-                <input type="email" name="email" class="form-control" id="validemail" required>
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
-                  <label class="form-check-label" for="invalcheck">
-                    Agree to terms of use
-                  </label>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  Close
-                </button>
-                <button type="submit" class="btn btn-outline-dark">
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="submit" class="btn btn-outline-dark">
+                Subscribe
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-  <!-- End of Header section -->
   <section id="instructor-section">
     <!-- Instructors section-->
     <h2 class="section-heading">Meet the Team</h2>
@@ -130,8 +127,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Alicia Wallace</h3>
-            <img src="assets/images/instructors/instructor-1.jpg" class="card-img-top"
-              alt="Photo of Alicia">
+            <img src="assets/images/instructors/instructor-1.jpg" class="card-img-top" alt="Photo of Alicia">
             <div class="card-body">
               <p>Live the moment</p>
               <p><i>Yin / Prenatal Yoga</i></p>
@@ -142,8 +138,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Melissa Roets</h3>
-            <img src="assets/images/instructors/instructor-2.jpg" class="card-img-top"
-              alt="Photo of Melissa">
+            <img src="assets/images/instructors/instructor-2.jpg" class="card-img-top" alt="Photo of Melissa">
             <div class="card-body">
               <p>Follow your heart</p>
               <p><i>Ashtanga, Yin</i></p>
@@ -154,8 +149,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Ruth Willis</h3>
-            <img src="assets/images/instructors/instructor-3.jpg" class="card-img-top"
-              alt="Photo of Ruth">
+            <img src="assets/images/instructors/instructor-3.jpg" class="card-img-top" alt="Photo of Ruth">
             <div class="card-body">
               <p>Love more. Worry less</p>
               <p><i>Vinyasa Flow, Prenatal, Restorative</i></p>
@@ -166,8 +160,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Amanda Clarke</h3>
-            <img src="assets/images/instructors/instructor-4.jpg" class="card-img-top"
-              alt="Photo of Amanda">
+            <img src="assets/images/instructors/instructor-4.jpg" class="card-img-top" alt="Photo of Amanda">
             <div class="card-body">
               <p>This too shall pass</p>
               <p><i>Ayurveda</i></p>
@@ -178,8 +171,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Emelia Stewart</h3>
-            <img src="assets/images/instructors/instructor-5.jpg" class="card-img-top"
-              alt="Photo of Emelia">
+            <img src="assets/images/instructors/instructor-5.jpg" class="card-img-top" alt="Photo of Emelia">
             <div class="card-body">
               <p>Choose to shine</p>
               <p><i>Vinyasa Flow, Meditation, Restorative</i></p>
@@ -190,8 +182,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Nia Vargas</h3>
-            <img src="assets/images/instructors/instructor-6.jpg" class="card-img-top"
-              alt="Photo of Nia">
+            <img src="assets/images/instructors/instructor-6.jpg" class="card-img-top" alt="Photo of Nia">
             <div class="card-body">
               <p>Love conquers all</p>
               <p><i>Hatha, Yin, Yoga Basics</i></p>
@@ -202,8 +193,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Louis Barnett</h3>
-            <img src="assets/images/instructors/instructor-7.jpg" class="card-img-top"
-              alt="Photo of Louis">
+            <img src="assets/images/instructors/instructor-7.jpg" class="card-img-top" alt="Photo of Louis">
             <div class="card-body">
               <p>Enjoy the little things</p>
               <p><i>Ashtanga</i></p>
@@ -215,8 +205,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Henry Townsend</h3>
-            <img src="assets/images/instructors/instructor-8.jpg" class="card-img-top"
-              alt="Photo of Henry">
+            <img src="assets/images/instructors/instructor-8.jpg" class="card-img-top" alt="Photo of Henry">
             <div class="card-body">
               <p>Better things are coming</p>
               <p><i>Yin, Meditation</i></p>
@@ -227,8 +216,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Reva Thomson</h3>
-            <img src="assets/images/instructors/instructor-9.jpg" class="card-img-top"
-              alt="Photo of Reva">
+            <img src="assets/images/instructors/instructor-9.jpg" class="card-img-top" alt="Photo of Reva">
             <div class="card-body">
               <p>Feel the fear and do it anyway</p>
               <p><i>Ashtanga, Hatha, Restorative</i></p>
@@ -239,8 +227,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Eva Russell</h3>
-            <img src="assets/images/instructors/instructor-10.jpg" class="card-img-top"
-              alt="Photo of Eva">
+            <img src="assets/images/instructors/instructor-10.jpg" class="card-img-top" alt="Photo of Eva">
             <div class="card-body">
               <p>Take the risk or lose the chance</p>
               <p><i>Yoga Basics, Pilates</i></p>
@@ -251,8 +238,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Matthew Marc</h3>
-            <img src="assets/images/instructors/instructor-11.jpg" class="card-img-top"
-              alt="Photo of Matthew">
+            <img src="assets/images/instructors/instructor-11.jpg" class="card-img-top" alt="Photo of Matthew">
             <div class="card-body">
               <p>Grow through what you go through</p>
               <p><i>Vinyasa Flow, Tai Chi</i></p>
@@ -263,8 +249,7 @@
         <div class="col meet-team">
           <div class="card h-100">
             <h3 class="card-title tmember-name">Lena Davis</h3>
-            <img src="assets/images/instructors/instructor-12.jpg" class="card-img-top"
-              alt="Photo of Lena">
+            <img src="assets/images/instructors/instructor-12.jpg" class="card-img-top" alt="Photo of Lena">
             <div class="card-body">
               <p>Stars can’t shine without darkness</p>
               <p><i>Yin, Meditation, Restorative</i></p>
@@ -284,8 +269,8 @@
           <!-- Accordion part 1, automatically visible -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="faq-h-facilities">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-line-1"
-                aria-expanded="true" aria-controls="accordion-line-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#accordion-line-1" aria-expanded="true" aria-controls="accordion-line-1">
                 Facilities
               </button>
             </h2>
@@ -710,4 +695,5 @@
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
   </script>
 </body>
+
 </html>

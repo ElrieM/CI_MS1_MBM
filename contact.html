@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,115 +13,113 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mind Body Motion Wellness Centre</title>
 </head>
+
 <body>
-    <!-- Header section -->
+    <!-- Header section, contains logo, navbar and sign-up button -->
     <div id="header">
         <header>
-            <div>
-                <div id="logo-left"></div>
-                <div id="logo-right"></div>
-            </div>
-            <div id="header-text">
-                <h1>Mind Body Motion</h1>
-                <h2>Wellness Centre</h2>
-            </div>
-            <h3 id="quote">
-                "When mind, body and spirit are in harmony, happiness is the natural result"
-                <br><i>Deepak Chopra</i>
-            </h3>
-            <div id="logo-center"></div>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <!-- Navigation bar -->
-            <div class="container-fluid">
-                <!-- Mobile menu -->
-                <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navigation links -->
-                <div class="collapse navbar-collapse fixed-top" id="navbar-links">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="classes.html">Classes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="schedule.html">Schedule and
-                                Rates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-                        </li>
-                        <!-- Sign up trigger modal -->
-                        <li id="signup-prompt" class="btn btn-link" data-bs-toggle="modal"
-                            data-bs-target="#signup-block">
-                            Sign Up Here
-                        </li>
-                    </ul>
+            <!-- Navigation bar: copied from Bootstrap 5 (https://getbootstrap.com/docs/4.0/components/navbar/) and modified  -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- Logo on left, clicks back to Home page -->
+                    <a class="navbar-brand" href="index.html">
+                        <div id="logo"></div>
+                    </a>
+                    <!-- Mobile hamburger menu, appears on tablet and mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navigation links, collapse on tablet and mobile -->
+                    <div class="collapse navbar-collapse" id="navbar-links">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- Home page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <!-- About page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <!-- Classes page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="classes.html">Classes</a>
+                            </li>
+                            <!-- Schedule page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="schedule.html">Schedule and
+                                    Rates</a>
+                            </li>
+                            <!-- Contact page link, currently active -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- Button to sign up for Newsletter, copied from Bootstrap 5 Modal (https://getbootstrap.com/docs/4.0/components/modal/) and modified -->
+                        <button class="navbar-toggler d-none d-lg-block" id="signup-prompt" type="button"
+                            class="btn btn-link" data-bs-toggle="modal" data-bs-target="#signup-block">
+                            Sign Up
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <!-- End of Navigation bar -->
-        </nav>
-        <!-- Modal -->
-        <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="signup-blocklabel">
-                            Subscribe to Our Newsletter
-                        </h2>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Sign up for our monthly newsletter to be alerted of new events and wellbeing
-                            advice.
-                        </p>
-                        <!-- Signup form, posts to CI formdump -->
-                        <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-                            <!-- First name -->
-                            <div class="col-md-6">
-                                <label for="validname1" class="form-label">First name</label>
-                                <input type="text" name="firstname" class="form-control" id="validname1" required>
+                <!-- End of Navigation bar -->
+            </nav>
+        </header>
+    </div>
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="signup-blocklabel">
+                        Subscribe to Our Newsletter
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                        advice.
+                    </p>
+                    <!-- Signup form, posts to CI formdump -->
+                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                        <!-- First name -->
+                        <div class="col-md-6">
+                            <label for="validname1" class="form-label">First name</label>
+                            <input type="text" name="firstname" class="form-control" id="validname1" required>
+                        </div>
+                        <!-- Last name -->
+                        <div class="col-md-6">
+                            <label for="validname2" class="form-label">Last name</label>
+                            <input type="text" name="lastname" class="form-control" id="validname2" required>
+                        </div>
+                        <!-- Email address -->
+                        <div class="col-md-12">
+                            <label for="validemail" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control" id="validemail" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalcheckemail" required>
+                                <label class="form-check-label" for="invalcheckemail">
+                                    Agree to terms of use
+                                </label>
                             </div>
-                            <!-- Last name -->
-                            <div class="col-md-6">
-                                <label for="validname2" class="form-label">Last name</label>
-                                <input type="text" name="lastname" class="form-control" id="validname2" required>
-                            </div>
-                            <!-- Email address -->
-                            <div class="col-md-12">
-                                <label for="validemail" class="form-label">Email address</label>
-                                <input type="email" name="email" class="form-control" id="validemail" required>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalcheckemail" required>
-                                    <label class="form-check-label" for="invalcheckemail">
-                                        Agree to terms of use
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                                    Close
-                                </button>
-                                <button type="submit" class="btn btn-outline-dark">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="submit" class="btn btn-outline-dark">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- End of Header section -->
+    </div>
+    <!-- End of Header section -->
     </div>
     <!-- Enquiry form and Contact section -->
     <section>
@@ -133,23 +132,25 @@
                         <!-- First name -->
                         <div class="col-md-6">
                             <label for="contact-validname1" class="form-label">First name</label>
-                            <input type="text" name="contact-firstname" class="form-control" id="contact-validname1" aria-label="First name"
-                                required>
+                            <input type="text" name="contact-firstname" class="form-control" id="contact-validname1"
+                                aria-label="First name" required>
                         </div>
                         <!-- Last name -->
                         <div class="col-md-6">
                             <label for="contact-validname2" class="form-label">Last name</label>
-                            <input type="text" name="contact-lastname" class="form-control" id="contact-validname2" aria-label="Last name"
-                                required>
+                            <input type="text" name="contact-lastname" class="form-control" id="contact-validname2"
+                                aria-label="Last name" required>
                         </div>
                         <!-- Email address -->
                         <div class="col-md-12">
                             <label for="contact-validemail" class="form-label">Email address</label>
-                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail" aria-label="Contact email address" required>
+                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail"
+                                aria-label="Contact email address" required>
                         </div>
                         <!-- Subject dropdown options -->
                         <div class="col-md-12">
-                            <label for="contact-subject" class="form-label" aria-label="Subject selection">Subject</label>
+                            <label for="contact-subject" class="form-label"
+                                aria-label="Subject selection">Subject</label>
                             <select name="contact-subject" id="contact-subject">
                                 <option>-- Select an option --</option>
                                 <option value="class">Book a class</option>
@@ -161,8 +162,8 @@
                         <!-- Message -->
                         <div class="col-md-12">
                             <label for="contact-message" class="form-label">Message</label>
-                            <textarea name="contact-message" class="form-control" id="contact-message" aria-label="Enquiry message area"
-                                required></textarea>
+                            <textarea name="contact-message" class="form-control" id="contact-message"
+                                aria-label="Enquiry message area" required></textarea>
                         </div>
                         <!-- Terms check -->
                         <div class="col-12">
@@ -188,16 +189,16 @@
                     <div class="contact-text">
                         <strong>Mind Body Motion Wellness Centre</strong>
                         <br>
-                        <span >
+                        <span>
                             <i class="fas fa-map-marker-alt"></i>
                             Treebeekstraat 55
                             <br>
                         </span>
-                        <span >
+                        <span>
                             Brunssum
                             <br>
                         </span>
-                        <span >
+                        <span>
                             6446 XP Limburg
                             <br>
                         </span>
@@ -268,13 +269,16 @@
                         Let's Connect
                     </span>
                     <br>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/"
+                        target="_blank">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/"
+                        target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/"
+                        target="_blank">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
@@ -330,13 +334,16 @@
                         <!-- Social media section, kept separate to keep items together -->
                         <p>Let's Connect</p>
                         <p>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/"
+                                target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/"
+                                target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/"
+                                target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </p>
@@ -351,4 +358,5 @@
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

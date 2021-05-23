@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,115 +13,111 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mind Body Motion Wellness Centre</title>
 </head>
+
 <body>
-    <!-- Header section -->
+    <!-- Header section, contains logo, navbar and sign-up button -->
     <div id="header">
         <header>
-            <div>
-                <div id="logo-left"></div>
-                <div id="logo-right"></div>
-            </div>
-            <div id="header-text">
-                <h1>Mind Body Motion</h1>
-                <h2>Wellness Centre</h2>
-            </div>
-            <h3 id="quote">
-                "When mind, body and spirit are in harmony, happiness is the natural result"
-                <br><i>Deepak Chopra</i>
-            </h3>
-            <div id="logo-center"></div>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <!-- Navigation bar -->
-            <div class="container-fluid">
-                <!-- Mobile menu -->
-                <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navigation links -->
-                <div class="collapse navbar-collapse fixed-top" id="navbar-links">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="classes.html">Classes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="schedule.html">Schedule and
-                                Rates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <!-- Sign up trigger modal -->
-                        <li id="signup-prompt" class="btn btn-link" data-bs-toggle="modal"
-                            data-bs-target="#signup-block">
-                            Sign Up Here
-                        </li>
-                    </ul>
+            <!-- Navigation bar: copied from Bootstrap 5 (https://getbootstrap.com/docs/4.0/components/navbar/) and modified  -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- Logo on left, clicks back to Home page -->
+                    <a class="navbar-brand" href="index.html">
+                        <div id="logo"></div>
+                    </a>
+                    <!-- Mobile hamburger menu, appears on tablet and mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navigation links, collapse on tablet and mobile -->
+                    <div class="collapse navbar-collapse" id="navbar-links">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- Home page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <!-- About page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <!-- Classes page link, currently active -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="classes.html">Classes</a>
+                            </li>
+                            <!-- Schedule page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="schedule.html">Schedule and
+                                    Rates</a>
+                            </li>
+                            <!-- Contact page link, inactive -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- Button to sign up for Newsletter, copied from Bootstrap 5 Modal (https://getbootstrap.com/docs/4.0/components/modal/) and modified -->
+                        <button class="navbar-toggler d-none d-lg-block" id="signup-prompt" type="button"
+                            class="btn btn-link" data-bs-toggle="modal" data-bs-target="#signup-block">
+                            Sign Up
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <!-- End of Navigation bar -->
-        </nav>
-        <!-- Modal -->
-        <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="signup-blocklabel">
-                            Subscribe to Our Newsletter
-                        </h2>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Sign up for our monthly newsletter to be alerted of new events and wellbeing
-                            advice.
-                        </p>
-                        <!-- Signup form, posts to CI formdump -->
-                        <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-                            <!-- First name -->
-                            <div class="col-md-6">
-                                <label for="validname1" class="form-label">First name</label>
-                                <input type="text" name="firstname" class="form-control" id="validname1" required>
+                <!-- End of Navigation bar -->
+            </nav>
+        </header>
+    </div>
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="signup-blocklabel">
+                        Subscribe to Our Newsletter
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Sign up for our monthly newsletter to be alerted of new events and wellbeing
+                        advice.
+                    </p>
+                    <!-- Signup form, posts to CI formdump -->
+                    <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                        <!-- First name -->
+                        <div class="col-md-6">
+                            <label for="validname1" class="form-label">First name</label>
+                            <input type="text" name="firstname" class="form-control" id="validname1" required>
+                        </div>
+                        <!-- Last name -->
+                        <div class="col-md-6">
+                            <label for="validname2" class="form-label">Last name</label>
+                            <input type="text" name="lastname" class="form-control" id="validname2" required>
+                        </div>
+                        <!-- Email address -->
+                        <div class="col-md-12">
+                            <label for="validemail" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control" id="validemail" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
+                                <label class="form-check-label" for="invalcheck">
+                                    Agree to terms of use
+                                </label>
                             </div>
-                            <!-- Last name -->
-                            <div class="col-md-6">
-                                <label for="validname2" class="form-label">Last name</label>
-                                <input type="text" name="lastname" class="form-control" id="validname2" required>
-                            </div>
-                            <!-- Email address -->
-                            <div class="col-md-12">
-                                <label for="validemail" class="form-label">Email address</label>
-                                <input type="email" name="email" class="form-control" id="validemail" required>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
-                                    <label class="form-check-label" for="invalcheck">
-                                        Agree to terms of use
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                                    Close
-                                </button>
-                                <button type="submit" class="btn btn-outline-dark">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="submit" class="btn btn-outline-dark">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- End of Header section -->
     </div>
     <!-- Yoga Classes section-->
     <section class="class-section">
@@ -149,9 +146,11 @@
                         <img src="assets/images/classes/vinyasa.jpg" alt="Instructor assisting student with posture"
                             class="class-thumbnail">
                         <p class="class-desc">
-                            This class focuses on linking together of movement and breath to create a ‘vinyasa flow'.
+                            This class focuses on linking together of movement and breath to create a ‘vinyasa
+                            flow'.
                             Every class feels different as the posture order varies from class to class. Special
-                            emphasis is placed on moving in and out of postures safely, learning correct alignment, and
+                            emphasis is placed on moving in and out of postures safely, learning correct alignment,
+                            and
                             connecting the poses to the breath as students move in a fluid, controlled motion.
                         </p>
                     </div>
@@ -166,8 +165,10 @@
                             class="class-thumbnail">
                         <p class="class-desc">
                             Restorative yoga is conducted entirely on the mat, either in a seated position or laying
-                            down on the mat. The focus of this class is on deep stretching, breathing, meditation, and
-                            delightful stress reduction techniques and poses. Props are used to increase comfort while
+                            down on the mat. The focus of this class is on deep stretching, breathing, meditation,
+                            and
+                            delightful stress reduction techniques and poses. Props are used to increase comfort
+                            while
                             reaching new levels of deep relaxation during each class.
                         </p>
                     </div>
@@ -176,8 +177,10 @@
                         <h4 class="class-heading">Yin Yoga</h4>
                         <img src="assets/images/classes/yin.jpg" alt="3 women in yoga class" class="class-thumbnail">
                         <p class="class-desc">
-                            Yin yoga targets the deep connective tissue of the body. It helps to regulate the flow of
-                            energy throughout the body. Yin yoga postures are more passive postures in nature and mainly
+                            Yin yoga targets the deep connective tissue of the body. It helps to regulate the flow
+                            of
+                            energy throughout the body. Yin yoga postures are more passive postures in nature and
+                            mainly
                             consist of postures conducted on the floor.
                         </p>
                     </div>
@@ -188,10 +191,11 @@
                     <!-- Class type 1 -->
                     <div class="class-item list-group-item  yoga-class-item">
                         <h4 class="class-heading">Ashtanga Yoga</h4>
-                        <img src="assets/images/classes/ashtanga.jpg" alt="Two women performing variations of advanced yoga pose"
-                            class="class-thumbnail">
+                        <img src="assets/images/classes/ashtanga.jpg"
+                            alt="Two women performing variations of advanced yoga pose" class="class-thumbnail">
                         <p class="class-desc">
-                            Ashtanga Yoga is a vigorous vinyasa and flow style of yoga. It involves synchronizing breath
+                            Ashtanga Yoga is a vigorous vinyasa and flow style of yoga. It involves synchronizing
+                            breath
                             with progressive and continuous postures. It builds strength, flexibility, and stamina,
                             while calming the mind and improving overall health.
                         </p>
@@ -202,8 +206,10 @@
                         <img src="assets/images/classes/hatha.jpg" alt="Two women in advanced yoga balancing pose"
                             class="class-thumbnail">
                         <p class="class-desc">
-                            Hatha Yoga is a traditional yoga method that includes postures (Asana), breathing exercises
-                            (Pranayama), Meditation, Chanting, and hand gestures (Mudra). The emphasis in Hatha Yoga is
+                            Hatha Yoga is a traditional yoga method that includes postures (Asana), breathing
+                            exercises
+                            (Pranayama), Meditation, Chanting, and hand gestures (Mudra). The emphasis in Hatha Yoga
+                            is
                             on balancing body, energy, and mind. The postures are designed to cultivate strength,
                             flexibility, openness, balance, and relaxation.
                         </p>
@@ -227,7 +233,11 @@
                         <img src="assets/images/classes/prenatal.jpg" alt="Instructor and pregnant woman on yoga balls"
                             class="class-thumbnail">
                         <p class="class-desc">
-                            A gentle class that focuses on relaxation and letting go. Soft stretching and light strengthening combined with calm breathing will help to relieve tension that accumulates during pregnancy as the body goes through a lot of change. It helps train the breath, body, and mind to relax.
+                            A gentle class that focuses on relaxation and letting go. Soft stretching and light
+                            strengthening combined with calm breathing will help to relieve tension that accumulates
+                            during pregnancy as the body goes through a lot of change. It helps train the breath,
+                            body,
+                            and mind to relax.
                         </p>
                     </div>
                 </div>
@@ -251,7 +261,13 @@
                         <img src="assets/images/classes/pilates.jpg" alt="Three women stretching in pilates class"
                             class="class-thumbnail">
                         <p class="class-desc">
-                            Pilates enhances overall movement, boosts energy, improves posture, and leaves you feeling more connected to your body by creating balance, stability and co-ordination. Pilates gives your spine stronger support enabling you to stand up taller, encourages good joint mobility and flexibility, and creates long lean muscles.
+                            Pilates enhances overall movement, boosts energy, improves posture, and leaves you
+                            feeling
+                            more connected to your body by creating balance, stability and co-ordination. Pilates
+                            gives
+                            your spine stronger support enabling you to stand up taller, encourages good joint
+                            mobility
+                            and flexibility, and creates long lean muscles.
                         </p>
                     </div>
                 </div>
@@ -288,13 +304,16 @@
                         Let's Connect
                     </span>
                     <br>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/"
+                        target="_blank">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/"
+                        target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/" target="_blank">
+                    <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/"
+                        target="_blank">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
@@ -350,13 +369,16 @@
                         <!-- Social media section, kept separate to keep items together -->
                         <p>Let's Connect</p>
                         <p>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.facebook.com/"
+                                target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.instagram.com/"
+                                target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/" target="_blank">
+                            <a class="footer-icon" aria-label="social-media-link" href="https://www.twitter.com/"
+                                target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </p>
