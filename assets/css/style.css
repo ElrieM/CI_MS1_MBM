@@ -97,9 +97,7 @@ body {
 
 /* Colours - Home */
 
-#quote {
-  color: #314357;
-}
+
 
 .intro-heading {
   mix-blend-mode: darken;
@@ -231,23 +229,19 @@ header {
   margin: 0;
 }
 
-header h1 {
-  padding-top: 1em;
-}
-
 #quote {
   font-family: "Dancing Script", cursive;
   margin: 0;
   font-size: xx-large;
   text-shadow: 2px 2px #e6e6e9;
   padding: 0.5rem 0;
+  text-align: center;
 }
 
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
 }
-
 
 .section-heading {
   margin-top: 0.5em;
@@ -313,7 +307,7 @@ header h1 {
   padding: 0 3%;
 }
 
-/* Padding - Index page */
+/* Padding - Home page */
 
 .intro-heading,
 .class-heading {

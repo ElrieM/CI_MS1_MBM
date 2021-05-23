@@ -66,7 +66,7 @@
       </nav>
     </header>
   </div>
-  <!-- Sign Up Modal -->
+  <!-- Sign Up Modal, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/components/modal/) and modified. Button to trigger modal is in Header section -->
   <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -80,7 +80,8 @@
             Sign up for our monthly newsletter to be alerted of new events and wellbeing
             advice.
           </p>
-          <!-- Signup form, posts to CI formdump -->
+          <!-- Signup form, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/forms/overview/) and modified -->
+          <!-- posts to CI formdump -->
           <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
             <!-- First name -->
             <div class="col-md-6">
@@ -99,12 +100,13 @@
             </div>
             <div class="col-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalcheck" required>
-                <label class="form-check-label" for="invalcheck">
+                <input class="form-check-input" type="checkbox" value="" id="invalcheckemail" required>
+                <label class="form-check-label" for="invalcheckemail">
                   Agree to terms of use
                 </label>
               </div>
             </div>
+            <!-- Modal footer, containing Close and Submit (subscribe) buttons -->
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                 Close
@@ -114,10 +116,11 @@
               </button>
             </div>
           </form>
-        </div>
-      </div>
-    </div>
-  </div>
+        </div> <!-- End of Modal Body -->
+      </div> <!-- End of Modal Content -->
+    </div> <!-- End of Modal Dialog -->
+  </div> <!-- End of Signup Modal section -->
+  <!-- Instructor photo and quotes -->
   <section id="instructor-section">
     <!-- Instructors section-->
     <h2 class="section-heading">Meet the Team</h2>
