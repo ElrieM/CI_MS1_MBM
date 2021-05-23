@@ -314,6 +314,6 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 
 ### Acknowledgements
 
-* My mentor, Mo, for helpful feedback and some supportive words when I was overwhelmed.
+* My mentor for helpful feedback and some supportive words when I was overwhelmed.
 * My partner for enduring countless "poepie, wat van die" (loosely translates to "honey, what do you think of this") and patience.
 * My brothers for words of encouragement and their support.

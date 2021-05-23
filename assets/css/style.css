@@ -1,81 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato&display=swap");
 
 body,
 html {
-    height: 100%;
-    margin: 0;
-    background-image: linear-gradient(to right, #f5f0ed, #f5ece7);
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(to right, #f5f0ed, #f5ece7);
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    color: #334545;
+  font-family: "Lato", sans-serif;
+  color: #334545;
 }
 
 /* ------ Images ------ */
 
 #background-cover {
-    background-image: url(../images/home-cover-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  background-image: url(../images/home-cover-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #logo-left,
 #logo-center,
 #logo-right {
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 250px;
-    width: 250px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 250px;
+  width: 250px;
 }
 
 #logo-left {
-    float: left;
+  float: left;
 }
 
 #logo-right {
-    float: right;
+  float: right;
 }
 
 #logo-center {
-    visibility: hidden;
-    display: contents;
+  visibility: hidden;
+  display: contents;
 }
 
 #instructor-1 {
-    background-image: url("../images/instructors/instructor-1.jpg");
+  background-image: url("../images/instructors/instructor-1.jpg");
 }
 
 #instructor-2 {
-    background-image: url("../images/instructors/instructor-2.jpg");
+  background-image: url("../images/instructors/instructor-2.jpg");
 }
 
 #instructor-3 {
-    background-image: url("../images/instructors/instructor-3.jpg");
+  background-image: url("../images/instructors/instructor-3.jpg");
 }
 
 #instructor-4 {
-    background-image: url("../images/instructors/instructor-4.jpg");
+  background-image: url("../images/instructors/instructor-4.jpg");
 }
 
 /* End of Images */
-
 
 /* ------ Colours ------ */
 
 #header,
 #navbar-links,
 #footer {
-    background-color: #e1dbcf;
+  background-color: #e1dbcf;
 }
 
 #header {
-    border-bottom: #334545;
-    border-bottom-style: double;
+  border-bottom: #334545;
+  border-bottom-style: double;
 }
 
 #header-text,
@@ -85,142 +84,141 @@ body {
 .footer-link,
 .footer-icon,
 .connect-item {
-    color: #334545;
-    text-decoration: none;
+  color: #334545;
+  text-decoration: none;
 }
 
 /* Colours - Header */
 
 #quote {
-    color: #314357;
+  color: #314357;
 }
 
 .active {
-    mix-blend-mode: color-burn;
-    border-bottom: 2px solid #ccc;
+  mix-blend-mode: color-burn;
+  border-bottom: 2px solid #ccc;
 }
 
 .nav-link:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    mix-blend-mode: color-burn;
+  text-decoration: underline;
+  mix-blend-mode: color-burn;
 }
 
 /* Colours - Sign up Modal */
 
 .modal-content {
-    color: #334545;
+  color: #334545;
 }
 
 /* Colours - Home */
 
 .intro-heading {
-    mix-blend-mode: darken;
+  mix-blend-mode: darken;
 }
 
 /* Colours - About */
 
 .meet-team {
-    background-color: #d4e0d6;
-    color: #334545;
+  background-color: #d4e0d6;
+  color: #334545;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #e1dbcf;
-    color: #334545;
+  background-color: #e1dbcf;
+  color: #334545;
 }
 
 .accordion-body {
-    color: #334545;
+  color: #334545;
 }
-
 
 /* Colours - Classes */
 
 .yoga-class-item {
-    background-color: #d4e0d6;
+  background-color: #d4e0d6;
 }
 
 .other-class-item {
-    background-color: #f2e5dd;
+  background-color: #f2e5dd;
 }
 
 /* Colours - Schedule */
 
 #schedule-container {
-    background-color: #fffaf0;
+  background-color: #fffaf0;
 }
 
 table {
-    color: #334545;
+  color: #334545;
 }
 
 #rates-table {
-    background-color: #d4e0d6;
+  background-color: #d4e0d6;
 }
 
 a {
-    color:#334545;
+  color: #334545;
 }
 
 #download-pdf {
-    color:#334545;
+  color: #334545;
 }
 
 .special-class {
-    background-color: #add8e6;
+  background-color: #add8e6;
 }
 
 .beginner-class {
-    background-color: #90EE90;
+  background-color: #90ee90;
 }
 
 .slow-class {
-    background-color: #FFD966;
+  background-color: #ffd966;
 }
 
 .fast-class {
-    background-color: #FFA07A;
+  background-color: #ffa07a;
 }
 
-#table-legend, 
+#table-legend,
 #book-button,
 .legend {
- color:#334545;
+  color: #334545;
 }
 
 /* Colours - Contact page */
 
 .form-section,
 #contact-container {
-    color: #334545;
-    background-color: #d4e0d6;
-    border: #acbba6 double 2px;
+  color: #334545;
+  background-color: #d4e0d6;
+  border: #acbba6 double 2px;
 }
 
 #enqform-section {
-    color: #334545;
+  color: #334545;
 }
 
 /* Colours - Footer */
 
 .footer-link:hover {
-    border: 1px solid #acbba6;
-    color: #334545;
-    letter-spacing: 2px;
-    text-decoration: underline;
+  border: 1px solid #acbba6;
+  color: #334545;
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
 .connect-item:hover {
-    color: #acbba6;
-    text-decoration: underline;
+  color: #acbba6;
+  text-decoration: underline;
 }
 
 .footer-icon:hover {
-    color: #acbba6;
+  color: #acbba6;
 }
 
 /* End of Colours */
@@ -230,765 +228,762 @@ a {
 /* Padding - Header */
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 .header-text {
-    padding-bottom: 0;
-    margin: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 header h1 {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 #quote {
-    font-family: 'Dancing Script', cursive;
-    margin: 0;
-    font-size: xx-large;
-    text-shadow: 2px 2px #e6e6e9;
-    padding: .5rem 0;
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  font-size: xx-large;
+  text-shadow: 2px 2px #e6e6e9;
+  padding: 0.5rem 0;
 }
 
 #logo-left,
 #logo-right {
-    padding: 20px 0;
-    margin: 0 1em;
+  padding: 20px 0;
+  margin: 0 1em;
 }
 
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .section-heading {
-    margin-top: .5em;
-    margin-bottom: .5rem;
-    text-shadow: 2px 2px #cdcccf;
-    text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px #cdcccf;
+  text-align: center;
 }
 
 #signup-prompt {
-    visibility: visible;
-    display:inline;
-    font-weight: bolder;
-    position: relative;
-    text-decoration: wavy;
-    top: 0;
-    right: 0;
-    background-color: #334545;
-    color: #f2e5dd;
+  visibility: visible;
+  display: inline;
+  font-weight: bolder;
+  position: relative;
+  text-decoration: wavy;
+  top: 0;
+  right: 0;
+  background-color: #334545;
+  color: #f2e5dd;
 }
 
 /* Padding - Footer */
 
 #footer {
-    position: absolute;
-    width: 100%;
-    height: fit-content;
-    padding-top: 10px;
-    margin-top: 1em;
-    text-align: center;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  padding-top: 10px;
+  margin-top: 1em;
+  text-align: center;
 }
 
 .desktop-footer {
-    visibility: visible;
-    display: contents;
+  visibility: visible;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .handheld-footer {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
 
 .contact {
-    text-align: center;
-    padding-left: 3%;
+  text-align: center;
+  padding-left: 3%;
 }
 
 #contact-section .section-heading,
 #enqform-section .section-heading {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .footer-icon {
-    padding-left: 1em;
-    padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .footer-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .connect-item {
-    padding: 0 3%;
+  padding: 0 3%;
 }
 
 /* Padding - Index page */
 
 .intro-heading,
 .class-heading {
-    padding-top: .3em;
-    text-align: center;
-    font-size: x-large;
+  padding-top: 0.3em;
+  text-align: center;
+  font-size: x-large;
 }
 
 .contact-heading {
-    padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .contact-text {
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
 .contact-text strong {
-    padding-top: 2%;
+  padding-top: 2%;
 }
 
 .intro-text {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .intro-block {
-    background-color: #f2e5dd;
-    opacity: 0.9;
-    margin: 0 .5rem;
+  background-color: #f2e5dd;
+  opacity: 0.9;
+  margin: 0 0.5rem;
 }
 
 .event-image {
-    height: 70px;
-    width: 70px;
-    margin-bottom: 10px;
-    float: left;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: scroll;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+  float: left;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: scroll;
 }
 
 #events-section {
-    margin: 1em;
+  margin: 1em;
 }
 
 .events-block,
 .class-desc {
-    max-height: 290px;
-    opacity: .9;
-    margin-bottom: 2em;
+  max-height: 290px;
+  opacity: 0.9;
+  margin-bottom: 2em;
 }
 
 .event-item {
-    display: inline-block;
-    background: #d4e0d6;
-    margin: 0 5px;
+  display: inline-block;
+  background: #d4e0d6;
+  margin: 0 5px;
 }
 
 .event-heading,
 .class-heading,
 #connect-heading {
-    text-align: center;
-    letter-spacing: 2px;
-    padding-top: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 15px;
 }
 
 .event-heading {
-    font-size: medium;
+  font-size: medium;
 }
 
 .class-item .class-heading {
-    font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .event-details {
-    text-align: center;
-    font-size: smaller;
-    margin: 0;
-    letter-spacing: 1px;
+  text-align: center;
+  font-size: smaller;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 .event-desc {
-    font-size: small;
+  font-size: small;
 }
-
 
 /* Padding - About page */
 
 .meet-team {
-    text-align: center;
-    padding: 10px;
-    margin: .3em;
-    width: 16%;
+  text-align: center;
+  padding: 10px;
+  margin: 0.3em;
+  width: 16%;
 }
 
 .tmember-name {
-    font-size: medium;
+  font-size: medium;
 }
 
 #carousel-mobile {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
 
 #carousel-large {
-    visibility: visible;
-    display:contents;
+  visibility: visible;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 #gallery {
-    padding-top: 1em;
-    height: 30%;
+  padding-top: 1em;
+  height: 30%;
 }
 
 .gallery-image {
-    width: 100%;
+  width: 100%;
 }
 
 /* Padding - Classes page */
 
 .classes-block {
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
-.list-group-item+.list-group-item {
-    border-top-width: 1px;
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
 }
 
 .yoga-class-item {
-    height: 45%;
-    margin-bottom: .5em;
+  height: 45%;
+  margin-bottom: 0.5em;
 }
 
 .other-class-item {
-    height: 95%;
-    margin-bottom: .5em;
+  height: 95%;
+  margin-bottom: 0.5em;
 }
 
 .class-thumbnail {
-    max-height: 100%;
-    max-width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+  max-height: 100%;
+  max-width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #notify {
-    font-size: smaller;
-    text-align: center;
+  font-size: smaller;
+  text-align: center;
 }
-
 
 /* Padding - Schedule page */
 
 #legend-header {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 #booking-link,
 #download-link {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 #download-pdf {
-    font-size: xx-large;
-    margin-left: 25%;
+  font-size: xx-large;
+  margin-left: 25%;
 }
 
 table {
-    table-layout: fixed;
-    width: 100%;
-    text-align: center;
-    border: 5px double #314357;
-    font-size: small;
-    margin: 10px 0;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border: 5px double #314357;
+  font-size: small;
+  margin: 10px 0;
 }
 
 tr,
 th,
 td {
-    border: .2em solid #314357;
-    padding: .5em;
+  border: 0.2em solid #314357;
+  padding: 0.5em;
 }
 
-
 #rates-table {
-    border: 1px solid;
+  border: 1px solid;
 }
 
 .special-class:hover,
 .beginner-class:hover,
 .slow-class:hover,
 .fast-class:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #rates-table {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
-    table-layout: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  table-layout: auto;
 }
 
 .table-left {
-    text-align: left;
-    text-indent: 10px;
+  text-align: left;
+  text-indent: 10px;
 }
 
 #table-legend,
 #booking-link,
 #download-link {
-    padding: 1em;
+  padding: 1em;
 }
 
 #table-legend em {
-    margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .legend {
-    font-size: smaller;
-    height: 10%;
-    text-align: center;
+  font-size: smaller;
+  height: 10%;
+  text-align: center;
 }
 
 /* Padding - Contact page */
 
 #enqform-section {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 #contact-container {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .container-text {
-    padding: 4em;
+  padding: 4em;
 }
 
 .icon {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 #map {
-    padding-bottom: .75em;
+  padding-bottom: 0.75em;
 }
 
 /* ---- Contact Form */
 
 .form-section {
-    padding: 1em;
+  padding: 1em;
 }
 
 #contact-section {
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #contact-subject {
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    width: 100%;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
 }
 
 #contact-message {
-    height: 10em;
-    vertical-align: top;
+  height: 10em;
+  vertical-align: top;
 }
 
 /* ---- Contact details */
 
 #map {
-    padding-top: 1em;
-    width: 100%;
-    height: 100%;
+  padding-top: 1em;
+  width: 100%;
+  height: 100%;
 }
 
 /* Padding - Sign up Modal */
 
 .modal-content {
-    background-image: url("../images/modal-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1rem;
+  background-image: url("../images/modal-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
 }
 
 .form-check-label {
-    font-style: italic;
+  font-style: italic;
 }
-
 
 /* End of Padding / Margins / Text */
 
 /* ------ Media queries ------*/
 
 @media only screen and (max-width: 992px) {
+  /* ---- Tablet ---- */
 
-    /* ---- Tablet ---- */
+  /* Tablet - Home page background */
 
-    /* Tablet - Home page background */
+  #background-cover {
+    background-image: url(../images/home-cover-2.jpg);
+    background-size: 125%;
+  }
 
-    
-    #background-cover {
-        background-image: url(../images/home-cover-2.jpg);
-        background-size: 125%;
-    }
+  /* Tablet - Header */
 
-    /* Tablet - Header */
+  header {
+    margin: 0;
+    padding: 0;
+  }
 
-    header {
-        margin: 0;
-        padding: 0;
-    }
+  #quote {
+    font-size: x-large;
+  }
 
-    #quote {
-        font-size: x-large;
-    }
+  #logo-left,
+  #logo-right {
+    visibility: hidden;
+    display: contents;
+  }
 
-    #logo-left,
-    #logo-right {
-        visibility: hidden;
-        display: contents;
-    }
+  #logo-center {
+    visibility: visible;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    object-position: center;
+  }
 
-    #logo-center {
-        visibility: visible;
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        margin: 0;
-        padding: 0;
-        object-position: center;
-    }
+  .nav-link {
+    font-size: medium;
+  }
 
-    .nav-link {
-        font-size: medium;
-    }
+  /* Tablet - Home page */
 
+  #event-4 {
+    visibility: collapse;
+    display: none;
+  }
 
-    /* Tablet - Home page */
+  /* Tablet - About page */
 
-    #event-4 {
-        visibility: collapse;
-        display: none;
-    }
+  .meet-team {
+    text-align: center;
+    padding: 1%;
+    margin: 0.5%;
+    width: 24%;
+  }
 
-    /* Tablet - About page */
+  #carousel-mobile {
+    visibility: hidden;
+    display: none;
+  }
 
-    .meet-team {
-        text-align: center;
-        padding: 1%;
-        margin: 0.5%;
-        width: 24%;
-    }
+  #carousel-large {
+    visibility: visible;
+    display: inline-flex;
+    flex-direction: column;
+  }
 
-    #carousel-mobile {
-        visibility: hidden;
-        display: none;
-    }
-    
-    #carousel-large {
-        visibility: visible;
-        display:contents;
-    }
+  .gallery-image {
+    width: 100%;
+  }
 
-    .gallery-image {
-        width: 100%;
-    }
+  /* Tablet - Classes page */
 
-    /* Tablet - Classes page */
+  .class-heading {
+    font-size: large;
+  }
 
-    .class-heading {
-        font-size: large;
-    }
+  .classes-block {
+    width: unset;
+  }
 
-    .classes-block {
-      width: unset;
-    }
+  .yoga-class-item,
+  .other-class-item {
+    height: 605px;
+    overflow: auto;
+  }
 
-    .yoga-class-item,
-    .other-class-item {
-        height: 605px;
-        overflow: auto;
-    }
+  .class-thumbnail {
+    width: 100%;
+    max-height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
-    .class-thumbnail {
-        width: 100%;
-        max-height: 100%;
-        margin-left: 1%;
-        margin-right: 1%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+  /* Tablet - Schedule page */
 
-    /* Tablet - Schedule page */
+  #schedule-section .container-fluid {
+    padding-right: 0;
+  }
 
-    #schedule-section .container-fluid {
-        padding-right: 0;
-    }
+  .legend {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 
-    .legend {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-    }
+  #download-pdf {
+    margin-left: 10%;
+  }
 
-    #download-pdf {
-        margin-left: 10%;
-        }    
-    
-    #rates-table {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-        table-layout: auto;
-    }
+  #rates-table {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    table-layout: auto;
+  }
 
-    /* Tablet - Contact page */
+  /* Tablet - Contact page */
 
-    .contact-text {
-        padding: .5em;
-    }
+  .contact-text {
+    padding: 0.5em;
+  }
 
-    #contact-container {
-        padding-bottom: 1.9em;
-    }
+  #contact-container {
+    padding-bottom: 1.9em;
+  }
 
-    #submit-button {
-        padding-bottom: 1em;
-    }
-    
-    /* Tablet - Footer */
+  #submit-button {
+    padding-bottom: 1em;
+  }
 
-    .desktop-footer {
-        visibility: hidden;
-        display: none;
-    }
+  /* Tablet - Footer */
 
-    .handheld-footer {
-        visibility: visible;
-        display: contents;
-    }
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
 
-    #footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        height: fit-content
-    }
+  .handheld-footer {
+    visibility: visible;
+    display:inline-flex;
+    flex-direction: column;
+  }
 
-    .contact {
-        text-align: center;
-        padding-left: unset;
-    }
+  #footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+  }
 
-    .connect {
-        margin-top: .5em;
-    }
+  .contact {
+    text-align: center;
+    padding-left: unset;
+  }
 
-    /* End of Tablet */
+  .connect {
+    margin-top: 0.5em;
+  }
+
+  /* End of Tablet */
 }
-
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
+  /* Media - Header */
+  #background-cover {
+    background-image: url(../images/home-cover-3.jpg);
+  }
 
-    /* Media - Header */
-    #background-cover {
-        background-image: url(../images/home-cover-3.jpg);
-    }
-
-    header {
-        margin: 0;
-        padding: 0;
-    }
-
-    #quote {
-        font-size: large
-    }
-
-    #logo-left,
-    #logo-right {
-        visibility: hidden;
-        display: contents;
-    }
-
-    #logo-center {
-        visibility: visible;
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        margin: 0;
-        padding: 0;
-        object-position: center;
-    }
-
-    /* Media - Home page */
-
-    .intro-block,
-    .event-item {
-        margin: 1% 0;
-        padding-top: 2%;
-    }
-
-    .events-block {
-        max-height: fit-content;
-        opacity: .9;
-        margin-bottom: 2em;
-    }
-
-    #event-4 {
-        visibility: visible;
-        display: inline-block;
-    }
-
-    #instructor-1,
-    #instructor-2,
-    #instructor-3,
-    #instructor-4 {
-        margin-bottom: auto;
-    }
-
-    /* Mobile - About page */
-
-    #carousel-large {
-        visibility: hidden;
-        display: none;
-    }
-
-    #carousel-mobile {
-        visibility: visible;
-        display:contents;
-    }
-
-    .meet-team {
-        margin: 1%;
-        padding: 1%;
-        max-width: 100%;
-        width: 48%;
-    }
-
-    .intro-text {
-        font-size: small;
-    }
-
-    .gallery-image {
-        width: 100%;
-    }
-
-    /* Mobile - Classes page */
-
-    .yoga-class-item,
-    .other-class-item {
-        height: unset;
-    }
-
-    .class-thumbnail {
-      max-width: unset;
-      margin-left: 5%;
-      margin-right: 5%;
-      width: 90%;
-    }
-    
-    /* Mobile - Schedule page */
-
-    button.navbar-toggler.fixed-top {
-        background-color: #e1dbcf;
-        opacity: .9;
-    }
-
-    #schedule-section .row {
-        margin: 0;
-        padding: 0;
-    }
-    
-    table {
-        font-size: xx-small;
-        letter-spacing: -1px;
-    }
-
-    #table-legend,
-    #booking-link,
-    #download-link {
-        font-size: xx-small;
-    }
-
-    #table-legend em {
-        font-size: x-small;
-    }
-
-    #schedule-section .container-fluid {
-        padding-right: 0;
-    }
-
-    .legend {
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: xx-small;
-        width: 80%;
-    }
-
-    #table-legend,
-    #booking-link,
-    #download-link {
+  header {
+    margin: 0;
     padding: 0;
-    }
-    #download-pdf {
+  }
+
+  #quote {
+    font-size: large;
+  }
+
+  #logo-left,
+  #logo-right {
+    visibility: hidden;
+    display: contents;
+  }
+
+  #logo-center {
+    visibility: visible;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    object-position: center;
+  }
+
+  /* Media - Home page */
+
+  .intro-block,
+  .event-item {
+    margin: 1% 0;
+    padding-top: 2%;
+  }
+
+  .events-block {
+    max-height: fit-content;
+    opacity: 0.9;
+    margin-bottom: 2em;
+  }
+
+  #event-4 {
+    visibility: visible;
+    display: inline-block;
+  }
+
+  #instructor-1,
+  #instructor-2,
+  #instructor-3,
+  #instructor-4 {
+    margin-bottom: auto;
+  }
+
+  /* Mobile - About page */
+
+  #carousel-large {
+    visibility: hidden;
+    display: none;
+  }
+
+  #carousel-mobile {
+    visibility: visible;
+    display:inline-flex;
+    flex-direction: column;
+  }
+
+  .meet-team {
+    margin: 1%;
+    padding: 1%;
+    max-width: 100%;
+    width: 48%;
+  }
+
+  .intro-text {
+    font-size: small;
+  }
+
+  .gallery-image {
+    width: 100%;
+  }
+
+  /* Mobile - Classes page */
+
+  .yoga-class-item,
+  .other-class-item {
+    height: unset;
+  }
+
+  .class-thumbnail {
+    max-width: unset;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  /* Mobile - Schedule page */
+
+  button.navbar-toggler.fixed-top {
+    background-color: #e1dbcf;
+    opacity: 0.9;
+  }
+
+  #schedule-section .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    font-size: xx-small;
+    letter-spacing: -1px;
+  }
+
+  #table-legend,
+  #booking-link,
+  #download-link {
+    font-size: xx-small;
+  }
+
+  #table-legend em {
+    font-size: x-small;
+  }
+
+  #schedule-section .container-fluid {
+    padding-right: 0;
+  }
+
+  .legend {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: xx-small;
+    width: 80%;
+  }
+
+  #table-legend,
+  #booking-link,
+  #download-link {
+    padding: 0;
+  }
+  #download-pdf {
     margin-left: 15%;
-    }
+  }
 
-    #rates-table {
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 96%;
-        table-layout: auto;
-    }
+  #rates-table {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    table-layout: auto;
+  }
 
-    /* Mobile - Contact page */
+  /* Mobile - Contact page */
 
-    #enqform-section {
-        padding: 0;
-        margin-left: 4%;
-    }
+  #enqform-section {
+    padding: 0;
+    margin-left: 4%;
+  }
 
-    #contact-section {
-        padding: 0;
-    }
+  #contact-section {
+    padding: 0;
+  }
 
-    /* Mobile - Footer */
+  /* Mobile - Footer */
 
-    .desktop-footer {
-        visibility: hidden;
-        display: none;
-    }
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
 
-    .handheld-footer {
-        visibility: visible;
-        display: contents;
-    }
+  .handheld-footer {
+    visibility: visible;
+    display:inline-flex;
+    flex-direction: column;
+  }
 
-    #footer {
-        position: relative;
-        bottom: 0;
-        margin: 0;
-        height: fit-content;
-    }
+  #footer {
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    height: fit-content;
+  }
 
-    .connect {
-        margin-top: 1em;
-    }
+  .connect {
+    margin-top: 1em;
+  }
 
-    .footer-link {
-        padding: 0;
-        margin: 0;
-    }
+  .footer-link {
+    padding: 0;
+    margin: 0;
+  }
 
-    /* End of Mobile */
+  /* End of Mobile */
 }
 
 /* End of Media queries ------ */
