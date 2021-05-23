@@ -138,6 +138,10 @@ body {
 
 /* Colours - Classes */
 
+#classes-section {
+    color:#334545;
+}
+
 .yoga-class-item {
   background-color: #d4e0d6;
 }
@@ -147,6 +151,12 @@ body {
 }
 
 /* Colours - Schedule */
+
+#schedule-section,
+#rates-section {
+    color:#334545;
+}
+
 
 #schedule-container {
   background-color: #fffaf0;
