@@ -32,6 +32,14 @@ The website provides users with information about the process for joining classe
   2. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available.
   3. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
 
+### Site Owner Stories
+
+#### Site Owner Goals
+
+1. As the Site Owner, I want to make information easily accessable to prospective and existing students, thereby reducing the number of queries sent and the time spent on administrative tasks.
+2. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit.
+3. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
+
 ### Design
 
 #### Colour Scheme
@@ -59,7 +67,7 @@ The website provides users with information about the process for joining classe
 * About page - [view](docs/wireframes/about.png)
 * Classes page - [view](docs/wireframes/classes.png)
 * Schedule and Rates page - [view](docs/wireframes/schedule.png)
-* Contact Us page - [view](docs/wireframes/contact.png)
+* Contact page - [view](docs/wireframes/contact.png)
 
 ## Features
 
@@ -109,7 +117,7 @@ The website provides users with information about the process for joining classe
   * Microsoft Excel:
     * Used to prepared PDF schedule available for download from Schedule page.
   * Balsamiq:
-    * Balsamiq was used to create the [wireframes](docs/wireframes) during the design process.
+    * Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -183,6 +191,18 @@ The following tools were used to validate every page of porject to ensure there 
 
      2. Users can also user the email address, telephone number or WhatsApp to reach out for assistance.
 
+* Site Owner Goals
+
+1. As the Site Owner, I want to make information easily accessable to prospective and existing students, thereby reducing the number of queries sent and the time spent on administrative tasks.
+   1. Prospective and existing students can find information about classes, instructors, the working rules, what to bring along etc. from the website.
+
+2. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit.
+   1. On the About page, prospective and existing students can view expectations for before, during and after class.
+
+   2. Prospective and existing students can find out what equipment is available in order to best prepare for the class.
+3. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
+   1. Events are included on the landing page, among the first content visible to prospective and existing student.
+
 ### Further Testing
 
 * The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
@@ -195,6 +215,8 @@ The following tools were used to validate every page of porject to ensure there 
 * The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
 
 * On Home page, on Desktop, there is a pink strip covering the background image that doesn't belong there.
+
+* Layout of instructors on About page doesn't break into 2 rows.
 
 * Class schedule becomes very small, with text spilling into other blocks. Attempt to make table scroll across not successful.
 
@@ -239,6 +261,8 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 
 * Bootstrap 5: Bootstrap Library used to make the site responsive using the Bootstrap Grid System
 * W3schools.com used for making changes to formatting and customising Bootstrap content used.
+* mdbootstrap.com for Carousel multiple items [here](https://mdbootstrap.com/snippets/jquery/ascensus/135508#html-tab-view)
+* freecodecamp.org for understanding why the footer won't stay put [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) and [here](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Content
 
@@ -275,16 +299,16 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 
 ### Media
 
-* Logo
+* Logo used in header
   * Lotus flower vector from [here](https://flyclipart.com/flower-lotus-lotus-flower-icon-with-png-and-vector-format-flower-icon-png-771399)
 
 * Cover page(s):
 
-  * Desktop - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/")
+  * Desktop - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/)
 
-  * Tablet - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822457/")
+  * Tablet - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822457/)
 
-  * Mobile - Photo by Elly Fairytale from [Pexels]("https://www.pexels.com/photo/woman-practicing-yoga-3822369/")
+  * Mobile - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822369/)
 
 * Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
 
