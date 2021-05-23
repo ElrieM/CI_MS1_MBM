@@ -133,23 +133,23 @@
                         <!-- First name -->
                         <div class="col-md-6">
                             <label for="contact-validname1" class="form-label">First name</label>
-                            <input type="text" name="contact-firstname" class="form-control" id="contact-validname1"
+                            <input type="text" name="contact-firstname" class="form-control" id="contact-validname1" aria-label="First name"
                                 required>
                         </div>
                         <!-- Last name -->
                         <div class="col-md-6">
                             <label for="contact-validname2" class="form-label">Last name</label>
-                            <input type="text" name="contact-lastname" class="form-control" id="contact-validname2"
+                            <input type="text" name="contact-lastname" class="form-control" id="contact-validname2" aria-label="Last name"
                                 required>
                         </div>
                         <!-- Email address -->
                         <div class="col-md-12">
                             <label for="contact-validemail" class="form-label">Email address</label>
-                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail" required>
+                            <input type="email" name="contact-validemail" class="form-control" id="contact-validemail" aria-label="Contact email address" required>
                         </div>
                         <!-- Subject dropdown options -->
                         <div class="col-md-12">
-                            <label for="contact-subject" class="form-label">Subject</label>
+                            <label for="contact-subject" class="form-label" aria-label="Subject selection">Subject</label>
                             <select name="contact-subject" id="contact-subject">
                                 <option>-- Select an option --</option>
                                 <option value="class">Book a class</option>
@@ -161,8 +161,8 @@
                         <!-- Message -->
                         <div class="col-md-12">
                             <label for="contact-message" class="form-label">Message</label>
-                            <input type="text" name="contact-message" class="form-control" id="contact-message"
-                                required>
+                            <textarea type="text" name="contact-message" class="form-control" id="contact-message" aria-label="Enquiry message area"
+                                required></textarea>
                         </div>
                         <!-- Terms check -->
                         <div class="col-12">

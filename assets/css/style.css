@@ -138,10 +138,24 @@ body {
 }
 
 
+/* Colours - Classes */
+
+.yoga-class-item {
+    background-color: #d4e0d6;
+}
+
+.other-class-item {
+    background-color: #f2e5dd;
+}
+
 /* Colours - Schedule */
 
 #schedule-container {
-    background-color: #e1dbcf;
+    background-color: #fffaf0;
+}
+
+table {
+    color: #334545;
 }
 
 #rates-table {
@@ -157,19 +171,19 @@ a {
 }
 
 .special-class {
-    background-color: lightblue;
+    background-color: #add8e6;
 }
 
 .beginner-class {
-    background-color: lightgreen;
+    background-color: #90EE90;
 }
 
 .slow-class {
-    background-color: lightgoldenrodyellow;
+    background-color: #FFD966;
 }
 
 .fast-class {
-    background-color: lightsalmon;
+    background-color: #FFA07A;
 }
 
 #table-legend, 
@@ -337,7 +351,7 @@ header h1 {
 
 .intro-block {
     background-color: #f2e5dd;
-    opacity: 0.7;
+    opacity: 0.9;
     margin: 0 .5rem;
 }
 
@@ -360,7 +374,7 @@ header h1 {
 .events-block,
 .class-desc {
     max-height: 290px;
-    opacity: .8;
+    opacity: .9;
     margin-bottom: 2em;
 }
 
@@ -488,7 +502,6 @@ table {
     border: 5px double #314357;
     font-size: small;
     margin: 10px 0;
-    color: #334545;
 }
 
 tr,
@@ -619,6 +632,7 @@ td {
 
     /* Tablet - Home page background */
 
+    
     #background-cover {
         background-image: url(../images/home-cover-2.jpg);
         background-size: 125%;
@@ -795,7 +809,7 @@ td {
     }
 
     #quote {
-        font-size: smaller;
+        font-size: large
     }
 
     #logo-left,
@@ -824,7 +838,7 @@ td {
 
     .events-block {
         max-height: fit-content;
-        opacity: .8;
+        opacity: .9;
         margin-bottom: 2em;
     }
 
@@ -885,7 +899,7 @@ td {
 
     button.navbar-toggler.fixed-top {
         background-color: #e1dbcf;
-        opacity: .7;
+        opacity: .9;
     }
 
     #schedule-section .row {

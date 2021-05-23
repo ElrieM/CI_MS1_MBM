@@ -37,11 +37,11 @@ The website provides users with information about the process for joining classe
 #### Colour Scheme
 
 * The main colours, generated from colormind.io, are:
-  * Light Shades (background / inverted text colour) - Spring Wood #e1dbcf
-  * Light Accent (accent colour) - Hillary #ac9d81
-  * Main brand colour - Granny Smith #8d9a9c
-  * Dark accent (alternative accent colour) - Toast #9d736b
-  * Dark shades (dark on light text colour, background) - Outer Space #334545
+  * Light Shades - Fresh Linen #e1dbcf (header, accents)
+  * Light Accent - Calm Pink #f2e5dd (background and accents)
+  * Main brand colour - Garden Air #d4e0d6
+  * Dark accent - Grateful Green #acbba6 (accents)
+  * Dark shades - Moonlight Forest #334545 (text)
 
 #### Typography
 
@@ -74,7 +74,8 @@ The website provides users with information about the process for joining classe
 
 * Interactive event registration - allows users to register for events directly from website
 * Interactive class booking - allows users to book, or cancel, directly from the website
-* Information about additional therapies (massage, sauna, reiki, etc.) to be added.
+* Adding information about additional therapies (massage, sauna, reiki, etc.)
+* Incorporating advertising for partners with yoga retreats, through social media feed.
 
 ## Technologies Used
 
@@ -88,16 +89,17 @@ The website provides users with information about the process for joining classe
 * Bootstrap 5:
   * Bootstrap was used to assist with the responsiveness and styling of the website:
     * Horizontal alignment navs & tabs used for navbar
-    * Used stacked to horizontal grid for introduction section on home page.
-    * For the image gallery on About page, used Carousel.
-    * Sign up for newsletter form created with modals.
-    * Classes layout uses List Group, with headings as disabled items.
+    * Used stacked to horizontal grid for introduction section on home page
+    * For the image gallery on About page, used Carousel
+    * Sign up for newsletter form created with modals
+    * Classes layout uses List Group, with headings as disabled items
+    * Contact form elements
   * Google Fonts:
     * Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
   * Font Awesome:
     * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
   * jQuery:
-    * jQuery in conjunction with Bootstrap make the navbar, modal and carousel responsive.
+    * jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
   * Git:
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   * GitHub:
