@@ -97,10 +97,21 @@ body {
 
 /* Colours - Home */
 
-
-
 .intro-heading {
   mix-blend-mode: darken;
+}
+
+#newsletter-signup {
+  background-color: #334545;
+  color:#e1dbcf;
+}
+
+.link-info{
+  color: #d4e0d6;
+}
+
+.link-info:hover {
+  color:#f2e5dd;  
 }
 
 /* Colours - About */
@@ -379,10 +390,6 @@ header {
   font-size: medium;
 }
 
-.class-item .class-heading {
-  font-family: "Dancing Script", cursive;
-}
-
 .event-details {
   text-align: center;
   font-size: smaller;
@@ -392,6 +399,11 @@ header {
 
 .event-desc {
   font-size: small;
+}
+
+#newsletter-signup {
+  padding: 1em;
+  text-align: center;
 }
 
 /* Padding - About page */
@@ -428,6 +440,10 @@ header {
 }
 
 /* Padding - Classes page */
+
+.class-item .class-heading {
+  font-family: "Dancing Script", cursive;
+}
 
 .classes-block {
   width: 98%;
