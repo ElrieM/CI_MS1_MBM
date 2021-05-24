@@ -618,6 +618,29 @@ td {
   font-style: italic;
 }
 
+/* Padding - 404 page */
+#error-block {
+  margin-top: 4em;
+  text-align: center;
+}
+
+#error-header {
+  font-family: "Dancing Script", cursive;
+  font-size:30vw;
+  margin-top: 2rem;
+}
+
+#error-header-2 {
+  margin-bottom: 3rem;
+  font-size: 10vw;
+}
+
+.error-message {
+  font-stretch: semi-expanded;
+  font-size: medium;
+  margin-bottom: 2.5em;
+}
+
 /* End of Padding / Margins / Text */
 
 /* ------ Media queries ------*/
