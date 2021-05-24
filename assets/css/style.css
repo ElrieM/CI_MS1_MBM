@@ -14,7 +14,7 @@ body {
 
 /* ------ Images ------ */
 
-/* ---> index.html: Cover page background image for Desktop and Laptop */
+/* --------------------------------------Desktop - Home page background */
 #background-cover {
   background-image: url(../images/home-cover-1.jpg);
   background-repeat: no-repeat;
@@ -75,13 +75,14 @@ body {
 } /* Shows currently active page underlined */
 
 .nav-link {
-  font-size: x-large;
-  margin-left: 4em;
+  font-size: large;
+  margin-left: 5em;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav .nav-link  {
-  color:#334545;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #334545;
 } /* Applied text colour to Bootstrap links */
 
 .nav-link:hover {
@@ -103,15 +104,15 @@ body {
 
 #newsletter-signup {
   background-color: #334545;
-  color:#e1dbcf;
+  color: #e1dbcf;
 }
 
-.link-info{
+.link-info {
   color: #d4e0d6;
 }
 
 .link-info:hover {
-  color:#f2e5dd;  
+  color: #f2e5dd;
 }
 
 /* Colours - About */
@@ -133,7 +134,7 @@ body {
 /* Colours - Classes */
 
 #classes-section {
-    color:#334545;
+  color: #334545;
 }
 
 .yoga-class-item {
@@ -148,9 +149,8 @@ body {
 
 #schedule-section,
 #rates-section {
-    color:#334545;
+  color: #334545;
 }
-
 
 #schedule-container {
   background-color: #fffaf0;
@@ -229,10 +229,11 @@ a {
 
 /* ------ Padding / Margins / Text ----- */
 
-/* Padding - Header */
+/* --------------------------------------Padding - Header */
 
 header {
   text-align: center;
+  height: 165px;
 }
 
 .header-text {
@@ -270,55 +271,42 @@ header {
   right: 0;
   background-color: #334545;
   color: #f2e5dd;
-  padding: .75em;
+  padding: 0.75em;
 }
 
-/* Padding - Footer */
+/* --------------------------------------Padding - Footer */
 
 #footer {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: fit-content;
-  padding-top: 10px;
-  margin-top: 1em;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  padding-top: 1em;
   text-align: center;
-}
+} /* Footer positioned to bottom and left, padding at top for visual effect, smaller device social media appears in center */
 
 .desktop-footer {
   visibility: visible;
   display: inline-flex;
   flex-direction: column;
-}
+} /* Controls footer for different screens, active on larger screens */
 
 .handheld-footer {
   visibility: hidden;
   display: none;
-}
+} /* Controls footer for different screens, active on smaller screens */
 
 .contact {
   text-align: center;
   padding-left: 3%;
-}
-
-#contact-section .section-heading,
-#enqform-section .section-heading {
-  margin-top: 0;
-}
+} /* Pulls text and icons to centre */
 
 .footer-icon {
-  padding-left: 1em;
-  padding-right: 1em;
-}
+  padding: 0 0.5em;
+} /* Adds white space between social media links */
 
-.footer-link {
-  text-decoration: none;
-}
-
-.connect-item {
-  padding: 0 3%;
-}
-
-/* Padding - Home page */
+/* --------------------------------------Padding - Home page */
 
 .intro-heading,
 .class-heading {
@@ -406,7 +394,7 @@ header {
   text-align: center;
 }
 
-/* Padding - About page */
+/* --------------------------------------Padding - About page */
 
 .meet-team {
   text-align: center;
@@ -439,7 +427,7 @@ header {
   width: 100%;
 }
 
-/* Padding - Classes page */
+/* --------------------------------------Padding - Classes page */
 
 .class-item .class-heading {
   font-family: "Dancing Script", cursive;
@@ -477,7 +465,7 @@ header {
   text-align: center;
 }
 
-/* Padding - Schedule page */
+/* --------------------------------------Padding - Schedule page */
 
 #legend-header {
   font-size: x-large;
@@ -548,19 +536,22 @@ td {
   text-align: center;
 }
 
-/* Padding - Contact page */
+/* --------------------------------------Padding - Contact page */
 
-#contact-body {
+#contact-body,
+#error-block {
   margin-top: 1em;
-} /* Moves heading down, in line with other pages */
+  min-height: calc(100vh - 348px);
+} /* Moves heading down and fills page to force footer down */
 
 #enqform-section {
   margin-left: 5%;
 }
 
-#contact-container {
-  margin-bottom: 2em;
-}
+#contact-container,
+.form-section {
+  min-height: 66vh;
+} /* Adjusts size of contact container to same size as enquiries container */
 
 .container-text {
   padding: 4em;
@@ -573,8 +564,6 @@ td {
 #map {
   padding-bottom: 0.75em;
 }
-
-/* ---- Contact Form */
 
 .form-section {
   padding: 1em;
@@ -600,15 +589,13 @@ td {
   vertical-align: top;
 }
 
-/* ---- Contact details */
-
 #map {
   padding-top: 1em;
   width: 100%;
   height: 100%;
 }
 
-/* Padding - Sign up Modal */
+/* --------------------------------------Padding - Sign up Modal */
 
 .modal-content {
   background-image: url("../images/modal-background.jpg");
@@ -630,7 +617,7 @@ td {
 
 #error-header {
   font-family: "Dancing Script", cursive;
-  font-size:15vh;
+  font-size: 15vh;
   margin-top: 2rem;
 }
 
@@ -649,24 +636,46 @@ td {
 
 /* ------ Media queries ------*/
 
+@media only screen and (min-width: 1200px) {
+  /* ---- Large laptops and desktops ---- */
+
+  /* --------------------------------------Large - Contage page */
+  #contact-body,
+  #error-block /* 404 page */ {
+    margin-top: 0;
+    min-height: calc(100vh - 300px);
+  } /* Fills page to force footer down */
+
+  #contact-body {
+    margin-bottom: 0.7em;
+  } /* Moves heading down and fills page to force footer down */
+
+  #contact-container {
+    min-height: 66vh;
+  }
+
+  /* End of Large laptops and desktops */
+}
+
 @media only screen and (max-width: 992px) {
   /* ---- Tablet ---- */
 
-  /* Tablet - Home page background */
+  /* --------------------------------------Tablet - Home page background */
 
   #background-cover {
     background-image: url(../images/home-cover-2.jpg);
     background-size: 125%;
   }
 
-  /* Tablet - Header */
+  /* --------------------------------------Tablet - Header */
 
   header {
     margin: 0;
     padding: 0;
+    height: 120px;
   }
 
-    .nav-link {
+  .nav-link {
     font-size: medium;
   }
 
@@ -675,14 +684,42 @@ td {
     width: 100px;
   } /* Adjust size of logo for tablet */
 
-  /* Tablet - Home page */
+  /* --------------------------------------Tablet - Footer */
+
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .handheld-footer {
+    visibility: visible;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .contact {
+    text-align: center;
+    padding-left: unset;
+  }
+
+  .connect {
+    margin-top: 0.5em;
+  } /* Creates space between social media links and page links */
+
+  /* --------------------------------------Tablet - Home page */
 
   #event-4 {
     visibility: collapse;
     display: none;
   }
 
-  /* Tablet - About page */
+  /* --------------------------------------Tablet - About page */
 
   .meet-team {
     text-align: center;
@@ -732,7 +769,7 @@ td {
     padding: 0;
   }
 
-  /* Tablet - Schedule page */
+  /* --------------------------------------Tablet - Schedule page */
 
   #schedule-section .container-fluid {
     padding-right: 0;
@@ -755,64 +792,46 @@ td {
     table-layout: auto;
   }
 
-  /* Tablet - Contact page */
+  /* --------------------------------------Tablet - Contact page */
 
-  .contact-text {
-    padding: 0.5em;
-  }
+  #contact-body,
+  #error-block {
+    margin-top: 1em;
+    min-height: calc(100vh - 255px);
+  } /* Fills page to force footer down */
 
-  #contact-container {
-    padding-bottom: 1.9em;
-  }
+  #contact-body {
+    margin-bottom: 1.03em;
+  } /* Moves heading down and fills page to force footer down */
 
-  #submit-button {
-    padding-bottom: 1em;
-  }
+.contact-text {
+  padding: 0.5em;
+} /* Adds white space around text for better visual appeal */
 
-  /* Tablet - Footer */
+#contact-container,
+.form-section {
+  min-height: 60vh;
+} /* Adjusts size of contact container to same size as enquiries container */
 
-  .desktop-footer {
-    visibility: hidden;
-    display: none;
-  }
+#submit-button {
+  padding-bottom: 1em;
+}
 
-  .handheld-footer {
-    visibility: visible;
-    display:inline-flex;
-    flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    height: fit-content;
-  }
-
-  .contact {
-    text-align: center;
-    padding-left: unset;
-  }
-
-  .connect {
-    margin-top: 0.5em;
-  }
-
-  /* End of Tablet */
+/* End of Tablet */
 }
 
 /* ---- Mobile ---- */
 @media only screen and (max-width: 600px) {
-  
-  /* Mobile - Header */
-
+  /* --------------------------------------Mobile - Home page background */
   #background-cover {
     background-image: url(../images/home-cover-3.jpg);
   } /* Background image for landing page */
 
+  /* --------------------------------------Mobile - Header */
   header {
     margin: 0;
     padding: 0;
+    height: 90px;
   }
 
   .nav-link {
@@ -824,7 +843,35 @@ td {
     width: 75px;
   } /* Adjust size of logo for mobile */
 
-  /* Media - Home page */
+  /* --------------------------------------Mobile - Footer */
+
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .handheld-footer {
+    visibility: visible;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+    margin: 0;
+  }
+
+  .connect {
+    margin-top: 0.4em;
+  } /* Reduces space between social media and page links */
+
+  .footer-link {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* --------------------------------------Mobile - Home page */
 
   .intro-block,
   .event-item {
@@ -850,7 +897,7 @@ td {
     margin-bottom: auto;
   }
 
-  /* Mobile - About page */
+  /* --------------------------------------Mobile - About page */
 
   #carousel-large {
     visibility: hidden;
@@ -859,7 +906,7 @@ td {
 
   #carousel-mobile {
     visibility: visible;
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: column;
   }
 
@@ -878,7 +925,7 @@ td {
     width: 100%;
   }
 
-  /* Mobile - Classes page */
+  /* --------------------------------------Mobile - Classes page */
 
   .yoga-class-item,
   .other-class-item {
@@ -892,7 +939,7 @@ td {
     width: 90%;
   }
 
-  /* Mobile - Schedule page */
+  /* --------------------------------------Mobile - Schedule page */
 
   button.navbar-toggler.fixed-top {
     background-color: #e1dbcf;
@@ -946,7 +993,13 @@ td {
     table-layout: auto;
   }
 
-  /* Mobile - Contact page */
+  /* --------------------------------------Mobile - Contact page */
+
+  #contact-body,
+  #error-block {
+    margin-top: 1em;
+    min-height: calc(100vh - 225px);
+  } /* Moves heading down and fills page to force footer down */
 
   #enqform-section {
     padding: 0;
@@ -955,35 +1008,6 @@ td {
 
   #contact-section {
     padding: 0;
-  }
-
-  /* Mobile - Footer */
-
-  .desktop-footer {
-    visibility: hidden;
-    display: none;
-  }
-
-  .handheld-footer {
-    visibility: visible;
-    display:inline-flex;
-    flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    margin: 0;
-    height: fit-content;
-  }
-
-  .connect {
-    margin-top: 1em;
-  }
-
-  .footer-link {
-    padding: 0;
-    margin: 0;
   }
 
   /* End of Mobile */
