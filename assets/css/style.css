@@ -550,6 +550,10 @@ td {
 
 /* Padding - Contact page */
 
+#contact-body {
+  margin-top: 1em;
+} /* Moves heading down, in line with other pages */
+
 #enqform-section {
   margin-left: 5%;
 }
