@@ -626,13 +626,13 @@ td {
 
 #error-header {
   font-family: "Dancing Script", cursive;
-  font-size:30vw;
+  font-size:15vh;
   margin-top: 2rem;
 }
 
 #error-header-2 {
   margin-bottom: 3rem;
-  font-size: 10vw;
+  font-size: 5vh;
 }
 
 .error-message {
