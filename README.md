@@ -267,13 +267,11 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 ### Content
 
 * Home page:
-  * "What is yoga anyway?" section was adapted from [here](https://www.nhs.uk/live-well/exercise/guide-to-yoga/).
-  * "Do I Need to be Flexible?" section was adapted from [here](https://www.nhs.uk/live-well/exercise/guide-to-yoga/) and [here](https://www.nytimes.com/guides/well/beginner-yoga).
-  * "Benefits of Yoga and Meditation" section was adapted from [here](https://www.nytimes.com/guides/well/beginner-yoga).
+  * "Introduction" section was adapted from [here](https://www.nhs.uk/live-well/exercise/guide-to-yoga/).
+  * "What to Expect" section was adapted from [here](https://www.nhs.uk/live-well/exercise/guide-to-yoga/) and [here](https://www.nytimes.com/guides/well/beginner-yoga).
+  * "Benefits" section was adapted from [here](https://www.nytimes.com/guides/well/beginner-yoga).
   * Events were adapted from [here](https://delightyoga.com/studio/workshops/)
-  * Phone number, email address and WhatsApp contact numbers are fictional.
   * Instructor names were randomly generated [here](https://www.name-generator.org.uk/)
-  * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
 
 * About page:
   * Instructor names (5 to 12) were randomly generated [here](https://www.name-generator.org.uk/)
@@ -289,6 +287,8 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
 
 * Contact page:
+  * Phone number, email address and WhatsApp contact numbers are fictional.
+  * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
 
 * Footer

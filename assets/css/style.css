@@ -99,22 +99,23 @@ body {
 
 /* Colours - Home */
 
-.intro-heading {
-  mix-blend-mode: darken;
-}
+.event-item {
+  background: #d4e0d6;
+  opacity: 0.9;
+} /* Background colour for Upcoming Events */
 
 #newsletter-signup {
   background-color: #334545;
   color: #e1dbcf;
-}
+} /* Invert colours for sign up banner */
 
 .link-info {
   color: #d4e0d6;
-}
+} /* Changes sign up banner link colour */
 
 .link-info:hover {
   color: #f2e5dd;
-}
+} /* Changes sign up banner link colour on hover */
 
 /* Colours - About */
 
@@ -362,19 +363,7 @@ header {
   padding-top: 0.3em;
   text-align: center;
   font-size: x-large;
-}
-
-.contact-heading {
-  padding-top: 0.5em;
-}
-
-.contact-text {
-  padding: 1em 0;
-}
-
-.contact-text strong {
-  padding-top: 2%;
-}
+} /* Font size and formatting for each introduction on Home page and Class group on Classes page */
 
 .intro-text {
   margin: 1rem 0;
@@ -404,16 +393,8 @@ header {
 
 .events-block,
 .class-desc {
-  max-height: 290px;
-  opacity: 0.9;
   margin-bottom: 2em;
-}
-
-.event-item {
-  display: inline-block;
-  background: #d4e0d6;
-  margin: 0 5px;
-}
+} /* Creates space beneath events block */
 
 .event-heading,
 .class-heading,
@@ -421,35 +402,47 @@ header {
   text-align: center;
   letter-spacing: 2px;
   padding-top: 15px;
-}
+} /* Spacing of inner section headings */
+
+.event-item {
+  margin: 0 5px;
+} /* Creates white space between events */
 
 .event-heading {
   font-size: medium;
-}
+} /* Reduces size of event headings */
 
 .event-details {
   text-align: center;
   font-size: smaller;
   margin: 0;
   letter-spacing: 1px;
-}
+} /* Aligns event details in center next to present image */
 
 .event-desc {
   font-size: small;
-}
+} /* Smaller sized description in line with smaller event details */
+
+
+#instructor-1,
+#instructor-2,
+#instructor-3,
+#instructor-4 {
+  margin-bottom: auto;
+} /* Forces description below image for better layout */
 
 #newsletter-signup {
   font-size: x-large;
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.2em;
-}
+} /* Formatting sign up banner */
 
 /* --------------------------------------Padding - About page */
 
 #instructor-cards {
   justify-content: space-between;
-}
+} /* spreads instructor cards to use up all white space evenly */
 
 .meet-team {
   text-align: center;
@@ -580,6 +573,10 @@ table {
 
 /* --------------------------------------Padding - Contact page */
 
+.contact-text {
+  padding: 1em 0;
+} /* Adds space between contact items */
+
 #contact-body,
 #error-block {
   margin-top: 1em;
@@ -705,9 +702,10 @@ table {
   /* --------------------------------------Tablet - Home page background */
 
   #background-cover {
+    /*Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-practicing-yoga-3822457/) */
     background-image: url(../images/home-cover-2.jpg);
     background-size: 125%;
-  }
+  } /* Custom background for tablets, fits better on devices in this size class */
 
   /* --------------------------------------Tablet - Header */
 
@@ -715,11 +713,11 @@ table {
     margin: 0;
     padding: 0;
     min-height: 120px;
-  }
+  } /* Removes padding and margins around header and sets minimum height for VH-footer fix */
 
   .nav-link {
     font-size: medium;
-  }
+  } /* Reduces size of navigation links */
 
   #logo {
     height: 100px;
@@ -756,10 +754,14 @@ table {
 
   /* --------------------------------------Tablet - Home page */
 
+#newsletter-signup {
+  font-size: medium;
+} /* Adjusts size of signup banner in line with rest of contents */
+
   #event-4 {
     visibility: collapse;
     display: none;
-  }
+  } /* Hidden on tablet for visual effect */
 
   /* --------------------------------------Tablet - About page */
 
@@ -871,17 +873,18 @@ table {
   #background-cover {
     background-image: url(../images/home-cover-3.jpg);
   } /* Background image for landing page */
+  /* Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-practicing-yoga-3822369/) */
 
   /* --------------------------------------Mobile - Header */
   header {
     margin: 0;
     padding: 0;
     min-height: 90px;
-  }
+  } /* Removes margin and padding from header and sets minimum height for VH-footer fix */
 
   .nav-link {
     font-size: medium;
-  }
+  } /* Adjusts nav-link size in line with rest of contents */
 
   #logo {
     height: 75px;
@@ -931,25 +934,17 @@ table {
   .event-item {
     margin: 1% 0;
     padding-top: 2%;
-  }
+  } /* Aligns intro section and events section blocks */
 
   .events-block {
     max-height: fit-content;
-    opacity: 0.9;
-    margin-bottom: 2em;
-  }
+  } /* Allows for boxes to adjust to contents instead of fixed size */
 
   #event-4 {
     visibility: visible;
     display: inline-block;
-  }
+  } /* Reverses tablet hiding effects for event 4 */
 
-  #instructor-1,
-  #instructor-2,
-  #instructor-3,
-  #instructor-4 {
-    margin-bottom: auto;
-  }
 
   /* --------------------------------------Mobile - About page */
 
