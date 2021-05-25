@@ -22,7 +22,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} /* Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/) */
 
 #logo {
   background-image: url("../images/logo.png");
@@ -31,24 +31,24 @@ body {
   background-position: center;
   height: 150px;
   width: 150px;
-}
+} /* Logo and formatting for header */
 
 /* ---> index.html: Images for Event instructors */
 #instructor-1 {
   background-image: url("../images/instructors/instructor-1.jpg");
-}
+} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-2 {
   background-image: url("../images/instructors/instructor-2.jpg");
-}
+} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-3 {
   background-image: url("../images/instructors/instructor-3.jpg");
-}
+} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-4 {
   background-image: url("../images/instructors/instructor-4.jpg");
-}
+} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 /* End of Images */
 
@@ -423,7 +423,6 @@ header {
   font-size: small;
 } /* Smaller sized description in line with smaller event details */
 
-
 #instructor-1,
 #instructor-2,
 #instructor-3,
@@ -724,39 +723,11 @@ table {
     width: 100px;
   } /* Adjust size of logo for tablet */
 
-  /* --------------------------------------Tablet - Footer */
-
-  .desktop-footer {
-    visibility: hidden;
-    display: none;
-  }
-
-  .handheld-footer {
-    visibility: visible;
-    display: inline-flex;
-    flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-  }
-
-  .contact {
-    text-align: center;
-    padding-left: unset;
-  }
-
-  .connect {
-    margin-top: 0.5em;
-  } /* Creates space between social media links and page links */
-
   /* --------------------------------------Tablet - Home page */
 
-#newsletter-signup {
-  font-size: medium;
-} /* Adjusts size of signup banner in line with rest of contents */
+  #newsletter-signup {
+    font-size: medium;
+  } /* Adjusts size of signup banner in line with rest of contents */
 
   #event-4 {
     visibility: collapse;
@@ -864,6 +835,34 @@ table {
     padding-bottom: 1em;
   }
 
+  /* --------------------------------------Tablet - Footer */
+
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .handheld-footer {
+    visibility: visible;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .contact {
+    text-align: center;
+    padding-left: unset;
+  }
+
+  .connect {
+    margin-top: 0.5em;
+  } /* Creates space between social media links and page links */
+
   /* End of Tablet */
 }
 
@@ -891,34 +890,6 @@ table {
     width: 75px;
   } /* Adjust size of logo for mobile */
 
-  /* --------------------------------------Mobile - Footer */
-
-  .desktop-footer {
-    visibility: hidden;
-    display: none;
-  }
-
-  .handheld-footer {
-    visibility: visible;
-    display: inline-flex;
-    flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    margin: 0;
-  }
-
-  .connect {
-    margin-top: 0.4em;
-  } /* Reduces space between social media and page links */
-
-  .footer-link {
-    padding: 0;
-    margin: 0;
-  }
-
   /* --------------------------------------Mobile - Home page */
 
   #quote {
@@ -944,7 +915,6 @@ table {
     visibility: visible;
     display: inline-block;
   } /* Reverses tablet hiding effects for event 4 */
-
 
   /* --------------------------------------Mobile - About page */
 
@@ -1039,6 +1009,33 @@ table {
 
   #contact-section {
     padding: 0;
+  }
+  /* --------------------------------------Mobile - Footer */
+
+  .desktop-footer {
+    visibility: hidden;
+    display: none;
+  }
+
+  .handheld-footer {
+    visibility: visible;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  #footer {
+    position: relative;
+    bottom: 0;
+    margin: 0;
+  }
+
+  .connect {
+    margin-top: 0.4em;
+  } /* Reduces space between social media and page links */
+
+  .footer-link {
+    padding: 0;
+    margin: 0;
   }
 
   /* End of Mobile */
