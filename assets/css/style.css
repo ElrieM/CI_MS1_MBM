@@ -180,7 +180,7 @@ a {
 .table-info {
   --bs-table-bg: #add8e6;
   --bs-table-striped-bg: #add8e6;
-  --bs-table-striped-color:#334545;
+  --bs-table-striped-color: #334545;
   --bs-table-active-bg: #acbba6;
   --bs-table-active-color: #334545;
   --bs-table-hover-bg: #acbba6;
@@ -228,7 +228,7 @@ a {
 .table-secondary {
   --bs-table-bg: #ffa07a;
   --bs-table-striped-bg: #ffa07a;
-  --bs-table-striped-color:  #334545;
+  --bs-table-striped-color: #334545;
   --bs-table-active-bg: #acbba6;
   --bs-table-active-color: #334545;
   --bs-table-hover-bg: #acbba6;
@@ -439,8 +439,10 @@ header {
 }
 
 #newsletter-signup {
-  padding: 1em;
+  font-size: x-large;
   text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 
 /* --------------------------------------Padding - About page */
@@ -520,8 +522,13 @@ header {
 
 /* --------------------------------------Padding - Schedule page */
 
-tbody, td, tfoot, th, thead, tr {
-  border-color:#334545;
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #334545;
 } /* Changes table border colour to match colour palette */
 
 table {
@@ -559,7 +566,7 @@ table {
 #table-legend,
 #booking-link,
 #download-link {
-  padding: .5em;
+  padding: 0.5em;
 } /* Creates white space between Legend content lines */
 
 #legend-header {
@@ -911,6 +918,15 @@ table {
 
   /* --------------------------------------Mobile - Home page */
 
+  #quote {
+    visibility: hidden;
+    display: none;
+  } /* Hides quote - visual effect */
+
+  #newsletter-signup {
+    font-size: medium;
+  } /* Reduces newsletter signup banner size in line with rest of contents */
+
   .intro-block,
   .event-item {
     margin: 1% 0;
@@ -979,9 +995,9 @@ table {
 
   /* --------------------------------------Mobile - Schedule page */
 
-table {
-  font-size: x-small;
-} /* Reduces table font size to align with rest of content size */
+  table {
+    font-size: x-small;
+  } /* Reduces table font size to align with rest of content size */
 
   #schedule-section .row {
     margin: 0;
@@ -997,7 +1013,7 @@ table {
   .legend {
     text-align: left;
     width: 80%;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   } /* Reduces width of legend to make it clear that it's a subsection of the schedule table and moves text to left for better visual effect */
 
   #table-legend,
