@@ -282,7 +282,7 @@ a {
 
 header {
   text-align: center;
-  height: 165px;
+  min-height: 165px;
 }
 
 .header-text {
@@ -445,12 +445,16 @@ header {
 
 /* --------------------------------------Padding - About page */
 
+#instructor-cards {
+  justify-content: space-between;
+}
+
 .meet-team {
   text-align: center;
   padding: 10px;
   margin: 0.3em;
-  width: 16%;
-}
+  width: 15%;
+} /* Adjusts card sizes to fit 6 alongside each other */
 
 .tmember-name {
   font-size: medium;
@@ -703,7 +707,7 @@ table {
   header {
     margin: 0;
     padding: 0;
-    height: 120px;
+    min-height: 120px;
   }
 
   .nav-link {
@@ -865,7 +869,7 @@ table {
   header {
     margin: 0;
     padding: 0;
-    height: 90px;
+    min-height: 90px;
   }
 
   .nav-link {
