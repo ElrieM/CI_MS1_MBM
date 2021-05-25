@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mind Body Motion Wellness Centre</title>
 </head>
-
 <body>
     <!-- Header section, contains logo, navbar and sign-up button -->
     <div id="header">
@@ -67,8 +65,8 @@
             </nav>
         </header>
     </div>
-     <!-- Sign Up Modal, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/components/modal/) and modified. Button to trigger modal is in Header section -->
-     <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
+    <!-- Sign Up Modal, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/components/modal/) and modified with CSS. Button to trigger modal is in Header section -->
+    <div class="modal fade" id="signup-block" tabindex="-1" aria-labelledby="signup-blocklabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -78,10 +76,9 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Sign up for our monthly newsletter to be alerted of new events and wellbeing
-                        advice.
+                        Sign up for our monthly newsletter to be alerted of new events and wellbeing advice.
                     </p>
-                    <!-- Signup form, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/forms/overview/) and modified --> 
+                    <!-- Signup form, copied from Bootstrap 5 (https://getbootstrap.com/docs/5.0/forms/overview/) and modified -->
                     <!-- posts to CI formdump -->
                     <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                         <!-- First name -->
@@ -125,396 +122,406 @@
     <section id="schedule-section">
         <h2 class="section-heading">Class Schedule</h2>
         <div class="container-fluid row justify-content-center">
-            <div class="col-sm-10 col-md-12 col-lg-10">
-                <table id="schedule-container">
-                    <!-- Table Headings -->
-                    <tr>
-                        <th>Timeslot</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                    </tr>
-                    <!-- First slot of the week / Studio 2 -->
-                    <tr>
-                        <td>07:00 - 08:00</td>
-                        <!-- Monday -->
-                        <td class="special-class">
-                            Tai Chi
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Matthew</em>
-                        </td>
-                        <!-- Tuesday -->
-                        <td></td>
-                        <!-- Wednesday -->
-                        <td class="special-class">
-                            Meditation
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Henry</em>
-                        </td>
-                        <!-- Thursday -->
-                        <td class="slow-class">
-                            Yin Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Nia</em>
-                        </td>
-                        <!-- Friday -->
-                        <td></td>
-                        <!-- Saturday -->
-                        <td class="special-class">
-                            Meditation
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Henry</em>
-                        </td>
-                        <!-- Sunday -->
-                        <td></td>
-                    </tr>
-                    <!-- Second slot of the week / Studio 1-->
-                    <tr>
-                        <td>07:30 - 08:30</td>
-                        <!-- Monday -->
-                        <td class="beginner-class">
-                            Vinyasa Flow
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Emelia</em>
-                        </td>
-                        <!-- Tuesday -->
-                        <td class="special-class">
-                            Prenatal Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Alicia</em>
-                        </td>
-                        <!-- Wednesday -->
-                        <td class="fast-class">
-                            Hatha Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Emelia</em>
-                        </td>
-                        <!-- Thursday -->
-                        <td></td>
-                        <!-- Friday -->
-                        <td class="fast-class">
-                            Hatha Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Nia</em>
-                        </td>
-                        <!-- Saturday -->
-                        <td class="special-class">
-                            Pilates
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Eva</em>
-                        </td>
-                        <!-- Sunday -->
-                        <td class="beginner-class">
-                            Vinyasa Flow
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Ruth</em>
-                        </td>
-                    </tr>
-                    <!-- Third slot of the week / Studio 2 -->
-                    <tr>
-                        <td>08:00 - 09:00</td>
-                        <!-- Monday -->
-                        <td></td>
-                        <!-- Tuesday -->
-                        <td class="special-class">
-                            Meditation
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Lena</em>
-                        </td>
-                        <!-- Wednesday -->
-                        <td class="slow-class">
-                            Restorative Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Reva</em>
-                        </td>
-                        <!-- Thursday -->
-                        <td></td>
-                        <!-- Friday -->
-                        <td class="slow-class">
-                            Restorative Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Ruth</em>
-                        </td>
-                        <!-- Saturday -->
-                        <td></td>
-                        <!-- Sunday -->
-                        <td class="slow-class">
-                            Yin Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Melissa</em>
-                        </td>
-                    </tr>
-                    <!-- Fourth slot of the week / Studio 1-->
-                    <tr>
-                        <td>12:00 - 13:00</td>
-                        <!-- Monday -->
-                        <td class="fast-class">
-                            Ashtanga Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Melissa</em>
-                        </td>
-                        <!-- Tuesday -->
-                        <td class="fast-class">
-                            Hatha Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Reva</em>
-                        </td>
-                        <!-- Wednesday -->
-                        <td class="special-class">
-                            Pilates
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Eva</em>
-                        </td>
-                        <!-- Thursday -->
-                        <td class="fast-class">
-                            Ashtanga Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Louis</em>
-                        </td>
-                        <!-- Friday -->
-                        <td class="special-class">
-                            Prenatal Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Eva</em>
-                        </td>
-                        <!-- Saturday -->
-                        <td class="beginner-class">
-                            Yoga Basics
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Nia</em>
-                        </td>
-                        <!-- Sunday -->
-                        <td class="fast-class">
-                            Hatha Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Emelia</em>
-                        </td>
-                    </tr>
-                    <!-- Fifth slot of the week / Studio 2 -->
-                    <tr>
-                        <td>12:30 - 13:30</td>
-                        <!-- Monday -->
-                        <td></td>
-                        <!-- Tuesday -->
-                        <td class="slow-class">
-                            Yin Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Henry</em>
-                        </td>
-                        <!-- Wednesday -->
-                        <td></td>
-                        <!-- Thursday -->
-                        <td class="special-class">
-                            Meditation
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Emelia</em>
-                        </td>
-                        <!-- Friday -->
-                        <td></td>
-                        <!-- Saturday -->
-                        <td class="slow-class">
-                            Restorative Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Ruth</em>
-                        </td>
-                        <!-- Sunday -->
-                        <td class="special-class">
-                            Tai Chi
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Matthew</em>
-                        </td>
-                    </tr>
-                    <!-- Sixth slot of the week / Studio 1-->
-                    <tr>
-                        <td>18:00 - 19:00</td>
-                        <!-- Monday -->
-                        <td class="beginner-class">
-                            Yoga Basics
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Eva</em>
-                        </td>
-                        <!-- Tuesday -->
-                        <td class="fast-class">
-                            Ashtanga Yoga
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Louis</em>
-                        </td>
-                        <!-- Wednesday -->
-                        <td class="beginner-class">
-                            Vinyasa Flow
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Reva</em>
-                        </td>
-                        <!-- Thursday -->
-                        <td class="beginner-class">
-                            Yoga Basics
-                            <br>
-                            Studio 1
-                            <br>
-                            <em>Nia</em>
-                        </td>
-                        <!-- Friday -->
-                        <td></td>
-                        <!-- Saturday -->
-                        <td></td>
-                        <!-- Sunday -->
-                        <td></td>
-                    </tr>
-                    <!-- Seventh slot of the week / Studio 2 -->
-                    <tr>
-                        <td>18:30 - 19:30</td>
-                        <!-- Monday -->
-                        <td class="slow-class">
-                            Yin Yoga
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Alicia</em>
-                        </td>
-                        <!-- Tuesday -->
-                        <td></td>
-                        <!-- Wednesday -->
-                        <td></td>
-                        <!-- Thursday -->
-                        <td class="special-class">
-                            Tai Chi
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Matthew</em>
-                        </td>
-                        <!-- Friday -->
-                        <td></td>
-                        <!-- Saturday -->
-                        <td></td>
-                        <!-- Sundy -->
-                        <td class="special-class">
-                            Meditation
-                            <br>
-                            Studio 2
-                            <br>
-                            <em>Lena</em>
-                        </td>
-                    </tr>
-                </table>
+            <!-- Columns used to display colour legend alongside table on larger screens and below on smaller screens -->
+            <div class="col-sm-10 col-md-12 col-lg-10 table-responsive">
+                <!-- Table copied from https://getbootstrap.com/docs/5.0/content/tables/#overview and modified colours to agree to PDF timetable -->
+                <!-- Hover and border for interaction with user and responsive to make table scroll on smaller screens -->
+                <table id="schedule-container" class="table table-hover table-bordered table-responsive text-center">
+                <!-- Table Headings -->
+                <tr>
+                    <th>Timeslot</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <!-- First slot of the week / Studio 2 -->
+                <tr>
+                    <!-- Time slot 1 -->
+                    <td>07:00 - 08:00</td>
+                    <!-- Monday -->
+                    <td class="table-info">
+                        Tai Chi
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Matthew</em>
+                    </td>
+                    <!-- Tuesday -->
+                    <td></td>
+                    <!-- Wednesday -->
+                    <td class="table-info">
+                        Meditation
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Henry</em>
+                    </td>
+                    <!-- Thursday -->
+                    <td class="table-primary">
+                        Yin Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Nia</em>
+                    </td>
+                    <!-- Friday -->
+                    <td></td>
+                    <!-- Saturday -->
+                    <td class="table-info">
+                        Meditation
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Henry</em>
+                    </td>
+                    <!-- Sunday -->
+                    <td></td>
+                </tr>
+                <!-- Second slot of the week / Studio 1-->
+                <tr>
+                    <!-- Time slot 2 -->
+                    <td>07:30 - 08:30</td>
+                    <!-- Monday -->
+                    <td class="table-success">
+                        Vinyasa Flow
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Emelia</em>
+                    </td>
+                    <!-- Tuesday -->
+                    <td class="table-info">
+                        Prenatal Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Alicia</em>
+                    </td>
+                    <!-- Wednesday -->
+                    <td class="table-secondary">
+                        Hatha Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Emelia</em>
+                    </td>
+                    <!-- Thursday -->
+                    <td></td>
+                    <!-- Friday -->
+                    <td class="table-secondary">
+                        Hatha Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Nia</em>
+                    </td>
+                    <!-- Saturday -->
+                    <td class="table-info">
+                        Pilates
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Eva</em>
+                    </td>
+                    <!-- Sunday -->
+                    <td class="table-success">
+                        Vinyasa Flow
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Ruth</em>
+                    </td>
+                </tr>
+                <!-- Third slot of the week / Studio 2 -->
+                <tr>
+                    <!-- Time slot 3 -->
+                    <td>08:00 - 09:00</td>
+                    <!-- Monday -->
+                    <td></td>
+                    <!-- Tuesday -->
+                    <td class="table-info">
+                        Meditation
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Lena</em>
+                    </td>
+                    <!-- Wednesday -->
+                    <td class="table-primary">
+                        Restorative Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Reva</em>
+                    </td>
+                    <!-- Thursday -->
+                    <td></td>
+                    <!-- Friday -->
+                    <td class="table-primary">
+                        Restorative Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Ruth</em>
+                    </td>
+                    <!-- Saturday -->
+                    <td></td>
+                    <!-- Sunday -->
+                    <td class="table-primary">
+                        Yin Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Melissa</em>
+                    </td>
+                </tr>
+                <!-- Fourth slot of the week / Studio 1-->
+                <tr>
+                    <!-- Time slot 4 -->
+                    <td>12:00 - 13:00</td>
+                    <!-- Monday -->
+                    <td class="table-secondary">
+                        Ashtanga Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Melissa</em>
+                    </td>
+                    <!-- Tuesday -->
+                    <td class="table-secondary">
+                        Hatha Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Reva</em>
+                    </td>
+                    <!-- Wednesday -->
+                    <td class="table-info">
+                        Pilates
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Eva</em>
+                    </td>
+                    <!-- Thursday -->
+                    <td class="table-secondary">
+                        Ashtanga Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Louis</em>
+                    </td>
+                    <!-- Friday -->
+                    <td class="table-info">
+                        Prenatal Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Eva</em>
+                    </td>
+                    <!-- Saturday -->
+                    <td class="table-success">
+                        Yoga Basics
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Nia</em>
+                    </td>
+                    <!-- Sunday -->
+                    <td class="table-secondary">
+                        Hatha Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Emelia</em>
+                    </td>
+                </tr>
+                <!-- Fifth slot of the week / Studio 2 -->
+                <tr>
+                    <!-- Time slot 5 -->
+                    <td>12:30 - 13:30</td>
+                    <!-- Monday -->
+                    <td></td>
+                    <!-- Tuesday -->
+                    <td class="table-primary">
+                        Yin Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Henry</em>
+                    </td>
+                    <!-- Wednesday -->
+                    <td></td>
+                    <!-- Thursday -->
+                    <td class="table-info">
+                        Meditation
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Emelia</em>
+                    </td>
+                    <!-- Friday -->
+                    <td></td>
+                    <!-- Saturday -->
+                    <td class="table-primary">
+                        Restorative Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Ruth</em>
+                    </td>
+                    <!-- Sunday -->
+                    <td class="table-info">
+                        Tai Chi
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Matthew</em>
+                    </td>
+                </tr>
+                <!-- Sixth slot of the week / Studio 1-->
+                <tr>
+                    <!-- Time slot 6 -->
+                    <td>18:00 - 19:00</td>
+                    <!-- Monday -->
+                    <td class="table-success">
+                        Yoga Basics
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Eva</em>
+                    </td>
+                    <!-- Tuesday -->
+                    <td class="table-secondary">
+                        Ashtanga Yoga
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Louis</em>
+                    </td>
+                    <!-- Wednesday -->
+                    <td class="table-success">
+                        Vinyasa Flow
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Reva</em>
+                    </td>
+                    <!-- Thursday -->
+                    <td class="table-success">
+                        Yoga Basics
+                        <br>
+                        Studio 1
+                        <br>
+                        <em>Nia</em>
+                    </td>
+                    <!-- Friday -->
+                    <td></td>
+                    <!-- Saturday -->
+                    <td></td>
+                    <!-- Sunday -->
+                    <td></td>
+                </tr>
+                <!-- Seventh slot of the week / Studio 2 -->
+                <tr>
+                    <!-- Time slot 7 -->
+                    <td>18:30 - 19:30</td>
+                    <!-- Monday -->
+                    <td class="table-primary">
+                        Yin Yoga
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Alicia</em>
+                    </td>
+                    <!-- Tuesday -->
+                    <td></td>
+                    <!-- Wednesday -->
+                    <td></td>
+                    <!-- Thursday -->
+                    <td class="table-info">
+                        Tai Chi
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Matthew</em>
+                    </td>
+                    <!-- Friday -->
+                    <td></td>
+                    <!-- Saturday -->
+                    <td></td>
+                    <!-- Sundy -->
+                    <td class="table-info">
+                        Meditation
+                        <br>
+                        Studio 2
+                        <br>
+                        <em>Lena</em>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Legend to Schedule colours -->
+        <div class="col-sm-2 col-md-10 col-lg-2 justify-content-center">
+            <div id="table-legend">
+                <h3 id="legend-header"><em>Colour Legend</em></h3>
+                <!-- Special / Other classes -->
+                <a href="classes.html#special-classes">
+                    <div class="special-class legend">
+                        Special classes - See Other Classes for details
+                    </div>
+                </a>
+                <!-- Beginner classes -->
+                <a href="classes.html#begginer-classes">
+                    <div class="beginner-class legend">
+                        Beginner classes - See Starting Out for details
+                    </div>
+                </a>
+                <!-- Slow-paced classes -->
+                <a href="classes.html#slow-paced-classes">
+                    <div class="slow-class legend">
+                        Slow-paced classes - See In the Flow for details
+                    </div>
+                </a>
+                <!-- Fast-paced classes -->
+                <a href="classes.html#fast-paced-classes">
+                    <div class="fast-class legend">
+                        Fast-paced classes - See Keeping Up with the Poses for details
+                    </div>
+                </a>
             </div>
-            <!-- Legend to Schedule colours -->
-            <div class="col-sm-2 col-md-10 col-lg-2 justify-content-center">
-                <div id="table-legend">
-                    <h3 id="legend-header"><em>Colour Legend</em></h3>
-                    <!-- Special / Other classes -->
-                    <a href="classes.html#special-classes">
-                        <div class="special-class legend">
-                            Special classes - See Other Classes for details
-                        </div>
-                    </a>
-                    <!-- Beginner classes -->
-                    <a href="classes.html#begginer-classes">
-                        <div class="beginner-class legend">
-                            Beginner classes - See Starting Out for details
-                        </div>
-                    </a>
-                    <!-- Slow-paced classes -->
-                    <a href="classes.html#slow-paced-classes">
-                        <div class="slow-class legend">
-                            Slow-paced classes - See In the Flow for details
-                        </div>
-                    </a>
-                    <!-- Fast-paced classes -->
-                    <a href="classes.html#fast-paced-classes">
-                        <div class="fast-class legend">
-                            Fast-paced classes - See Keeping Up with the Poses for details
-                        </div>
-                    </a>
-                </div>
-                <div id="booking-link">
-                    <p>
-                        <span>
-                            <em>To book a class, submit the time and date on our</em>
-                            <a href="contact.html" id="book-button">
-                                <em>Contact Form</em>
-                            </a>
-                        </span>
-                    </p>
-                </div>
-                <div id="download-link">
-                    <p>
-                        <em>Download PDF schedule:</em><br>
-                        <a id="download-pdf" aria-label="pdf-download" href="assets/other/class_timetable.pdf" download>
-                            <i class="fas fa-file-pdf"></i>
+            <div id="booking-link">
+                <p>
+                    <span>
+                        <em>To book a class, submit the time and date on our</em>
+                        <a href="contact.html" id="book-button">
+                            <em>Contact Form</em>
                         </a>
-                    </p>
-                </div>
+                    </span>
+                </p>
+            </div>
+            <div id="download-link">
+                <p>
+                    <em>Download PDF schedule:</em><br>
+                    <a id="download-pdf" aria-label="pdf-download" href="assets/other/class_timetable.pdf" download>
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </p>
             </div>
         </div>
         <!-- End of Schedule Section -->
     </section>
     <!-- Rates Table section -->
     <section id="rates-section">
-        <div>
-            <div class="container">
+            <!-- Table copied from https://getbootstrap.com/docs/5.0/content/tables/#overview and modified -->
+            <!-- Borderless chosen for visual effect -->
+            <div class="container table-responsive">
                 <h2 class="section-heading">Class Tariffs and Packages</h2>
-                <table id="rates-table">
+                <table id="rates-table" class="table-sm table-borderless">
                     <tr>
                         <td class="table-left">Trial class</td>
                         <td>€10.00</td>
@@ -545,7 +552,6 @@
                     </tr>
                 </table>
             </div>
-        </div>
         <!-- End of Rates Table section -->
     </section>
     <!-- Footer section-->

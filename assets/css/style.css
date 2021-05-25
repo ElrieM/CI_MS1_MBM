@@ -177,16 +177,64 @@ a {
   background-color: #add8e6;
 }
 
+.table-info {
+  --bs-table-bg: #add8e6;
+  --bs-table-striped-bg: #add8e6;
+  --bs-table-striped-color:#334545;
+  --bs-table-active-bg: #acbba6;
+  --bs-table-active-color: #334545;
+  --bs-table-hover-bg: #acbba6;
+  --bs-table-hover-color: #334545;
+  color: #334545;
+  border-color: #334545;
+}
+
 .beginner-class {
   background-color: #90ee90;
+}
+
+.table-success {
+  --bs-table-bg: #90ee90;
+  --bs-table-striped-bg: #90ee90;
+  --bs-table-striped-color: #334545;
+  --bs-table-active-bg: #acbba6;
+  --bs-table-active-color: #334545;
+  --bs-table-hover-bg: #acbba6;
+  --bs-table-hover-color: #334545;
+  color: #334545;
+  border-color: #334545;
 }
 
 .slow-class {
   background-color: #ffd966;
 }
 
+.table-primary {
+  --bs-table-bg: #ffd966;
+  --bs-table-striped-bg: #ffd966;
+  --bs-table-striped-color: #334545;
+  --bs-table-active-bg: #acbba6;
+  --bs-table-active-color: #334545;
+  --bs-table-hover-bg: #acbba6;
+  --bs-table-hover-color: #334545;
+  color: #334545;
+  border-color: #334545;
+}
+
 .fast-class {
   background-color: #ffa07a;
+}
+
+.table-secondary {
+  --bs-table-bg: #ffa07a;
+  --bs-table-striped-bg: #ffa07a;
+  --bs-table-striped-color:  #334545;
+  --bs-table-active-bg: #acbba6;
+  --bs-table-active-color: #334545;
+  --bs-table-hover-bg: #acbba6;
+  --bs-table-hover-color: #334545;
+  color: #334545;
+  border-color: #334545;
 }
 
 #table-legend,
@@ -468,74 +516,56 @@ header {
 
 /* --------------------------------------Padding - Schedule page */
 
-#legend-header {
-  font-size: x-large;
-}
+tbody, td, tfoot, th, thead, tr {
+  border-color:#334545;
+} /* Changes table border colour to match colour palette */
+
+table {
+  border-style: double;
+} /* Outer border of table in double line */
 
 #booking-link,
 #download-link {
   font-size: smaller;
-}
+} /* In line with other Legend content, makes class booking link and PDF download link text smaller */
 
 #download-pdf {
   font-size: xx-large;
   margin-left: 25%;
-}
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  text-align: center;
-  border: 5px double #314357;
-  font-size: small;
-  margin: 10px 0;
-}
-
-tr,
-th,
-td {
-  border: 0.2em solid #314357;
-  padding: 0.5em;
-}
+} /* Increases size of PDF icon and creates indentation to the left for visual effect */
 
 #rates-table {
   border: 1px solid;
-}
+  margin-bottom: 1em;
+} /* Creates decorative border around the tariffs table and creates white space between rates table and footer */
 
-.special-class:hover,
-.beginner-class:hover,
-.slow-class:hover,
-.fast-class:hover {
+.table-info:hover,
+.table-success:hover,
+.table-primary:hover,
+.table-secondary:hover {
   text-decoration: underline;
-}
+} /* Underlines class currently hovered over */
 
 #rates-table {
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
-  table-layout: auto;
-}
-
-.table-left {
-  text-align: left;
-  text-indent: 10px;
-}
+} /* Moves rates table to centre of page, limits width for visual effect */
 
 #table-legend,
 #booking-link,
 #download-link {
-  padding: 1em;
-}
+  padding: .5em;
+} /* Creates white space between Legend content lines */
 
-#table-legend em {
-  margin-top: 0.5em;
-}
+#legend-header {
+  font-size: large;
+} /* Reduces siz of legend heading to emphasise subsection of class schedule */
 
 .legend {
   font-size: smaller;
-  height: 10%;
   text-align: center;
-}
+} /* Reduces size of legend content adn aligns in centre for visual effect */
 
 /* --------------------------------------Padding - Contact page */
 
@@ -772,25 +802,28 @@ td {
 
   /* --------------------------------------Tablet - Schedule page */
 
+  table {
+    font-size: smaller;
+  } /* Reduces font size in table to fit on single page - large enough to comfortably read, but readily available */
+
   #schedule-section .container-fluid {
     padding-right: 0;
-  }
+  } /* Fixes layout spacing issue, moves table to centre of page */
 
   .legend {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-  }
+  } /* Aligns legend in middle of page */
 
   #download-pdf {
     margin-left: 10%;
-  }
+  } /* Reduces indent on PDF icon, fits under text better */
 
   #rates-table {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-    table-layout: auto;
   }
 
   /* --------------------------------------Tablet - Contact page */
@@ -805,20 +838,20 @@ td {
     margin-bottom: 1.03em;
   } /* Moves heading down and fills page to force footer down */
 
-.contact-text {
-  padding: 0.5em;
-} /* Adds white space around text for better visual appeal */
+  .contact-text {
+    padding: 0.5em;
+  } /* Adds white space around text for better visual appeal */
 
-#contact-container,
-.form-section {
-  min-height: 60vh;
-} /* Adjusts size of contact container to same size as enquiries container */
+  #contact-container,
+  .form-section {
+    min-height: 60vh;
+  } /* Adjusts size of contact container to same size as enquiries container */
 
-#submit-button {
-  padding-bottom: 1em;
-}
+  #submit-button {
+    padding-bottom: 1em;
+  }
 
-/* End of Tablet */
+  /* End of Tablet */
 }
 
 /* ---- Mobile ---- */
@@ -942,50 +975,32 @@ td {
 
   /* --------------------------------------Mobile - Schedule page */
 
-  button.navbar-toggler.fixed-top {
-    background-color: #e1dbcf;
-    opacity: 0.9;
-  }
+table {
+  font-size: x-small;
+} /* Reduces table font size to align with rest of content size */
 
   #schedule-section .row {
     margin: 0;
     padding: 0;
   }
 
-  table {
-    font-size: xx-small;
-    letter-spacing: -1px;
-  }
-
   #table-legend,
   #booking-link,
   #download-link {
     font-size: xx-small;
-  }
-
-  #table-legend em {
-    font-size: x-small;
-  }
-
-  #schedule-section .container-fluid {
-    padding-right: 0;
-  }
+  } /* Reduces legend content in line with other pages */
 
   .legend {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: xx-small;
+    text-align: left;
     width: 80%;
-  }
+    margin-bottom: .5em;
+  } /* Reduces width of legend to make it clear that it's a subsection of the schedule table and moves text to left for better visual effect */
 
   #table-legend,
   #booking-link,
   #download-link {
     padding: 0;
-  }
-  #download-pdf {
-    margin-left: 15%;
-  }
+  } /* Removes unnecessary spaces between lines */
 
   #rates-table {
     margin-left: 2%;
