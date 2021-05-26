@@ -284,18 +284,12 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   * Class descriptions were adapted from [here](https://www.thewellnesscenter.org/class-descriptions) and [here](https://delightyoga.com/studio/yoga/styles) for yoga and [here](https://www.evolvewellnesscentre.com/yoga) for pilates.
 
 * Schedule page:
-  * Timetable was adapted from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
+  * Timetable inspiration from [here](https://www.evolvewellnesscentre.com/timetable) for the purpose of getting a more realistic weekly class schedule.
 
 * Contact page:
   * Phone number, email address and WhatsApp contact numbers are fictional.
   * Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   * Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
-
-* Footer
-  * Terms and Conditions:
-    * Generated (free) from [here](https://www.termsandconditionsgenerator.com/), used Link with Free Hosting - [sample](https://www.termsandconditionsgenerator.com/live.php?token=VKy3BemaXxsPghO41MhO4Sc8YphEMjWW). Country = Netherlands, State = Limburg, used my email address but would likely use a MBM-hosted mailbox.
-  * Privacy Policy:
-    * Generated (free) from [here](https://www.privacypolicygenerator.info/), used link with Free Hosting - [sample](https://www.privacypolicygenerator.info/live.php?token=TMZncJN6UtmZohCgo5d0LPhbDvaL8e3i). Selected cookies for tracking usage (not included in this version of website), Google AdSense to reach a greater audience, no third party advertising (able to change later)
 
 ### Media
 
