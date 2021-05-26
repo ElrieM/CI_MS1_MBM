@@ -124,7 +124,7 @@ The website provides users with information about the process for joining classe
 The following tools were used to validate every page of porject to ensure there were no syntax errors in the project:
 
 * HTML - W3C Markup Validator. Report can be found [here](docs/readme/html-validation.pdf)
-* CSS - W3C CSS Validator. All errors / warnings relate to Bootstrap. Report can be found [here](docs/readme/css-validation.pdf)
+* CSS - W3C CSS Validator. All errors / warnings relate to Bootstrap and Font Awesome, no errors or warnings from CSS style file. Report can be found [here](docs/readme/css-validation.png)
 * Accessibility - WAVE Web Accessibility Evaluation Tool. Report can be found [here](docs/readme/wave-validation.pdf)
 * Performance - Chrome Lighthouse. Report can be found [here](docs/readme/lighthouse-validation.pdf)
 
