@@ -2,28 +2,20 @@
 
 body,
 html {
-  height: 100%;
   margin: 0;
   background-image: linear-gradient(to right, #f5f0ed, #f5ece7);
-}
+}/* Default background cover, 2 shades of pink for a soft and calming effect */
 
 body {
   font-family: "Lato", sans-serif;
   color: #334545;
   height: 100vh;
-}
+}/* Setting page viewheight to resolve footer issue, default font colour from colour palette and default font type */
 
 /* ------ Images ------ */
 
-/* --------------------------------------Desktop - Home page background */
-#background-cover {
-  background-image: url(../images/home-cover-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-} /* Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/) */
 
+/* --------------------------------------Images - Header */
 #logo {
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
@@ -31,153 +23,149 @@ body {
   background-position: center;
   height: 150px;
   width: 150px;
-} /* Logo and formatting for header */
+}/* Logo and formatting for header */
+
+/* --------------------------------------Images - Home page */
+/* Home page background (large devices) */
+#background-cover {
+  background-image: url(../images/home-cover-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}/* Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/) */
 
 /* ---> index.html: Images for Event instructors */
 #instructor-1 {
   background-image: url("../images/instructors/instructor-1.jpg");
-} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
+}/*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-2 {
   background-image: url("../images/instructors/instructor-2.jpg");
-} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
+}/*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-3 {
   background-image: url("../images/instructors/instructor-3.jpg");
-} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
+}/*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 #instructor-4 {
   background-image: url("../images/instructors/instructor-4.jpg");
-} /*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
+}/*Instructor photo randomly generated from (https://thispersondoesnotexist.com/) */
 
 /* End of Images */
 
 /* ------ Colours ------ */
 
-#footer {
-  background-color: #e1dbcf;
-}
-
-/* Colours - Header */
+/* --------------------------------------Colours - Header */
 
 #header,
 #navbar-links {
   background-color: #e1dbcf;
-} /* Header background */
+}/* Header background */
 
 #header {
   border-bottom: #334545;
   border-bottom-style: double;
-} /* Underlines Header section */
+}/* Underlines Header section */
 
 .active {
   mix-blend-mode: color-burn;
   border-bottom: 2px solid #ccc;
-} /* Shows currently active page underlined */
-
-.nav-link {
-  font-size: large;
-  margin-left: 3em;
-  margin-right: 3em;
-}
+}/* Shows currently active page underlined */
 
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link {
   color: #334545;
-} /* Applied text colour to Bootstrap links */
+}/* Applied text colour to Bootstrap links */
 
 .nav-link:hover {
   text-decoration: underline;
   mix-blend-mode: color-burn;
-}
+}/* Changes navigation bar links when hovered over to engage with user */
 
-/* Colours - Sign up Modal */
+/* --------------------------------------Colours - Sign up Modal */
 
 .modal-content {
   color: #334545;
-}
+}/* Sets font colour to sign up modal contents */
 
-/* Colours - Home */
+/* --------------------------------------Colours - Home page */
+
+.intro-block {
+  background-color: #f2e5dd;
+  opacity: 0.9;
+}/* Background colour for Introduction items, improves visibility and ties to rest of website */
 
 .event-item {
   background: #d4e0d6;
   opacity: 0.9;
-} /* Background colour for Upcoming Events */
+}/* Background colour for Upcoming Events, improves visibility and ties to rest of website */
 
 #newsletter-signup {
   background-color: #334545;
   color: #e1dbcf;
-} /* Invert colours for sign up banner */
+}/* Invert colours for sign up banner */
 
 .link-info {
   color: #d4e0d6;
-} /* Changes sign up banner link colour */
+}/* Changes sign up banner link colour */
 
 .link-info:hover {
   color: #f2e5dd;
-} /* Changes sign up banner link colour on hover */
+}/* Changes sign up banner link colour on hover */
 
-/* Colours - About */
+/*---------------------------Colours - About page */
 
 .meet-team {
   background-color: #d4e0d6;
   color: #334545;
-}
+}/* Sets background colour and font colour to instructor cards (Bootstrap elements) */
 
 .accordion-button:not(.collapsed) {
   background-color: #e1dbcf;
   color: #334545;
-}
+}/* Sets background colour of currently active Facilities & FAQ accordion item, and applies font colour to Bootstrap element */
 
 .accordion-body {
   color: #334545;
-}
+}/* Applies font colour to Facilities & FAQ accordion body text (Bootstrap element) */
 
-/* Colours - Classes */
+/* --------------------------------------Colours - Classes page */
 
-#classes-section {
+.list-group-item {
   color: #334545;
-}
+}/* Applies font colour to group list (Bootstrap element) */
 
 .yoga-class-item {
   background-color: #d4e0d6;
-}
+}/* Applies background colour to yoga class blocks */
 
 .other-class-item {
   background-color: #f2e5dd;
-}
+}/* Applies an accent colour as background colour for other class blocks, to emphasise difference from yoga classes */
 
-/* Colours - Schedule */
-
-#schedule-section,
-#rates-section {
-  color: #334545;
-}
+/* --------------------------------------Colours - Schedule page */
 
 #schedule-container {
   background-color: #fffaf0;
-}
+}/* Applies background colour to table to make it stand out */
 
-table {
+.table {
   color: #334545;
-}
+}/* Applies default font colour to table contents - rates table and schedule table */
 
 #rates-table {
   background-color: #d4e0d6;
-}
+}/* Applies a different background colour to rates table to draw attention */
 
 a {
   color: #334545;
-}
-
-#download-pdf {
-  color: #334545;
-}
+}/* Changes underline colour on legend to default font colour */
 
 .special-class {
   background-color: #add8e6;
-}
+}/* Applies legend colour to legend description */
 
 .table-info {
   --bs-table-bg: #add8e6;
@@ -189,11 +177,11 @@ a {
   --bs-table-hover-color: #334545;
   color: #334545;
   border-color: #334545;
-}
+}/* Adjusts table items for special classes to conform with defaults and assist user in easily identifying class types (Bootstrap element) */
 
 .beginner-class {
   background-color: #90ee90;
-}
+}/* Applies legend colour to legend description */
 
 .table-success {
   --bs-table-bg: #90ee90;
@@ -205,11 +193,11 @@ a {
   --bs-table-hover-color: #334545;
   color: #334545;
   border-color: #334545;
-}
+}/* Adjusts table items for beginner classes to conform with defaults and assist user in easily identifying class types (Bootstrap element) */
 
 .slow-class {
   background-color: #ffd966;
-}
+}/* Applies legend colour to legend description */
 
 .table-primary {
   --bs-table-bg: #ffd966;
@@ -221,11 +209,11 @@ a {
   --bs-table-hover-color: #334545;
   color: #334545;
   border-color: #334545;
-}
+}/* Adjusts table items for slower-paced classes to conform with defaults and assist user in easily identifying class types (Bootstrap element) */
 
 .fast-class {
   background-color: #ffa07a;
-}
+}/* Applies legend colour to legend description */
 
 .table-secondary {
   --bs-table-bg: #ffa07a;
@@ -237,44 +225,40 @@ a {
   --bs-table-hover-color: #334545;
   color: #334545;
   border-color: #334545;
-}
-
-#table-legend,
-#book-button,
-.legend {
-  color: #334545;
-}
+}/* Adjusts table items for faster-paced classes to conform with defaults and assist user in easily identifying class types (Bootstrap element) */
 
 /* Colours - Contact page */
 
 .form-section,
 #contact-container {
-  color: #334545;
   background-color: #d4e0d6;
   border: #acbba6 double 2px;
-}
+}/* Applies background colours to contact enquiry form and contact details container */
 
-#enqform-section {
+.btn-outline-dark {
   color: #334545;
-}
+  border-color: #334545;
+}/* Changes Submit (send) button to default font colour */
 
-/* Colours - Footer */
+/* --------------------------------------Colours - Footer */
 
-.footer-link:hover {
-  border: 1px solid #acbba6;
+#footer {
+  background-color: #e1dbcf;
+}/* Adding soft header colour to footer */
+
+.footer-link:hover,
+.footer-icon:hover {
+  border: 5px solid #acbba6;
   color: #334545;
   letter-spacing: 2px;
   text-decoration: underline;
-}
+}/* Applies effect to footer icons to highlight them when hovered on */
 
-.connect-item:hover {
-  color: #acbba6;
-  text-decoration: underline;
-}
-
+.connect-item:hover,
 .footer-icon:hover {
   color: #acbba6;
-}
+  text-decoration: underline;
+}/* Changes colour of footer link hover colour */
 
 /* End of Colours */
 
@@ -283,39 +267,31 @@ a {
 /* --------------------------------------Padding - Header */
 
 header {
-  text-align: center;
+  text-align: end;
   min-height: 165px;
-}
+}/* Aligns content on dropdown nav menu to right, height as part of footer-on-bottom fix */
 
-.header-text {
-  padding-bottom: 0;
-  margin: 0;
-}
-
-#quote {
-  font-family: "Dancing Script", cursive;
-  margin: 0;
-  font-size: xx-large;
-  text-shadow: 2px 2px #e6e6e9;
-  padding: 0.5rem 0;
-  text-align: center;
-}
+.nav-link {
+  font-size: large;
+  margin-left: 3em;
+  margin-right: 3em;
+}/* Font size to fit with contents and navbar at centre of header */
 
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
-}
+}/* Removes white space around navbar, reduces size of header */
 
 .navbar-nav {
   margin: 0 auto;
-}
+}/* Manages spacing between navbar links */
 
 .section-heading {
   margin-top: 0.5em;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px #cdcccf;
   text-align: center;
-}
+}/* Formatting section headers on various pages */
 
 #signup-prompt {
   display: inline;
@@ -327,58 +303,32 @@ header {
   background-color: #334545;
   color: #f2e5dd;
   padding: 0.75em;
-}
-
-/* --------------------------------------Padding - Footer */
-
-#footer {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  bottom: 0;
-  left: 0;
-  padding-top: 1em;
-  text-align: center;
-} /* Footer positioned to bottom and left, padding at top for visual effect, smaller device social media appears in center */
-
-.desktop-footer {
-  visibility: visible;
-  display: inline-flex;
-  flex-direction: column;
-} /* Controls footer for different screens, active on larger screens */
-
-.handheld-footer {
-  visibility: hidden;
-  display: none;
-} /* Controls footer for different screens, active on smaller screens */
-
-.contact {
-  text-align: center;
-  padding-left: 3%;
-} /* Pulls text and icons to centre */
-
-.footer-icon {
-  padding: 0 0.5em;
-} /* Adds white space between social media links */
+}/* Inverts colours on signup button in header to "catch eye" and styling */
 
 /* --------------------------------------Padding - Home page */
+
+#quote {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  font-size: xx-large;
+  padding: 0.5rem 0;
+  text-align: center;
+}/* Sets quote in Dancing Script font, styles quote */
 
 .intro-heading,
 .class-heading {
   padding-top: 0.3em;
   text-align: center;
   font-size: x-large;
-} /* Font size and formatting for each introduction on Home page and Class group on Classes page */
+}/* Font size and formatting for each introduction on Home page and Class group on Classes page */
 
 .intro-text {
   margin: 1rem 0;
-}
+}/* Moves intro blocks down, creating white space */
 
 .intro-block {
-  background-color: #f2e5dd;
-  opacity: 0.9;
   margin: 0 0.5rem;
-}
+}/* Creates white space between intro blocks */
 
 .event-image {
   height: 70px;
@@ -390,16 +340,16 @@ header {
   background-position: center;
   background-size: contain;
   background-attachment: scroll;
-}
+}/* Formatting photo for event instructors */
 
 #events-section {
   margin: 1em;
-}
+}/* Creates white space around events */
 
 .events-block,
 .class-desc {
   margin-bottom: 2em;
-} /* Creates space beneath events block */
+}/* Creates space beneath events block */
 
 .event-heading,
 .class-heading,
@@ -407,115 +357,103 @@ header {
   text-align: center;
   letter-spacing: 2px;
   padding-top: 15px;
-} /* Spacing of inner section headings */
+}/* Spacing of inner section headings */
 
 .event-item {
   margin: 0 5px;
-} /* Creates white space between events */
+}/* Creates white space between events */
 
 .event-heading {
   font-size: medium;
-} /* Reduces size of event headings */
+}/* Reduces size of event headings */
 
 .event-details {
   text-align: center;
   font-size: smaller;
   margin: 0;
   letter-spacing: 1px;
-} /* Aligns event details in center next to present image */
+}/* Aligns event details in center next to present image */
 
 .event-desc {
   font-size: small;
-} /* Smaller sized description in line with smaller event details */
+}/* Smaller sized description in line with smaller event details */
 
 #instructor-1,
 #instructor-2,
 #instructor-3,
 #instructor-4 {
   margin-bottom: auto;
-} /* Forces description below image for better layout */
+}/* Forces description below image for better layout */
 
 #newsletter-signup {
   font-size: x-large;
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.2em;
-} /* Formatting sign up banner */
+}/* Formatting sign up banner */
 
 /* --------------------------------------Padding - About page */
 
 #instructor-cards {
   justify-content: space-between;
-} /* spreads instructor cards to use up all white space evenly */
+}/* spreads instructor cards to use up all white space evenly */
 
 .meet-team {
   text-align: center;
   padding: 10px;
   margin: 0.3em;
   width: 15%;
-} /* Adjusts card sizes to fit 6 alongside each other */
+}/* Adjusts card sizes to fit 6 alongside each other */
 
 .tmember-name {
   font-size: medium;
-}
+}/* resizes Instructor names */
 
 #carousel-mobile {
   visibility: hidden;
   display: none;
-}
+}/* Hides mobile carousel, with single photos displaying, on larger devices */
 
 #carousel-large {
   visibility: visible;
   display: inline-flex;
   flex-direction: column;
-}
-
-#gallery {
-  padding-top: 1em;
-  height: 30%;
-}
+}/* Shows larger carousel, with 3 photos per slide, on larger devices */
 
 .gallery-image {
   width: 100%;
-}
+}/* resizes gallery images */
 
 /* --------------------------------------Padding - Classes page */
 
 .class-item .class-heading {
   font-family: "Dancing Script", cursive;
-}
+}/* Changes font style for yoga classes for visual effect */
 
-.classes-block {
-  width: 98%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-.list-group-item + .list-group-item {
+.list-group-item+.list-group-item {
   border-top-width: 1px;
-}
+}/* Adds upper border to class items */
 
 .yoga-class-item {
   height: 48%;
   margin-bottom: 0.5em;
-}
+}/* Creates white space between yoga classes and makes all yoga class blocks the same size */
 
 .other-class-item {
   height: 95%;
   margin-bottom: 0.5em;
-}
+}/* Creates white space between other classes */
 
 .class-thumbnail {
   max-height: 100%;
   max-width: 94%;
   margin-left: 3%;
   margin-right: 3%;
-}
+}/* Formatting class pictures */
 
 #notify {
-  font-size: smaller;
   text-align: center;
-}
+}/* Aligns notice at bottom of all classes in centre for visual effect */
 
 /* --------------------------------------Padding - Schedule page */
 
@@ -526,97 +464,93 @@ th,
 thead,
 tr {
   border-color: #334545;
-} /* Changes table border colour to match colour palette */
+}/* Changes table border colour to match colour palette */
 
 table {
   border-style: double;
-} /* Outer border of table in double line */
+}/* Outer border of table in double line */
 
 #booking-link,
 #download-link {
   font-size: smaller;
-} /* In line with other Legend content, makes class booking link and PDF download link text smaller */
+}/* In line with other Legend content, makes class booking link and PDF download link text smaller */
 
 #download-pdf {
   font-size: xx-large;
   margin-left: 25%;
-} /* Increases size of PDF icon and creates indentation to the left for visual effect */
+}/* Increases size of PDF icon and creates indentation to the left for visual effect */
 
 #rates-table {
   border: 1px solid;
   margin-bottom: 1em;
-} /* Creates decorative border around the tariffs table and creates white space between rates table and footer */
+}/* Creates decorative border around the tariffs table and creates white space between rates table and footer */
 
 .table-info:hover,
 .table-success:hover,
 .table-primary:hover,
 .table-secondary:hover {
   text-decoration: underline;
-} /* Underlines class currently hovered over */
+}/* Underlines class currently hovered over */
 
 #rates-table {
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
-} /* Moves rates table to centre of page, limits width for visual effect */
+}/* Moves rates table to centre of page, limits width for visual effect */
 
 #table-legend,
 #booking-link,
 #download-link {
   padding: 0.5em;
-} /* Creates white space between Legend content lines */
+}/* Creates white space between Legend content lines */
 
 #legend-header {
   font-size: large;
-} /* Reduces siz of legend heading to emphasise subsection of class schedule */
+}/* Reduces siz of legend heading to emphasise subsection of class schedule */
 
 .legend {
   font-size: smaller;
   text-align: center;
-} /* Reduces size of legend content adn aligns in centre for visual effect */
+}/* Reduces size of legend content adn aligns in centre for visual effect */
 
 /* --------------------------------------Padding - Contact page */
 
 .contact-text {
   padding: 1em 0;
-} /* Adds space between contact items */
+}/* Adds space between contact items */
 
 #contact-body,
 #error-block {
   margin-top: 1em;
   min-height: calc(100vh - 348px);
-} /* Moves heading down and fills page to force footer down */
+}/* Moves heading down and fills page to force footer down */
 
 #enqform-section {
   margin-left: 5%;
-}
+}/* Creates white space on left of enquiries and centres content in middle of page */
 
 #contact-container,
 .form-section {
   min-height: 66vh;
-} /* Adjusts size of contact container to same size as enquiries container */
+}/* Adjusts size of contact container to same size as enquiries container */
 
 .container-text {
   padding: 4em;
-}
-
-.icon {
-  font-size: xx-large;
-}
+}/* Creates white space around contact section contents */
 
 #map {
   padding-bottom: 0.75em;
-}
+}/* Creates white space between map and bottom border */
 
 .form-section {
   padding: 1em;
-}
+}/* Creates space between borders and content in Enquiry form */
 
 #contact-section {
   text-align: center;
   margin-left: 5%;
-  margin-right: 5%;
-}
+  margin-right: 3%;
+}/* Creates white space two blocks of content and right edge of contact details container */
 
 #contact-subject {
   background-color: #fff;
@@ -625,18 +559,18 @@ table {
   width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: 0.25rem;
-}
+}/* Formatting subject dropdown in enquiry form */
 
 #contact-message {
   height: 10em;
   vertical-align: top;
-}
+}/* Increases visual size of message box in enquiry form */
 
 #map {
   padding-top: 1em;
   width: 100%;
   height: 100%;
-}
+}/* Formatting Google Maps image */
 
 /* --------------------------------------Padding - Sign up Modal */
 
@@ -646,62 +580,89 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem;
-}
+}/* Background image for sign up modal */
 
 .form-check-label {
   font-style: italic;
-}
+}/* Styles Agree to Terms line */
 
-/* Padding - 404 page */
+/* --------------------------------------Padding - 404 page */
 #error-block {
-  margin-top: 4em;
   text-align: center;
-}
+}/* Centres text*/
 
 #error-header {
   font-family: "Dancing Script", cursive;
   font-size: 15vh;
-  margin-top: 2rem;
-}
+  margin-top: 4rem;
+}/* Changes font of 404 to soften message */
 
 #error-header-2 {
   margin-bottom: 3rem;
   font-size: 5vh;
-}
+}/* Changes font size and creates white space between "404" and "page not found" */
 
 .error-message {
-  font-stretch: semi-expanded;
   font-size: medium;
-  margin-bottom: 2.5em;
-}
+}/*Reduces font size of lowest message */
+
+/* --------------------------------------Padding - Footer */
+
+#footer {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  padding-top: 1em;
+  text-align: center;
+}/* Footer positioned to bottom and left, padding at top for visual effect, smaller device social media appears in center */
+
+.desktop-footer {
+  visibility: visible;
+  display: inline-flex;
+  flex-direction: column;
+}/* Controls footer for different screens, active on larger screens */
+
+.handheld-footer {
+  visibility: hidden;
+  display: none;
+}/* Controls footer for different screens, active on smaller screens */
+
+.contact {
+  text-align: center;
+  padding-left: 3%;
+}/* Pulls text and icons to centre */
+
+.footer-icon {
+  padding: 0 0.5em;
+}/* Adds white space between social media links */
 
 /* End of Padding / Margins / Text */
 
 /* ------ Media queries ------*/
 
 @media only screen and (min-width: 1200px) {
-  /* ---- Large laptops and desktops ---- */
+  /* ---- Large laptops and desktops --------------------------------------------------------------------------------------- */
 
-  /* --------------------------------------Large - Contage page */
+  /* --------------------------------------Large - All pages with content not spilling over on second page (no scroll required) */
   #contact-body,
-  #error-block /* 404 page */ {
+  #error-block{
     margin-top: 0;
     min-height: calc(100vh - 300px);
-  } /* Fills page to force footer down */
+  }/* Fills page to force footer down */
 
   #contact-body {
     margin-bottom: 0.7em;
-  } /* Moves heading down and fills page to force footer down */
+  }/* Moves heading down and fills page to force footer down */
 
   #contact-container {
     min-height: 66vh;
-  }
-
-  /* End of Large laptops and desktops */
+  }/* End of Large laptops and desktops */
 }
 
 @media only screen and (max-width: 992px) {
-  /* ---- Tablet ---- */
+  /* ---- Tablet ----------------------------------------------------------------------------------------------------------- */
 
   /* --------------------------------------Tablet - Home page background */
 
@@ -709,7 +670,7 @@ table {
     /*Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-practicing-yoga-3822457/) */
     background-image: url(../images/home-cover-2.jpg);
     background-size: 125%;
-  } /* Custom background for tablets, fits better on devices in this size class */
+  }/* Custom background for tablets, fits better on devices in this size class */
 
   /* --------------------------------------Tablet - Header */
 
@@ -717,27 +678,27 @@ table {
     margin: 0;
     padding: 0;
     min-height: 120px;
-  } /* Removes padding and margins around header and sets minimum height for VH-footer fix */
+  }/* Removes padding and margins around header and sets minimum height for VH-footer fix */
 
   .nav-link {
     font-size: medium;
-  } /* Reduces size of navigation links */
+  }/* Reduces size of navigation links */
 
   #logo {
     height: 100px;
     width: 100px;
-  } /* Adjust size of logo for tablet */
+  }/* Adjust size of logo for tablet */
 
   /* --------------------------------------Tablet - Home page */
 
   #newsletter-signup {
     font-size: medium;
-  } /* Adjusts size of signup banner in line with rest of contents */
+  }/* Adjusts size of signup banner in line with rest of contents */
 
   #event-4 {
     visibility: collapse;
     display: none;
-  } /* Hidden on tablet for visual effect */
+  }/* Hidden on tablet for visual effect */
 
   /* --------------------------------------Tablet - About page */
 
@@ -746,137 +707,101 @@ table {
     padding: 1%;
     margin: 0.5%;
     width: 24%;
-  }
+  }/* Adjusts card sizes to fit 6 alongside each other */
 
   #carousel-mobile {
     visibility: hidden;
     display: none;
-  }
+  }/* Hides mobile carousel, with single photos displaying, on larger devices */
 
   #carousel-large {
     visibility: visible;
     display: inline-flex;
     flex-direction: column;
-  }
+  }/* Shows larger carousel, with 3 photos per slide, on larger devices */
 
-  .gallery-image {
-    width: 100%;
-  }
-
-  /* Tablet - Classes page */
+  /* -------------------------------------- Tablet - Classes page */
 
   .class-heading {
     font-size: large;
-  }
-
-  .classes-block {
-    width: unset;
-  }
-
-  .yoga-class-item,
-  .other-class-item {
-    height: 605px;
-    overflow: auto;
-  }
-
-  .class-thumbnail {
-    width: 100%;
-    max-height: 100%;
-    margin-left: 1%;
-    margin-right: 1%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+  } /* Resizing class headings to fit in with rest of content */
 
   /* --------------------------------------Tablet - Schedule page */
 
   table {
     font-size: smaller;
-  } /* Reduces font size in table to fit on single page - large enough to comfortably read, but readily available */
+  }/* Reduces font size in table to fit on single page - large enough to comfortably read, but all on one screen */
 
   #schedule-section .container-fluid {
     padding-right: 0;
-  } /* Fixes layout spacing issue, moves table to centre of page */
+  }/* Fixes layout spacing issue, moves table to centre of page */
 
   .legend {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-  } /* Aligns legend in middle of page */
+  }/* Aligns legend in middle of page */
 
   #download-pdf {
     margin-left: 10%;
-  } /* Reduces indent on PDF icon, fits under text better */
+  }/* Reduces indent on PDF icon, fits under text better */
 
   #rates-table {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
-  }
-
+  }/* Adjusting Rates table size for better visual effect */
+  
   /* --------------------------------------Tablet - Contact page */
 
   #contact-body,
   #error-block {
     margin-top: 1em;
     min-height: calc(100vh - 255px);
-  } /* Fills page to force footer down */
+  }/* Fills page to force footer down */
 
   #contact-body {
     margin-bottom: 1.03em;
-  } /* Moves heading down and fills page to force footer down */
+  }/* Moves heading down and fills page to force footer down */
 
   .contact-text {
     padding: 0.5em;
-  } /* Adds white space around text for better visual appeal */
+  }/* Adds white space around text for better visual appeal */
 
   #contact-container,
   .form-section {
     min-height: 60vh;
-  } /* Adjusts size of contact container to same size as enquiries container */
-
-  #submit-button {
-    padding-bottom: 1em;
-  }
+  }/* Adjusts size of contact container to same size as enquiries container */
 
   /* --------------------------------------Tablet - Footer */
 
   .desktop-footer {
     visibility: hidden;
     display: none;
-  }
+  }/* Controls footer for different screens, active on larger screens */
 
   .handheld-footer {
     visibility: visible;
     display: inline-flex;
     flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-  }
-
-  .contact {
-    text-align: center;
-    padding-left: unset;
-  }
+  }/* Controls footer for different screens, active on smaller screens */
 
   .connect {
     margin-top: 0.5em;
-  } /* Creates space between social media links and page links */
+  }/* Creates space between social media links and page links */
 
   /* End of Tablet */
 }
 
-/* ---- Mobile ---- */
+/* ---- Mobile ----------------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
+
   /* --------------------------------------Mobile - Home page background */
   #background-cover {
     background-image: url(../images/home-cover-3.jpg);
-  } /* Background image for landing page */
+  }
+
+  /* Background image for landing page */
   /* Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-practicing-yoga-3822369/) */
 
   /* --------------------------------------Mobile - Header */
@@ -884,164 +809,131 @@ table {
     margin: 0;
     padding: 0;
     min-height: 90px;
-  } /* Removes margin and padding from header and sets minimum height for VH-footer fix */
+  }/* Removes margin and padding from header and sets minimum height for VH-footer fix */
 
   .nav-link {
     font-size: medium;
-  } /* Adjusts nav-link size in line with rest of contents */
+  }/* Adjusts nav-link size in line with rest of contents */
 
   #logo {
     height: 75px;
     width: 75px;
-  } /* Adjust size of logo for mobile */
+  }/* Adjust size of logo for mobile */
 
   /* --------------------------------------Mobile - Home page */
 
   #quote {
     visibility: hidden;
     display: none;
-  } /* Hides quote - visual effect */
+  }/* Hides quote - visual effect */
 
   #newsletter-signup {
     font-size: medium;
-  } /* Reduces newsletter signup banner size in line with rest of contents */
+  }/* Reduces newsletter signup banner size in line with rest of contents */
 
   .intro-block,
   .event-item {
     margin: 1% 0;
     padding-top: 2%;
-  } /* Aligns intro section and events section blocks */
+  }/* Aligns intro section and events section blocks */
 
   .events-block {
     max-height: fit-content;
-  } /* Allows for boxes to adjust to contents instead of fixed size */
+  }/* Allows for boxes to adjust to contents instead of fixed size */
 
   #event-4 {
     visibility: visible;
     display: inline-block;
-  } /* Reverses tablet hiding effects for event 4 */
+  }/* Reverses tablet hiding effects for event 4 */
 
   /* --------------------------------------Mobile - About page */
 
   #carousel-large {
     visibility: hidden;
     display: none;
-  }
+  }/* Hides larger carousel, with 3 photos per slide, on smaller devices */
 
   #carousel-mobile {
     visibility: visible;
     display: inline-flex;
     flex-direction: column;
-  }
+  }/* Shows mobile carousel, with single photos displaying, on smaller devices */
 
   .meet-team {
     margin: 1%;
     padding: 1%;
     max-width: 100%;
     width: 48%;
-  }
+  }/* Adjusts card sizes to fit 6 alongside each other */
 
   .intro-text {
     font-size: small;
-  }
-
-  .gallery-image {
-    width: 100%;
-  }
+  }/* Reduces font size to fit with rest of contents */
 
   /* --------------------------------------Mobile - Classes page */
 
   .yoga-class-item,
   .other-class-item {
     height: unset;
-  }
+  }/* Reverses class size settings, allowing full contents to show when viewing on mobile */
 
-  .class-thumbnail {
-    max-width: unset;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
+.list-group-item {
+  font-size: small;
+}
+
+  #notify {
+    font-size: smaller;
+  }/* Changes font size of health warning in line with rest of content */
 
   /* --------------------------------------Mobile - Schedule page */
 
   table {
     font-size: x-small;
-  } /* Reduces table font size to align with rest of content size */
-
-  #schedule-section .row {
-    margin: 0;
-    padding: 0;
-  }
+  }/* Reduces table font size to align with rest of content size */
 
   #table-legend,
   #booking-link,
   #download-link {
-    font-size: xx-small;
-  } /* Reduces legend content in line with other pages */
+    font-size: small;
+  }/* Reduces legend content in line with other pages */
 
   .legend {
     text-align: left;
     width: 80%;
     margin-bottom: 0.5em;
-  } /* Reduces width of legend to make it clear that it's a subsection of the schedule table and moves text to left for better visual effect */
+  }/* Reduces width of legend to make it clear that it's a subsection of the schedule table and moves text to left for better visual effect */
 
   #table-legend,
   #booking-link,
   #download-link {
     padding: 0;
-  } /* Removes unnecessary spaces between lines */
+  }/* Removes unnecessary spaces between lines */
 
   #rates-table {
     margin-left: 2%;
     margin-right: 2%;
     width: 96%;
     table-layout: auto;
-  }
-
-  /* --------------------------------------Mobile - Contact page */
+  }/* --------------------------------------Mobile - Contact page */
 
   #contact-body,
   #error-block {
     margin-top: 1em;
-    min-height: calc(100vh - 225px);
-  } /* Moves heading down and fills page to force footer down */
+    min-height: calc(100vh - 257px);
+  }/* Moves heading down and fills page to force footer down */
 
-  #enqform-section {
-    padding: 0;
-    margin-left: 4%;
-  }
-
-  #contact-section {
-    padding: 0;
-  }
   /* --------------------------------------Mobile - Footer */
 
   .desktop-footer {
     visibility: hidden;
     display: none;
-  }
+  } /* Controls footer for different screens, active on larger screens */
 
   .handheld-footer {
     visibility: visible;
     display: inline-flex;
     flex-direction: column;
-  }
-
-  #footer {
-    position: relative;
-    bottom: 0;
-    margin: 0;
-  }
-
-  .connect {
-    margin-top: 0.4em;
-  } /* Reduces space between social media and page links */
-
-  .footer-link {
-    padding: 0;
-    margin: 0;
-  }
+  }/* Controls footer for different screens, active on smaller screens */
 
   /* End of Mobile */
 }
