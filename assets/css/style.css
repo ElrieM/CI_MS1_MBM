@@ -522,7 +522,7 @@ table {
 #contact-body,
 #error-block {
   margin-top: 1em;
-  min-height: calc(100vh - 348px);
+  min-height: calc(100vh - 332px);
 }/* Moves heading down and fills page to force footer down */
 
 #enqform-section {
@@ -649,7 +649,7 @@ table {
   #contact-body,
   #error-block{
     margin-top: 0;
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 332px);
   }/* Fills page to force footer down */
 
   #contact-body {
@@ -757,7 +757,7 @@ table {
   #contact-body,
   #error-block {
     margin-top: 1em;
-    min-height: calc(100vh - 255px);
+    min-height: calc(100vh - 287px);
   }/* Fills page to force footer down */
 
   #contact-body {
