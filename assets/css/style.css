@@ -77,7 +77,8 @@ body {
 
 .nav-link {
   font-size: large;
-  margin-left: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
@@ -303,6 +304,10 @@ header {
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.navbar-nav {
+  margin: 0 auto;
 }
 
 .section-heading {
