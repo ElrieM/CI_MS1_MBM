@@ -1,4 +1,4 @@
-# Mind Body Motion Wellness Centre Website
+# Mind Body Motion Wellness Centre Website <!-- omit in toc -->
 
 [View live project here](https://elriem.github.io/CI_MS1_MBM/)
 
@@ -6,95 +6,128 @@ This is a business website for the Mind Body Motion Wellness Centre, a fictional
 
 The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
 
-![mockup](docs/readme/responsivescreens.png)
+![mockup](docs/readme/other/responsivescreens.png)
 
-- [Mind Body Motion Wellness Centre Website](#mind-body-motion-wellness-centre-website)
-  - [User Experience (UX)](#user-experience-ux)
-    - [User Stories](#user-stories)
-      - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning Visitor Goals](#returning-visitor-goals)
-      - [Frequent User Goals](#frequent-user-goals)
-    - [Site Owner Stories](#site-owner-stories)
-      - [Site Owner Goals](#site-owner-goals)
-    - [Design](#design)
-      - [Colour Scheme](#colour-scheme)
-      - [Typography](#typography)
-      - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies Used](#technologies-used)
-    - [Language Used](#language-used)
-    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-  - [Testing](#testing)
-    - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
-    - [Further Testing](#further-testing)
-    - [Known Bugs](#known-bugs)
-  - [Deployment](#deployment)
-    - [GitHub Pages](#github-pages)
-    - [Forking the GitHub Repository](#forking-the-github-repository)
-    - [Making a Local Clone](#making-a-local-clone)
-  - [Credits](#credits)
-    - [Code](#code)
-    - [Content](#content)
-    - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+# Contents <!-- omit in toc -->
 
-## User Experience (UX)
+- [1. User Experience (UX)](#1-user-experience-ux)
+  - [1.1 User Stories](#11-user-stories)
+  - [1.2. Design](#12-design)
+  - [3. Structure](#3-structure)
+  - [4. Wireframes](#4-wireframes)
+- [2. Features](#2-features)
+  - [2.1 Existing Features](#21-existing-features)
+  - [2.2 Features Left to Implement](#22-features-left-to-implement)
+- [3 Technologies Used](#3-technologies-used)
+  - [3.1 Language Used](#31-language-used)
+  - [3.2 Frameworks, Libraries & Programs Used](#32-frameworks-libraries--programs-used)
+- [4. Testing](#4-testing)
+  - [4.1 Validator tools](#41-validator-tools)
+  - [4.2 Testing User Stories from User Experience (UX) Section](#42-testing-user-stories-from-user-experience-ux-section)
+  - [4.3. Further Testing](#43-further-testing)
+  - [4.4 Known Bugs](#44-known-bugs)
+- [5. Deployment](#5-deployment)
+  - [5.1. GitHub Pages](#51-github-pages)
+  - [5.2. Forking the GitHub Repository](#52-forking-the-github-repository)
+  - [5.3. Making a Local Clone](#53-making-a-local-clone)
+- [6. Credits](#6-credits)
+  - [6.1. Code](#61-code)
+  - [6.2. Content](#62-content)
+  - [6.3. Media](#63-media)
+  - [6.4. Acknowledgements](#64-acknowledgements)
 
-### User Stories
+# 1. User Experience (UX)
 
-#### First Time Visitor Goals
+## 1.1 User Stories
 
-  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the fitness centre.
+### - First Time Visitor Goals <!-- omit in toc -->
+
+  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the wellness centre.
   2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect.
   3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
   4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
-  5. As a First Time Visitor, I want to locate social media links to see the fitness centre's social presence and find out more about other students' experiences.
+  5. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences.
   
-#### Returning Visitor Goals
+### - Returning Visitor Goals <!-- omit in toc -->
   
-  1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
-  2. As a Returning Visitor, I want to find information regarding registering for upcoming events.
-  3. As a Returning Visitor, I want to find information about prices and buy additional class bundles.
+  6. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
+  7. As a Returning Visitor, I want to find information regarding registering for upcoming events.
+  8. As a Returning Visitor, I want to find information about prices and buy additional class bundles.
 
-#### Frequent User Goals
+### - Frequent User Goals <!-- omit in toc -->
   
-  1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
-  2. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available.
-  3. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
+  9. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
+  10. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available.
+  11. As a Frequent User, I want to register for classes or events, and / or buy additional class bundles.
 
-### Site Owner Stories
+### - Site Owner Goals <!-- omit in toc -->
 
-#### Site Owner Goals
+  12. As the Site Owner, I want to make information easily accessable to prospective and existing students, thereby reducing the number of queries sent and the time spent on administrative tasks.
+  13. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit.
+  14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
 
-1. As the Site Owner, I want to make information easily accessable to prospective and existing students, thereby reducing the number of queries sent and the time spent on administrative tasks.
-2. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit.
-3. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
+## 1.2. Design
 
-### Design
+#### 1.2.1 Colour Scheme <!-- omit in toc -->
 
-#### Colour Scheme
-
-- The main colours, generated from colormind.io, are:
+- The main colours, selected from  a Google search of "Yoga studio colour palette" ([link](https://www.google.com/imgres?imgurl=https://i.pinimg.com/originals/9f/7f/08/9f7f08b1a65027c50519d934f6ff7676.jpg&imgrefurl=https://nl.pinterest.com/pin/526006431486092441/&tbnid=_l_RzFZUJQFdxM&vet=1&docid=LUuDSscJX2s3YM&w=1500&h=1500&source=sh/x/im))
   - Light Shades - Fresh Linen #e1dbcf (header, accents)
   - Light Accent - Calm Pink #f2e5dd (background and accents)
   - Main brand colour - Garden Air #d4e0d6
   - Dark accent - Grateful Green #acbba6 (accents)
   - Dark shades - Moonlight Forest #334545 (text)
 
-#### Typography
+- Snapshot of palette image can be viewed [here](docs/readme/other/colour-palette.png).
 
-- Predominantly 2 fonts were used throughout the website:
-  - The Lato font is the main font used throughout the whole website, with Sans Serif as the fallback font in case the font does not import correctly into the site. It is summarised as "Male and female, serious but friendly. With the feeling of the Summer". This fits well with the fitness centre, which should have a calm and inviting feeling, but also reflects the seriousness of wellbeing and health.
-  - The Dancing Script font was selected for the quotes and class descriptions. It is described as "a lively casual script where the letters bounce and change size slightly" and ideal for a friendly, informal and spontaneous look. I selected it to bring an elegant playfulness to the design, as a compliment to the seriousness of the Lato font.
+#### 1.2.2 Typography <!-- omit in toc -->
 
-#### Imagery
+- When searching for fonts, I started by looking for an elegant but playful font type to represent the elegance and fluid movements in yoga, but also try to bring in an element of fun and playfulness to avoid being too "stuffy".
+- Once I had selected Dancing Script, I looked at the popular pairings and selected Lato.
 
-- To make the website stand out, I opted for a full page background on the landing page. For responsiveness, I opted to use different background pictures for tablets and mobiles that scaled better to the device. The bright colours of the outfits, the muted backgrounds and the general beauty of the pictures engages with site visitors, immediately telling the visitor what the organisation is about.
+- Two fonts were used throughout the website:
+  - The Lato font is the main font used throughout the whole website, with Sans Serif as the fallback font in case the font does not import correctly into the site. It is summarised as "Male and female, serious but friendly. With the feeling of the Summer". This fits well with the wellness centre, which should have a calm and inviting feeling, but also reflects the seriousness of wellbeing and health.
 
-### Wireframes
+  - The Dancing Script font was selected for the quotes and class descriptions. It is described as "a lively casual script where the letters bounce and change size slightly" and ideal for a friendly, informal and spontaneous look. This fits well into the impression I wanted for the website.
+
+#### 1.2.3 Imagery <!-- omit in toc -->
+
+- To make the website stand out, I opted for a full page background on the landing page.
+
+- For responsiveness, I opted to use different background pictures for tablets and mobiles that scaled better to that device. 
+
+- The bright colours of the outfits, the muted backgrounds and the general beauty of the pictures engages with site visitors, telling the visitor what the organisation is about and introducing the elegant playfulness of the design.
+
+## 3. Structure
+
+- During the research phase, I visited websites from the Netherlands, United Kingdom and United States to find common themes and features;
+  - Timetables
+  - Class descriptions
+  - Class rates, and bundle packages
+  - Events, usually with guest speakers or internal instructors but also yoga retreats through affiliate links
+  - Facilities and rules at the yoga studio
+  - Social media links, most commonly Facebook, Twitter and Instagram, but some websites also had Pinterest and YouTube presence
+  - Dutch websites, and websites, often had WhatsApp contacts available
+
+- To meet the needs identified in the User Goals, I felt the best way to present the information would be:
+  - Introduction to yoga and meditation, especially for those prospective students that were "looking to try something new" and events on the landing / home page
+  
+  - On the About page, I put information that I felt gave you more of an overview of the wellness centre:
+    - Images of instructors, with short inspirational quotes as their "motto" to give you an idea of the personality / character of the instructor and a list of the types of classes they lead. There was some overlap, and not all the classes that instructors can teach are listed with their names on the schedule. The idea with this is rotation and backup - if a instructor is not able to run their class, another instructor could take their place. It is also not uncommon for yoga instructors to be interested or trained in multiple disciplines.
+    - Facilities and FAQs, which covers the topics of what is at the wellness centre, what do you need to bring with you (especially important to a prospective student, showing up to a class when there is no yoga mat available to you would be embarrassing and inconvenient and probably lead to the student never returning, thereby losing their business) and what is expected of you (again avoiding embarrassment, for instance walking into a studio with your shoes on and being reprimanded)
+    - An image gallery, which gives you an idea of what to expect when you arrive, a preview of classes and an idea of the feel and space available in the wellness centre classes
+  
+  - Yoga classes and other classes are described on the Classes page. To make it easier for prospective students to find the right class for them, the yoga classes are split into three different levels - classes suitable for beginners, classes for a slower pace and classes with a faster pace
+    - Images of the classes, what to expect in a class and suitability is included on this page
+
+  - A class schedule, with a colour legend that ties into the classes page levels (beginner, slow-paced, fast-paced and other / special classes) and the class tariffs are included in the Schedule and Rates page
+    - This is commonplace in a lot of the websites, having rates on the same page as the timetable also means you don't have to click away once you have decided on a class, or classes if you are intending regular classes
+    - There is also an option to download a PDF version of the class schedule to print and pin where users most need it (great reminder of upcoming classes you might want to attend)
+
+- On the Contact page, users can find contact details and an enquiry form
+  - Contact details include: telephone numbers (including WhatsApp), a physical address, email address and view the address on Google Maps - when clicking on Google Maps image, Google Maps is opened in a new page and users are able to get directions / navigate to the wellness centre
+  - On the Enquiry Form, users submit their contact details and select from a dropdown menu the subject / nature of their enquiry (book a class, book an event, membership inquiries or other queries). This form currently submits to the CI form dump page, but would usually be linked to email addresses that send the form to different inboxes to best address the queries
+
+## 4. Wireframes
 
 - Home page wireframe - [view](docs/wireframes/home.png)
 - About page - [view](docs/wireframes/about.png)
@@ -102,30 +135,29 @@ The website provides users with information about the process for joining classe
 - Schedule and Rates page - [view](docs/wireframes/schedule.png)
 - Contact page - [view](docs/wireframes/contact.png)
 
-## Features
+# 2. Features
 
-### Existing Features
-
+## 2.1 Existing Features
 - Responsive on all device sizes
 - Interactive elements
 - Form to register for events and / or classes
 - Download timetable from website
 
-### Features Left to Implement
+## 2.2 Features Left to Implement
 
 - Interactive event registration - allows users to register for events directly from website
 - Interactive class booking - allows users to book, or cancel, directly from the website
 - Adding information about additional therapies (massage, sauna, reiki, etc.)
 - Incorporating advertising for partners with yoga retreats, through social media feed.
 
-## Technologies Used
+# 3 Technologies Used
 
-### Language Used
+## 3.1 Language Used
 
 - HTML 5
 - CSS
 
-### Frameworks, Libraries & Programs Used
+## 3.2 Frameworks, Libraries & Programs Used
 
 - Bootstrap 5:
   - Bootstrap was used to assist with the responsiveness and styling of the website:
@@ -152,7 +184,9 @@ The website provides users with information about the process for joining classe
   - Balsamiq:
     - Balsamiq was used to create the wireframes during the design process.
 
-## Testing
+# 4. Testing
+
+## 4.1 Validator tools
 
 The following tools were used to validate every page of porject to ensure there were no syntax errors in the project:
 
@@ -161,15 +195,17 @@ The following tools were used to validate every page of porject to ensure there 
 - Accessibility - WAVE Web Accessibility Evaluation Tool. Report can be found [here](docs/readme/wave-validation.pdf)
 - Performance - Chrome Lighthouse. Report can be found [here](docs/readme/lighthouse-validation.pdf)
 
-### Testing User Stories from User Experience (UX) Section
+## 4.2 Testing User Stories from User Experience (UX) Section
 
 - First Time Visitor Goals
 
-  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the fitness centre.
+  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the wellness centre.
      1. Upon landing on the site, users see women practicing yoga in the background, with a short introduction, overview of what to expect and benefits of yoga and meditation.
 
      2. In the navigation bar, users have the option to find out more about the wellness centre in the About tab, learn more about classes in the Classes tab or view the Schedule and Rates if they are ready to start attending.
+   
   2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect.
+
      1. The website is designed to flow, easily returning to the main page or any other page that the user visited / wants to visit.
 
      2. A link to the Classes tab is included in the top navigation bar as well as in the footer to make it easiest for users to access.
@@ -177,11 +213,17 @@ The following tools were used to validate every page of porject to ensure there 
      3. The Classes page is presented in different "phases" of yoga, from beginner to looking for something a bit more relaxing to a more intense workout. It also includes a class picture and a short description.
 
      4. To make them more easily distinguishable from the "normal" yoga classes, the prenatal yoga, pilates and taichi classes are presented separately under Other Classes.
+
   3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
+
      1. On the About page, users can view pictures of the instructors along with a short inspirational quote to give the user a sense of the instructor, and a list of classes that the instructor leads.
+
   4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
+     
      1. In the navigation bar, users can follow the link to the Schedule and Rates page to view the rates per class as well as bundle options.
-  5. As a First Time Visitor, I want to locate social media links to see the fitness centre's social presence and find out more about other students' experiences.
+  
+  5. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences.
+  
      1. In the footer, links to the wellness centre's social media pages are available.
 
      2. Social media icons are included to draw users' attention.
@@ -191,23 +233,28 @@ The following tools were used to validate every page of porject to ensure there 
 - Returning Visitor Goals
   
   1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
+  
      1. A Contact link is included in the upper navigation bar as well as in the footer bar.
 
      2. The contact page includes an enquiry form, which has dropdown options for the subject, to ensure that their query is directed to the best person to assist.
+
   2. As a Returning Visitor, I want to find information regarding registering for upcoming events.
+
      1. An Upcoming Events section is included in the lower part of the landing page, showing upcoming events.
 
      2. Users are able to submit a booking request for events in the contact form.
 
      3. Users also have the option to sign up for the newsletter, which will allow them to be notified of upcoming events automatically.
+   
   3. As a Returning Visitor, I want to find information about prices and buy additional class bundles.
+
      1. As with new users, users can follow the link in the navigation bar to the Schedule and Rates page to view the rates per class as well as bundle options.
 
      2. For users registered for the newsletter, announcements of price changes and bundle rates will automatically be communicated.
 
      3. In the Contact page's Enquiry form, users have the option to select Membership queries for additional questions about rates or renewing class bundles.
 
-- Frequent User Goals
+- Frequent User Goals <!-- omit in toc -->
   
   1. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice.
      1. A Sign Up Here link is included on the upper navigation bar, in inverted colours to draw the user's attention.
@@ -236,26 +283,22 @@ The following tools were used to validate every page of porject to ensure there 
 3. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
    1. Events are included on the landing page, among the first content visible to prospective and existing student.
 
-### Further Testing
+## 4.3. Further Testing
 
 - The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 - The website was viewed on a variety of devices, such as a Desktop, Laptop, iPhone Xs and iPhone 11s.
 - Significant testing was performed to ensure all pages linked correctly.
 - Friends and family were asked to review the site and documentation to point out bugs and /or user experience issues.
 
-### Known Bugs
+## 4.4 Known Bugs
 
 - The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
 
 - On Home page, on Desktop, there is a pink strip covering the background image that doesn't belong there.
 
-- Layout of instructors on About page doesn't break into 2 rows.
+# 5. Deployment
 
-- Class schedule becomes very small, with text spilling into other blocks. Attempt to make table scroll across not successful.
-
-## Deployment
-
-### GitHub Pages
+## 5.1. GitHub Pages
 
 The project was deployed to GitHub Pages as follows:
 
@@ -267,7 +310,7 @@ The project was deployed to GitHub Pages as follows:
 5. The page refreshes automatically.
 6. Scroll to "Your site is published at..." for the puslished site link in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
+## 5.2. Forking the GitHub Repository
 
 A fork is a copy of the repository, allowing you to experiment with changes without affecting the original project.
 
@@ -275,7 +318,7 @@ A fork is a copy of the repository, allowing you to experiment with changes with
 2. In the banner above the Repository, click on the "Fork" button.
 3. If you have succeeded, you now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+## 5.3. Making a Local Clone
 
 A clone allows you to create a local copy of a repository on your computer and sync between your computer and the GitHub repository.
 
@@ -288,16 +331,16 @@ A clone allows you to create a local copy of a repository on your computer and s
 
 Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for a guide to clone a repository.
 
-## Credits
+# 6. Credits
 
-### Code
+## 6.1. Code
 
 - Bootstrap 5: Bootstrap Library used to make the site responsive using the Bootstrap Grid System
 - W3schools.com used for making changes to formatting and customising Bootstrap content used.
 - mdbootstrap.com for Carousel multiple items [here](https://mdbootstrap.com/snippets/jquery/ascensus/135508#html-tab-view)
 - freecodecamp.org for understanding why the footer won't stay put [here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) and [here](https://css-tricks.com/couple-takes-sticky-footer/)
 
-### Content
+## 6.2. Content
 
 - Home page:
   - "Introduction" section was adapted from [here](https://www.nhs.uk/live-well/exercise/guide-to-yoga/).
@@ -324,7 +367,7 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   - Address randomly generated from [here](https://www.fakeaddressgenerator.com/World/Netherlands_address_generator)
   - Guidance on how to embed Google Maps on website from [here](https://www.geeksforgeeks.org/how-to-add-google-map-inside-html-page-without-using-api-key/)
 
-### Media
+## 6.3. Media
 
 - Logo used in header
   - Lotus flower person vector from [here](https://www.pngkey.com/download/u2e6a9t4t4i1o0u2_lotus-zen-comments-you-need-care-too-self/)
@@ -363,7 +406,7 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   - Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
   - Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
 
-### Acknowledgements
+## 6.4. Acknowledgements
 
 - My mentor for helpful feedback and some supportive words when I was overwhelmed.
 - My partner for enduring countless "poepie, wat van die" (loosely translates to "honey, what do you think of this") and patience.
