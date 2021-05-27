@@ -472,7 +472,7 @@ table {
 
 #booking-link,
 #download-link {
-  font-size: smaller;
+  font-size: medium;
 }/* In line with other Legend content, makes class booking link and PDF download link text smaller */
 
 #download-pdf {
@@ -509,7 +509,7 @@ table {
 }/* Reduces siz of legend heading to emphasise subsection of class schedule */
 
 .legend {
-  font-size: smaller;
+  font-size: medium;
   text-align: center;
 }/* Reduces size of legend content adn aligns in centre for visual effect */
 
@@ -729,8 +729,12 @@ table {
   /* --------------------------------------Tablet - Schedule page */
 
   table {
-    font-size: smaller;
-  }/* Reduces font size in table to fit on single page - large enough to comfortably read, but all on one screen */
+    font-size: medium;
+  }/* Reduces font size to fit rest of contents */
+
+  .table>:not(caption)>*>* {
+    padding: .3rem;
+  }/* Reduces internal margins to allow table to fit on single page */
 
   #schedule-section .container-fluid {
     padding-right: 0;
@@ -761,7 +765,7 @@ table {
   }/* Fills page to force footer down */
 
   #contact-body {
-    margin-bottom: 1.03em;
+    margin-bottom: 3.03em;
   }/* Moves heading down and fills page to force footer down */
 
   .contact-text {
@@ -882,13 +886,13 @@ table {
 }
 
   #notify {
-    font-size: smaller;
+    font-size: small;
   }/* Changes font size of health warning in line with rest of content */
 
   /* --------------------------------------Mobile - Schedule page */
 
   table {
-    font-size: x-small;
+    font-size: small;
   }/* Reduces table font size to align with rest of content size */
 
   #table-legend,
@@ -901,6 +905,7 @@ table {
     text-align: left;
     width: 80%;
     margin-bottom: 0.5em;
+    font-size: small;
   }/* Reduces width of legend to make it clear that it's a subsection of the schedule table and moves text to left for better visual effect */
 
   #table-legend,
