@@ -2,10 +2,6 @@
 
 [View live project here](https://elriem.github.io/CI_MS1_MBM/)
 
-This is a business website for the Mind Body Motion Wellness Centre, a fictional fitness centre offering yoga, meditation and tai chi classes. It is designed to be responsive on a range of devices, making it easy to navigate for prospective students and existing students.
-
-The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
-
 ![mockup](docs/readme/other/responsivescreens.png)
 
 # Contents <!-- omit in toc -->
@@ -21,6 +17,15 @@ The website provides users with information about the process for joining classe
 - [3 Technologies Used](#3-technologies-used)
   - [3.1 Language Used](#31-language-used)
   - [3.2 Frameworks, Libraries & Programs Used](#32-frameworks-libraries--programs-used)
+    - [- Bootstrap 5:](#--bootstrap-5)
+    - [- Google Fonts:](#--google-fonts)
+    - [- Font Awesome:](#--font-awesome)
+    - [- jQuery:](#--jquery)
+    - [- Git:](#--git)
+    - [- GitHub:](#--github)
+    - [- Microsoft Paint and Microsoft Photos:](#--microsoft-paint-and-microsoft-photos)
+    - [- Microsoft Excel:](#--microsoft-excel)
+    - [- Balsamiq:](#--balsamiq)
 - [4. Testing](#4-testing)
   - [4.1 Validator tools](#41-validator-tools)
   - [4.2 Testing User Stories from User Experience (UX) Section](#42-testing-user-stories-from-user-experience-ux-section)
@@ -37,6 +42,10 @@ The website provides users with information about the process for joining classe
   - [6.4. Acknowledgements](#64-acknowledgements)
 
 # 1. User Experience (UX)
+
+This is a business website for the Mind Body Motion Wellness Centre, a fictional fitness centre offering yoga, meditation and tai chi classes. It is designed to be responsive on a range of devices, making it easy to navigate for prospective students and existing students.
+
+The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
 
 ## 1.1 User Stories
 
@@ -68,7 +77,7 @@ The website provides users with information about the process for joining classe
 
 ## 1.2. Design
 
-#### 1.2.1 Colour Scheme <!-- omit in toc -->
+### - Colour Scheme <!-- omit in toc -->
 
 - The main colours, selected from  a Google search of "Yoga studio colour palette" ([link](https://www.google.com/imgres?imgurl=https://i.pinimg.com/originals/9f/7f/08/9f7f08b1a65027c50519d934f6ff7676.jpg&imgrefurl=https://nl.pinterest.com/pin/526006431486092441/&tbnid=_l_RzFZUJQFdxM&vet=1&docid=LUuDSscJX2s3YM&w=1500&h=1500&source=sh/x/im))
   - Light Shades - Fresh Linen #e1dbcf (header, accents)
@@ -79,7 +88,7 @@ The website provides users with information about the process for joining classe
 
 - Snapshot of palette image can be viewed [here](docs/readme/other/colour-palette.png).
 
-#### 1.2.2 Typography <!-- omit in toc -->
+### - Typography <!-- omit in toc -->
 
 - When searching for fonts, I started by looking for an elegant but playful font type to represent the elegance and fluid movements in yoga, but also try to bring in an element of fun and playfulness to avoid being too "stuffy".
 - Once I had selected Dancing Script, I looked at the popular pairings and selected Lato.
@@ -89,7 +98,7 @@ The website provides users with information about the process for joining classe
 
   - The Dancing Script font was selected for the quotes and class descriptions. It is described as "a lively casual script where the letters bounce and change size slightly" and ideal for a friendly, informal and spontaneous look. This fits well into the impression I wanted for the website.
 
-#### 1.2.3 Imagery <!-- omit in toc -->
+### - Imagery <!-- omit in toc -->
 
 - To make the website stand out, I opted for a full page background on the landing page.
 
@@ -123,9 +132,9 @@ The website provides users with information about the process for joining classe
     - This is commonplace in a lot of the websites, having rates on the same page as the timetable also means you don't have to click away once you have decided on a class, or classes if you are intending regular classes
     - There is also an option to download a PDF version of the class schedule to print and pin where users most need it (great reminder of upcoming classes you might want to attend)
 
-- On the Contact page, users can find contact details and an enquiry form
-  - Contact details include: telephone numbers (including WhatsApp), a physical address, email address and view the address on Google Maps - when clicking on Google Maps image, Google Maps is opened in a new page and users are able to get directions / navigate to the wellness centre
-  - On the Enquiry Form, users submit their contact details and select from a dropdown menu the subject / nature of their enquiry (book a class, book an event, membership inquiries or other queries). This form currently submits to the CI form dump page, but would usually be linked to email addresses that send the form to different inboxes to best address the queries
+  - On the Contact page, users can find contact details and an enquiry form
+    - Contact details include: telephone numbers (including WhatsApp), a physical address, email address and view the address on Google Maps - when clicking on Google Maps image, Google Maps is opened in a new page and users are able to get directions / navigate to the wellness centre
+    - On the Enquiry Form, users submit their contact details and select from a dropdown menu the subject / nature of their enquiry (book a class, book an event, membership inquiries or other queries). This form currently submits to the CI form dump page, but would usually be linked to email addresses that send the form to different inboxes to best address the queries
 
 ## 4. Wireframes
 
@@ -159,7 +168,7 @@ The website provides users with information about the process for joining classe
 
 ## 3.2 Frameworks, Libraries & Programs Used
 
-- Bootstrap 5:
+### - Bootstrap 5:
   - Bootstrap was used to assist with the responsiveness and styling of the website:
     - Horizontal alignment navs & tabs used for navbar
     - Used stacked to horizontal grid for introduction section on home page
@@ -167,22 +176,22 @@ The website provides users with information about the process for joining classe
     - Sign up for newsletter form created with modals
     - Classes layout uses List Group, with headings as disabled items
     - Contact form elements
-  - Google Fonts:
-    - Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
-  - Font Awesome:
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-  - jQuery:
-    - jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
-  - Git:
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  - GitHub:
-    - GitHub is used to store the projects code after being pushed from Git.
-  - Microsoft Paint and Microsoft Photos:
-    - Used to crop and resize images where required.
-  - Microsoft Excel:
-    - Used to prepared PDF schedule available for download from Schedule page.
-  - Balsamiq:
-    - Balsamiq was used to create the wireframes during the design process.
+ ### - Google Fonts:
+  - Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
+###  - Font Awesome:
+  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+###  - jQuery:
+  - jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
+###  - Git:
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+###  - GitHub:
+  - GitHub is used to store the projects code after being pushed from Git.
+###  - Microsoft Paint and Microsoft Photos:
+  - Used to crop and resize images where required.
+###  - Microsoft Excel:
+  - Used to prepared PDF schedule available for download from Schedule page.
+###  - Balsamiq:
+  - Balsamiq was used to create the wireframes during the design process.
 
 # 4. Testing
 
@@ -190,10 +199,16 @@ The website provides users with information about the process for joining classe
 
 The following tools were used to validate every page of porject to ensure there were no syntax errors in the project:
 
-- HTML - W3C Markup Validator. Report can be found [here](docs/readme/html-validation.pdf)
-- CSS - W3C CSS Validator. All errors / warnings relate to Bootstrap and Font Awesome, no errors or warnings from CSS style file. Report can be found [here](docs/readme/css-validation.png)
-- Accessibility - WAVE Web Accessibility Evaluation Tool. Report can be found [here](docs/readme/wave-validation.pdf)
-- Performance - Chrome Lighthouse. Report can be found [here](docs/readme/lighthouse-validation.pdf)
+- HTML - W3C Markup Validator
+  - Report can be found [here](docs/readme/html-validation.pdf)
+- CSS - W3C CSS Validator
+  - All errors / warnings relate to Bootstrap and Font Awesome, 
+  - No errors or warnings from CSS style file unrelated to Bootstrap
+  - Report can be found [here](docs/readme/css-validation.png)
+- Accessibility - WAVE Web Accessibility Evaluation Tool
+  - Report can be found [here](docs/readme/wave-validation.pdf)
+- Performance - Chrome Lighthouse
+  - Report can be found [here](docs/readme/lighthouse-validation.pdf)
 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
