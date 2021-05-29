@@ -21,6 +21,7 @@
 - [4. Testing](#4-testing)
   - [4.1 Validator tools](#41-validator-tools)
   - [4.2 Testing User Stories from User Experience (UX) Section](#42-testing-user-stories-from-user-experience-ux-section)
+    - [- First Time Visitor Goals](#--first-time-visitor-goals)
   - [4.3. Further Testing](#43-further-testing)
   - [4.4 Known Bugs](#44-known-bugs)
 - [5. Deployment](#5-deployment)
@@ -229,7 +230,7 @@ The following tools were used to validate every page of project to ensure there 
   - All errors / warnings relate to Bootstrap and Font Awesome.
   - Summary of result:
     - No errors or warnings from CSS style file unrelated to Bootstrap;
-    - Errors from Bootstrap 5 (unused / unrecognised errors); and
+    - Errors from Bootstrap 5.0 (unused / unrecognised errors); and
     - Errors from FontAwesome.
   - Report can be found [here](docs/readme/test-results/validator-tools/css-validation.png).
   
@@ -245,46 +246,59 @@ The following tools were used to validate every page of project to ensure there 
     - No Errors or Contrast Errors on any of the pages;
     - Alert on all pages for duplicate link (logo and home both go to home page). Ignored, user expectation that clicking on the Logo will lead back to landing / home page;
     - Class Schedule, which uses a timetable, flagged as potential problem. No changes made, schedule layout and sizing unlikely to cause reader errors from overlapping information.
-  - Report can be found [here](docs/readme/test-results/wave-validation.pdf).
+  - Report can be found [here](docs/readme/test-results/validator-tools/wave-validation.pdf).
   
 - Performance - Chrome Lighthouse
-  - Pages tested:
+  - Pages tested (mobile and desktop tested on each):
     - Home;
     - About;
     - Classes;
     - Schedule and Rates;
     - Contact; and
     - Error (404).
+  - Summary of results:
+    - Performance between 94 and 100;
+    - Accessibility between 97 and 100;
+    - Best Practices at 100;
+    - SEO between 98 and 100 on all pages except landing page;
+    - Landing page SEO score of 89 / 91 (desktop / mobile respectively) due to the signup block at the bottom of the screen not having a href target (links directly to modal block in banner).
   - Report can be found [here](docs/readme/test-results/validator-tools/lighthouse-validation.pdf).
 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
-- First Time Visitor Goals
 
-  1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the wellness centre.
-     1. Upon landing on the site, users see women practicing yoga in the background, with a short introduction, overview of what to expect and benefits of yoga and meditation.
+### - First Time Visitor Goals
 
-     2. In the navigation bar, users have the option to find out more about the wellness centre in the About tab, learn more about classes in the Classes tab or view the Schedule and Rates if they are ready to start attending.
+#### 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the wellness centre. <!-- omit in toc -->
    
-  2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect.
+    1.1.  Upon landing on the site, users see women practicing yoga in the background, with a short introduction, overview of what to expect and benefits of yoga and meditation.
 
-     1. The website is designed to flow, easily returning to the main page or any other page that the user visited / wants to visit.
+    1.2. In the navigation bar, users have the option to find out more about the wellness centre in the About page, learn more about classes in the Classes page or view the Schedule and Rates page if they are ready to start attending.
 
-     2. A link to the Classes tab is included in the top navigation bar as well as in the footer to make it easiest for users to access.
+| Feature | Test | Expected Result | Actual Result | Link to Results |
+| ------- | ---- | ---------------- | -------------- | --- |
+|1.1) Background image on landing page shows a woman practicing yoga and introductory text |Scroll landing page to see if the background image is clearly visible while not obstructing information in introduction blocks | Image remains stationary and shows a woman / women practicing yoga on all 3 devices |(i - Desktop) Women in recognisable yoga position remain in background while scrolling down page without obstructuring text, (ii - Tablet) photo of woman in recognisable yoga pose fixed in background and all text easy to read, (iii - Mobile) woman in recognisable yoga position remains fixed in background and no obstruction of text. | [Results](docs/readme/test-results/user-stories/FTV-1-result.pdf) |
+|1.2) Navigation bar with links to About page, Classes page and Schedule and Rates page | Test links on navigation bar to various pages | Clicking on links opens selected page | About link opens About page, from About page, can go back to Home page or on to Classes or Schedule and Rates page. Same test performed and results obtained on Classes page and Schedule or Rates page |
 
-     3. The Classes page is presented in different "phases" of yoga, from beginner to looking for something a bit more relaxing to a more intense workout. It also includes a class picture and a short description.
+#### 2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect. <!-- omit in toc -->
 
-     4. To make them more easily distinguishable from the "normal" yoga classes, the prenatal yoga, pilates and taichi classes are presented separately under Other Classes.
+     2.1. The website is designed to flow, easily returning to the main page or any other page that the user visited / wants to visit.
 
-  3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
+     2.2. A link to the Classes tab is included in the top navigation bar as well as in the footer to make it easiest for users to access.
+
+     2.3. The Classes page is presented in different "phases" of yoga, from beginner to looking for something a bit more relaxing to a more intense workout. It also includes a class picture and a short description.
+
+     2.4. To make them more easily distinguishable from the "normal" yoga classes, the prenatal yoga, pilates and taichi classes are presented separately under Other Classes.
+
+  2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
 
      1. On the About page, users can view pictures of the instructors along with a short inspirational quote to give the user a sense of the instructor, and a list of classes that the instructor leads.
 
-  4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
+  3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
      
      1. In the navigation bar, users can follow the link to the Schedule and Rates page to view the rates per class as well as bundle options.
   
-  5. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences.
+  4. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences.
   
      1. In the footer, links to the wellness centre's social media pages are available.
 
