@@ -163,6 +163,10 @@ a {
   color: #334545;
 }/* Changes underline colour on legend to default font colour */
 
+a:hover {
+  color:#acbba6;
+}
+
 .special-class {
   background-color: #add8e6;
 }/* Applies legend colour to legend description */

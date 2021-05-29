@@ -7,25 +7,17 @@
 # Contents <!-- omit in toc -->
 
 - [1. User Experience (UX)](#1-user-experience-ux)
-  - [1.1 User Stories](#11-user-stories)
-  - [1.2. Design](#12-design)
-  - [3. Structure](#3-structure)
-  - [4. Wireframes](#4-wireframes)
+  - [1.1 Target audience](#11-target-audience)
+  - [1.2 User Stories](#12-user-stories)
+  - [1.3 Design](#13-design)
+  - [1.4 Structure](#14-structure)
+  - [1.5 Wireframes](#15-wireframes)
 - [2. Features](#2-features)
   - [2.1 Existing Features](#21-existing-features)
   - [2.2 Features Left to Implement](#22-features-left-to-implement)
 - [3 Technologies Used](#3-technologies-used)
   - [3.1 Language Used](#31-language-used)
   - [3.2 Frameworks, Libraries & Programs Used](#32-frameworks-libraries--programs-used)
-    - [- Bootstrap 5:](#--bootstrap-5)
-    - [- Google Fonts:](#--google-fonts)
-    - [- Font Awesome:](#--font-awesome)
-    - [- jQuery:](#--jquery)
-    - [- Git:](#--git)
-    - [- GitHub:](#--github)
-    - [- Microsoft Paint and Microsoft Photos:](#--microsoft-paint-and-microsoft-photos)
-    - [- Microsoft Excel:](#--microsoft-excel)
-    - [- Balsamiq:](#--balsamiq)
 - [4. Testing](#4-testing)
   - [4.1 Validator tools](#41-validator-tools)
   - [4.2 Testing User Stories from User Experience (UX) Section](#42-testing-user-stories-from-user-experience-ux-section)
@@ -47,7 +39,14 @@ This is a business website for the Mind Body Motion Wellness Centre, a fictional
 
 The website provides users with information about the process for joining classes, where to locate the gym, instructor biographies and a downloadable timetable.
 
-## 1.1 User Stories
+## 1.1 Target audience
+
+- People looking to take on yoga as a new hobby,
+- People looking for pilates or taichi classes,
+- People looking for a new yoga studio, and
+- People who already use the wellness centre.
+
+## 1.2 User Stories
 
 ### - First Time Visitor Goals <!-- omit in toc -->
 
@@ -75,7 +74,7 @@ The website provides users with information about the process for joining classe
   13. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit.
   14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
 
-## 1.2. Design
+## 1.3 Design
 
 ### - Colour Scheme <!-- omit in toc -->
 
@@ -106,7 +105,7 @@ The website provides users with information about the process for joining classe
 
 - The bright colours of the outfits, the muted backgrounds and the general beauty of the pictures engages with site visitors, telling the visitor what the organisation is about and introducing the elegant playfulness of the design.
 
-## 3. Structure
+## 1.4 Structure
 
 - During the research phase, I visited websites from the Netherlands, United Kingdom and United States to find common themes and features;
   - Timetables
@@ -136,7 +135,7 @@ The website provides users with information about the process for joining classe
     - Contact details include: telephone numbers (including WhatsApp), a physical address, email address and view the address on Google Maps - when clicking on Google Maps image, Google Maps is opened in a new page and users are able to get directions / navigate to the wellness centre
     - On the Enquiry Form, users submit their contact details and select from a dropdown menu the subject / nature of their enquiry (book a class, book an event, membership inquiries or other queries). This form currently submits to the CI form dump page, but would usually be linked to email addresses that send the form to different inboxes to best address the queries
 
-## 4. Wireframes
+## 1.5 Wireframes
 
 - Home page wireframe - [view](docs/wireframes/home.png)
 - About page - [view](docs/wireframes/about.png)
@@ -168,7 +167,7 @@ The website provides users with information about the process for joining classe
 
 ## 3.2 Frameworks, Libraries & Programs Used
 
-### - Bootstrap 5:
+### - [Bootstrap 5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) <!-- omit in toc -->
   - Bootstrap was used to assist with the responsiveness and styling of the website:
     - Horizontal alignment navs & tabs used for navbar
     - Used stacked to horizontal grid for introduction section on home page
@@ -176,39 +175,87 @@ The website provides users with information about the process for joining classe
     - Sign up for newsletter form created with modals
     - Classes layout uses List Group, with headings as disabled items
     - Contact form elements
- ### - Google Fonts:
+  
+ ### - [Google Fonts:](https://fonts.google.com/) <!-- omit in toc -->
   - Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
-###  - Font Awesome:
+  
+###  - [Font Awesome:](https://fontawesome.com/) <!-- omit in toc -->
   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-###  - jQuery:
+
+###  - [jQuery:](https://jquery.com/) <!-- omit in toc -->
   - jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
-###  - Git:
+
+###  - [Git:](https://git-scm.com/) <!-- omit in toc -->
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-###  - GitHub:
+
+###  - [GitHub:](https://github.com/) <!-- omit in toc -->
   - GitHub is used to store the projects code after being pushed from Git.
-###  - Microsoft Paint and Microsoft Photos:
+
+
+### - [Visual Studio Code:](https://code.visualstudio.com/) <!-- omit in toc -->
+  - IDE used to write code for this project.
+ 
+###  - [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint) and [Microsoft Photos:](https://en.wikipedia.org/wiki/Microsoft_Photos) <!-- omit in toc -->
   - Used to crop and resize images where required.
-###  - Microsoft Excel:
+
+###  - [Microsoft Excel:](https://en.wikipedia.org/wiki/Microsoft_Excel) <!-- omit in toc -->
   - Used to prepared PDF schedule available for download from Schedule page.
-###  - Balsamiq:
+
+###  - [Balsamiq:](https://balsamiq.com/) <!-- omit in toc -->
   - Balsamiq was used to create the wireframes during the design process.
+
+### - [Am I Responsive:](http://ami.responsivedesign.is/) <!-- omit in toc -->
+  - Used to create mockups for README file.
 
 # 4. Testing
 
 ## 4.1 Validator tools
 
-The following tools were used to validate every page of porject to ensure there were no syntax errors in the project:
+The following tools were used to validate every page of project to ensure there were no syntax errors in the project:
 
 - HTML - W3C Markup Validator
-  - Report can be found [here](docs/readme/html-validation.pdf)
+  - Pages tested:
+    - Home;
+    - About;
+    - Classes;
+    - Schedule and Rates;
+    - Contact; and
+    - Error (404).
+  - Summary of results:
+    - No errors on any of the pages.
+  - Report can be found [here](docs/readme/test-results/validator-tools/html-validation.pdf).
+  
 - CSS - W3C CSS Validator
-  - All errors / warnings relate to Bootstrap and Font Awesome, 
-  - No errors or warnings from CSS style file unrelated to Bootstrap
-  - Report can be found [here](docs/readme/css-validation.png)
+  - All errors / warnings relate to Bootstrap and Font Awesome.
+  - Summary of result:
+    - No errors or warnings from CSS style file unrelated to Bootstrap;
+    - Errors from Bootstrap 5 (unused / unrecognised errors); and
+    - Errors from FontAwesome.
+  - Report can be found [here](docs/readme/test-results/validator-tools/css-validation.png).
+  
 - Accessibility - WAVE Web Accessibility Evaluation Tool
-  - Report can be found [here](docs/readme/wave-validation.pdf)
+  - Pages tested:
+    - Home;
+    - About;
+    - Classes;
+    - Schedule and Rates;
+    - Contact; and
+    - Error (404).
+  - Summary of results:
+    - No Errors or Contrast Errors on any of the pages;
+    - Alert on all pages for duplicate link (logo and home both go to home page). Ignored, user expectation that clicking on the Logo will lead back to landing / home page;
+    - Class Schedule, which uses a timetable, flagged as potential problem. No changes made, schedule layout and sizing unlikely to cause reader errors from overlapping information.
+  - Report can be found [here](docs/readme/test-results/wave-validation.pdf).
+  
 - Performance - Chrome Lighthouse
-  - Report can be found [here](docs/readme/lighthouse-validation.pdf)
+  - Pages tested:
+    - Home;
+    - About;
+    - Classes;
+    - Schedule and Rates;
+    - Contact; and
+    - Error (404).
+  - Report can be found [here](docs/readme/test-results/validator-tools/lighthouse-validation.pdf).
 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
@@ -308,8 +355,6 @@ The following tools were used to validate every page of porject to ensure there 
 ## 4.4 Known Bugs
 
 - The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
-
-- On Home page, on Desktop, there is a pink strip covering the background image that doesn't belong there.
 
 # 5. Deployment
 
