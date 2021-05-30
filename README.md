@@ -34,7 +34,8 @@
     - [Site Owner Goals](#site-owner-goals-1)
       - [14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.](#14-as-the-site-owner-i-want-to-inform-students-existing-and-prospective-of-upcoming-events)
   - [4.3. Further Testing](#43-further-testing)
-  - [4.4 Known Bugs](#44-known-bugs)
+  - [4.4 Testing Bugs - Resolved](#44-testing-bugs---resolved)
+  - [4.5 Known Bugs](#45-known-bugs)
 - [5. Deployment](#5-deployment)
   - [5.1. GitHub Pages](#51-github-pages)
   - [5.2. Forking the GitHub Repository](#52-forking-the-github-repository)
@@ -400,7 +401,10 @@ The following tools were used to validate every page of project to ensure there 
 - Significant testing was performed to ensure all pages linked correctly.
 - Friends and family were asked to review the site and documentation to point out bugs and /or user experience issues.
 
-## 4.4 Known Bugs
+## 4.4 Testing Bugs - Resolved
+
+- Footer is
+## 4.5 Known Bugs
 
 - The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
 - Dropdown list in Contact page Enquiry form: items highlighted in blue. Could not locate the correct item to change the formatting.
@@ -514,6 +518,13 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
   - Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
   - Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
   - Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
+
+- ReadME further reading [UX Design using the Five Planes Method](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05)
+
+- ReadME layout examples:
+  - [Code Institute Example](https://github.com/Code-Institute-Solutions/readme-template)
+  - [Natalie Kate - Haunted](https://github.com/natalie-kate/haunted/blob/master/README.md)
+  - [Tara Thoseyn - Cardiff Swim Centre](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre)
 
 ## 6.4. Acknowledgements
 
