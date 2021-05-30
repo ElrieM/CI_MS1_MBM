@@ -21,8 +21,7 @@
 - [4. Testing](#4-testing)
   - [4.1 Validator tools](#41-validator-tools)
   - [4.2 Testing User Stories from User Experience (UX) Section](#42-testing-user-stories-from-user-experience-ux-section)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [- First Time Visitor Goals](#--first-time-visitor-goals)
   - [4.3. Further Testing](#43-further-testing)
   - [4.4 Known Bugs](#44-known-bugs)
 - [5. Deployment](#5-deployment)
@@ -164,8 +163,8 @@ The website provides users with information about the process for joining classe
 
 ## 3.1 Language Used
 
-- [HTML 5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- HTML 5
+- CSS
 
 ## 3.2 Frameworks, Libraries & Programs Used
 
@@ -268,48 +267,48 @@ The following tools were used to validate every page of project to ensure there 
 ## 4.2 Testing User Stories from User Experience (UX) Section
 
 
-### First Time Visitor Goals
+### - First Time Visitor Goals
 
 #### 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the wellness centre. <!-- omit in toc -->
+   
+    1.1.  Upon landing on the site, users see women practicing yoga in the background, with a short introduction, overview of what to expect and benefits of yoga and meditation.
 
-| Ref | Feature | Test | Expected Result | Actual Result | Link to Results |
-| --- | ------- | ---- | --------------- | ------------- | --------------- |
-|1.1) | Background image on landing page shows a woman practicing yoga | Scroll landing page to see if the background image is clearly visible and recognisable | Image remains stationary and shows a woman / women practicing yoga on all 3 devices | Woman / Women in recognisable yoga positions remain in background on scrolling | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_1.png) |
-| 1.2) |Home page has welcome message, what to expect and benefits of yoga | Test visibility of introductory text | Text clearly visible, inside container and relevant | Text grades well on visibility scores, 3 blocks of text describe waht yoga is, what to expect when starting out, what the benefits are of attending | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_2.png) |
-| 1.3) | About page has an image gallery, showing facilities and class snapshots | View gallery, see if sufficient time allowed between image changes, check buttons to skip to prev or next image works | 
-| 1.4) | Navigation bar with links to About page, Classes page, Schedule and Rates page and Contact page | Test links on navigation bar to various pages | Clicking on links opens selected page | All links clicked from each page, all went to selected page | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) | Sufficient time to view 3 pictures or single pictures (device-size dependent), indicators allow going back to previous slide or on to next slide | Indicators allow for returning to previous slides or skipping to next slide, 5 seconds on slides with 3 images, 3 second on slides with single picture. All images visible. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_4.png)
+    1.2. In the navigation bar, users have the option to find out more about the wellness centre in the About page, learn more about classes in the Classes page or view the Schedule and Rates page if they are ready to start attending.
+
+| Feature | Test | Expected Result | Actual Result | Link to Results |
+| ------- | ---- | ---------------- | -------------- | --- |
+|1.1) Background image on landing page shows a woman practicing yoga and introductory text |Scroll landing page to see if the background image is clearly visible while not obstructing information in introduction blocks | Image remains stationary and shows a woman / women practicing yoga on all 3 devices |(i - Desktop) Women in recognisable yoga position remain in background while scrolling down page without obstructuring text, (ii - Tablet) photo of woman in recognisable yoga pose fixed in background and all text easy to read, (iii - Mobile) woman in recognisable yoga position remains fixed in background and no obstruction of text. | [Results](docs/readme/test-results/user-stories/FTV-1-result.pdf) |
+|1.2) Navigation bar with links to About page, Classes page and Schedule and Rates page | Test links on navigation bar to various pages | Clicking on links opens selected page | About link opens About page, from About page, can go back to Home page or on to Classes or Schedule and Rates page. Same test performed and results obtained on Classes page and Schedule or Rates page |
 
 #### 2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect. <!-- omit in toc -->
 
-| Ref | Feature | Test | Expected Result | Actual Result | Link to Results |
-| --- | ------- | ---- | --------------- | ------------- | --- |
-| 2.1) | Users can visit the Classes page from the navigation bar on the top of the screen, but also from the footer | Test whether links from navbar and footer follow through to Classes page | Navigation links open Classes page | Navigation links in footer and navigation bar lead to classes page, tested from all pages. Classes page remains on page when selected. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-2_1.png) |
-| 2.2) | Users can find detailed descriptions of classes on Classes page and representative class pictures | Confirm that all classes have a description, descriptions are fully visible and easy to read and images load properly | With the exception of Meditation, which is a non-guided class and in line with findings on other websites doesn't usually have a description, all classes in the Class schedule were described and images alinged and not overlapping text | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-2_2.png)
-| 2.3) | Classes page is split between Yoga classes and Other classes, with Yoga classes split into 3 different levels | Review whether class descriptions and classification agree to headings (beginner = Yoga Basics + Vinyasa Flow Yoga; slow-paced = Restorative Yoga + Yin Yoga; fast-paced = Ashtanga Yoga + Hatha Yoga; Other = Prenatal Yoga + TaiChi + Pilates) | Yoga classes, divided into beginner classes, slow-paced and fast-paced classes and Other classes. Classes included in each section and remain in that section across different devices | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-2_3.png) |
-  
- #### 3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend. <!-- omit in toc -->
+     2.1. The website is designed to flow, easily returning to the main page or any other page that the user visited / wants to visit.
 
-| Ref | Feature | Test | Expected Result | Actual Result | Link to Results |
-| --- | ------- | ---- | --------------- | ------------- | --- |
-| 3.1 | Users can visit the About page from the navigation bar on the top of the screen to view Instructor photos and descriptions | Test whether links from navbar and footer follow through to About page | Navigation link opens About page | Navigation link in navigation bar leads to About page, tested from all pages. About page remains on page when selected. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-3_1.png) |
-| 3.2 | About page shows all instructors (12 at time of writing), with a photo, quote to live by and list of classes led | Review page on all devices to confirm all 12 instructor descriptions appear, photo clearly visible and quote and class appears beneath photo | Instructor "cards" with name above, photo, quote and class list - 6 per row on desktop / laptop devices, 5 per row on tablets and 2 per row on mobile devices | Card details as expected, 6 per row on desktop and laptop devices, 5 per row on tablet and 2 per row on mobile devices | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-3_2.png) |
+     2.2. A link to the Classes tab is included in the top navigation bar as well as in the footer to make it easiest for users to access.
 
-#### 4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available. <!-- omit in toc -->
+     2.3. The Classes page is presented in different "phases" of yoga, from beginner to looking for something a bit more relaxing to a more intense workout. It also includes a class picture and a short description.
 
-| Ref | Feature | Test | Expected Result | Actual Result | Link to Results |
-| --- | ------- | ---- | --------------- | ------------- | --- |
-| 4.1 | Users can visit the Schedule and Rates page from the navigation bar on the top of the screen, but also from the footer | Test whether links from navbar and footer follow through to Schedule and Rates page | Navigation links open Schedule and Rates page | Navigation links in footer and navigation bar lead to Schedule and Rates page, tested from all pages. Schedule and Rates page remains on page when selected. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-4_1.png) |
-| 4.2 | Schedule and Rates page has a table containing a breakdown of prices per class and packages | Schedule and Rates page shows prices per class and packages | Table containing prices per class and packages appear at the bottom of each device's Schedule and Rates page | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-4_2.png) | 
+     2.4. To make them more easily distinguishable from the "normal" yoga classes, the prenatal yoga, pilates and taichi classes are presented separately under Other Classes.
+
+  2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend.
+
+     1. On the About page, users can view pictures of the instructors along with a short inspirational quote to give the user a sense of the instructor, and a list of classes that the instructor leads.
+
+  3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available.
      
-#### 5. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences. <!-- omit in toc -->
-   
-| Ref | Feature | Test | Expected Result | Actual Result | Link to Results |
-| --- | ------- | ---- | --------------- | ------------- | --- |
-| 5.1 | Footer includes "Let's Connect" with links to Facebook, Twitter and Instagram | Test links on all pages to confirm they land on correct page and in a new window | All 3 links open new windows for Facebook landing page, Twitter landing page and Instagram landing page | Footers on all pages tested, clicking opened a new web browser to the relevant social media website's landing pages | [Results](docs/readme/test-results/user-stories/firsttime/FTV-5_1.png) |
+     1. In the navigation bar, users can follow the link to the Schedule and Rates page to view the rates per class as well as bundle options.
   
-### Returning Visitor Goals
+  4. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences.
   
-####  6.  As a Returning Visitor, I want to find the best way to get in contact for any queries I might have. <!-- omit in toc -->
+     1. In the footer, links to the wellness centre's social media pages are available.
+
+     2. Social media icons are included to draw users' attention.
+
+     3. Social media links open on a new page, so that the user does not navigate off the site. This hopefully will remind the user, when they return to the site, to either sign up for a class or get in contact if they require more information.
+  
+- Returning Visitor Goals
+  
+  1. As a Returning Visitor, I want to find the best way to get in contact for any queries I might have.
   
      1. A Contact link is included in the upper navigation bar as well as in the footer bar.
 
