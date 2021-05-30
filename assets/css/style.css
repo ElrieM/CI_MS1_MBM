@@ -17,13 +17,13 @@ body {
 
 /* --------------------------------------Images - Header */
 #logo {
-  background-image: url("../images/logo.png");
+  background-image: url("../images/logo.png"); /* Lotus flower person vector from (https://www.pngkey.com/download/u2e6a9t4t4i1o0u2_lotus-zen-comments-you-need-care-too-self/) */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 150px;
   width: 150px;
-}/* Logo and formatting for header */
+}/* Logo and formatting for header */ 
 
 /* --------------------------------------Images - Home page */
 /* Home page background (large devices) */
@@ -588,7 +588,7 @@ table {
 /* --------------------------------------Padding - Sign up Modal */
 
 .modal-content {
-  background-image: url("../images/modal-background.jpg");
+  background-image: url("../images/modal-background.jpg"); /*Photo by Eternal Happiness from (https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/) */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -815,7 +815,7 @@ table {
 
   /* --------------------------------------Mobile - Home page background */
   #background-cover {
-    background-image: url(../images/home-cover-3.jpg);
+    background-image: url(../images/home-cover-3.jpg); /*Photo by Elly Fairytale from (https://www.pexels.com/photo/woman-practicing-yoga-3822369/) */
   }
 
   /* Background image for landing page */
