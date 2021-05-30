@@ -403,7 +403,15 @@ The following tools were used to validate every page of project to ensure there 
 
 ## 4.4 Testing Bugs - Resolved
 
-- Footer is
+| Bug Found | Solution |
+| --- | ---- |
+| Footer on pages with insufficient content to fill the whole page (contact page and 404 page) would not stay fixed at the bottom. | After reading various blogs, I combined a solution from [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) and [Medium](https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551): viewheight set as a minimum height, and using Google Developer Tools, I calculated how much to remove (in pixels) to push the footer to the bottom of the page. |
+| Table (Classes schedule) would not scroll left and right. | Reapplied table formatting from [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/content/tables/) line by line. |
+| Bootstrap elements (Gallery, Accordion, Modal) would not work as expected. | Copied Bootstrap 5.0 scripts to the bottom of all pages. |
+| Instructor cards breaking unevenly on Laptop viewpoint | Changed margin and padding and applied flex auto margin to fill spaces evenly. |
+
+
+
 ## 4.5 Known Bugs
 
 - The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
