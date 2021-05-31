@@ -32,7 +32,7 @@
     - [Returning Visitor Goals](#returning-visitor-goals-1)
     - [Frequent User Goals](#frequent-user-goals-1)
     - [Site Owner Goals](#site-owner-goals-1)
-      - [14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.](#14-as-the-site-owner-i-want-to-inform-students-existing-and-prospective-of-upcoming-events)
+      - [14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events](#14-as-the-site-owner-i-want-to-inform-students-existing-and-prospective-of-upcoming-events)
   - [4.3. Further Testing](#43-further-testing)
   - [4.4 Testing Bugs - Resolved](#44-testing-bugs---resolved)
   - [4.5 Known Bugs](#45-known-bugs)
@@ -114,7 +114,7 @@ The website provides users with information about the process for joining classe
 
 - To make the website stand out, I opted for a full page background on the landing page.
 
-- For responsiveness, I opted to use different background pictures for tablets and mobiles that scaled better to that device. 
+- For responsiveness, I opted to use different background pictures for tablets and mobiles that scaled better to that device.
 
 - The bright colours of the outfits, the muted backgrounds and the general beauty of the pictures engages with site visitors, telling the visitor what the organisation is about and introducing the elegant playfulness of the design.
 
@@ -159,6 +159,7 @@ The website provides users with information about the process for joining classe
 # 2. Features
 
 ## 2.1 Existing Features
+
 - Responsive on all device sizes
 - Interactive elements
 - Form to register for events and / or classes
@@ -181,44 +182,54 @@ The website provides users with information about the process for joining classe
 ## 3.2 Frameworks, Libraries & Programs Used
 
 ### - [Bootstrap 5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) <!-- omit in toc -->
-  - Bootstrap was used to assist with the responsiveness and styling of the website:
-    - Horizontal alignment navs & tabs used for navbar
+
+- Bootstrap was used to assist with the responsiveness and styling of the website:
+  - Horizontal alignment navs & tabs used for navbar
     - Used stacked to horizontal grid for introduction section on home page
     - For the image gallery on About page, used Carousel
     - Sign up for newsletter form created with modals
     - Classes layout uses List Group, with headings as disabled items
     - Contact form elements
   
- ### - [Google Fonts:](https://fonts.google.com/) <!-- omit in toc -->
-  - Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
+### - [Google Fonts:](https://fonts.google.com/) <!-- omit in toc -->
+
+- Google Fonts were used to import the "Lato" and "Dancing Script" fonts into the style.css file used on all pages throughout the website.
   
-###  - [Font Awesome:](https://fontawesome.com/) <!-- omit in toc -->
-  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+### - [Font Awesome:](https://fontawesome.com/) <!-- omit in toc -->
 
-###  - [jQuery:](https://jquery.com/) <!-- omit in toc -->
-  - jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
+- Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-###  - [Git:](https://git-scm.com/) <!-- omit in toc -->
-  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+### - [jQuery:](https://jquery.com/) <!-- omit in toc -->
 
-###  - [GitHub:](https://github.com/) <!-- omit in toc -->
-  - GitHub is used to store the projects code after being pushed from Git.
+- jQuery in conjunction with Bootstrap make the navbar, modal, accordion and carousel responsive.
 
+### - [Git:](https://git-scm.com/) <!-- omit in toc -->
+
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+### - [GitHub:](https://github.com/) <!-- omit in toc -->
+
+- GitHub is used to store the projects code after being pushed from Git.
 
 ### - [Visual Studio Code:](https://code.visualstudio.com/) <!-- omit in toc -->
-  - IDE used to write code for this project.
- 
-###  - [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint) and [Microsoft Photos:](https://en.wikipedia.org/wiki/Microsoft_Photos) <!-- omit in toc -->
-  - Used to crop and resize images where required.
 
-###  - [Microsoft Excel:](https://en.wikipedia.org/wiki/Microsoft_Excel) <!-- omit in toc -->
-  - Used to prepared PDF schedule available for download from Schedule page.
+- IDE used to write code for this project.
 
-###  - [Balsamiq:](https://balsamiq.com/) <!-- omit in toc -->
-  - Balsamiq was used to create the wireframes during the design process.
+### - [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint) and [Microsoft Photos:](https://en.wikipedia.org/wiki/Microsoft_Photos) <!-- omit in toc -->
+
+- Used to crop and resize images where required.
+
+### - [Microsoft Excel:](https://en.wikipedia.org/wiki/Microsoft_Excel) <!-- omit in toc -->
+
+- Used to prepared PDF schedule available for download from Schedule page.
+
+### - [Balsamiq:](https://balsamiq.com/) <!-- omit in toc -->
+
+- Balsamiq was used to create the wireframes during the design process.
 
 ### - [Am I Responsive:](http://ami.responsivedesign.is/) <!-- omit in toc -->
-  - Used to create mockups for README file.
+
+- Used to create mockups for README file.
 
 # 4. Testing
 
@@ -251,7 +262,7 @@ The following tools were used to validate every page of project to ensure there 
 - Accessibility - WAVE Web Accessibility Evaluation Tool
   - Pages tested:
   
-  | Page | Result - Errors | Result - Warnings | 
+  | Page | Result - Errors | Result - Warnings |
   | --- | --- | --- |
   | Home | No errors | Alert for duplicate link |
   | About | No errors | Alert for duplicate link |
@@ -291,7 +302,7 @@ The following tools were used to validate every page of project to ensure there 
 | ---- | --- | --- | --- | --- | --- |
 | 1.1) | Background image on landing page shows a woman practicing yoga | Scroll landing page to see if the background image is clearly visible and recognisable | Image remains stationary and shows a woman / women practicing yoga on all 3 devices | Woman / Women in recognisable yoga positions remain in background on scrolling | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_1.png) |
 | 1.2) | Home page has welcome message, what to expect and benefits of yoga | Test visibility of introductory text | Text clearly visible, inside container and relevant | Text grades well on visibility scores, 3 blocks of text describe waht yoga is, what to expect when starting out, what the benefits are of attending | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_2.png) |
-| 1.3) | About page has an image gallery, showing facilities and class snapshots | View gallery, see if sufficient time allowed between image changes, check buttons to skip to prev or next image works | 3 images per slide on tablet and desktop devices, 5 seconds before slide change and buttons to skip to next or return to previous. Mobile device has single image per slide, 3 seconds between slides and buttons to skip to next or return to previous slide | Slide buttons worked on all devices, slide timings as expected. Images clearly visible (good resolution) and no overlap with other sections | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) | 
+| 1.3) | About page has an image gallery, showing facilities and class snapshots | View gallery, see if sufficient time allowed between image changes, check buttons to skip to prev or next image works | 3 images per slide on tablet and desktop devices, 5 seconds before slide change and buttons to skip to next or return to previous. Mobile device has single image per slide, 3 seconds between slides and buttons to skip to next or return to previous slide | Slide buttons worked on all devices, slide timings as expected. Images clearly visible (good resolution) and no overlap with other sections | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) |
 | 1.4) | Navigation bar with links to About page, Classes page, Schedule and Rates page and Contact page | Test links on navigation bar to various pages | Clicking on links opens selected page | All links clicked from each page, all went to selected page | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) | Sufficient time to view 3 pictures or single pictures (device-size dependent), indicators allow going back to previous slide or on to next slide | Indicators allow for returning to previous slides or skipping to next slide, 5 seconds on slides with 3 images, 3 second on slides with single picture. All images visible. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_4.png) |
 
 #### 2. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about which classes are available, their suitability and what to expect. <!-- omit in toc -->
@@ -302,22 +313,22 @@ The following tools were used to validate every page of project to ensure there 
 | 2.2) | Users can find detailed descriptions of classes on Classes page and representative class pictures | Confirm that all classes have a description, descriptions are fully visible and easy to read and images load properly | Class descriptions with image appear on devices, all clearly visible. | With the exception of Meditation, which is a non-guided class and in line with findings on other websites doesn't usually have a description, all classes in the Class schedule were described and images alinged and not overlapping text | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-2_2.png) |
 | 2.3) | Classes page is split between Yoga classes and Other classes, with Yoga classes split into 3 different levels | Review whether class descriptions and classification agree to headings (beginner = Yoga Basics + Vinyasa Flow Yoga; slow-paced = Restorative Yoga + Yin Yoga; fast-paced = Ashtanga Yoga + Hatha Yoga; Other = Prenatal Yoga + TaiChi + Pilates) | Classes appear in same sections across different viewpoints in line with aforementioned classifications. | Yoga classes, divided into beginner classes, slow-paced and fast-paced classes and Other classes. Classes included in each section and remain in that section across different devices | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-2_3.png) |
   
- #### 3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend. <!-- omit in toc -->
+#### 3. As a First Time Visitor, I want to be able to easily navigate throughout the website to find out more about the instructors, ensuring that I am in the class I expected to attend. <!-- omit in toc -->
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
 | 3.1 | Users can visit the About page from the navigation bar on the top of the screen to view Instructor photos and descriptions | Test whether links from navbar and footer follow through to About page | Navigation link opens About page | Navigation link in navigation bar leads to About page, tested from all pages. About page remains on page when selected. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-3_1.png) |
 | 3.2 | About page shows all instructors (12 at time of writing), with a photo, quote to live by and list of classes led. | Review page on all devices to confirm all 12 instructor descriptions appear, photo clearly visible and quote and class appears beneath photo | Instructor "cards" with name above, photo, quote and class list - 6 per row on desktop / laptop devices, 5 per row on tablets and 2 per row on mobile devices | Card details as expected, 6 per row on desktop and laptop devices, 5 per row on tablet and 2 per row on mobile devices | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-3_2.png) |
 
-#### 4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available. <!-- omit in toc --> 
+#### 4. As a First Time Visitor, I want to be able to easily navigate throughout the website to find more information about the tariffs and package deals available. <!-- omit in toc -->
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
 | 4.1 | Users can visit the Schedule and Rates page from the navigation bar on the top of the screen, but also from the footer | Test whether links from navbar and footer follow through to Schedule and Rates page | Navigation links open Schedule and Rates page | Navigation links in footer and navigation bar lead to Schedule and Rates page, tested from all pages. Schedule and Rates page remains on page when selected.| [Results](docs/readme/test-results/user-stories/firsttime/firsttime-4_1.png) |
 | 4.2 | Schedule and Rates page has a table containing a breakdown of prices per class and packages | Schedule and Rates page shows prices per class and packages. | Table containing prices per class and packages appear at the bottom of each device's Schedule and Rates page | Table appears beneath Schedule as expected. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-4_2.png)                                                                                 |
-     
+
 #### 5. As a First Time Visitor, I want to locate social media links to see the wellness centre's social presence and find out more about other students' experiences. <!-- omit in toc -->
-   
+
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
 | 5.1 | Footer includes "Let's Connect" with links to Facebook, Twitter and Instagram | Test links on all pages to confirm they land on correct page and in a new window | All 3 links open new windows for Facebook landing page, Twitter landing page and Instagram landing page | Footers on all pages tested, clicking opened a new web browser to the relevant social media website's landing pages | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-5_1.png) |
@@ -338,7 +349,7 @@ The following tools were used to validate every page of project to ensure there 
 | 7.1) | Home page contains Upcoming Events section with events for the next 4 months (3 on tablet) | View Upcoming Events section on Home page, check layout and details all showing with no overlap | Events appearing in blocks under Upcoming Events heading at the bottom of the Home page, showing instructor, date and price | 4 events (inline on dektop, stacked in mobile) and 3 events (inline on tablet) showing all details and instructor image as expected | [Results](docs/readme/test-results/user-stories/returning/returning-7_1.png) |
 | 7.2) | Enquiry form has subject for booking events | Check dropdown menu in Enquiry form contains Register an Event option on all devices | Dropdown options include "Register for an Event" | Dropdown option "Register for an  Event" appears as expected. | [Results](docs/readme/test-results/user-stories/returning/returning-7_2.png) |
 | 7.3) | Button in Header (desktops) and subscribe banner on Home page to subscribe for newsletter to receive updates in inbox | Test functioning of signup  modal | Signup modal submits to Code Institute Form Dump | Form appears from button on all pages (desktop only) and home page banner link on all devices | [Results](docs/readme/test-results/user-stories/returning/returning-7_3.png) |
-   
+
 #### 8. As a Returning Visitor, I want to find information about prices and buy additional class bundles. <!-- omit in toc -->
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
@@ -348,11 +359,11 @@ The following tools were used to validate every page of project to ensure there 
 ### Frequent User Goals
   
 #### 9. As a Frequent User, I want to sign up to the Newsletter to be informed of upcoming events and receive health and wellbeing advice. <!-- omit in toc -->
-     
+
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
 | 9.1) |Button in Header (desktops) and subscribe banner on Home page to subscribe for newsletter to receive updates in inbox | Test functioning of signup modal | Signup modal submits to Code Institute Form  Dump | Tested in 7.3 of Test 7. Returning User: <br> Form appears from button on all pages (desktop only) and home page banner link on all  devices | [Results](docs/readme/test-results/user-stories/returning/returning-7_3.png) |
-     
+
 #### 10. As a Frequent User, I want to be able to view changes to the timetable and new classes becoming available. <!-- omit in toc -->
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
@@ -373,7 +384,7 @@ The following tools were used to validate every page of project to ensure there 
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
-| 12.1) | About page has an image gallery, showing facilities and class snapshots | View gallery, see if sufficient time allowed between image changes, check buttons to skip to prev or next image works | 3 images per slide on tablet and desktop devices, 5 seconds before slide change and buttons to skip to next or return to previous. Mobile device has single image per slide, 3 seconds between slides and buttons to skip to next or return to previous slide | Tested in 1.3 of Test 1. First Time User: <br><br> Slide buttons worked on all devices, slide timings as expected. Images clearly visible (good resolution) and no overlap with other secitons | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) | 
+| 12.1) | About page has an image gallery, showing facilities and class snapshots | View gallery, see if sufficient time allowed between image changes, check buttons to skip to prev or next image works | 3 images per slide on tablet and desktop devices, 5 seconds before slide change and buttons to skip to next or return to previous. Mobile device has single image per slide, 3 seconds between slides and buttons to skip to next or return to previous slide | Tested in 1.3 of Test 1. First Time User: <br><br> Slide buttons worked on all devices, slide timings as expected. Images clearly visible (good resolution) and no overlap with other secitons | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) |
 | 12.2) | Navigation bar with links to About page, Classes page, Schedule and Rates page and Contact page | Test links on navigation bar to various pages | Clicking on links opens selected page | Tested in 1.4 of Test 1. First Time User: <br><br> All links clicked from each page, all went to selected page | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_3.png) | Sufficient time to view 3 pictures or single pictures (device-size dependent), indicators allow going back to previous slide or on to next slide | Indicators allow for returning to previous slides or skipping to next slide, 5 seconds on slides with 3 images, 3 second on slides with single picture. All images visible. | [Results](docs/readme/test-results/user-stories/firsttime/firsttime-1_4.png) |
 
 #### 13. As the Site Owner, I want to provide students with the centre's processes and procedures to allow them to prepare for their visit. <!-- omit in toc -->
@@ -382,7 +393,7 @@ The following tools were used to validate every page of project to ensure there 
 | ---- | --- | --- | --- | --- | --- |
 | 13.1) | About page has a Facilities & FAQs section where users can find out what is provided at the wellness centre, "rules of conduct" in the studios and other frequently asked questions | Testing was performed on the functioning of the accordion in 12.1 of Test 12. Site Owner | Facilities, Before the Lesson, During the Lesson and After the Lesson sections appear on all devices, no information cut off when accordion is open | Contents displayed as expected on all devices | [Results](docs/readme/test-results/user-stories/siteowner/siteowner-13.1.png) |
 
-#### 14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events.
+#### 14. As the Site Owner, I want to inform students (existing and prospective) of upcoming events
 
 | Ref  |Feature | Test | Expected Result | Actual Result | Link to Results |
 | ---- | --- | --- | --- | --- | --- |
@@ -410,12 +421,11 @@ The following tools were used to validate every page of project to ensure there 
 | Bootstrap elements (Gallery, Accordion, Modal) would not work as expected. | Copied Bootstrap 5.0 scripts to the bottom of all pages. |
 | Instructor cards breaking unevenly on Laptop viewpoint | Changed margin and padding and applied flex auto margin to fill spaces evenly. |
 
-
-
 ## 4.5 Known Bugs
 
 - The website is not optimised for Internet Explorer. No additional work was performed to optimise the site for IE as (extended) support has ended for customers since January 2020 and no further development of IE is expected.
 - Dropdown list in Contact page Enquiry form: items highlighted in blue. Could not locate the correct item to change the formatting.
+- Gallery on iPhones flickers and blurs on actual phone, not in Chrome Dev Tools.
 
 # 5. Deployment
 
@@ -499,9 +509,7 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 - Cover page(s):
 
   - Desktop - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-in-blue-sports-bra-and-white-leggings-doing-yoga-3822166/)
-
   - Tablet - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822457/)
-
   - Mobile - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822369/)
 
 - Sign-up modal background - Photo by Eternal Happiness from [Pexels](https://www.pexels.com/photo/photo-of-woman-posing-during-golden-hour-3326362/)
@@ -509,26 +517,26 @@ Alternatively, click [here](https://docs.github.com/en/github/creating-cloning-a
 - Instructor photos were randomly generated from [here](https://thispersondoesnotexist.com/) and saved as image files.
 
 - Gallery images:
+  - Yoga_class_2 (slide 1) - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822692/)
   - Pilates_ball (slide 2) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/young-ethnic-woman-with-fit-ball-sitting-on-floor-while-training-in-modern-gym-3768593/)
-  - Prenatal_yoga (slide7) - Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3984363/)
+  - Yoga_class (slide 3) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/women-doing-a-yoga-on-yoga-mat-3775587/)
+  - Yoga_assistance (slide 4) - Photo by Cliff Booth from [Pexels](https://www.pexels.com/photo/women-doing-yoga-4057067/)
   - Yoga_pose (slide 5) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/2-topless-women-in-black-leggings-and-black-sunglasses-4327139/)
   - Yoga_supplies (slide 6) - Photo by cottonbro from [Pexels](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-leggings-standing-beside-brown-wooden-chair-4327007/)
-  - Yoga_assistance (slide 4) - Photo by Cliff Booth from [Pexels](https://www.pexels.com/photo/women-doing-yoga-4057067/)
-  - Yoga_class (slide 3) - Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/women-doing-a-yoga-on-yoga-mat-3775587/)
-  - Yoga_class_2 (slide 1) - Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/woman-practicing-yoga-3822692/)
+  - Prenatal_yoga (slide7) - Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/women-doing-yoga-3984363/)
   - Lounge (slide 8) - Photo by KoolShooters from [Pexels](https://www.pexels.com/photo/healthy-light-relaxation-relaxing-6246210/)
   - Locker_room (slide 9) - Photo by Polina Tankilevitch from [Pexels](https://www.pexels.com/photo/changing-room-3875514/)
 
 - Images for class descriptions:
   - Ashtanga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822305/)
-  - Yoga Basics Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822689/)
   - Hatha Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-in-sports-bras-and-leggings-doing-yoga-3822356/)
-  - Vinyasa Flow Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822691/)
+  - Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
+  - Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
   - Restorative Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822164/)
   - Tai Chi picture, used image of similar yoga position. Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822171/)
-  - Pilates Photo by Andrea Piacquadio from [Pexels](https://www.pexels.com/photo/three-woman-doing-an-exercises-868757/)
+  - Vinyasa Flow Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822691/)
   - Yin Yoga Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/women-practicing-yoga-3822165/)
-  - Prenatal Yoga Photo by Gustavo Fring from [Pexels](https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/)
+  - Yoga Basics Photo by Elly Fairytale from [Pexels](https://www.pexels.com/photo/yoga-instructor-helping-a-student-3822689/)
 
 - ReadME further reading [UX Design using the Five Planes Method](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05)
 
