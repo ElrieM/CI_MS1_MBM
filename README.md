@@ -425,9 +425,9 @@ The project was deployed to GitHub Pages as follows:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
 2. Locate the "Settings" button in the menu above the Repository.
-   - Alternatively, click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) from the "Creating your site" section for a description of the process.
-3. Scroll down the Settings page until you locate the "GitHub Pages" section.
-4. In the "Source" section, select the dropdown "Branch:" dropdown and select "Main".
+   - Alternatively, click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) from the "Creating your site" section for a description of the process. ![GitHub menu](docs/readme/other/github-bar.png)
+3. Scroll down the Settings page until you locate the "Pages" section.![GitHub settings options](docs/readme/other/github-sidemenu.png)
+4. In the "Source" section, select the dropdown "Branch:" dropdown and select "Main". ![GitHub pages](docs/readme/other/github-pages.png)
 5. The page refreshes automatically.
 6. Scroll to "Your site is published at..." for the puslished site link in the "GitHub Pages" section.
 
@@ -437,14 +437,17 @@ A fork is a copy of the repository, allowing you to experiment with changes with
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
 2. In the banner above the Repository, click on the "Fork" button.
-3. If you have succeeded, you now have a copy of the original repository in your GitHub account.
+3. ![GitHub banner with Fork](docs/readme/other/github-forkmenu.png)
+4. If you have succeeded, you now have a copy of the original repository in your GitHub account.
+
+Alternatively, click [here](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) for a guide to fork a repository.
 
 ## 5.3. Making a Local Clone
 
 A clone allows you to create a local copy of a repository on your computer and sync between your computer and the GitHub repository.
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ElrieM/CI_MS1_MBM)
-2. Click on Code, click on the copy button  next to HTTPS to copy the URL.
+2. Click on Code, click on the copy button next to HTTPS to copy the URL. ![GitHub banner with Fork](docs/readme/other/github-forkmenu.png)
 3. Open Git Bash.
 4. Change the current working directory to the location where the cloned directory should be stored.
 5. Type "git clone', then paste the URL copied in step 2.
